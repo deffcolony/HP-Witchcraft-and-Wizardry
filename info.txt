@@ -1,0 +1,4 @@
+name = Harry Potter - Witchcraft and Wizardry
+author = Deffcolony + NGNT + Murdoc + Iaobardar
+tags = map
+description = A full Harry Potter experience with a storyline.
