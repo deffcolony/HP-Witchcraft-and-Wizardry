@@ -31,7 +31,6 @@
 					<joint id_="772454464" pos="-1.4 1.05 0.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.02" rotspring="0" collide="false" limits="-90 0"/>
 					<joint id_="859491584" pos="-1.4 3.35 0.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.02" rotspring="0" collide="false" limits="-90 0"/>
 					<joint id_="2082074752" pos="-1.4 5.05 0.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.02" rotspring="0" collide="false" limits="-90 0"/>
-					<vox id_="1349403008" pos="1.0 2.1 0.1" rot="90.0 0.0 0.0" file="LEVEL/props/padlock.vox"/>
 				</vox>
 				<vox id_="797687360" pos="1.5 0.1 0.0" rot="0.0 180.0 0.0" texture="2 0.8" density="2.5" strength="3" prop="true" file="LEVEL/entrance.vox" object="gate2">
 					<joint id_="285688864" pos="-1.4 1.05 0.0" rot="90.0 0.0 0.0" type="hinge" rotstrength="0.02" rotspring="0" collide="false" limits="-90 0"/>
