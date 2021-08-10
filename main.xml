@@ -1,0 +1,57 @@
+<scene id_="1997790336" open_="true" version="0.7.4" shadowVolume="200 145 200">
+	<environment id_="65212300" template="sunny" skyboxbrightness="0.7" skyboxrot="180" ambient="0.7" fogParams="50 200 0 8" sunGlare="0.7" exposure="0.5 1" brightness="0.7"/>
+	<script id_="1593146368" file="main.lua"/>
+	<script id_="400842624" file="sandbox.lua"/>
+	<voxbox id_="1654164096" pos="-100.00001 -1.0 -100.00001" size="2000 10 2000" color="0.28 0.27 0.27"/>
+	<spawnpoint id_="603688960" pos="-3.0 1.2 0.0" rot="0 180 0"/>
+	<group id_="1991170688" open_="true" name="Scene" pos="0.0 0.2 0.0">
+		<group id_="1041496128" name="Pillars" pos="-3.8 0.0 -12.6">
+			<vox id_="986639168" pos="-6.2 0.1 0.3" texture="6 0.9" density="2.5" strength="3" file="LEVEL/entrance.vox" object="pillar"/>
+			<vox id_="386882624" pos="6.4 0.1 0.3" texture="6 0.9" density="2.5" strength="3" file="LEVEL/entrance.vox" object="pillar"/>
+			<group id_="1543073792" name="Eagles" pos="0.0 7.1 -0.2">
+				<vox id_="1353728640" pos="6.3 0.0 0.0" texture="6 0.9" density="2.5" strength="3" file="LEVEL/entrance.vox" object="eagle"/>
+				<vox id_="962717056" pos="-6.2 0.0 0.0" texture="6 0.9" density="2.5" strength="3" file="LEVEL/entrance.vox" object="eagle"/>
+			</group>
+		</group>
+		<group id_="269369408" name="Walls" pos="-3.7 0.0 -12.3">
+			<vox id_="718121792" pos="8.7 0.1 0.0" texture="6 0.9" density="2.5" strength="3" file="LEVEL/entrance.vox" object="wall"/>
+			<vox id_="2043799296" pos="11.3 0.1 0.0" rot="0.0 180.0 0.0" texture="6 0.9" density="2.5" strength="3" file="LEVEL/entrance.vox" object="wall"/>
+			<vox id_="668442432" pos="13.9 0.1 0.0" texture="6 0.9" density="2.5" strength="3" file="LEVEL/entrance.vox" object="wall"/>
+			<vox id_="1123879936" pos="16.5 0.1 0.0" texture="6 0.9" density="2.5" strength="3" file="LEVEL/entrance.vox" object="wall"/>
+			<vox id_="1844295552" pos="-8.7 0.1 0.0" texture="6 0.9" density="2.5" strength="3" file="LEVEL/entrance.vox" object="wall"/>
+			<vox id_="1118505600" pos="-11.3 0.1 0.0" rot="0.0 180.0 0.0" texture="6 0.9" density="2.5" strength="3" file="LEVEL/entrance.vox" object="wall"/>
+			<vox id_="1010430208" pos="-13.9 0.1 0.0" texture="6 0.9" density="2.5" strength="3" file="LEVEL/entrance.vox" object="wall"/>
+			<vox id_="1727699968" pos="-16.5 0.1 0.0" rot="0.0 180.0 0.0" texture="6 0.9" density="2.5" strength="3" file="LEVEL/entrance.vox" object="wall"/>
+			<vox id_="298403616" pos="-19.1 0.1 0.0" rot="0.0 180.0 0.0" texture="6 0.9" density="2.5" strength="3" file="LEVEL/entrance.vox" object="wall"/>
+			<vox id_="1130171776" pos="-20.7 0.1 0.0" rot="0.0 180.0 0.0" texture="6 0.9" density="2.5" strength="3" file="LEVEL/entrance.vox" object="wall"/>
+		</group>
+		<group id_="380459712" open_="true" name="Gates" pos="-3.7 0.2 -12.3">
+			<group id_="1973474944" open_="true" name="Movable" pos="0.0 0.0 0.0">
+				<vox id_="1678479360" open_="true" pos="-1.5 0.1 0.0" texture="2 0.8" density="2.5" strength="3" prop="true" file="LEVEL/entrance.vox" object="gate2">
+					<joint id_="772454464" pos="-1.4 1.05 0.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.02" rotspring="0" collide="false" limits="-90 0"/>
+					<joint id_="859491584" pos="-1.4 3.35 0.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.02" rotspring="0" collide="false" limits="-90 0"/>
+					<joint id_="2082074752" pos="-1.4 5.05 0.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.02" rotspring="0" collide="false" limits="-90 0"/>
+					<vox id_="1349403008" pos="1.0 2.1 0.1" rot="90.0 0.0 0.0" file="LEVEL/props/padlock.vox"/>
+				</vox>
+				<vox id_="797687360" pos="1.5 0.1 0.0" rot="0.0 180.0 0.0" texture="2 0.8" density="2.5" strength="3" prop="true" file="LEVEL/entrance.vox" object="gate2">
+					<joint id_="285688864" pos="-1.4 1.05 0.0" rot="90.0 0.0 0.0" type="hinge" rotstrength="0.02" rotspring="0" collide="false" limits="-90 0"/>
+					<joint id_="1381976448" pos="-1.4 3.35 0.0" rot="90.0 0.0 0.0" type="hinge" rotstrength="0.02" rotspring="0" collide="false" limits="-90 0"/>
+					<joint id_="1686540800" pos="-1.4 5.05 0.0" rot="90.0 0.0 0.0" type="hinge" rotstrength="0.02" rotspring="0" collide="false" limits="-90 0"/>
+				</vox>
+			</group>
+			<vox id_="426468768" pos="-4.2 0.1 0.0" texture="2 0.8" density="2.5" strength="3" file="LEVEL/entrance.vox" object="gate1"/>
+			<vox id_="1823388288" pos="4.2 0.1 0.0" rot="0.0 180.0 0.0" texture="2 0.8" density="2.5" strength="3" file="LEVEL/entrance.vox" object="gate1"/>
+		</group>
+		<group id_="757052544" open_="true" name="Floor" pos="-5.4 -2.0 -10.1" prop0="texture=2 0.6">
+			<vox id_="1551528448" pos="50.0 0.9 63.60001" rot="0.0 -90.0 0.0" file="LEVEL/groundc.vox"/>
+		</group>
+		<group id_="1247750528" name="Trees">
+			<vox id_="527924704" pos="9.0 0.0 -8.8" texture="2 0.6" density="2" strength="2" file="LEVEL/trees/evergreen1.vox"/>
+		</group>
+		<vox id_="183380928" tags="unbreakable" pos="20.9 -0.5 0.0" file="LEVEL/assets.vox" object="ground"/>
+		<voxbox id_="637900800" tags="unbreakable" pos="13.8 -0.5 -46.5" size="16 80 832" brush="LEVEL/assets.vox" object="mossWall"/>
+		<voxbox id_="998698496" tags="unbreakable" pos="-26.1 -0.5 -46.5" size="16 80 832" brush="LEVEL/assets.vox" object="mossWall"/>
+	</group>
+	<layers/>
+</scene>
+
