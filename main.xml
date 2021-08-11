@@ -1,15 +1,4 @@
-<scene id_="1997790336" open_="true" version="0.7.4" shadowVolume="200 50 200">
-	<environment id_="65212300" template="sunny" skyboxbrightness="0.7" skyboxrot="180" ambient="0.7" fogParams="50 200 0 8" sunGlare="0.7" exposure="0.5 1" brightness="0.7"/>
-	<script id_="1593146368" file="main.lua"/>
-	<script id_="400842624" file="sandbox.lua"/>
-	<voxbox id_="1654164096" pos="-100.00001 -1.0 -100.00001" size="2000 10 2000" color="0.28 0.27 0.27"/>
-	<spawnpoint id_="603688960" pos="-3.0 1.2 0.0" rot="0 180 0"/>
-	<boundary id_="683582208">
-		<vertex pos="-100.0 -100.0"/>
-		<vertex pos="100.0 -100.0"/>
-		<vertex pos="100.0 100.0"/>
-		<vertex pos="-100.0 100.0"/>
-	</boundary>
+<scene id_="1997790336" version="0.7.4" shadowVolume="200 50 200">
 	<layers/>
 </scene>
 
