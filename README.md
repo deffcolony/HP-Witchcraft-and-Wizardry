@@ -3,6 +3,14 @@
 # HP-Witchcraft-and-Wizardry
 A full Harry Potter experience with a storyline.
 
+Introduction
+----------------------------------------------------------------
+
+HP-Witchcraft-and-Wizardry is a free opensourch map with a full Harry Potter experience and storyline.
+
+To learn more:
+* [wiki](https://github.com/deffcolony/HP-Witchcraft-and-Wizardry/wiki)
+
 
 ## Getting help
 
