@@ -1,0 +1,29 @@
+<prefab version="0.7.4">
+	<group id_="538214464" open_="true" name="instance=MOD/resources/anglia.xml" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0">
+		<group id_="933158528" open_="true" name="Anglia" pos="0.0 0.55 -1.1">
+			<vehicle id_="1370572544" open_="true" sound="medium" spring="0.7" damping="0.7" topspeed="130" acceleration="3" strength="5" antispin="0.2" antiroll="0.3" steerassist="0.1">
+				<body id_="517569376" open_="true" pos="0.0 -0.25 1.15" rot="0.0 -180.0 0.0" dynamic="true">
+					<vox id_="1433687552" open_="true" texture="2 0.6" density="2" strength="4" file="MOD/resources/vox/vehicles/anglia.vox" object="body">
+						<light id_="2082730112" pos="-0.75 0.75 2.3" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+						<light id_="2135883008" pos="0.75 0.75 2.3" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+					</vox>
+					<wheel id_="1188436864" open_="true" pos="0.75 0.15 1.65" rot="0.0 180.0 0.0" steer="1">
+						<vox id_="617517888" pos="0.05 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/resources/vox/vehicles/anglia.vox" object="wheel_fl"/>
+					</wheel>
+					<wheel id_="757970112" open_="true" pos="0.75 0.15 -1.35" rot="0.0 180.0 0.0" drive="1">
+						<vox id_="576358784" pos="0.05 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/resources/vox/vehicles/anglia.vox" object="wheel_bl"/>
+					</wheel>
+					<wheel id_="1004269440" open_="true" pos="-0.75 0.15 1.65" rot="0.0 0.0 0.0" steer="1">
+						<vox id_="38537520" pos="-0.05 -0.35 0.05" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/anglia.vox" object="wheel_fr"/>
+					</wheel>
+					<wheel id_="1960891264" open_="true" pos="-0.75 0.15 -1.35" rot="0.0 180.0 0.0" drive="1">
+						<vox id_="380066464" pos="0.05 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/resources/vox/vehicles/anglia.vox" object="wheel_br"/>
+					</wheel>
+				</body>
+				<location id_="1156518784" tags="player" pos="0.35 0.9 1.25" rot="0.0 -180.0 0.0"/>
+				<location id_="52825240" tags="exhaust" pos="0.35 -0.2 3.65" rot="0.0 0.0 0.0"/>
+			</vehicle>
+		</group>
+	</group>
+</prefab>
+
