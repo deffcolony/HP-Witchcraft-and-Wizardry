@@ -1,11 +1,22 @@
 <prefab version="0.7.4">
-	<group id_="538214464" open_="true" name="instance=MOD/resources/anglia.xml" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0">
+	<group id_="1126698112" open_="true" name="instance=MOD/resources/anglia.xml" pos="59.35 -0.1 0.0" rot="0.0 0.0 0.0">
 		<group id_="933158528" open_="true" name="Anglia" pos="0.0 0.55 -1.1">
 			<vehicle id_="1370572544" open_="true" sound="medium" spring="0.7" damping="0.7" topspeed="130" acceleration="3" strength="5" antispin="0.2" antiroll="0.3" steerassist="0.1">
 				<body id_="517569376" open_="true" pos="0.0 -0.25 1.15" rot="0.0 -180.0 0.0" dynamic="true">
 					<vox id_="1433687552" open_="true" texture="2 0.6" density="2" strength="4" file="MOD/resources/vox/vehicles/anglia.vox" object="body">
 						<light id_="2082730112" pos="-0.75 0.75 2.3" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
 						<light id_="2135883008" pos="0.75 0.75 2.3" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+						<vox id_="1190534144" open_="true" pos="0.8 0.1 0.0" texture="2 0.6" density="2" strength="4" prop="true" file="MOD/resources/vox/vehicles/anglia.vox" object="door_l">
+							<joint id_="1699714304" pos="0.05 0.2 0.6" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.08" rotspring="0" limits="-90 0"/>
+							<joint id_="2121857536" pos="0.05 0.8 0.6" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.08" rotspring="0" limits="-90 0"/>
+						</vox>
+						<vox id_="1615364352" open_="true" pos="-0.0 0.6 -2.1" texture="2 0.6" density="2" strength="4" prop="true" file="MOD/resources/vox/vehicles/anglia.vox" object="door_b">
+							<joint id_="1814278272" pos="-0.0 0.25 0.4" rot="0.0 270.0 -90.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-50 0"/>
+						</vox>
+						<vox id_="1069088512" open_="true" pos="-0.8 0.1 0.0" texture="2 0.6" density="2" strength="4" prop="true" file="MOD/resources/vox/vehicles/anglia.vox" object="door_r">
+							<joint id_="93787744" pos="0.05 0.8 0.6" rot="90.0 180.0 0.0" type="hinge" rotstrength="0.08" rotspring="0" limits="-90 0"/>
+							<joint id_="1054669696" pos="0.05 0.2 0.6" rot="90.0 180.0 0.0" type="hinge" rotstrength="0.08" rotspring="0" limits="-90 0"/>
+						</vox>
 					</vox>
 					<wheel id_="1188436864" open_="true" pos="0.75 0.15 1.65" rot="0.0 180.0 0.0" steer="1">
 						<vox id_="617517888" pos="0.05 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/resources/vox/vehicles/anglia.vox" object="wheel_fl"/>
