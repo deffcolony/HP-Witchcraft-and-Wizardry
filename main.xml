@@ -1,4 +1,14 @@
-<scene id_="1997790336" version="0.7.4" shadowVolume="200 50 200">
+<scene id_="1997790336" open_="true" version="0.7.4" shadowVolume="200 50 200">
+	<voxbox id_="1389120256" pos="-100.00001 0.0 -100.00001" texture="6 0.66" size="2000 1 2000" color="0.51 0.51 0.51"/>
+	<boundary id_="167454704">
+		<vertex pos="-100.0 -100.0"/>
+		<vertex pos="100.0 -100.0"/>
+		<vertex pos="100.0 100.0"/>
+		<vertex pos="-100.0 100.0"/>
+	</boundary>
+	<spawnpoint id_="18941060" pos="0.0 7.4 0.0"/>
+	<script id_="2048518272" file="main.lua"/>
+	<script id_="409231744" file="sandbox.lua"/>
 	<layers/>
 </scene>
 
