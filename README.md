@@ -1,4 +1,4 @@
-<img src="http://www.ll-mm.com/images/placeholders/image-placeholder.jpg" width="100%">
+<img src="https://i.imgur.com/ToKFCKv.png" width="100%">
 
 # HP-Witchcraft-and-Wizardry
 A full Harry Potter experience with a storyline.
