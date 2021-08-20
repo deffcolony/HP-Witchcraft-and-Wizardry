@@ -26,32 +26,32 @@ function init()
 end
 
 function tick(dt)
-	if GetBool("savegame.mod.Fernwaybreaker") == true then
-		if GetPlayerInteractShape() == tv and InputPressed("interact") then
-			if GetInt("tvState") == 0 then
-				PlaySound(tvStart, tvPos, 0.15)
-				SetInt("tvState", 1)
-			elseif GetInt("tvState") > 0 then
-				PlaySound(tvOff, tvPos, 0.15)
-				SetInt("tvState", 0)
-			end
-			if IsScreenEnabled(TVscreen) == false then
-				SetScreenEnabled(TVscreen, true)
-			elseif IsScreenEnabled(TVscreen) == true then
-				SetScreenEnabled(TVscreen, false)
-			end
+
+	if GetPlayerInteractShape() == tv and InputPressed("interact") then
+		if GetInt("tvState") == 0 then
+			PlaySound(tvStart, tvPos, 0.15)
+			SetInt("tvState", 1)
+		elseif GetInt("tvState") > 0 then
+			PlaySound(tvOff, tvPos, 0.15)
+			SetInt("tvState", 0)
 		end
-		if GetPlayerInteractShape() == monitor and InputPressed("interact") then
-			if GetPlayerScreen() ~= TVscreen then 
-				SetPlayerScreen(TVscreen)
-			end
-		end
-		if GetPlayerScreen() == TVscreen then
-			RemoveTag(monitor, "interact")
-		else
-			SetTag(monitor, "interact", "Browse")
+		if IsScreenEnabled(TVscreen) == false then
+			SetScreenEnabled(TVscreen, true)
+		elseif IsScreenEnabled(TVscreen) == true then
+			SetScreenEnabled(TVscreen, false)
 		end
 	end
+	if GetPlayerInteractShape() == monitor and InputPressed("interact") then
+		if GetPlayerScreen() ~= TVscreen then 
+			SetPlayerScreen(TVscreen)
+		end
+	end
+	if GetPlayerScreen() == TVscreen then
+		RemoveTag(monitor, "interact")
+	else
+		SetTag(monitor, "interact", "WATCH")
+	end
+
 	
 	if GetInt("tvState") == 0 then
 		SetFloat("loadTime", 0)
