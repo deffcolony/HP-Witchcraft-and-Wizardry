@@ -9,8 +9,6 @@ function init()
 	
 	tvPos = GetBodyTransform(tvBody).pos
 	
-	SetTag(tv, "interact", "Turn on/off")
-	
 	TV = FindShape("harryhousetv")
 	
 	TVscreen = FindScreen("harryhousetvscreen")
@@ -54,8 +52,10 @@ function tick(dt)
 
 	
 	if GetInt("tvState") == 0 then
+		SetTag(tv, "interact", "Turn On")
 		SetFloat("loadTime", 0)
 	elseif GetInt("tvState") > 0 then
+		SetTag(tv, "interact", "Turn Off")
 		PlayLoop(tvLoop, tvPos, 0.15)
 	end
 end
