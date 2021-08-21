@@ -1,4 +1,4 @@
 name = Harry Potter - Witchcraft and Wizardry
-author = Deffcolony, NGNT, Murdoc, and Iaobardar
+author = Deffcolony, Dead Alpha, NGNT, Murdoc and Iaobardar
 tags = map
 description = A full Harry Potter experience with a storyline.
