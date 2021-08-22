@@ -361,14 +361,14 @@
 				<group id_="1878310912" open_="true" name="Furniture" pos="-14.1 0.2 0.2">
 					<group id_="2131622912" open_="true" name="Living Room" pos="16.9 0.3 -2.1">
 						<vox id_="1870118400" name="furniture" pos="-1.9 0.1 0.2" rot="0.0 90.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_mahogany_furniture.vox" object="decor table (small)"/>
-						<vox id_="304564384" name="furniture" pos="2.2 0.1 0.3" rot="0.0 -90.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="sofa">
+						<vox id_="304564384" name="furniture" pos="2.2 0.1 0.3" rot="0.0 -90.0 0.0" texture="3 0.75" density="7" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="sofa">
 							<vox id_="1892729600" name="furniture" pos="-0.66 0.62 0.1" rot="-15.7 24.1 -1.7" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="pillow red"/>
 							<vox id_="1489593088" name="furniture" pos="0.64 0.64 0.06" rot="-24.7 -25.8 2.7" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="pillow green"/>
 						</vox>
-						<vox id_="2096952320" name="furniture" pos="-0.1 0.1 2.1" rot="0.0 160.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="armchair">
+						<vox id_="2096952320" name="furniture" pos="-0.1 0.1 2.1" rot="0.0 160.0 0.0" texture="3 0.75" density="6" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="armchair">
 							<vox id_="23201160" name="furniture" pos="0.04 0.64 0.08" rot="-20.1 -20.9 0.9" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="pillow blue"/>
 						</vox>
-						<vox id_="1615233280" name="furniture" pos="-1.6 0.1 -1.3" rot="0.0 50.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="armchair">
+						<vox id_="1615233280" name="furniture" pos="-1.6 0.1 -1.3" rot="0.0 50.0 0.0" texture="3 0.75" density="6" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="armchair">
 							<vox id_="795131264" name="furniture" pos="-0.16 0.62 0.08" rot="-15.4 29.1 -0.9" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="pillow green"/>
 						</vox>
 						<vox id_="587893824" name="furniture" pos="2.3 1.0 -2.5" rot="0.0 160.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_lamps.vox" object="desk lamp">
@@ -387,8 +387,8 @@
 							<light id_="1084752512" name="light" pos="0.15 0.4 0.0" color="1 0.8 0.6" scale="0.8" size="0.3"/>
 						</vox>
 						<vox id_="1596750976" name="furniture" pos="-1.9 0.1 2.5" rot="0.0 135.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_mahogany_furniture.vox" object="tv stand"/>
-						<script id_="2085482752" pos="-1.8 0.7 2.3" file="MOD/resources/script/harryhousetvremote.lua">
-							<vox id_="903075648" name="TV" tags="harryhousetv" pos="-0.05 0.1 0.15" rot="0.0 132.5 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_television.vox" object="television">
+						<script id_="2085482752" open_="true" pos="-1.8 0.7 2.3" file="MOD/resources/script/harryhousetvremote.lua">
+							<vox id_="903075648" open_="true" name="TV" tags="harryhousetv" pos="-0.05 0.1 0.15" rot="0.0 132.5 0.0" texture="9 0.4" density="6" strength="5" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_television.vox" object="television">
 								<screen id_="1373194112" name="TV screen" tags="harryhousetvscreen" pos="0.05 0.35 0.3" size="0.7, 0.5" bulge="0" script="MOD/resources/script/harryhousetvscreen.lua" emissive="0.5"/>
 							</vox>
 						</script>
@@ -517,9 +517,9 @@
 					</group>
 				</group>
 				<group id_="728804800" open_="true" name="Doors" pos="-14.1 0.2 0.2">
-					<voxbox id_="265436992" name="main entrance" pos="13.6 0.4 1.8" rot="0.0 0.0 0.0" size="8 22 11" brush="hole">
+					<voxbox id_="265436992" open_="true" name="main entrance" pos="13.6 0.4 1.8" rot="0.0 0.0 0.0" size="8 22 11" brush="hole">
 						<vox id_="1959580416" name="door frame" pos="0.6 0.0 0.6" rot="0.0 90.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="brown door frame"/>
-						<vox id_="951640832" name="door" pos="0.7 0.1 0.6" rot="0.0 90.0 0.0" texture="3 0.50" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="main entrance door">
+						<vox id_="951640832" open_="true" name="door" pos="0.7 0.1 0.6" rot="0.0 90.0 0.0" texture="3 0.50" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="main entrance door">
 							<joint id_="1494443136" name="hinge" pos="-0.4 1.7 0.0" rot="90.0 90.0 0.0" type="hinge" limits="0 150"/>
 							<joint id_="446851712" name="hinge" pos="-0.4 0.3 0.0" rot="90.0 90.0 0.0" type="hinge" limits="0 150"/>
 						</vox>
@@ -908,7 +908,12 @@
 						<vox id_="700950272" name="porch_furniture" pos="14.53 0.6 -3.19" rot="0.0 -135.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="porch pillar"/>
 						<vox id_="1531079936" name="porch_furniture" pos="14.33 0.6 -0.89" rot="0.0 -145.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="small tv stand"/>
 						<vox id_="1218650752" name="porch_furniture" pos="11.98 0.6 -3.34" rot="0.0 90.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="porch shelf"/>
-						<vox id_="1742643072" name="porch_furniture" pos="14.33 1.3 -0.89" rot="0.0 -140.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="small grey tv"/>
+						<script id_="1595112576" open_="true" name="harryhouseminitvremote" pos="14.3 1.3 -0.9" file="MOD/resources/script/harryhouseminitvremote.lua">
+							<vox id_="1742643072" open_="true" name="minitv" tags="harryhouseminitv" pos="0.03 0.0 0.01" rot="0.0 -140.0 0.0" texture="9 0.4" density="2" strength="3" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="small grey tv">
+								<screen id_="181218096" name="minitv screen" tags="harryhouseminitvscreen" pos="0.0 0.4 0.3" rot="0.0 0.0 0.0" size="0.4, 0.4" script="MOD/resources/script/harryhouseminitvscreen.lua" emissive="0.5"/>
+								<light id_="1273835392" name="speakers minitv" pos="0.0 0.4 0.3" scale="0" unshadowed="4" sound="MOD/resources/snd/harryhouseminitvRun.ogg 0.5"/>
+							</vox>
+						</script>
 						<vox id_="954065792" name="porch_furniture" pos="14.53 1.5 -3.19" rot="0.0 -135.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="porch plant 01"/>
 						<group id_="1710462976" name="Corner Shelf"/>
 					</group>
@@ -1037,7 +1042,7 @@
 		<group id_="25101820" open_="true" name="Vehicle" pos="0.0 1.5 0.0">
 			<group id_="2048977024" open_="true" name="Opel Vectra" pos="13.6 -1.0 7.5" rot="0.0 90.0 0.0">
 				<body id_="1297495424" open_="true" pos="0.0 -0.2 -0.1" rot="0.0 0.0 0.0" dynamic="true" desc="I'm too young to drive">
-					<vox id_="1683657088" name="Body" pos="0.1 0.3 0.1" texture="1" file="MOD/resources/vox/vehicles/dudleys_car.vox" object="white_chassis">
+					<vox id_="1683657088" open_="true" name="Body" pos="0.1 0.3 0.1" texture="1" file="MOD/resources/vox/vehicles/dudleys_car.vox" object="white_chassis">
 						<location id_="1483497856" name="Exhaust" tags="exhaust" pos="0.542 0.1 -3.062" rot="180.0 0.0 180.0"/>
 						<location id_="1654688384" name="Player" tags="player" pos="0.4 0.9 0.25" rot="0.0 0.0 0.0"/>
 						<location id_="1734122880" name="Vital" tags="vital" pos="0.052 0.6 1.866"/>
