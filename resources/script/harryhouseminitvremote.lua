@@ -6,32 +6,22 @@
 function init()
 	minitv = FindShape("harryhouseminitv")
 	minitvBody = FindBody("harryhouseminitv")
-	
-	minitvPos = GetBodyTransform(minitvBody).pos
-	
-	miniTV = FindShape("harryhouseminitv")
+	light = FindLight("speaker")
 	
 	miniTVscreen = FindScreen("harryhouseminitvscreen")
 	
-	minitvOff = LoadSound("MOD/resources/snd/harryhouseminitvOff.ogg")
-	minitvLoop = LoadLoop("MOD/resources/snd/harryhouseminitvRun.ogg")
-	minitvStart = LoadSound("MOD/resources/snd/harryhouseminitvOn.ogg")
-	
-	SetInt("minitvState", 0)
-	
 
-	played = false
+	playing = false
 end
 
 function tick(dt)
-
+	local minitvPos = GetShapeWorldTransform(minitv).pos
+	
 	if GetPlayerInteractShape() == minitv and InputPressed("interact") then
-		if GetInt("minitvState") == 0 then
-			PlaySound(minitvStart, minitvPos, 0.15)
-			SetInt("minitvState", 1)
-		elseif GetInt("minitvState") > 0 then
-			PlaySound(minitvOff, minitvPos, 0.15)
-			SetInt("minitvState", 0)
+		if not playing then
+			playing = true
+		else
+			playing = false
 		end
 		if IsScreenEnabled(miniTVscreen) == false then
 			SetScreenEnabled(miniTVscreen, true)
@@ -51,13 +41,18 @@ function tick(dt)
 	end
 
 	
-	if GetInt("minitvState") == 0 then
+	if not playing then
 		SetTag(minitv, "interact", "Turn On")
 		SetFloat("loadTime", 0)
-	elseif GetInt("minitvState") > 0 then
+	else
 		SetTag(minitv, "interact", "Turn Off")
-		PlayLoop(minitvLoop, minitvPos, 0.15)
 	end
+	
+	if IsShapeBroken(minitv) then
+		RemoveTag(minitv, "interact")
+	end
+	
+	SetLightEnabled(light, playing)
 end
 
 --Another truly awful script by Murdoc.

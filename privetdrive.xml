@@ -910,8 +910,8 @@
 						<vox id_="1218650752" name="porch_furniture" pos="11.98 0.6 -3.34" rot="0.0 90.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="porch shelf"/>
 						<script id_="1595112576" open_="true" name="harryhouseminitvremote" pos="14.3 1.3 -0.9" file="MOD/resources/script/harryhouseminitvremote.lua">
 							<vox id_="1742643072" open_="true" name="minitv" tags="harryhouseminitv" pos="0.03 0.0 0.01" rot="0.0 -140.0 0.0" texture="9 0.4" density="2" strength="3" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="small grey tv">
-								<screen id_="181218096" name="minitv screen" tags="harryhouseminitvscreen" pos="0.0 0.4 0.3" rot="0.0 0.0 0.0" size="0.4, 0.4" script="MOD/resources/script/harryhouseminitvscreen.lua" emissive="0.5"/>
-								<light id_="1273835392" name="speakers minitv" pos="0.0 0.4 0.3" scale="0" unshadowed="4" sound="MOD/resources/snd/harryhouseminitvRun.ogg 0.5"/>
+								<screen id_="181218096" name="minitv screen" tags="harryhouseminitvscreen" pos="0.0 0.45 0.3" rot="0.0 0.0 0.0" size="0.4, 0.3" bulge="0" script="MOD/resources/script/harryhouseminitvscreen.lua" emissive="0.5"/>
+								<light id_="1273835392" name="speakers minitv" tags="speaker" pos="0.0 0.4 0.3" scale="0" unshadowed="4" sound="MOD/resources/snd/harryhouseminitvRun.ogg 0.5"/>
 							</vox>
 						</script>
 						<vox id_="954065792" name="porch_furniture" pos="14.53 1.5 -3.19" rot="0.0 -135.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="porch plant 01"/>
