@@ -641,7 +641,7 @@
 						</vox>
 					</voxbox>
 				</group>
-				<group id_="1749983488" name="Floor" pos="-18.6 0.3 0.2">
+				<group id_="1749983488" open_="true" name="Floor" pos="-18.6 0.3 0.2">
 					<group id_="777959808" name="Foundation">
 						<voxbox id_="1777051520" name="Concrete" pos="17.9 0.1 1.8" rot="0.0 0.0 0.0" texture="10 0.5" size="9 2 11" material="masonry" color="0.5 0.5 0.5"/>
 						<voxbox id_="1720359424" name="Concrete" pos="18.5 0.1 -5.2" rot="0.0 0.0 0.0" texture="10 0.5" size="100 1 114" material="masonry" color="0.5 0.5 0.5"/>
@@ -655,7 +655,7 @@
 							<vertex pos="-1.9 1.0"/>
 						</voxagon>
 					</group>
-					<group id_="1037301568" name="Carpet / Tiles" pos="24.0 0.2 -2.0">
+					<group id_="1037301568" open_="true" name="Carpet / Tiles" pos="24.0 0.2 -2.0">
 						<voxagon id_="1373587328" name="carpet" pos="2.1 0.0 2.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="ugly carpet" extrude="1">
 							<vertex pos="-7.3 -4.9"/>
 							<vertex pos="-5.5 -4.9"/>
