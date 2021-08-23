@@ -5,33 +5,23 @@
 
 function init()
 	tv = FindShape("harryhousetv")
-	tvBody = FindBody("harryhouset")
-	
-	tvPos = GetBodyTransform(tvBody).pos
-	
-	TV = FindShape("harryhousetv")
+	tvBody = FindBody("harryhousetv")
+	light = FindLight("harryhousetvspeaker")
 	
 	TVscreen = FindScreen("harryhousetvscreen")
 	
-	tvOff = LoadSound("MOD/resources/snd/harryhousetvOff.ogg")
-	tvLoop = LoadLoop("MOD/resources/snd/harryhousetvRun.ogg")
-	tvStart = LoadSound("MOD/resources/snd/harryhousetvOn.ogg")
-	
-	SetInt("tvState", 0)
-	
 
-	played = false
+	playing = false
 end
 
 function tick(dt)
-
+	local tvPos = GetShapeWorldTransform(tv).pos
+	
 	if GetPlayerInteractShape() == tv and InputPressed("interact") then
-		if GetInt("tvState") == 0 then
-			PlaySound(tvStart, tvPos, 0.15)
-			SetInt("tvState", 1)
-		elseif GetInt("tvState") > 0 then
-			PlaySound(tvOff, tvPos, 0.15)
-			SetInt("tvState", 0)
+		if not playing then
+			playing = true
+		else
+			playing = false
 		end
 		if IsScreenEnabled(TVscreen) == false then
 			SetScreenEnabled(TVscreen, true)
@@ -51,13 +41,18 @@ function tick(dt)
 	end
 
 	
-	if GetInt("tvState") == 0 then
+	if not playing then
 		SetTag(tv, "interact", "Turn On")
 		SetFloat("loadTime", 0)
-	elseif GetInt("tvState") > 0 then
+	else
 		SetTag(tv, "interact", "Turn Off")
-		PlayLoop(tvLoop, tvPos, 0.15)
 	end
+	
+	if IsShapeBroken(tv) then
+		RemoveTag(tv, "interact")
+	end
+	
+	SetLightEnabled(light, playing)
 end
 
 --Another truly awful script by Murdoc.

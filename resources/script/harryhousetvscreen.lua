@@ -11,7 +11,7 @@ function draw()
 	local b = math.mod(current+1, count)
 	t = t + GetTimeStep()
 	if t > 0 then
-		UiImage("MOD/resources/pics/img"..(b+1)..".png")
+		UiImage("MOD/resources/pics/harrytv"..(b+1)..".png")
 	end
 	if t > 7 then
 		t = 0

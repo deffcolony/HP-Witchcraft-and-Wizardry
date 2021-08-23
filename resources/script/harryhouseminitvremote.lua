@@ -6,7 +6,7 @@
 function init()
 	minitv = FindShape("harryhouseminitv")
 	minitvBody = FindBody("harryhouseminitv")
-	light = FindLight("speaker")
+	light = FindLight("harryhouseminitvspeaker")
 	
 	miniTVscreen = FindScreen("harryhouseminitvscreen")
 	

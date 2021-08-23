@@ -1,5 +1,5 @@
 <scene id_="883282560" open_="true" version="0.7.4">
-	<group id_="1990449792" name="Map">
+	<group id_="1990449792" open_="true" name="Map">
 		<environment id_="1120865024" name="skybox" skyboxrot="-60" sunBrightness="0.5" sunSpread="0.10"/>
 		<boundary id_="82580400" name="playable area">
 			<vertex pos="-100.0 -100.0"/>
@@ -14,7 +14,7 @@
 		<script id_="1390037888" name="fireplace" file="MOD/resources/script/fireplace.lua"/>
 	</group>
 	<group id_="1989138944" open_="true" name="Scene">
-		<group id_="322260192" name="Ground" pos="0.0 0.0 0.0">
+		<group id_="322260192" open_="true" name="Ground" pos="0.0 0.0 0.0">
 			<voxbox id_="1052375808" pos="-50.0 0.0 -50.0" rot="0.0 0.0 0.0" texture="6 0.75" size="998 4 1000" color="0.7 0.7 0.7"/>
 		</group>
 		<group id_="1837544960" open_="true" name="Main Building" pos="0.0 0.2 0.0">
@@ -381,9 +381,10 @@
 							<light id_="1084752512" name="light" pos="0.15 0.4 0.0" color="1 0.8 0.6" scale="0.8" size="0.3"/>
 						</vox>
 						<vox id_="1596750976" name="furniture" pos="-1.9 0.1 2.5" rot="0.0 135.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_mahogany_furniture.vox" object="tv stand"/>
-						<script id_="2085482752" pos="-1.8 0.7 2.3" file="MOD/resources/script/harryhousetvremote.lua">
-							<vox id_="903075648" name="TV" tags="harryhousetv" pos="-0.05 0.1 0.15" rot="0.0 132.5 0.0" texture="9 0.4" density="6" strength="5" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_television.vox" object="television">
+						<script id_="2085482752" open_="true" pos="-1.8 0.7 2.3" file="MOD/resources/script/harryhousetvremote.lua">
+							<vox id_="903075648" open_="true" name="TV" tags="harryhousetv" pos="-0.05 0.1 0.15" rot="0.0 132.5 0.0" texture="9 0.4" density="6" strength="5" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_television.vox" object="television">
 								<screen id_="1373194112" name="TV screen" tags="harryhousetvscreen" pos="0.05 0.35 0.3" size="0.7, 0.5" bulge="0" script="MOD/resources/script/harryhousetvscreen.lua" emissive="0.5"/>
+								<light id_="1756013184" name="speaker tv" tags="harryhousetvspeaker" pos="0.1 0.4 0.3" scale="0" unshadowed="4" sound="MOD/resources/snd/harryhousetvRun.ogg 0.8"/>
 							</vox>
 						</script>
 						<vox id_="1124273152" name="furniture" pos="-2.1 0.1 0.2" rot="0.0 90.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_mahogany_furniture.vox" object="decor table (big)"/>
@@ -963,7 +964,7 @@
 						<vertex pos="0.8 0.9"/>
 						<vertex pos="-2.1 0.9"/>
 					</voxagon>
-					<group id_="403071008" name="Props / Detail">
+					<group id_="403071008" open_="true" name="Props / Detail">
 						<vox id_="673095808" name="doube_door_curtains" pos="11.0 0.7 -2.0" rot="0.0 -90.0 0.0" texture="9 0.5" file="MOD/resources/vox/4_privet_drive/building/curtains.vox" object="double door curtains"/>
 						<vox id_="1365329280" name="porch_chair" pos="13.28 0.6 -3.24" rot="0.0 5.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="porch chair">
 							<vox id_="132194176" name="porch_chair" pos="0.14 0.6 -0.12" rot="10.0 175.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="porch chair pillow"/>
@@ -974,10 +975,10 @@
 						<vox id_="700950272" name="porch_furniture" pos="14.53 0.6 -3.19" rot="0.0 -135.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="porch pillar"/>
 						<vox id_="1531079936" name="porch_furniture" pos="14.33 0.6 -0.89" rot="0.0 -145.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="small tv stand"/>
 						<vox id_="1218650752" name="porch_furniture" pos="11.98 0.6 -3.34" rot="0.0 90.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="porch shelf"/>
-						<script id_="1595112576" name="harryhouseminitvremote" pos="14.3 1.3 -0.9" file="MOD/resources/script/harryhouseminitvremote.lua">
-							<vox id_="1742643072" name="minitv" tags="harryhouseminitv" pos="0.03 0.0 0.01" rot="0.0 -140.0 0.0" texture="9 0.4" density="2" strength="3" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="small grey tv">
+						<script id_="1595112576" open_="true" name="harryhouseminitvremote" pos="14.3 1.3 -0.9" file="MOD/resources/script/harryhouseminitvremote.lua">
+							<vox id_="1742643072" open_="true" name="minitv" tags="harryhouseminitv" pos="0.03 0.0 0.01" rot="0.0 -140.0 0.0" texture="9 0.4" density="2" strength="3" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="small grey tv">
 								<screen id_="181218096" name="minitv screen" tags="harryhouseminitvscreen" pos="0.0 0.45 0.3" rot="0.0 0.0 0.0" size="0.4, 0.3" bulge="0" script="MOD/resources/script/harryhouseminitvscreen.lua" emissive="0.5"/>
-								<light id_="1273835392" name="speakers minitv" tags="speaker" pos="0.0 0.4 0.3" scale="0" unshadowed="4" sound="MOD/resources/snd/harryhouseminitvRun.ogg 0.5"/>
+								<light id_="1273835392" name="speakers minitv" tags="harryhouseminitvspeaker" pos="0.0 0.4 0.3" scale="0" unshadowed="4" sound="MOD/resources/snd/harryhouseminitvRun.ogg 0.5"/>
 							</vox>
 						</script>
 						<vox id_="954065792" name="porch_furniture" pos="14.53 1.5 -3.19" rot="0.0 -135.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="porch plant 01"/>
@@ -1011,7 +1012,7 @@
 						<joint id_="618238848" name="hinge" pos="-0.5 0.5 -0.9" rot="-90.0 -90.0 0.0" type="hinge" limits="0 160"/>
 						<joint id_="1372538624" name="hinge" pos="-0.5 2.2 -0.9" rot="-90.0 -90.0 0.0" type="hinge" limits="0 160"/>
 					</group>
-					<group id_="1738841728" name="Windows" pos="14.1 0.3 -2.0">
+					<group id_="1738841728" open_="true" name="Windows" pos="14.1 0.3 -2.0">
 						<group id_="373184768" name="Top">
 							<group id_="1781246080" name="glass" pos="0.1 3.0 0.0">
 								<vox id_="993848576" pos="0.1 0.4 0.95" rot="20.0 45.0 0.0" texture="3 0.20" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_main_structure.vox" object="ceiling glass"/>
@@ -1029,14 +1030,14 @@
 								<voxbox id_="908056704" name="beam" pos="0.276 2.957 2.447" rot="0.0 112.5 19.0" texture="3 0.20" size="25 2 1" material="plastic" color=".85 .83 .80"/>
 							</group>
 						</group>
-						<group id_="985328384" name="Sides" pos="0.0 0.1 0.0">
-							<group id_="1254173440" name="Glass" pos="-0.5 0.0 0.0">
+						<group id_="985328384" open_="true" name="Sides" pos="0.0 0.1 0.0">
+							<group id_="1254173440" open_="true" name="Glass" pos="-0.5 0.0 0.0">
 								<vox id_="132063104" name="porch_window_segment" pos="1.275 0.9 -1.415" rot="0.0 135.0 0.0" texture="3 0.20" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_main_structure.vox" object="double window">
 									<voxbox id_="1781442688" name="brick wall" pos="0.9 -0.9 0.305" rot="0.0 -180.0 0.0" texture="10 0.5" size="16 9 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)"/>
 									<vox id_="1714395264" name="curtains" pos="-0.4 0.1 0.0" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="curtain 01"/>
 									<vox id_="2064051200" name="curtains" pos="0.6 0.1 -0.1" rot="0.0 -180.0 0.0" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="curtain 02"/>
 								</vox>
-								<vox id_="2013782016" name="porch_window_segment" pos="-0.2 0.9 2.0" rot="0.0 0.0 0.0" texture="3 0.20" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_main_structure.vox" object="double window">
+								<vox id_="2013782016" open_="true" name="porch_window_segment" pos="-0.2 0.9 2.0" rot="0.0 0.0 0.0" texture="3 0.20" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_main_structure.vox" object="double window">
 									<voxbox id_="913889792" name="brick wall" pos="1.0 -0.9 0.3" rot="0.0 180.0 0.0" texture="10 0.5" size="28 9 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)"/>
 									<vox id_="1246439680" name="single window" pos="-1.4 0.0 0.0" rot="0.0 0.0 0.0" texture="3 0.20" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_main_structure.vox" object="single window">
 										<vox id_="414081728" name="curtains" pos="0.3 0.1 -0.1" rot="0.0 -180.0 0.0" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="curtain 03"/>
@@ -1080,8 +1081,8 @@
 						<voxbox id_="580225600" name="pannel" pos="13.3 4.29 -2.04" rot="-90.0 -180.0 0.0" texture="3 0.20" size="1 1 4" material="plastic" color=".85 .83 .80"/>
 						<voxbox id_="1358316544" name="pannel" pos="12.4 3.2 0.0" rot="0.0 0.0 90.0" texture="3 0.20" size="1 10 1" material="plastic" color=".85 .83 .80"/>
 					</group>
-					<group id_="1148719616" name="Light">
-						<voxbox id_="887280512" name="lightbulb" pos="13.4 3.15 -2.05" rot="0.0 0.0 0.0" prop="true" size="1 2 1" material="glass" color="1 .8 .6" pbr="0 0 0 1">
+					<group id_="1148719616" open_="true" name="Light">
+						<voxbox id_="887280512" open_="true" name="lightbulb" pos="13.4 3.15 -2.05" rot="0.0 0.0 0.0" prop="true" size="1 2 1" material="glass" color="1 .8 .6" pbr="0 0 0 1">
 							<rope id_="1120668416" name="rope" pos="0.05 0.2 0.05" strength="1.5" maxstretch="0.3">
 								<location id_="1661045760" name="a" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
 								<location id_="714058304" name="b" pos="0.0 0.85 0.0" rot="0.0 0.0 0.0"/>
@@ -1129,6 +1130,7 @@
 			</group>
 		</group>
 	</group>
+	<spawnpoint id_="1077084416" name="da wizard spawnpoint" pos="-6.3 0.0 2.5" rot="0.0 90.0 0.0"/>
 	<layers/>
 </scene>
 
