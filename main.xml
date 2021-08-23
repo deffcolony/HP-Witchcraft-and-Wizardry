@@ -9,6 +9,7 @@
 	<spawnpoint id_="18941060" pos="0.0 7.4 0.0"/>
 	<script id_="2048518272" file="main.lua"/>
 	<script id_="409231744" file="sandbox.lua"/>
+	<instance id_="1242245120" pos="0.0 0.1 0.0" rot="0.0 0.0 0.0" file="MOD/resources/prefab/angila_flight_ready.xml"/>
 	<layers/>
 </scene>
 

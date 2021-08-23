@@ -1,0 +1,35 @@
+<prefab version="0.7.4">
+	<group id_="836028224" open_="true" name="instance=MOD/resources/prefab/angila_flight_ready.xml" pos="0.0 0.1 0.0" rot="0.0 0.0 0.0">
+		<script id_="908580992" open_="true" pos="0.0 -0.1 0.0" file="MOD/resources/script/flying_angila.lua">
+			<vehicle id_="574130432" open_="true" tags="vehicle" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" driven="false" sound="small" spring="0.6" damping="0.8" topspeed="75" acceleration="5" strength="5" antispin="0" antiroll="0.4" steerassist="0.5">
+				<body id_="1735826944" open_="true" tags="body" pos="-0.05 0.6 -0.5" rot="0.0 0.0 0.0" dynamic="true">
+					<vox id_="1101989504" open_="true" pos="0.05 -0.3 0.5" rot="0 180 0" texture="2 0.7" density="1.5" strength="4" file="MOD/resources/vox/vehicles/anglia.vox" object="body">
+						<light id_="780712448" pos="-1.3 1.0 3.6" type="cone" color="1 .9 .8" scale="25" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+						<light id_="980085184" pos="1.3 1.0 3.6" type="cone" color="1 .9 .8" scale="25" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+						<light id_="1928580096" pos="-1.3 0.7 -3.8" rot="-180.0 0.0 -180.0" type="area" color="1 .1 .1" scale="2" size=".2 .2" unshadowed="0.2" glare="0.2"/>
+						<light id_="1718327680" pos="1.3 0.7 -3.8" rot="-180.0 0.0 -180.0" type="area" color="1 .1 .1" scale="2" size=".2 .2" unshadowed="0.2" glare="0.2"/>
+						<location id_="2116221056" tags="exhaust" pos="-0.95788 0.2 -3.86243" rot="180.0 0.0 180.0"/>
+						<location id_="130883376" tags="vital" pos="0.05186 1.0 2.56641"/>
+						<location id_="840812672" tags="player" pos="-0.7 1.5 0.45" rot="0.0 0.0 0.0"/>
+						<vox id_="1234839168" name="Right Door" pos="-1.5 0.4 0.7" texture="2 0.7" file="MOD/resources/vox/vehicles/anglia.vox" object="door_r"/>
+						<vox id_="24446420" name="Left Door" pos="1.5 0.4 0.7" texture="2 0.7" file="MOD/resources/vox/vehicles/anglia.vox" object="door_l"/>
+						<vox id_="1242441728" name="Boot" pos="0.0 0.8 -3.0" texture="2 0.7" file="MOD/resources/vox/vehicles/anglia.vox" object="boot"/>
+					</vox>
+					<wheel id_="2006834816" open_="true" name="bl" pos="-1.15 -0.05 3.05" drive="1" travel="-0.2 0.1">
+						<vox id_="1369982592" pos="-0.1 -0.45 -0.05" rot="0.0 180.0 0.0" texture="2 0.7" file="MOD/resources/vox/vehicles/anglia.vox" object="wheel_bl"/>
+					</wheel>
+					<wheel id_="391339328" open_="true" name="br" pos="1.25 -0.05 3.05" drive="1" travel="-0.2 0.1">
+						<vox id_="441936224" pos="0.1 -0.45 -0.05" rot="0.0 -180.0 0.0" texture="2 0.7" file="MOD/resources/vox/vehicles/anglia.vox" object="wheel_br"/>
+					</wheel>
+					<wheel id_="1726126976" open_="true" name="fl" pos="-1.15 -0.05 -1.95" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.2 0.1">
+						<vox id_="1265839616" pos="-0.1 -0.45 -0.05" rot="0.0 180.0 0.0" texture="2 0.7" file="MOD/resources/vox/vehicles/anglia.vox" object="wheel_fl"/>
+					</wheel>
+					<wheel id_="509966752" open_="true" name="fr" pos="1.25 -0.05 -1.95" drive="1" steer="1" travel="-0.2 0.1">
+						<vox id_="1175066624" pos="0.1 -0.45 -0.05" rot="0.0 -180.0 0.0" texture="2 0.7" file="MOD/resources/vox/vehicles/anglia.vox" object="wheel_fr"/>
+					</wheel>
+				</body>
+			</vehicle>
+		</script>
+	</group>
+</prefab>
+
