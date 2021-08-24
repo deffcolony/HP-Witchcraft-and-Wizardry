@@ -1,0 +1,21 @@
+<scene id_="396844704" open_="true" version="0.7.4">
+	<environment id_="971564928" template="foggy"/>
+	<spawnpoint id_="1125518464" pos="-1.2 0.0 -7.4"/>
+	<group id_="1981405312" open_="true" name="level">
+		<voxbox id_="2045372288" name="baseplate" pos="-25.0 -0.5 -25.0" texture="3" size="500 5 500"/>
+		<script id_="1708037888" open_="true" file="MOD/scripts/broom.lua">
+			<vehicle id_="1869593984" open_="true" name="broom" tags="broom" pos="0.0 0.8 0.0">
+				<body id_="301287392" open_="true" tags="awake" dynamic="true">
+					<vox id_="1435129344" pos="0.0 -0.7 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/brooms/broom_firebolt.vox"/>
+				</body>
+			</vehicle>
+		</script>
+	</group>
+	<group id_="1285763712" open_="true" name="Main Menu" layer="menu">
+		<script id_="700950272" file="MOD/scripts/main menu.lua"/>
+	</group>
+	<layers>
+		<layer name="menu" visible="false"/>
+	</layers>
+</scene>
+
