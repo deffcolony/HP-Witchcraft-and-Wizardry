@@ -481,9 +481,9 @@
 							<light id_="1084752512" name="light" pos="0.15 0.4 0.0" color="1 0.8 0.6" scale="0.8" size="0.3"/>
 						</vox>
 						<vox id_="1596750976" name="furniture" pos="-1.9 0.1 2.5" rot="0.0 135.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_mahogany_furniture.vox" object="tv stand"/>
-						<script id_="2085482752" pos="-1.8 0.7 2.3" file="MOD/resources/script/harryhousetvremote.lua">
-							<vox id_="903075648" name="TV" tags="harryhousetv" pos="-0.05 0.1 0.15" rot="0.0 132.5 0.0" texture="9 0.4" density="6" strength="5" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_television.vox" object="television">
-								<screen id_="1373194112" name="TV screen" tags="harryhousetvscreen" pos="0.05 0.35 0.3" size="0.7, 0.5" bulge="0" script="MOD/resources/script/harryhousetvscreen.lua" emissive="0.5"/>
+						<script id_="2085482752" open_="true" pos="-1.8 0.7 2.3" file="MOD/resources/script/harryhousetvremote.lua">
+							<vox id_="903075648" open_="true" name="TV" tags="harryhousetv" pos="-0.05 0.1 0.15" rot="0.0 132.5 0.0" texture="9 0.4" density="6" strength="5" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_television.vox" object="television">
+								<screen id_="1373194112" name="TV screen" tags="harryhousetvscreen" pos="0.05 0.35 0.2" size="0.7, 0.5" bulge="0.08" script="MOD/resources/script/harryhousetvscreen.lua" emissive="0.5"/>
 								<light id_="1756013184" name="speaker tv" tags="harryhousetvspeaker" pos="0.1 0.4 0.3" scale="0" unshadowed="4" sound="MOD/resources/snd/harryhousetvRun.ogg 0.8"/>
 							</vox>
 						</script>
@@ -676,10 +676,10 @@
 						</group>
 					</group>
 				</group>
-				<group id_="728804800" name="Doors" pos="-14.1 0.2 0.2">
-					<voxbox id_="265436992" name="main entrance" pos="13.6 0.4 1.8" rot="0.0 0.0 0.0" size="8 22 11" brush="hole">
+				<group id_="728804800" open_="true" name="Doors" pos="-14.1 0.2 0.2">
+					<voxbox id_="265436992" open_="true" name="main entrance" pos="13.6 0.4 1.8" rot="0.0 0.0 0.0" size="8 22 11" brush="hole">
 						<vox id_="1959580416" name="door frame" pos="0.6 0.0 0.6" rot="0.0 90.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="brown door frame"/>
-						<vox id_="951640832" name="door" pos="0.7 0.1 0.6" rot="0.0 90.0 0.0" texture="3 0.50" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="main entrance door">
+						<vox id_="951640832" open_="true" name="door" pos="0.7 0.1 0.6" rot="0.0 90.0 0.0" texture="3 0.50" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="main entrance door">
 							<joint id_="1494443136" name="hinge" pos="-0.4 1.7 0.0" rot="90.0 90.0 0.0" type="hinge" limits="0 150"/>
 							<joint id_="446851712" name="hinge" pos="-0.4 0.3 0.0" rot="90.0 90.0 0.0" type="hinge" limits="0 150"/>
 						</vox>
@@ -1196,9 +1196,9 @@
 				<voxbox id_="427517408" name="hole" pos="17.3 8.0 -5.2" rot="0.0 0.0 0.0" texture="10 0.5" size="11 16 6" brush="hole"/>
 			</group>
 		</group>
-		<group id_="25101820" name="Vehicle" pos="0.0 1.5 0.0">
-			<group id_="2048977024" name="Opel Vectra" pos="6.2 -1.0 8.4" rot="0.0 90.0 0.0">
-				<body id_="1297495424" pos="0.0 -0.2 -0.1" rot="0.0 0.0 0.0" dynamic="true" desc="I'm too young to drive">
+		<group id_="25101820" open_="true" name="Vehicle" pos="0.0 1.5 0.0">
+			<group id_="2048977024" open_="true" name="Opel Vectra" pos="6.2 -1.0 8.4" rot="0.0 90.0 0.0">
+				<body id_="1297495424" open_="true" pos="0.2 -0.2 2.4" rot="0.0 0.0 0.0" dynamic="true" desc="I'm too young to drive">
 					<vox id_="1683657088" name="Body" pos="0.1 0.3 0.1" texture="1" file="MOD/resources/vox/vehicles/dursleys_car.vox" object="white_chassis">
 						<location id_="1483497856" name="Exhaust" tags="exhaust" pos="0.542 0.1 -3.262" rot="180.0 0.0 180.0"/>
 						<location id_="1654688384" name="Player" tags="player" pos="0.4 0.9 0.25" rot="0.0 0.0 0.0"/>
