@@ -7,7 +7,7 @@
 		<vertex pos="-2.5 2.5"/>
 	</boundary>
 	<voxbox id_="1389120256" pos="-2.5 0.0 -2.5" rot="0.0 0.0 0.0" texture="6 0.66" size="50 2 50" color="0.51 0.51 0.51"/>
-	<script id_="2048518272" file="MOD/scripts/load.lua"/>
+	<script id_="2048518272" file="MOD/resources/scripts/load.lua"/>
 	<spawnpoint id_="18941060" pos="0.0 7.4 0.0"/>
 </scene>
 
