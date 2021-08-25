@@ -2,6 +2,10 @@ function init()
 	body = FindBody("body")
 	speed = 1
 
+	roll = 0
+
+	sensitivity = 10
+
 	flying = false
 
 	lerpedVel = Vec(0, 0, 0)
@@ -20,7 +24,6 @@ function tick ()
 			fwd[2] = Lerp(fwd[2], fwd[2] - 2, 0.1)
 		end
 
-
 		--DebugCross(VecAdd(trans.pos, VecScale(fwd, speed)))
 
 		local angVel = GetBodyAngularVelocity(body)	
@@ -29,6 +32,16 @@ function tick ()
 		GetInput()
 
 		if flying then
+			mx, my = InputValue("mousedx"), InputValue("mousedy")
+
+			local newQuat = QuatRotateQuat(QuatCopy(trans.rot), QuatEuler(-my/sensitivity, -mx/sensitivity, roll))
+
+			local finalTrans = Transform(VecCopy(trans.pos), QuatCopy(newQuat))
+
+			--DebugWatch("trans", finalTrans)
+
+			SetBodyTransform(body, finalTrans)
+			
 			SetBodyAngularVelocity(body, Vec(0, angVel[2], 0))		
 			SetBodyVelocity(body, VecScale(fwd, speed))
 		end
@@ -45,6 +58,14 @@ function GetInput ()
 
 	if InputPressed("shift") then
 		flying = not flying
+	end
+
+	if InputDown("left") then
+		roll = 1/sensitivity
+	elseif InputDown("right") then
+		roll = -1/sensitivity
+	else
+		roll = 0
 	end
 end
 

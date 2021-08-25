@@ -13,11 +13,11 @@
 		<script id_="432498464" name="sandbox" file="sandbox.lua"/>
 		<script id_="1390037888" name="fireplace" file="MOD/resources/script/fireplace.lua"/>
 	</group>
-	<group id_="1989138944" open_="true" name="Scene">
+	<group id_="1989138944" name="Scene">
 		<group id_="322260192" name="Ground" pos="0.0 0.0 0.0">
 			<voxbox id_="1052375808" pos="-50.0 0.0 -50.0" rot="0.0 0.0 0.0" texture="6 0.75" size="998 4 1000" color="0.7 0.7 0.7"/>
 		</group>
-		<group id_="1837544960" open_="true" name="Main Building" pos="0.0 0.2 0.0">
+		<group id_="1837544960" name="Main Building" pos="0.0 0.2 0.0">
 			<group id_="1023276032" name="Attic">
 				<group id_="968746752" name="Floor / Ceiling" pos="-18.6 0.3 0.2">
 					<voxbox id_="1299854848" name="paint" pos="32.6 6.2 -4.8" rot="0.0 0.0 0.0" texture="6 0.35" size="107 1 109" material="plaster" color="0.9 0.9 0.85"/>
@@ -60,7 +60,7 @@
 					</voxagon>
 				</group>
 			</group>
-			<group id_="1247488384" open_="true" name="First Floor" pos="18.6 3.1 -0.2">
+			<group id_="1247488384" name="First Floor" pos="18.6 3.1 -0.2">
 				<group id_="2110519040" name="Walls" pos="-18.6 0.3 0.2">
 					<group id_="1611104256" name="Wallpapers">
 						<voxbox id_="1350713856" name="wallpaper" pos="21.9 0.3 -2.0" rot="0.0 -90.0 0.0" texture="9 0.5" size="81 28 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_hallway.vox" object="wallpaper"/>
@@ -352,9 +352,9 @@
 					</voxbox>
 				</group>
 			</group>
-			<group id_="488666240" open_="true" name="Ground Floor" pos="14.1 -0.2 -0.2">
-				<group id_="1973606016" open_="true" name="Walls" pos="-14.1 0.2 0.2">
-					<group id_="937877376" open_="true" name="Wallpapers">
+			<group id_="488666240" name="Ground Floor" pos="14.1 -0.2 -0.2">
+				<group id_="1973606016" name="Walls" pos="-14.1 0.2 0.2">
+					<group id_="937877376" name="Wallpapers">
 						<voxbox id_="1682346240" name="wallpaper" pos="20.0 0.3 1.3" rot="0.0 -90.0 0.0" texture="9 0.5" size="47 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_kitchen.vox" object="wallpaper"/>
 						<voxbox id_="440559872" name="wallpaper" pos="20.5 0.3 1.1" rot="0.0 -180.0 0.0" texture="9 0.5" size="63 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_living_room.vox" object="wp_living_room"/>
 						<voxbox id_="1325349888" name="wallpaper" pos="24.5 3.1 1.1" rot="0.0 -180.0 0.0" texture="9 0.5" size="40 3 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_living_room.vox" object="wp_living_room" offset="0 4 0"/>
@@ -438,7 +438,7 @@
 							</vox>
 						</voxbox>
 					</group>
-					<group id_="1675005824" open_="true" name="Kitchen Wall-Tiles" pos="18.5 0.0 0.0">
+					<group id_="1675005824" name="Kitchen Wall-Tiles" pos="18.5 0.0 0.0">
 						<voxbox id_="185084960" name="tile-section" pos="1.5 1.4 6.1" rot="0.0 90.0 0.0" texture="6 0.4" size="1 5 18" brush="MOD/resources/vox/4_privet_drive/kitchen/kitchen_wall_tiles.vox"/>
 						<voxbox id_="597855872" name="tile-section" pos="5.9 1.4 6.1" rot="0.0 90.0 0.0" texture="6 0.4" size="1 5 8" brush="MOD/resources/vox/4_privet_drive/kitchen/kitchen_wall_tiles.vox"/>
 						<voxbox id_="1243031680" name="tile-section" pos="6.8 1.4 6.0" rot="0.0 -180.0 0.0" texture="6 0.4" size="1 5 13" brush="MOD/resources/vox/4_privet_drive/kitchen/kitchen_wall_tiles.vox"/>
@@ -452,8 +452,8 @@
 						<voxbox id_="55184680" name="power_plug" pos="6.8 1.5 5.9" rot="0.0 180.0 0.0" texture="6 0.4" size="1 1 1" material="plastic" color="0.9 0.9 0.9"/>
 					</group>
 				</group>
-				<group id_="1878310912" open_="true" name="Furniture" pos="-14.1 0.2 0.2">
-					<group id_="2131622912" open_="true" name="Living Room" pos="16.9 0.3 -2.1">
+				<group id_="1878310912" name="Furniture" pos="-14.1 0.2 0.2">
+					<group id_="2131622912" name="Living Room" pos="16.9 0.3 -2.1">
 						<vox id_="1870118400" name="furniture" pos="-1.9 0.1 0.2" rot="0.0 90.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_mahogany_furniture.vox" object="decor table (small)"/>
 						<vox id_="304564384" name="furniture" pos="2.2 0.1 0.3" rot="0.0 -90.0 0.0" texture="3 0.75" density="7" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="sofa">
 							<vox id_="1892729600" name="furniture" pos="-0.66 0.62 0.1" rot="-15.7 24.1 -1.7" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="pillow red"/>
@@ -465,7 +465,7 @@
 						<vox id_="1615233280" name="furniture" pos="-1.6 0.1 -1.3" rot="0.0 50.0 0.0" texture="3 0.75" density="6" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="armchair">
 							<vox id_="795131264" name="furniture" pos="-0.16 0.62 0.08" rot="-15.4 29.1 -0.9" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="pillow green"/>
 						</vox>
-						<vox id_="587893824" open_="true" name="furniture" pos="2.3 1.0 -2.5" rot="0.0 160.0 0.0" texture="3 0.75" strength="0.1" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_lamps.vox" object="desk lamp">
+						<vox id_="587893824" name="furniture" pos="2.3 1.0 -2.5" rot="0.0 160.0 0.0" texture="3 0.75" strength="0.1" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_lamps.vox" object="desk lamp">
 							<light id_="1213014272" name="light" pos="0.05 0.6 -0.05" color="1 0.8 0.6" scale="1" size="0.5"/>
 						</vox>
 						<vox id_="722775104" name="wall lamp" pos="-2.4 2.2 -1.9" rot="0.0 0.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/living_room/livingr_lamps.vox" object="wall lamp">
@@ -481,8 +481,8 @@
 							<light id_="1084752512" name="light" pos="0.15 0.4 0.0" color="1 0.8 0.6" scale="0.8" size="0.3"/>
 						</vox>
 						<vox id_="1596750976" name="furniture" pos="-1.9 0.1 2.5" rot="0.0 135.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_mahogany_furniture.vox" object="tv stand"/>
-						<script id_="2085482752" open_="true" pos="-1.8 0.7 2.3" file="MOD/resources/script/harryhousetvremote.lua">
-							<vox id_="903075648" open_="true" name="TV" tags="harryhousetv" pos="-0.05 0.1 0.15" rot="0.0 132.5 0.0" texture="9 0.4" density="6" strength="5" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_television.vox" object="television">
+						<script id_="2085482752" pos="-1.8 0.7 2.3" file="MOD/resources/script/harryhousetvremote.lua">
+							<vox id_="903075648" name="TV" tags="harryhousetv" pos="-0.05 0.1 0.15" rot="0.0 132.5 0.0" texture="9 0.4" density="6" strength="5" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_television.vox" object="television">
 								<screen id_="1373194112" name="TV screen" tags="harryhousetvscreen" pos="0.05 0.35 0.2" size="0.7, 0.5" bulge="0.08" script="MOD/resources/script/harryhousetvscreen.lua" emissive="0.5"/>
 								<light id_="1756013184" name="speaker tv" tags="harryhousetvspeaker" pos="0.1 0.4 0.3" scale="0" unshadowed="4" sound="MOD/resources/snd/harryhousetvRun.ogg 0.8"/>
 							</vox>
@@ -506,8 +506,8 @@
 						<vox id_="479294016" name="glass" pos="0.59 0.6 0.15" rot="0.0 15.0 0.0" texture="5 0.5" strength="0.1" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="glass"/>
 						<vox id_="205926688" name="glass" pos="0.07 0.6 0.2" rot="0.0 -35.0 0.0" texture="5 0.5" strength="0.1" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="glass"/>
 					</group>
-					<group id_="2088497664" open_="true" name="Kitchen">
-						<vox id_="553157632" open_="true" name="Kitchen Wall" pos="23.6 0.4 3.4" rot="0.0 -180.0 0.0" texture="10 0.6" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="k-corner main body">
+					<group id_="2088497664" name="Kitchen">
+						<vox id_="553157632" name="Kitchen Wall" pos="23.6 0.4 3.4" rot="0.0 -180.0 0.0" texture="10 0.6" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="k-corner main body">
 							<vox id_="1499882880" name="door / drawer" pos="-1.2 1.6 -1.6" rot="0.0 0.0 0.0" texture="10 0.6" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="door 01">
 								<joint id_="1280192768" name="hinge" pos="0.05 0.45 0.25" rot="90.0 90.0 0.0" type="hinge" size="0.15" limits="0 140"/>
 							</vox>
@@ -521,7 +521,7 @@
 							<vox id_="1162548480" name="stool" pos="0.3 0.0 1.3" rot="0.0 40.0 0.0" texture="10 0.4" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="stool"/>
 							<vox id_="1474060160" name="stool" pos="1.0 0.0 1.3" rot="0.0 45.0 0.0" texture="10 0.4" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="stool"/>
 							<vox id_="2139487744" name="stool" pos="-0.4 0.0 1.2" rot="0.0 55.0 0.0" texture="10 0.4" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="stool"/>
-							<vox id_="1505322752" open_="true" name="door / drawer" pos="-1.0 0.1 -2.2" rot="0.0 0.0 0.0" texture="10 0.6" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="door 02">
+							<vox id_="1505322752" name="door / drawer" pos="-1.0 0.1 -2.2" rot="0.0 0.0 0.0" texture="10 0.6" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="door 02">
 								<joint id_="2004213248" name="hinge" pos="0.05 0.25 -0.25" rot="-90.0 90.0 0.0" type="hinge" size="0.15" limits="0 140"/>
 							</vox>
 							<vox id_="341201248" name="door / drawer" pos="-0.9 0.1 -1.6" rot="0.0 180.0 0.0" texture="10 0.6" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="door 02">
@@ -546,11 +546,11 @@
 								<joint id_="1694340096" name="prismatic" pos="-0.3 0.1 0.0" rot="0.0 -270.0 90.0" type="prismatic" size="0.15" limits="0 0.5"/>
 							</vox>
 							<vox id_="777632128" name="door / drawer" pos="-0.8 0.01 -0.35" rot="0.0 -204.60001 90.0" texture="10 1" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="door 02"/>
-							<vox id_="1866317056" open_="true" name="door / drawer" pos="-1.0 0.1 0.2" rot="0.0 0.0 0.0" texture="10 0.6" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="door 02">
+							<vox id_="1866317056" name="door / drawer" pos="-1.0 0.1 0.2" rot="0.0 0.0 0.0" texture="10 0.6" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="door 02">
 								<joint id_="767735552" name="hinge" pos="0.05 0.3 -0.24" rot="-90.0 -90.0 0.0" type="hinge" size="0.15" limits="0 140"/>
 							</vox>
 						</vox>
-						<vox id_="32245680" open_="true" name="Kitchen Corner" pos="21.3 0.4 4.5" rot="0.0 0.0 0.0" texture="10 0.6" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_corner.vox" object="k-corner main body">
+						<vox id_="32245680" name="Kitchen Corner" pos="21.3 0.4 4.5" rot="0.0 0.0 0.0" texture="10 0.6" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_corner.vox" object="k-corner main body">
 							<vox id_="178465424" name="door / drawer" pos="-0.7 0.1 -1.2" texture="10 0.6" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_corner.vox" object="door 01">
 								<joint id_="1902888320" name="hinge" pos="0.05 0.3 -0.25" rot="-90.0 90.0 0.0" type="hinge" size="0.15" limits="0 140"/>
 							</vox>
@@ -603,7 +603,7 @@
 								<joint id_="426337696" name="prismatic" pos="-0.3 0.1 0.0" rot="0.0 -270.0 90.0" type="prismatic" size="0.15" limits="0 0.5"/>
 							</vox>
 						</vox>
-						<group id_="2057235072" open_="true" name="Lighting">
+						<group id_="2057235072" name="Lighting">
 							<vox id_="155591968" name="light" pos="22.9 2.9 3.2" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox">
 								<light id_="1973147264" name="bulb" pos="-0.05 -0.2 -0.15" color="1 0.8 0.7" scale="1" size="0.2"/>
 							</vox>
@@ -613,28 +613,28 @@
 							<voxbox id_="1082982912" name="cupboard light" pos="20.6 1.9 6.0" rot="0.0 90.0 0.0" size="1 1 11" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
 								<light id_="1788521088" pos="0.05 0.0 0.53" rot="60.0 90.0 0.0" type="area" color="1 0.7 0.5" scale="0.7" size="1.2 0.1"/>
 							</voxbox>
-							<voxbox id_="25757220" open_="true" name="cupboard light" pos="25.2 1.9 5.9" rot="0.0 180.0 0.0" size="1 1 11" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
+							<voxbox id_="25757220" name="cupboard light" pos="25.2 1.9 5.9" rot="0.0 180.0 0.0" size="1 1 11" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
 								<light id_="1622114944" pos="0.05 0.0 0.55" rot="60.0 90.0 0.0" type="area" color="1 0.7 0.5" scale="0.7" size="1.1 0.1"/>
 							</voxbox>
-							<voxbox id_="2082140288" open_="true" name="cupboard light" pos="25.2 1.9 2.4" rot="0.0 -180.0 0.0" size="1 1 10" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
+							<voxbox id_="2082140288" name="cupboard light" pos="25.2 1.9 2.4" rot="0.0 -180.0 0.0" size="1 1 10" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
 								<light id_="1000205952" pos="0.05 0.0 0.5" rot="60.0 90.0 0.0" type="area" color="1 0.7 0.5" scale="0.7" size="1.0 0.1"/>
 							</voxbox>
 							<voxbox id_="1442273280" name="cupboard light" pos="20.0 1.9 3.1" rot="0.0 0.0 0.0" size="1 1 3" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
 								<light id_="1126763648" pos="0.05 0.0 0.15" rot="60.0 90.0 0.0" type="area" color="1 0.7 0.5" scale="0.3" size="0.3 0.1"/>
 							</voxbox>
 						</group>
-						<group id_="185543744" open_="true" name="Small Props" pos="22.1 1.4 3.0">
+						<group id_="185543744" name="Small Props" pos="22.1 1.4 3.0">
 							<vox id_="1492214784" name="prop" pos="2.0 0.0 -1.7" rot="0.0 -100.0 0.0" strength="0.03" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="fruit bowl"/>
-							<vox id_="976283840" open_="true" name="prop" pos="2.84 0.0 -1.2" rot="0.0 -100.0 0.0" texture="10 0.5" strength="0.05" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="glass pot small (bottom)">
+							<vox id_="976283840" name="prop" pos="2.84 0.0 -1.2" rot="0.0 -100.0 0.0" texture="10 0.5" strength="0.05" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="glass pot small (bottom)">
 								<vox id_="500070208" name="prop" pos="0.0 0.2 0.0" rot="0" texture="10 0.5" strength="0.05" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="glass pot small (top)"/>
 							</vox>
-							<vox id_="1907476224" open_="true" name="prop" pos="2.77 0.0 -0.68" rot="0.0 -60.0 0.0" texture="10 0.5" strength="0.05" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="glass pot big (bottom)">
+							<vox id_="1907476224" name="prop" pos="2.77 0.0 -0.68" rot="0.0 -60.0 0.0" texture="10 0.5" strength="0.05" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="glass pot big (bottom)">
 								<vox id_="1495884928" name="prop" pos="0.0 0.2 0.0" rot="0" texture="10 0.5" strength="0.05" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="glass pot big (top)"/>
 							</vox>
 							<vox id_="1538158208" name="salt" pos="-2.06 0.0 1.3" rot="0.0 -80.0 0.0" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="salt"/>
 							<vox id_="951640832" name="pepper" pos="-2.06 0.0 1.44" rot="0.0 -105.0 0.0" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="pepper"/>
-							<vox id_="444361216" open_="true" name="pepper" pos="-1.59 0.0 2.49" rot="0.0 35.0 0.0" texture="2 0.7" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="microwave">
-								<rope id_="1508599680" open_="true" name="cable" pos="-0.2 0.15 -0.25" rot="0.0 -165.0 0.0" strength="5" maxstretch="1">
+							<vox id_="444361216" name="pepper" pos="-1.59 0.0 2.49" rot="0.0 35.0 0.0" texture="2 0.7" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="microwave">
+								<rope id_="1508599680" name="cable" pos="-0.2 0.15 -0.25" rot="0.0 -165.0 0.0" strength="5" maxstretch="1">
 									<location id_="592481600" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
 									<location id_="1239295872" pos="0.46 0.0 -0.14" rot="0.0 0.0 0.0"/>
 								</rope>
@@ -667,7 +667,7 @@
 							<vox id_="1222517632" name="prop" pos="3.07 0.1 0.53" rot="1.9 -2.1 81.7" texture="5 0.5" strength="0.1" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="dishes small"/>
 							<vox id_="178203264" name="prop" pos="-1.9 0.88 1.36" rot="35.0 0.0 0.0" texture="5 0.5" strength="0.1" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="dishes small"/>
 							<vox id_="533102368" name="prop" pos="-1.84 0.0 0.67" rot="0.0 55.0 0.0" texture="5 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="pot with handle"/>
-							<vox id_="228734592" open_="true" name="cake stand" pos="0.9 0.0 -1.6" rot="0.0 -85.0 0.0" texture="10 0.5" strength="0.05" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="cake stand">
+							<vox id_="228734592" name="cake stand" pos="0.9 0.0 -1.6" rot="0.0 -85.0 0.0" texture="10 0.5" strength="0.05" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="cake stand">
 								<vox id_="1415205248" name="cake" pos="0.04 0.2 -0.04" rot="0.0 -90.0 0.0" texture="3 0.5" strength="0.01" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="cake"/>
 							</vox>
 							<vox id_="435054528" name="prop" pos="-0.63 -0.9 2.66" rot="0.0 0.0 0.0" texture="5 0.5" strength="0.1" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="dishes medium"/>
@@ -676,10 +676,10 @@
 						</group>
 					</group>
 				</group>
-				<group id_="728804800" open_="true" name="Doors" pos="-14.1 0.2 0.2">
-					<voxbox id_="265436992" open_="true" name="main entrance" pos="13.6 0.4 1.8" rot="0.0 0.0 0.0" size="8 22 11" brush="hole">
+				<group id_="728804800" name="Doors" pos="-14.1 0.2 0.2">
+					<voxbox id_="265436992" name="main entrance" pos="13.6 0.4 1.8" rot="0.0 0.0 0.0" size="8 22 11" brush="hole">
 						<vox id_="1959580416" name="door frame" pos="0.6 0.0 0.6" rot="0.0 90.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="brown door frame"/>
-						<vox id_="951640832" open_="true" name="door" pos="0.7 0.1 0.6" rot="0.0 90.0 0.0" texture="3 0.50" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="main entrance door">
+						<vox id_="951640832" name="door" pos="0.7 0.1 0.6" rot="0.0 90.0 0.0" texture="3 0.50" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="main entrance door">
 							<joint id_="1494443136" name="hinge" pos="-0.4 1.7 0.0" rot="90.0 90.0 0.0" type="hinge" limits="0 150"/>
 							<joint id_="446851712" name="hinge" pos="-0.4 0.3 0.0" rot="90.0 90.0 0.0" type="hinge" limits="0 150"/>
 						</vox>
@@ -1046,7 +1046,7 @@
 						</vox>
 					</group>
 				</group>
-				<group id_="1420186240" open_="true" name="Enclosed Porch" pos="-0.8 0.0 0.3">
+				<group id_="1420186240" name="Enclosed Porch" pos="-0.8 0.0 0.3">
 					<voxagon id_="2095117184" name="brick_hole" pos="11.6 1.4 -0.8" rot="0.0 0.0 -90.0" brush="hole" extrude="2">
 						<vertex pos="-2.85 -1.15"/>
 						<vertex pos="-2.1 -3.3"/>
@@ -1091,7 +1091,7 @@
 						<joint id_="112925424" name="hinge" pos="-0.5 0.3 -1.1" rot="-90.0 -90.0 0.0" type="hinge" limits="0 160"/>
 						<joint id_="1373063040" name="hinge" pos="-0.5 2.3 -1.1" rot="-90.0 -90.0 0.0" type="hinge" limits="0 160"/>
 					</group>
-					<group id_="132390800" open_="true" name="Exterior Door" pos="16.21 0.6 -2.0">
+					<group id_="132390800" name="Exterior Door" pos="16.21 0.6 -2.0">
 						<vox id_="40700340" name="door_frame" pos="-0.7 -0.0 0.0" rot="0.0 -90.0 0.0" texture="3 0.20" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_main_structure.vox" object="exterior door frame">
 							<voxbox id_="331108096" name="beam" pos="1.0 -0.2 -0.2" rot="-90.0 -180.0 0.0" texture="3 0.20" size="20 3 2" material="plastic" color=".85 .83 .80"/>
 						</vox>
@@ -1196,9 +1196,9 @@
 				<voxbox id_="427517408" name="hole" pos="17.3 8.0 -5.2" rot="0.0 0.0 0.0" texture="10 0.5" size="11 16 6" brush="hole"/>
 			</group>
 		</group>
-		<group id_="25101820" open_="true" name="Vehicle" pos="0.0 1.5 0.0">
-			<group id_="2048977024" open_="true" name="Opel Vectra" pos="6.2 -1.0 8.4" rot="0.0 90.0 0.0">
-				<body id_="1297495424" open_="true" pos="0.2 -0.2 2.4" rot="0.0 0.0 0.0" dynamic="true" desc="I'm too young to drive">
+		<group id_="25101820" name="Vehicle" pos="0.0 1.5 0.0">
+			<group id_="2048977024" name="Opel Vectra" pos="6.2 -1.0 8.4" rot="0.0 90.0 0.0">
+				<body id_="1297495424" pos="0.2 -0.2 2.4" rot="0.0 0.0 0.0" dynamic="true" desc="I'm too young to drive">
 					<vox id_="1683657088" name="Body" pos="0.1 0.3 0.1" texture="1" file="MOD/resources/vox/vehicles/dursleys_car.vox" object="white_chassis">
 						<location id_="1483497856" name="Exhaust" tags="exhaust" pos="0.542 0.1 -3.262" rot="180.0 0.0 180.0"/>
 						<location id_="1654688384" name="Player" tags="player" pos="0.4 0.9 0.25" rot="0.0 0.0 0.0"/>
