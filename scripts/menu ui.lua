@@ -1,11 +1,3 @@
-function init()
-	
-end
-
-function tick()
-
-end
-
 function draw()
 	UiMakeInteractive()
 
@@ -23,7 +15,7 @@ function draw()
 		draw = other_menu
 	end
 
-	UiImageBox("MOD/resources/img/popup_menu_bg.png", 100, 800, 64, 64)
+	--UiImageBox("MOD/resources/img/popup_menu_bg.png", 100, 800, 64, 64)
 end
 
 function other_menu()
