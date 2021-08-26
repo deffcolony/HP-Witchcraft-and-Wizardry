@@ -9,12 +9,17 @@ function init()
 	flying = false
 
 	lerpedVel = Vec(0, 0, 0)
+
+	cameralock = true
+
+	inVehicle = false
 end
 
 function tick ()
 	vehicle = FindVehicle("vehicle")
 
 	if GetPlayerVehicle() == vehicle and GetVehicleHealth(vehicle) ~= 0 then
+		inVehicle = true
 		local trans = GetBodyTransform(body)
 		local fwd = TransformToParentVec(trans, Vec(0, 0, -1))
 
@@ -34,18 +39,21 @@ function tick ()
 		if flying then
 			mx, my = InputValue("mousedx"), InputValue("mousedy")
 
-			local newQuat = QuatRotateQuat(QuatCopy(trans.rot), QuatEuler(-my/sensitivity, -mx/sensitivity, roll))
+			local newQuat = QuatRotateQuat(QuatCopy(trans.rot), QuatEuler(-my/sensitivity, -mx/sensitivity, roll*5))
 
 			local finalTrans = Transform(VecCopy(trans.pos), QuatCopy(newQuat))
 
 			--DebugWatch("trans", finalTrans)
-
-			SetBodyTransform(body, finalTrans)
+			if cameralock then
+				SetBodyTransform(body, finalTrans)
+			end
 			
-			SetBodyAngularVelocity(body, Vec(0, angVel[2], 0))		
+			SetBodyAngularVelocity(body, Vec(0, 0, 0))		
 			SetBodyVelocity(body, VecScale(fwd, speed))
 		end
 		
+	else
+		inVehicle = false
 	end
 end
 
@@ -67,6 +75,12 @@ function GetInput ()
 	else
 		roll = 0
 	end
+
+	if InputDown("alt") then
+		cameralock = false
+	else
+		cameralock = true
+	end
 end
 
 function Clamp (x, min, max)
@@ -85,4 +99,27 @@ end
 function Lerp (value, target, t)
 	output = (1 - t) * value + t * target
 	return output
+end
+
+function draw ()
+	if inVehicle then
+		w = UiWidth()
+		h = UiHeight()
+		UiColor(0, 0, 0, 0.5)
+		UiAlign("left top")
+		UiTranslate(w - w/8, h - h/4)
+		UiRect(w/8, h/8)
+		UiColor(1, 1, 1)
+		UiFont("bold.ttf", 24)
+		UiText("CONTROLS")
+		UiFont("regular.ttf", 20)
+		UiTranslate(0, h/48)
+		UiText("SHIFT - Toggle flight mode")
+		UiTranslate(0, h/48)
+		UiText("Mouse + A/D - Rotate")
+		UiTranslate(0, h/48)
+		UiText("Alt - Free look")
+		UiTranslate(0, h/48)
+		UiText("W/S - If-flight speed adjustment")
+	end
 end
