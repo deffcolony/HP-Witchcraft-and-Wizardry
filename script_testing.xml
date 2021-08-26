@@ -16,8 +16,8 @@
 		<script id_="2009194240" open_="true" pos="-2.5 2.9 2.1" rot="0.0 0.0 0.0" file="MOD/resources/scripts/menu path.lua">
 			<location id_="951378624" tags="path" pos="-5.7 0.1 4.1"/>
 			<location id_="2107438720" tags="path" pos="-4.3 0.1 -4.0" rot="0.0 -40.0 0.0"/>
-			<location id_="631871168" tags="path" pos="5.8 0.1 -4.0" rot="0.0 -80.0 0.0"/>
-			<location id_="1336884864" tags="path" pos="5.8 0.1 2.0" rot="0.0 -80.0 0.0"/>
+			<location id_="631871168" tags="path" pos="5.8 0.1 -4.0" rot="28.3 -47.6 29.5"/>
+			<location id_="1336884864" tags="path" pos="5.8 0.1 2.0" rot="30.8 -48.1 -41.6"/>
 			<location id_="160441920" tags="path" pos="0.6 0.1 -0.1" rot="0.0 -80.0 0.0"/>
 			<location id_="1192893568" tags="path" pos="0.6 3.6 -5.4" rot="0.0 -80.0 0.0"/>
 			<location id_="550798144" tags="path" pos="4.3 5.9 -1.3" rot="0.0 -80.0 0.0"/>

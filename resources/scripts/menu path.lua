@@ -1,43 +1,33 @@
 function init()
-	t = 0
+	t = 1
 
-	poses = {}
+	path = {}
 	for i,v in ipairs(FindLocations("path")) do
-	 	poses[i] = GetLocationTransform(v).pos
+	 	path[i] = GetLocationTransform(v)
 	end
-
-	visited = {}
 end
 
 function tick(dt)
-	local yeet = {}
-	for i,v in ipairs(poses) do
-		yeet[i] = VecCopy(v)
-	end
+	local i = math.floor(t)
+	local x = t - i
 
-	while #yeet > 1 do
-		yeet = bezier_set(yeet, t)
-	end
+	local p0 = path[(i - 2) % #path + 1]
+	local p1 = path[(i - 1) % #path + 1]
+	local p2 = path[i % #path + 1]
+	local p3 = path[(i + 1) % #path + 1]
 
-	table.insert(visited, VecCopy(yeet[1]))
+	local grad_1 = VecScale(VecSub(p2.pos, p0.pos), 0.5)
+	local grad_2 = VecScale(VecSub(p3.pos, p1.pos), 0.5)
 
-	for i=1, #visited-1 do
-		DebugLine(visited[i], visited[i+1])
-	end
+	SetCameraTransform(Transform(VecLerp(
+		VecAdd(p1.pos, VecScale(grad_1, x)),
+		VecAdd(p2.pos, VecScale(grad_2, x - 1)),
+		x), QuatSlerp(p1.rot, p2.rot, x)))
 
-	for i=1, #poses-1 do
-		DebugLine(poses[i], poses[i+1])
+	for i,v in ipairs(path) do
+		DebugCross(v.pos)
 	end
 
 	t = t + dt
-	t = (t < 1) and t or 1
 	DebugWatch("t", t)
-end
-
-function bezier_set(points, t)
-	for i=1, #points-1 do
-		points[i] = VecLerp(points[i], points[i+1], t)
-	end
-	table.remove(points, #points)
-	return points
 end
