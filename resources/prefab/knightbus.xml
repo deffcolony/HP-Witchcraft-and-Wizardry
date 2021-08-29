@@ -1,0 +1,91 @@
+<prefab version="0.7.4">
+	<group id_="1351172608" open_="true" name="instance=MOD/resources/prefab/knightbus.xml" pos="0.0 0.9 0.0" rot="0.0 0.0 0.0">
+		<vehicle id_="1434670592" open_="true" pos="0.0 -0.4 0.4" sound="dumptruck" topspeed="90" acceleration="3" strength="10" antispin="0.7" antiroll="1" difflock="0.8">
+			<body id_="314526464" open_="true" name="KnightBus" pos="0.0 0.4 -0.3" rot="0.0 -180.0 0.0" dynamic="true">
+				<group id_="817611520" name="All of the Stairs" pos="-0.4 0.3 -2.9" rot="0.0 0.0 0.0">
+					<group id_="1488020224" name="Stairs" pos="0.1 0.0 0.0">
+						<voxbox id_="709142784" name="Stair" pos="-0.1 0.0 0.0" rot="0.0 90.0 0.0" size="10 1 2" color="0.09 0.09 0.09"/>
+						<voxbox id_="732081792" name="Stair" pos="-0.2 0.2 0.1" rot="0.0 110.0 0.0" size="11 1 2" color="0.09 0.09 0.09"/>
+						<voxbox id_="233322400" name="Stair" pos="-0.2 0.4 0.1" rot="0.0 130.0 0.0" size="11 1 2" color="0.09 0.09 0.09"/>
+						<voxbox id_="434399104" name="Stair" pos="-0.2 0.6 0.1" rot="0.0 150.0 0.0" size="10 1 2" color="0.09 0.09 0.09"/>
+					</group>
+					<group id_="1807200000" name="Stairs" pos="0.0 0.8 0.0" rot="0.0 90.0 0.0">
+						<voxbox id_="710715776" name="Stair" pos="-0.1 0.0 0.0" rot="0.0 90.0 0.0" size="10 1 2" color="0.09 0.09 0.09"/>
+						<voxbox id_="1372014336" name="Stair" pos="-0.2 0.2 0.1" rot="0.0 110.0 0.0" size="11 1 2" color="0.09 0.09 0.09"/>
+						<voxbox id_="1919338880" name="Stair" pos="-0.2 0.4 0.1" rot="0.0 130.0 0.0" size="11 1 2" color="0.09 0.09 0.09"/>
+						<voxbox id_="1226843264" name="Stair" pos="-0.2 0.6 0.1" rot="0.0 150.0 0.0" size="10 1 2" color="0.09 0.09 0.09"/>
+					</group>
+					<group id_="1671204480" name="Stairs" pos="0.0 1.6 0.1" rot="0.0 180.0 0.0">
+						<voxbox id_="517569376" name="Stair" pos="-0.1 0.0 0.0" rot="0.0 90.0 0.0" size="10 1 2" color="0.09 0.09 0.09"/>
+						<voxbox id_="1492804608" name="Stair" pos="-0.2 0.2 0.1" rot="0.0 110.0 0.0" size="11 1 2" color="0.09 0.09 0.09"/>
+						<voxbox id_="54332660" name="Stair" pos="-0.2 0.4 0.1" rot="0.0 130.0 0.0" size="11 1 2" color="0.09 0.09 0.09"/>
+						<voxbox id_="1710725120" name="Stair" pos="-0.2 0.6 0.1" rot="0.0 150.0 0.0" size="10 1 2" color="0.09 0.09 0.09"/>
+					</group>
+					<group id_="384719808" name="Stairs" pos="0.1 2.4 0.1" rot="0.0 -90.0 0.0">
+						<voxbox id_="1065942528" name="Stair" pos="-0.1 0.0 0.0" rot="0.0 90.0 0.0" size="10 1 2" color="0.09 0.09 0.09"/>
+						<voxbox id_="2120939904" name="Stair" pos="-0.2 0.2 0.1" rot="0.0 110.0 0.0" size="11 1 2" color="0.09 0.09 0.09"/>
+						<voxbox id_="372136128" name="Stair" pos="-0.2 0.4 0.1" rot="0.0 130.0 0.0" size="11 1 2" color="0.09 0.09 0.09"/>
+						<voxbox id_="374495552" name="Stair" pos="-0.2 0.6 0.1" rot="0.0 150.0 0.0" size="10 1 2" color="0.09 0.09 0.09"/>
+					</group>
+					<group id_="830260736" name="Stairs" pos="0.1 3.2 0.0">
+						<voxbox id_="2003819904" name="Stair" pos="-0.1 0.0 0.0" rot="0.0 90.0 0.0" size="10 1 2" color="0.09 0.09 0.09"/>
+						<voxbox id_="1622508288" name="Stair" pos="-0.2 0.2 0.1" rot="0.0 110.0 0.0" size="11 1 2" color="0.09 0.09 0.09"/>
+						<voxbox id_="792837376" name="Stair" pos="-0.2 0.4 0.1" rot="0.0 130.0 0.0" size="11 1 2" color="0.09 0.09 0.09"/>
+						<voxbox id_="829277632" name="Stair" pos="-0.2 0.6 0.1" rot="0.0 150.0 0.0" size="10 1 2" color="0.09 0.09 0.09"/>
+					</group>
+					<group id_="2057104000" name="Stairs" pos="0.0 4.0 0.0" rot="0.0 90.0 0.0">
+						<voxbox id_="611029440" name="Stair" pos="-0.1 0.0 0.0" rot="0.0 90.0 0.0" size="10 1 2" color="0.09 0.09 0.09"/>
+						<voxbox id_="2040718976" name="Stair" pos="-1.1 0.2 0.1" rot="0.0 90.0 0.0" size="11 1 10" color="0.09 0.09 0.09"/>
+					</group>
+				</group>
+				<group id_="436103168" open_="true" name="Body" pos="-0.0 0.0 -0.2">
+					<vox id_="1360544896" name="1st Floor" tags="unbreakable" pos="0.0 0.1 0.3" file="MOD/resources/vox/vehicles/knightbus.vox" object="1st_floor"/>
+					<vox id_="984541888" name="2nd floor" tags="unbreakable" pos="0.0 2.6 0.3" file="MOD/resources/vox/vehicles/knightbus.vox" object="2nd_floor"/>
+					<vox id_="183577536" name="3rd floor" tags="unbreakable" pos="0.0 4.6 0.1" file="MOD/resources/vox/vehicles/knightbus.vox" object="3rd_floor"/>
+					<group id_="100800520" open_="true" name="Beds" pos="0.0 0.8 1.4">
+						<vox id_="1484153344" name="Bed" tags="unbreakable" pos="0.3 0.0 -1.8" rot="0.0 160.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
+						<vox id_="1083572864" name="Bed" tags="unbreakable" pos="-0.3 3.8 1.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
+						<vox id_="712813056" name="Bed" tags="unbreakable" pos="-0.4 3.8 0.9" rot="0.0 -10.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
+						<vox id_="65277840" name="Bed" tags="unbreakable" pos="-0.4 3.8 -2.3" rot="0.0 180.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
+						<vox id_="2022302208" name="Bed" tags="unbreakable" pos="0.3 1.9 2.0" rot="0.0 30.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
+						<vox id_="91493840" name="Bed" tags="unbreakable" pos="-0.4 1.9 0.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
+						<vox id_="366106432" name="Bed" tags="unbreakable" pos="0.3 1.9 -2.3" rot="0.0 180.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
+						<vox id_="407200032" name="Bed" tags="unbreakable" pos="0.4 0.0 0.8" rot="0.0 -170.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
+						<vox id_="729394688" name="Bed" tags="unbreakable" pos="0.4 0.0 -0.2" rot="0.0 -180.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
+					</group>
+					<vox id_="1118177920" name="Chandelier" tags="unbreakable" pos="0.0 3.5 0.8" prop="true" file="MOD/resources/vox/vehicles/knightbus.vox" object="chandelier">
+						<rope id_="1769580032" pos="0.0 0.9 0.0" strength="-1">
+							<location id_="1407668096" pos="0.0 0.5 0.0" rot="0.0 0.0 0.0"/>
+							<location id_="1276588160" pos="0.0 2.3 0.0" rot="0.0 0.0 0.0"/>
+						</rope>
+						<light id_="8913440" pos="0.0 0.4 0.0" color="1.0 0.98 0.79" unshadowed="0.1"/>
+					</vox>
+					<vox id_="31393660" name="Chandelier" tags="unbreakable" pos="0.0 1.6 0.0" prop="true" file="MOD/resources/vox/vehicles/knightbus.vox" object="chandelier">
+						<rope id_="13173540" pos="0.0 0.9 0.0" strength="-1">
+							<location id_="510491072" pos="0.0 0.5 0.0" rot="0.0 0.0 0.0"/>
+							<location id_="1288188672" pos="0.0 4.2 0.0" rot="0.0 0.0 0.0"/>
+						</rope>
+						<light id_="1754571392" pos="0.0 0.4 0.0" color="1.0 0.98 0.79" unshadowed="0.1"/>
+					</vox>
+				</group>
+				<group id_="714320448" open_="true" name="Wheels" pos="0.0 -0.5 0.6">
+					<wheel id_="1184569984" open_="true" name="fl" pos="1.3 0.65 2.45" steer="1">
+						<vox id_="635410304" name="Wheel" pos="0.0 -0.65 0.05" file="MOD/resources/vox/vehicles/knightbus.vox" object="wheel"/>
+					</wheel>
+					<wheel id_="565544640" open_="true" name="fr" pos="-1.3 0.65 2.45" steer="1">
+						<vox id_="104143056" name="Wheel" pos="0.0 -0.65 -0.05" rot="0.0 -180.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="wheel"/>
+					</wheel>
+					<wheel id_="568166272" open_="true" name="br" pos="-1.3 0.65 -2.35" rot="0.0 -180.0 0.0" drive="1">
+						<vox id_="1071447936" name="Wheel" pos="0.0 -0.65 0.05" file="MOD/resources/vox/vehicles/knightbus.vox" object="wheel"/>
+					</wheel>
+					<wheel id_="1840035456" open_="true" name="bl" pos="1.3 0.65 -2.35" rot="0.0 -180.0 0.0" drive="1">
+						<vox id_="2093806336" name="Wheel" pos="0.0 -0.65 -0.05" rot="0 180 0" file="MOD/resources/vox/vehicles/knightbus.vox" object="wheel"/>
+					</wheel>
+				</group>
+				<location id_="904976320" name="player" tags="player" pos="-0.7 1.9 3.5" rot="0.0 -180.0 0.0"/>
+				<location id_="107157904" name="exhaust" tags="exhaust" pos="-1.0 0.1 -4.1" rot="0.0 -180.0 0.0"/>
+			</body>
+		</vehicle>
+	</group>
+</prefab>
+
