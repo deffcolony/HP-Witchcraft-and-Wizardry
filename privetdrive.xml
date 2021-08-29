@@ -17,7 +17,7 @@
 		<group id_="322260192" name="Ground" pos="0.0 0.0 0.0">
 			<voxbox id_="1052375808" pos="-50.0 0.0 -50.0" rot="0.0 0.0 0.0" texture="6 0.75" size="998 4 1000" color="0.7 0.7 0.7"/>
 		</group>
-		<group id_="1837544960" open_="true" name="Main Building" pos="0.0 0.2 0.0">
+		<group id_="1837544960" name="Main Building" pos="0.0 0.2 0.0">
 			<group id_="1023276032" hidden_="true" name="Attic" pos="0.0 0.3 0.0">
 				<group id_="968746752" hidden_="true" name="Floor / Ceiling" pos="-18.6 0.3 0.2">
 					<voxbox id_="1299854848" hidden_="true" name="paint" pos="32.6 6.2 -4.8" rot="0.0 0.0 0.0" texture="6 0.35" size="107 1 51" material="plaster" color="0.9 0.9 0.85"/>
@@ -494,7 +494,7 @@
 					</voxbox>
 				</group>
 			</group>
-			<group id_="488666240" open_="true" name="Ground Floor" pos="14.1 -0.2 -0.2">
+			<group id_="488666240" name="Ground Floor" pos="14.1 -0.2 -0.2">
 				<group id_="1973606016" name="Walls" pos="-14.1 0.2 0.2">
 					<group id_="937877376" name="Wallpapers">
 						<voxbox id_="1682346240" name="wallpaper" pos="20.0 0.3 1.3" rot="0.0 -90.0 0.0" texture="9 0.5" size="47 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_kitchen.vox" object="wallpaper"/>
@@ -602,8 +602,8 @@
 						<voxbox id_="55184680" name="power_plug" pos="6.8 1.5 5.9" rot="0.0 180.0 0.0" texture="6 0.4" size="1 1 1" material="plastic" color="0.9 0.9 0.9"/>
 					</group>
 				</group>
-				<group id_="1878310912" open_="true" name="Furniture" pos="-14.1 0.2 0.2">
-					<group id_="2131622912" open_="true" name="Living Room" pos="16.9 0.3 -2.1">
+				<group id_="1878310912" name="Furniture" pos="-14.1 0.2 0.2">
+					<group id_="2131622912" name="Living Room" pos="16.9 0.3 -2.1">
 						<vox id_="1870118400" name="furniture" pos="-1.9 0.1 0.2" rot="0.0 90.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_mahogany_furniture.vox" object="decor table (small)"/>
 						<vox id_="304564384" name="furniture" pos="2.2 0.1 0.3" rot="0.0 -90.0 0.0" texture="3 0.75" density="7" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="sofa">
 							<vox id_="1892729600" name="furniture" pos="-0.66 0.62 0.1" rot="-15.7 24.1 -1.7" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="pillow red"/>
@@ -653,8 +653,8 @@
 						<vox id_="1623622400" name="furniture" pos="-2.2 1.2 -2.5" rot="0.0 0.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_table_decor.vox" object="pink flower"/>
 						<vox id_="1907803904" name="furniture" pos="-1.5 1.2 -2.5" rot="0.0 10.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_picture_frames.vox" object="standing picture 1"/>
 						<vox id_="1442797568" name="furniture" pos="-0.7 1.7 3.0" rot="0.0 180.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_picture_frames.vox" object="family portrait"/>
-						<vox id_="2122447360" open_="true" name="furniture" pos="0.4 1.8 -2.3" rot="5.0 0.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_picture_frames.vox" object="big golden mirror">
-							<voxbox id_="1603042816" name="detail" pos="0.6 0.1 0.0" rot="0.0 180.0 0.0" size="12 8 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_staircase.vox" object="wallpaper" material="glass" color="1 1 1" pbr="1 0.95 0 0"/>
+						<vox id_="2122447360" name="furniture" pos="0.4 1.8 -2.3" rot="5.0 0.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_picture_frames.vox" object="big golden mirror">
+							<voxbox id_="1603042816" name="detail" pos="0.6 0.1 0.0" rot="0.0 180.0 0.0" size="12 8 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_staircase.vox" object="wallpaper" material="glass" color="1 1 1" pbr="0.1 0.95 0 0"/>
 						</vox>
 						<vox id_="603754496" name="furniture" pos="2.1 0.1 -2.2" rot="0.0 90.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_mahogany_furniture.vox" object="round table"/>
 						<vox id_="2011160448" name="furniture" pos="-0.6 0.1 -1.8" rot="0.0 90.0 0.0" texture="3 0.75" strength="0.5" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_lamps.vox" object="floor lamp">
@@ -1524,7 +1524,7 @@
 		</group>
 	</group>
 	<spawnpoint id_="1077084416" name="da wizard spawnpoint" pos="-6.3 0.0 2.5" rot="0.0 90.0 0.0"/>
-	<instance id_="215364448" pos="-8.0 0.9 -10.4" rot="0.0 -180.0 0.0" file="MOD/resources/prefab/knightbus.xml"/>
+	<instance id_="1030354368" pos="-8.0 0.9 -10.4" rot="0.0 180.0 0.0" file="MOD/resources/prefab/knightbus.xml"/>
 	<layers/>
 </scene>
 
