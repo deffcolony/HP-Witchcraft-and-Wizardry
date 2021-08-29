@@ -1,5 +1,5 @@
 <prefab version="0.7.4">
-	<group id_="1351172608" open_="true" name="instance=MOD/resources/prefab/knightbus.xml" pos="0.0 0.9 0.0" rot="0.0 0.0 0.0">
+	<group id_="1569289728" open_="true" name="instance=MOD/resources/prefab/knightbus.xml" pos="-8.0 0.9 -10.4" rot="0.0 180.0 0.0">
 		<vehicle id_="1434670592" open_="true" pos="0.0 -0.4 0.4" sound="dumptruck" topspeed="90" acceleration="3" strength="10" antispin="0.7" antiroll="1" difflock="0.8">
 			<body id_="314526464" open_="true" name="KnightBus" pos="0.0 0.4 -0.3" rot="0.0 -180.0 0.0" dynamic="true">
 				<group id_="817611520" name="All of the Stairs" pos="-0.4 0.3 -2.9" rot="0.0 0.0 0.0">
@@ -43,15 +43,15 @@
 					<vox id_="984541888" name="2nd floor" tags="unbreakable" pos="0.0 2.6 0.3" file="MOD/resources/vox/vehicles/knightbus.vox" object="2nd_floor"/>
 					<vox id_="183577536" name="3rd floor" tags="unbreakable" pos="0.0 4.6 0.1" file="MOD/resources/vox/vehicles/knightbus.vox" object="3rd_floor"/>
 					<group id_="100800520" open_="true" name="Beds" pos="0.0 0.8 1.4">
-						<vox id_="1484153344" name="Bed" tags="unbreakable" pos="0.3 0.0 -1.8" rot="0.0 160.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
-						<vox id_="1083572864" name="Bed" tags="unbreakable" pos="-0.3 3.8 1.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
-						<vox id_="712813056" name="Bed" tags="unbreakable" pos="-0.4 3.8 0.9" rot="0.0 -10.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
-						<vox id_="65277840" name="Bed" tags="unbreakable" pos="-0.4 3.8 -2.3" rot="0.0 180.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
-						<vox id_="2022302208" name="Bed" tags="unbreakable" pos="0.3 1.9 2.0" rot="0.0 30.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
-						<vox id_="91493840" name="Bed" tags="unbreakable" pos="-0.4 1.9 0.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
-						<vox id_="366106432" name="Bed" tags="unbreakable" pos="0.3 1.9 -2.3" rot="0.0 180.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
-						<vox id_="407200032" name="Bed" tags="unbreakable" pos="0.4 0.0 0.8" rot="0.0 -170.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
-						<vox id_="729394688" name="Bed" tags="unbreakable" pos="0.4 0.0 -0.2" rot="0.0 -180.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
+						<vox id_="1484153344" name="Bed" tags="unbreakable" pos="0.1 0.0 -2.0" rot="0.0 170.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
+						<vox id_="1083572864" name="Bed" tags="unbreakable" pos="-0.1 3.8 1.8" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
+						<vox id_="712813056" name="Bed" tags="unbreakable" pos="-0.1 3.8 0.6" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
+						<vox id_="65277840" name="Bed" tags="unbreakable" pos="0.1 3.8 -2.3" rot="0.0 180.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
+						<vox id_="2022302208" name="Bed" tags="unbreakable" pos="0.0 1.9 2.0" rot="0.0 10.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
+						<vox id_="91493840" name="Bed" tags="unbreakable" pos="0.1 1.9 0.6" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
+						<vox id_="366106432" name="Bed" tags="unbreakable" pos="0.1 1.9 -2.3" rot="0.0 180.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
+						<vox id_="407200032" name="Bed" tags="unbreakable" pos="0.1 0.0 0.5" rot="0.0 180.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
+						<vox id_="729394688" name="Bed" tags="unbreakable" pos="-0.1 0.0 -0.6" rot="0.0 -180.0 0.0" file="MOD/resources/vox/vehicles/knightbus.vox" object="bed"/>
 					</group>
 					<vox id_="1118177920" name="Chandelier" tags="unbreakable" pos="0.0 3.5 0.8" prop="true" file="MOD/resources/vox/vehicles/knightbus.vox" object="chandelier">
 						<rope id_="1769580032" pos="0.0 0.9 0.0" strength="-1">
@@ -67,8 +67,70 @@
 						</rope>
 						<light id_="1754571392" pos="0.0 0.4 0.0" color="1.0 0.98 0.79" unshadowed="0.1"/>
 					</vox>
+					<group id_="528121312" name="Miachelsoft Windowz" pos="-0.1 1.7 0.9">
+						<script id_="1822667392" pos="1.5 0.0 -1.2" file="MOD/resources/scripts/lockjoint.lua">
+							<vox id_="1727110144" name="Window" tags="interact=lock target" pos="0.0 0.1 0.0" prop="true" file="MOD/resources/vox/vehicles/knightbus.vox" object="window">
+								<joint id_="1765975296" tags="joint" pos="0.0 0.0 0.0" rot="-90.0 0.0 0.0" type="prismatic" rotstrength="10" rotspring="1" limits="-0.3 0"/>
+							</vox>
+						</script>
+						<script id_="1224025088" pos="1.5 0.0 1.2" file="MOD/resources/scripts/lockjoint.lua">
+							<vox id_="833406656" name="Window" tags="interact=lock target" pos="0.0 0.1 0.0" prop="true" file="MOD/resources/vox/vehicles/knightbus.vox" object="window">
+								<joint id_="2128345984" tags="joint" pos="0.0 0.0 0.0" rot="-90.0 0.0 0.0" type="prismatic" rotstrength="10" rotspring="1" limits="-0.3 0"/>
+							</vox>
+						</script>
+						<script id_="1471307520" pos="-1.3 0.0 1.2" rot="0.0 -180.0 0.0" file="MOD/resources/scripts/lockjoint.lua">
+							<vox id_="441870688" open_="true" name="Window" tags="interact=lock target" pos="0.0 0.1 0.0" prop="true" file="MOD/resources/vox/vehicles/knightbus.vox" object="window">
+								<joint id_="1989925504" tags="joint" pos="0.0 0.0 0.0" rot="-90.0 0.0 0.0" type="prismatic" rotstrength="10" rotspring="1" limits="-0.3 0"/>
+							</vox>
+						</script>
+						<script id_="1071316864" pos="-1.3 0.0 -1.20001" rot="0.0 -180.0 0.0" file="MOD/resources/scripts/lockjoint.lua">
+							<vox id_="1387154048" name="Window" tags="interact=lock target" pos="0.0 0.1 0.0" prop="true" file="MOD/resources/vox/vehicles/knightbus.vox" object="window">
+								<joint id_="2089021952" tags="joint" pos="0.0 0.0 0.0" rot="-90.0 0.0 0.0" type="prismatic" rotstrength="10" rotspring="1" limits="-0.3 0"/>
+							</vox>
+						</script>
+						<script id_="137896160" pos="-1.3 2.0 -1.20001" rot="0.0 -180.0 0.0" file="MOD/resources/scripts/lockjoint.lua">
+							<vox id_="96671504" name="Window" tags="interact=lock target" pos="0.0 0.1 0.0" prop="true" file="MOD/resources/vox/vehicles/knightbus.vox" object="window">
+								<joint id_="2126445312" tags="joint" pos="0.0 0.0 0.0" rot="-90.0 0.0 0.0" type="prismatic" rotstrength="10" rotspring="1" limits="-0.3 0"/>
+							</vox>
+						</script>
+						<script id_="250362800" pos="1.5 2.0 -1.2" file="MOD/resources/scripts/lockjoint.lua">
+							<vox id_="1865268352" name="Window" tags="interact=lock target" pos="0.0 0.1 0.0" prop="true" file="MOD/resources/vox/vehicles/knightbus.vox" object="window">
+								<joint id_="1641449344" tags="joint" pos="0.0 0.0 0.0" rot="-90.0 0.0 0.0" type="prismatic" rotstrength="10" rotspring="1" limits="-0.3 0"/>
+							</vox>
+						</script>
+						<script id_="417620864" pos="1.5 2.0 1.2" file="MOD/resources/scripts/lockjoint.lua">
+							<vox id_="1170020096" name="Window" tags="interact=lock target" pos="0.0 0.1 0.0" prop="true" file="MOD/resources/vox/vehicles/knightbus.vox" object="window">
+								<joint id_="2107242112" tags="joint" pos="0.0 0.0 0.0" rot="-90.0 0.0 0.0" type="prismatic" rotstrength="10" rotspring="1" limits="-0.3 0"/>
+							</vox>
+						</script>
+						<script id_="1272196992" pos="-1.3 2.0 1.2" rot="0.0 -180.0 0.0" file="MOD/resources/scripts/lockjoint.lua">
+							<vox id_="667852608" open_="true" name="Window" tags="interact=lock target" pos="0.0 0.1 0.0" prop="true" file="MOD/resources/vox/vehicles/knightbus.vox" object="window">
+								<joint id_="11272880" tags="joint" pos="0.0 0.0 0.0" rot="-90.0 0.0 0.0" type="prismatic" rotstrength="10" rotspring="1" limits="-0.3 0"/>
+							</vox>
+						</script>
+						<script id_="1682936064" pos="-1.3 4.0 -1.20001" rot="0.0 -180.0 0.0" file="MOD/resources/scripts/lockjoint.lua">
+							<vox id_="1608286080" name="Window" tags="interact=lock target" pos="0.0 0.1 0.0" prop="true" file="MOD/resources/vox/vehicles/knightbus.vox" object="window">
+								<joint id_="48958380" tags="joint" pos="0.0 0.0 0.0" rot="-90.0 0.0 0.0" type="prismatic" rotstrength="10" rotspring="1" limits="-0.3 0"/>
+							</vox>
+						</script>
+						<script id_="320883840" pos="1.5 4.0 -1.2" file="MOD/resources/scripts/lockjoint.lua">
+							<vox id_="470839360" name="Window" tags="interact=lock target" pos="0.0 0.1 0.0" prop="true" file="MOD/resources/vox/vehicles/knightbus.vox" object="window">
+								<joint id_="1881325696" tags="joint" pos="0.0 0.0 0.0" rot="-90.0 0.0 0.0" type="prismatic" rotstrength="10" rotspring="1" limits="-0.3 0"/>
+							</vox>
+						</script>
+						<script id_="1762501632" pos="1.5 4.0 1.2" file="MOD/resources/scripts/lockjoint.lua">
+							<vox id_="243808800" name="Window" tags="interact=lock target" pos="0.0 0.1 0.0" prop="true" file="MOD/resources/vox/vehicles/knightbus.vox" object="window">
+								<joint id_="2095838080" tags="joint" pos="0.0 0.0 0.0" rot="-90.0 0.0 0.0" type="prismatic" rotstrength="10" rotspring="1" limits="-0.3 0"/>
+							</vox>
+						</script>
+						<script id_="96016096" pos="-1.3 4.0 1.2" rot="0.0 -180.0 0.0" file="MOD/resources/scripts/lockjoint.lua">
+							<vox id_="939057152" open_="true" name="Window" tags="interact=lock target" pos="0.0 0.1 0.0" prop="true" file="MOD/resources/vox/vehicles/knightbus.vox" object="window">
+								<joint id_="1075380352" tags="joint" pos="0.0 0.0 0.0" rot="-90.0 0.0 0.0" type="prismatic" rotstrength="10" rotspring="1" limits="-0.3 0"/>
+							</vox>
+						</script>
+					</group>
 				</group>
-				<group id_="714320448" open_="true" name="Wheels" pos="0.0 -0.5 0.6">
+				<group id_="714320448" name="Wheels" pos="0.0 -0.5 0.6">
 					<wheel id_="1184569984" open_="true" name="fl" pos="1.3 0.65 2.45" steer="1">
 						<vox id_="635410304" name="Wheel" pos="0.0 -0.65 0.05" file="MOD/resources/vox/vehicles/knightbus.vox" object="wheel"/>
 					</wheel>

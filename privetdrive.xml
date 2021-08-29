@@ -1524,7 +1524,7 @@
 		</group>
 	</group>
 	<spawnpoint id_="1077084416" name="da wizard spawnpoint" pos="-6.3 0.0 2.5" rot="0.0 90.0 0.0"/>
-	<instance id_="567838592" pos="-8.0 0.9 -10.4" rot="0.0 -180.0 0.0" file="MOD/resources/prefab/knightbus.xml"/>
+	<instance id_="215364448" pos="-8.0 0.9 -10.4" rot="0.0 -180.0 0.0" file="MOD/resources/prefab/knightbus.xml"/>
 	<layers/>
 </scene>
 
