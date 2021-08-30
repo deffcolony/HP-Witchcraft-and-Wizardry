@@ -998,7 +998,7 @@
 						<vox id_="1585609216" name="picture" pos="0.75 1.35 -2.2" rot="0.0 0.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_picture_frames.vox" object="small wooden frame 2"/>
 					</group>
 				</group>
-				<group id_="728804800" name="Doors" pos="-14.1 0.2 0.2">
+				<group id_="728804800" open_="true" name="Doors" pos="-14.1 0.2 0.2">
 					<voxbox id_="265436992" name="main entrance" pos="13.6 0.4 1.8" rot="0.0 0.0 0.0" size="8 22 11" brush="hole">
 						<vox id_="1959580416" name="door frame" pos="0.6 0.0 0.6" rot="0.0 90.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="brown door frame"/>
 						<vox id_="951640832" name="door" pos="0.7 0.1 0.6" rot="0.0 90.0 0.0" texture="3 0.50" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="main entrance door">
@@ -1020,9 +1020,9 @@
 							<joint id_="2125265536" name="hinge" pos="-0.4 0.3 -0.1" rot="-90.0 -90.0 0.0" type="hinge" limits="0 150"/>
 						</vox>
 					</voxbox>
-					<voxbox id_="487617600" name="interior door" pos="19.6 0.4 1.8" rot="0.0 0.0 0.0" size="5 22 11" brush="hole">
+					<voxbox id_="487617600" open_="true" name="interior door" pos="19.6 0.4 1.8" rot="0.0 0.0 0.0" size="5 22 11" brush="hole">
 						<vox id_="980740544" name="door frame" pos="0.3 0.0 0.6" rot="0.0 90.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="white door frame"/>
-						<vox id_="1117522560" name="door" pos="0.4 0.1 0.6" rot="0.0 90.0 0.0" texture="3 0.35" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="glass interior door">
+						<vox id_="1117522560" open_="true" name="door" pos="0.4 0.1 0.6" rot="0.0 90.0 0.0" texture="3 0.35" strength="3" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="glass interior door">
 							<joint id_="1407209344" name="hinge" pos="-0.4 1.7 0.0" rot="90.0 90.0 0.0" type="hinge" limits="0 160"/>
 							<joint id_="47975280" name="hinge" pos="-0.4 0.3 0.0" rot="90.0 90.0 0.0" type="hinge" limits="0 160"/>
 						</vox>
