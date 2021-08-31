@@ -14,7 +14,7 @@
 		<script id_="1390037888" name="fireplace" file="MOD/resources/scripts/fireplace.lua"/>
 	</group>
 	<group id_="1989138944" open_="true" name="Scene">
-		<group id_="322260192" name="Ground" pos="0.0 0.0 0.0">
+		<group id_="322260192" open_="true" name="Ground" pos="0.0 0.0 0.0">
 			<voxbox id_="1052375808" pos="-50.0 0.0 -50.0" rot="0.0 0.0 0.0" texture="6 0.75" size="998 4 1000" color="0.7 0.7 0.7"/>
 		</group>
 		<group id_="1837544960" open_="true" name="Main Building" pos="0.0 0.2 0.0">
@@ -634,12 +634,12 @@
 						<voxbox id_="871485376" name="wooden wall" pos="19.8 0.4 5.5" rot="0.0 90.0 0.0" texture="2 0.7" size="43 30 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
 						<voxbox id_="482964256" name="wooden wall" pos="24.495 0.4 1.105" rot="0.0 0.0 0.0" texture="2 0.7" size="8 30 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
 					</group>
-					<group id_="1810149248" name="chimney" pos="19.6 0.0 0.0">
+					<group id_="1810149248" open_="true" name="chimney" pos="19.6 0.0 0.0">
 						<voxbox id_="176761376" name="concrete" pos="-3.4 0.2 -5.2" rot="0.0 0.0 0.0" texture="10 0.5" size="1 32 6" material="masonry" color="0.55 0.55 0.55"/>
 						<voxbox id_="1445222528" name="concrete" pos="-1.3 0.2 -5.2" rot="0.0 0.0 0.0" texture="10 0.5" size="1 32 6" material="masonry" color="0.55 0.55 0.55"/>
 						<voxbox id_="1832170752" name="concrete" pos="-1.3 0.2 -4.7" rot="0.0 -90.0 0.0" texture="10 0.5" size="1 32 20" material="masonry" color="0.55 0.55 0.55"/>
-						<voxbox id_="331042528" name="fireplace" pos="-2.8 0.4 -4.9" rot="0.0 0.0 0.0" size="10 11 7" brush="hole">
-							<vox id_="982510144" name="prop" tags="fireplace" pos="0.5 0.0 0.5" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/living_room/livingr_fireplace.vox">
+						<voxbox id_="331042528" open_="true" name="fireplace" pos="-2.8 0.4 -4.9" rot="0.0 0.0 0.0" size="10 11 7" brush="hole">
+							<vox id_="982510144" open_="true" name="prop" tags="fireplace" pos="0.5 0.0 0.5" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/living_room/livingr_fireplace.vox">
 								<trigger id_="1825485568" name="fireplace" tags="sfx" pos="0.0 -0.1 0.0" type="polygon" size="3">
 									<vertex pos="-3.0 -0.5"/>
 									<vertex pos="7.5 -0.5"/>
@@ -1110,7 +1110,7 @@
 						</vox>
 					</voxbox>
 				</group>
-				<group id_="1749983488" name="Floor" pos="-18.6 0.3 0.2">
+				<group id_="1749983488" open_="true" name="Floor" pos="-18.6 0.3 0.2">
 					<group id_="777959808" name="Foundation">
 						<voxbox id_="1777051520" name="Concrete" pos="17.9 0.1 1.8" rot="0.0 0.0 0.0" texture="10 0.5" size="9 2 11" material="masonry" color="0.5 0.5 0.5"/>
 						<voxbox id_="664772224" name="Concrete" pos="27.5 0.1 6.9" rot="0.0 90.0 0.0" texture="10 0.5" size="9 2 11" material="masonry" color="0.5 0.5 0.5"/>
@@ -1126,7 +1126,7 @@
 							<vertex pos="-1.9 1.0"/>
 						</voxagon>
 					</group>
-					<group id_="1037301568" name="Carpet / Tiles" pos="24.0 0.2 -2.0">
+					<group id_="1037301568" open_="true" name="Carpet / Tiles" pos="24.0 0.2 -2.0">
 						<voxagon id_="1373587328" name="carpet" pos="2.1 0.0 2.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="ugly carpet" extrude="1">
 							<vertex pos="-7.3 -4.9"/>
 							<vertex pos="-5.5 -4.9"/>

@@ -26,6 +26,7 @@ function init()
   myVolDown = FindShape("radiovoldownbutton", true)
   myRandom = FindShape("radioButtonRandom", true)
   mylast = FindShape("radioButtonUndo", true)
+  trigger = FindTrigger("sfx", true)
   songToPlay = math.random(#songs)
 end
 
@@ -34,90 +35,92 @@ end
 function tick()
   if radioAlive then
     t = GetShapeWorldTransform(myRadio)
-    if InputPressed("interact") and GetPlayerInteractShape() == myButtonGreen then
-      PlaySound(nextSongSound, t.pos, 0.2)
-      if radioOn then
-        DrawShapeOutline(myRadio, 1, 1, 1, 1)
-        songToPlay = songToPlay + 1
-        StopMusic()
-        
-        if songToPlay > #songs then
-          songToPlay = 1
-        end
-        schreib(songs[songToPlay])
-      end
-    end
-    
-    if InputPressed("interact") and GetPlayerInteractShape() == powerbutton then
-      PlaySound(OnOffSound, t.pos, 0.2)
-      DrawShapeOutline(myRadio, 1, 1, 1, 1)
-      if radioOn then
-        radioOn = false
-        StopMusic()
-      else
-        radioOn = true
-        schreib(songs[songToPlay])
-      end
-    end
-    
-    if InputPressed("interact") and GetPlayerInteractShape() == myVolUp then
-      PlaySound(nextSongSound, t.pos, 0.2)
-      volume = volume + 0.1
-    end
-    
-    if InputPressed("interact") and GetPlayerInteractShape() == myVolDown then
-      PlaySound(nextSongSound, t.pos, 0.2)
-      volume = volume - 0.1
-    end
-    
-    if volume > 1 then
-      volume = 1
-    end
-    if volume < 0.1 then
-      volume = 0.1
-    end
-    
-    if InputPressed("interact") and GetPlayerInteractShape() == mylast then
-      PlaySound(nextSongSound, t.pos, 0.2)
-      if radioOn then
-        DrawShapeOutline(myRadio, 1, 1, 1, 1)
-        songToPlay = songToPlay - 1
-        StopMusic()
-        if songToPlay < 1 then
-          songToPlay = #songs
-        end
-        schreib(songs[songToPlay])
-      end
-    end
-    
-    if InputPressed("interact") and GetPlayerInteractShape() == myRandom then
-      if radioOn then
-        playRandom()
-        DrawShapeOutline(myRadio, 1, 1, 1, 1)
-      end
-      PlaySound(nextSongSound, t.pos, 0.2)
-    end
-  
-    if radioOn then
-      PlayLoop(channels[songToPlay], t.pos, volume)
-    end
-    
-    if IsShapeBroken(myRadio) then
-        killRadio()
-        radioAlive = false
-    end
-  end
-  
-  if counter == 0 then
-    for i=0 , 50 do
-      DebugPrint(" ")
-    end
-  end
-    
-  
-  if counter >= 0 then
-    counter = counter - 1
-  end
+	if IsPointInTrigger(trigger, GetPlayerTransform().pos) then
+		if InputPressed("interact") and GetPlayerInteractShape() == myButtonGreen then
+		  PlaySound(nextSongSound, t.pos, 0.2)
+		  if radioOn then
+			DrawShapeOutline(myRadio, 1, 1, 1, 1)
+			songToPlay = songToPlay + 1
+			StopMusic()
+			
+			if songToPlay > #songs then
+			  songToPlay = 1
+			end
+			schreib(songs[songToPlay])
+		  end
+		end
+		
+		if InputPressed("interact") and GetPlayerInteractShape() == powerbutton then
+		  PlaySound(OnOffSound, t.pos, 0.2)
+		  DrawShapeOutline(myRadio, 1, 1, 1, 1)
+		  if radioOn then
+			radioOn = false
+			StopMusic()
+		  else
+			radioOn = true
+			schreib(songs[songToPlay])
+		  end
+		end
+		
+		if InputPressed("interact") and GetPlayerInteractShape() == myVolUp then
+		  PlaySound(nextSongSound, t.pos, 0.2)
+		  volume = volume + 0.1
+		end
+		
+		if InputPressed("interact") and GetPlayerInteractShape() == myVolDown then
+		  PlaySound(nextSongSound, t.pos, 0.2)
+		  volume = volume - 0.1
+		end
+		
+		if volume > 1 then
+		  volume = 1
+		end
+		if volume < 0.1 then
+		  volume = 0.1
+		end
+		
+		if InputPressed("interact") and GetPlayerInteractShape() == mylast then
+		  PlaySound(nextSongSound, t.pos, 0.2)
+		  if radioOn then
+			DrawShapeOutline(myRadio, 1, 1, 1, 1)
+			songToPlay = songToPlay - 1
+			StopMusic()
+			if songToPlay < 1 then
+			  songToPlay = #songs
+			end
+			schreib(songs[songToPlay])
+		  end
+		end
+		
+		if InputPressed("interact") and GetPlayerInteractShape() == myRandom then
+		  if radioOn then
+			playRandom()
+			DrawShapeOutline(myRadio, 1, 1, 1, 1)
+		  end
+		  PlaySound(nextSongSound, t.pos, 0.2)
+		end
+	  
+		if radioOn then
+		  PlayLoop(channels[songToPlay], t.pos, volume)
+		end
+		
+		if IsShapeBroken(myRadio) then
+			killRadio()
+			radioAlive = false
+		end
+	  end
+	  
+	  if counter == 0 then
+		for i=0 , 50 do
+		  DebugPrint(" ")
+		end
+	  end
+		
+	  
+	  if counter >= 0 then
+		counter = counter - 1
+	  end
+	end
 end  
   
 
