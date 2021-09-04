@@ -11,10 +11,10 @@ function tick()
     end
 
     if locked then
-        SetJointMotor(joint, -1, 10000)
-        SetTag(shape, "interact", "unlock")
+        SetJointMotor(joint, -1, 1000)
+        SetTag(shape, "interact", "Open")
     else
-        SetJointMotor(joint, 0, 10)
-        SetTag(shape, "interact", "lock")
+        SetJointMotor(joint, 1, 1000)
+        SetTag(shape, "interact", "Close")
     end
 end

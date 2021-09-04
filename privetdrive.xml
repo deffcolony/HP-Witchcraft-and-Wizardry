@@ -68,8 +68,8 @@
 				</group>
 			</group>
 			<group id_="1247488384" open_="true" name="First Floor" pos="18.6 3.4 -0.2">
-				<group id_="2110519040" name="Walls" pos="-18.6 0.3 0.2">
-					<group id_="1611104256" name="Wallpapers">
+				<group id_="2110519040" open_="true" name="Walls" pos="-18.6 0.3 0.2">
+					<group id_="1611104256" open_="true" name="Wallpapers">
 						<voxbox id_="1350713856" name="wallpaper" pos="21.4 0.0 -2.0" rot="0.0 -90.0 0.0" texture="9 0.5" size="81 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_hallway.vox" object="wallpaper"/>
 						<voxbox id_="864341504" name="wallpaper" pos="21.6 0.0 -2.1" rot="0.0 -90.0 0.0" texture="9 0.40" size="32 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_dudleys_bedroom.vox" object="wallpaper"/>
 						<voxbox id_="2001657088" name="wallpaper" pos="21.6 0.0 -2.1" rot="0.0 -180.0 0.0" texture="9 0.40" size="16 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_dudleys_bedroom.vox" object="wallpaper"/>
@@ -1778,7 +1778,7 @@
 		</group>
 	</group>
 	<spawnpoint id_="1077084416" name="da wizard spawnpoint" pos="-6.3 0.0 2.5" rot="0.0 90.0 0.0"/>
-	<instance id_="1030354368" pos="-8.0 0.9 -10.4" rot="0.0 180.0 0.0" file="MOD/resources/prefab/knightbus.xml"/>
+	<instance id_="1382500736" pos="-8.0 0.9 -10.4" rot="0.0 180.0 0.0" file="MOD/resources/prefab/knightbus.xml"/>
 	<layers/>
 </scene>
 
