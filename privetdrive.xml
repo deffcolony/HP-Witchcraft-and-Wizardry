@@ -14,13 +14,13 @@
 		<script id_="1390037888" name="fireplace" file="MOD/resources/scripts/fireplace.lua"/>
 	</group>
 	<group id_="1989138944" open_="true" name="Scene">
-		<group id_="322260192" name="Ground" pos="0.0 0.0 0.0">
+		<group id_="322260192" open_="true" name="Ground" pos="0.0 0.0 0.0">
 			<voxscript id_="2096690176" pos="50.2 -2.5 -50.1" rot="0.0 -90.0 0.0" texture="10 .6" file="MOD/resources/scripts/privetdrive_ground.lua">
 				<parameters file="MOD/resources/img/privetdrive_ground.png" scale="255"/>
 			</voxscript>
 		</group>
 		<group id_="1837544960" open_="true" name="Main Building" pos="15.0 2.1 0.5">
-			<group id_="1595309184" name="Front Yard">
+			<group id_="1595309184" open_="true" name="Front Yard">
 				<group id_="1687458432" name="Fence">
 					<voxbox id_="1213800832" name="pole" pos="-18.2 0.5 -1.3" rot="0.0 0.0 0.0" texture="7 0.75" size="2 10 2" material="metal" color="0.35 0.25 0.22">
 						<rope id_="1867627776" pos="0.1 0.9 0.0" rot="0.0 90.0 0.0" color=".05 .05 .05">
@@ -66,16 +66,60 @@
 					</voxbox>
 					<voxbox id_="849005184" name="pole" pos="-10.7 0.5 -11.3" rot="0.0 0.0 0.0" texture="7 0.75" size="2 10 2" material="metal" color="0.35 0.25 0.22"/>
 				</group>
+				<group id_="691250368" open_="true" name="Plants">
+					<vox id_="1175525376" name="plant" pos="-7.6 0.45 -6.8" rot="0.0 15.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_tree_01"/>
+					<vox id_="775665920" name="plant" pos="-8.55 0.4 -5.65" rot="0.0 20.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_01"/>
+					<vox id_="202518592" name="plant" pos="-9.05 0.4 -2.9" rot="0.0 20.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_02"/>
+					<vox id_="1718131072" name="plant" pos="-7.55 0.4 -1.6" rot="0.0 85.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="tiny_garden_bush_01"/>
+					<vox id_="432039680" name="plant" pos="-7.35 0.4 -2.6" rot="0.0 155.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="normal_garden_bush_01"/>
+					<vox id_="157361536" name="plant" pos="-9.7 0.5 -1.55" rot="0.0 0.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="tiny_garden_bush_02"/>
+					<vox id_="1756209792" name="plant" pos="-7.45 0.4 -4.15" rot="0.0 85.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_bush_01"/>
+					<vox id_="2123561600" name="plant" pos="-8.95 0.4 -4.35" rot="0.0 135.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="spiky_garden_bush_01"/>
+					<vox id_="1169233664" name="plant" pos="-8.75 0.4 -1.8" rot="0.0 -125.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="spiky_garden_bush_02"/>
+					<vox id_="808370368" name="plant" pos="-7.55 0.4 -8.0" rot="0.0 -170.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="spiky_garden_bush_02"/>
+					<vox id_="1428575360" name="plant" pos="-8.5 0.4 -7.1" rot="0.0 15.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="tiny_garden_bush_01"/>
+				</group>
 			</group>
-			<group id_="819446592" name="Garden" pos="9.3 1.0 0.0">
-				<group id_="1235560064" name="Structures">
+			<group id_="819446592" open_="true" name="Garden" pos="9.3 1.0 0.0">
+				<group id_="1830663296" open_="true" name="Plants" pos="4.45 0.3 -4.8">
+					<vox id_="2119104768" name="plant" pos="-3.95 -0.9 5.55" rot="0.0 -150.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_02"/>
+					<vox id_="1480155392" name="plant" pos="-3.9 -0.9 4.25" rot="0.0 -100.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="tiny_garden_bush_01"/>
+					<vox id_="1613594752" name="plant" pos="-1.85 -0.9 -2.2" rot="0.0 180.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_bush_02"/>
+					<vox id_="1352155776" name="plant" pos="3.85 -0.9 11.6" rot="0.0 -170.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_bush_02"/>
+					<vox id_="1580431616" name="plant" pos="5.25 -0.9 2.15" rot="0.0 180.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_02"/>
+					<vox id_="181676880" name="plant" pos="5.6 -0.9 4.25" rot="0.0 160.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_01"/>
+					<vox id_="793754944" name="plant" pos="1.95 -0.9 11.65" rot="0.0 160.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_01"/>
+					<vox id_="432498464" name="plant" pos="-2.35 -0.9 11.25" rot="0.0 160.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="tiny_garden_bush_01"/>
+					<vox id_="965338688" name="plant" pos="5.1 -0.9 9.3" rot="0.0 160.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="tiny_garden_bush_01"/>
+					<vox id_="2004409856" name="plant" pos="-0.05 -0.9 -2.35" rot="0.0 -130.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_01"/>
+					<vox id_="1893319552" name="plant" pos="3.85 -0.9 -2.3" rot="0.0 -130.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_02"/>
+					<vox id_="1317157376" name="plant" pos="4.4 -0.9 -1.1" rot="0.0 -130.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="tiny_garden_bush_01"/>
+					<vox id_="184560640" name="plant" pos="5.65 -0.9 -2.05" rot="0.0 -130.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_bush_02"/>
+					<vox id_="1561162752" name="plant" pos="5.65 -0.9 8.05" rot="0.0 -85.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_bush_02"/>
+					<vox id_="2122775040" name="plant" pos="4.8 -0.9 10.4" rot="0.0 -40.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="normal_garden_bush_01"/>
+					<vox id_="1925630720" name="plant" pos="6.15 -0.9 10.4" rot="0.0 65.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="normal_garden_bush_01"/>
+					<vox id_="1680576640" name="plant" pos="5.9 -0.9 3.2" rot="0.0 -40.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="normal_garden_bush_01"/>
+					<vox id_="1014624768" name="plant" pos="2.05 -0.9 -2.1" rot="0.0 15.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_bush_01"/>
+					<vox id_="1099236864" name="plant" pos="5.5 -0.9 0.0" rot="0.0 -145.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_bush_01"/>
+					<vox id_="57675200" name="plant" pos="5.5 -0.9 6.15" rot="0.0 -65.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_bush_01"/>
+					<vox id_="1216029184" name="plant" pos="-0.35 -0.9 11.65" rot="0.0 180.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_bush_01"/>
+					<vox id_="109451800" name="plant" pos="6.1 -0.9 1.45" rot="0.0 -75.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_tree_02"/>
+					<vox id_="488272992" name="plant" pos="6.0 -0.9 9.35" rot="0.0 -30.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_tree_02"/>
+					<vox id_="926145728" name="plant" pos="-2.1 -0.9 11.9" rot="0.0 20.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_tree_02"/>
+					<vox id_="1915734144" name="plant" pos="5.75 -0.9 11.6" rot="0.0 25.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_tree_01"/>
+					<vox id_="404971648" name="plant" pos="-3.95 -0.9 11.4" rot="0.0 -40.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_02"/>
+					<vox id_="2025775872" name="plant" pos="-3.95 -0.9 6.95" rot="0.0 160.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="normal_garden_bush_01"/>
+					<vox id_="1762829440" name="plant" pos="-4.15 -0.9 9.95" rot="0.0 -65.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="normal_garden_bush_01"/>
+					<vox id_="916314752" name="plant" pos="-3.95 -0.9 8.4" rot="0.0 -170.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_01"/>
+				</group>
+				<group id_="1235560064" open_="true" name="Structures">
 					<group id_="1253321472" name="Brick Walls">
 						<voxbox id_="1538289280" pos="1.1 -0.5 7.9" rot="0.0 90.0 0.0" texture="10 0.5" size="107 9 4" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="garden brick wall" offset="0 8 0"/>
 						<voxbox id_="187575488" pos="1.1 -0.5 -6.2" rot="0.0 90.0 0.0" texture="10 0.5" size="18 9 4" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="garden brick wall" offset="0 8 0"/>
 						<voxbox id_="841730240" pos="0.9 -0.5 -2.7" rot="0.0 90.0 0.0" texture="10 0.5" size="8 11 8" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="garden brick pillar" offset="0 6 0"/>
 						<voxbox id_="1872805504" pos="0.9 -0.5 -5.5" rot="0.0 90.0 0.0" texture="10 0.5" size="8 11 8" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="garden brick pillar" offset="0 6 0"/>
 					</group>
-					<group id_="1298544000" name="Floor Tiles">
+					<group id_="1298544000" open_="true" name="Floor Tiles">
 						<voxagon id_="830129664" name="garden_tiles" pos="-3.0 -0.6 3.1" texture="6 0.75" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="garden tiles" extrude="2">
 							<vertex pos="-1.1 -4.8"/>
 							<vertex pos="-1.8 -4.8"/>
@@ -87,20 +131,28 @@
 							<vertex pos="-1.9 -9.8"/>
 							<vertex pos="-1.9 -11.1"/>
 							<vertex pos="4.1 -11.1"/>
-							<vertex pos="4.1 4.8"/>
+							<vertex pos="4.1 -4.95"/>
+							<vertex pos="3.5 -4.4"/>
+							<vertex pos="3.05 -3.7"/>
+							<vertex pos="2.85 -2.75"/>
+							<vertex pos="2.95 4.85"/>
 							<vertex pos="-5.3 4.8"/>
+							<vertex pos="-5.3 2.4"/>
+							<vertex pos="-5.5 2.4"/>
+							<vertex pos="-5.5 1.3"/>
+							<vertex pos="-5.3 1.3"/>
 							<vertex pos="-5.3 0.9"/>
 							<vertex pos="-1.1 0.9"/>
 						</voxagon>
 					</group>
-					<group id_="48040820" name="Wooden Fence">
-						<voxbox id_="2046486528" name="wooden_fence" pos="-5.0 -0.5 -8.2" texture="4 0.6" size="152 24 3" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="tall wooden fence"/>
-						<voxbox id_="1512073344" name="wooden_fence" pos="10.3 -0.5 -8.0" rot="0.0 -90.0 0.0" texture="4 0.6" size="159 24 3" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="tall wooden fence" offset="6 0 0"/>
-						<voxbox id_="632395456" name="wooden_fence" pos="10.3 -0.5 8.1" rot="0.0 180.0 0.0" texture="4 0.6" size="185 24 3" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="tall wooden fence"/>
+					<group id_="48040820" open_="true" name="Wooden Fence">
+						<voxbox id_="2046486528" name="wooden_fence" pos="-5.0 -0.5 -8.2" texture="4 0.6" size="166 24 3" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="tall wooden fence"/>
+						<voxbox id_="1512073344" name="wooden_fence" pos="11.65 -0.5 -8.1" rot="0.0 -90.0 0.0" texture="4 0.6" size="160 24 3" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="tall wooden fence" offset="0 0 0"/>
+						<voxbox id_="632395456" name="wooden_fence" pos="11.6 -0.5 8.1" rot="0.0 180.0 0.0" texture="4 0.6" size="198 24 3" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="tall wooden fence"/>
 					</group>
 				</group>
 			</group>
-			<group id_="1023276032" name="Attic" pos="-20.5 0.7 -2.5">
+			<group id_="1023276032" open_="true" name="Attic" pos="-20.5 0.7 -2.5">
 				<group id_="968746752" name="Floor / Ceiling" pos="-18.6 0.3 0.2">
 					<group id_="1640990464" name="Ceiling" pos="38.3 6.2 0.3">
 						<voxbox id_="1299854848" name="paint" pos="-5.7 -0.0 -5.1" rot="0.0 0.0 0.0" texture="6 0.35" size="107 1 51" material="plaster" color="0.9 0.9 0.85"/>
@@ -395,8 +447,8 @@
 						</vox>
 					</voxbox>
 				</group>
-				<group id_="927915328" name="Lighting" pos="19.5 7.4 0.25">
-					<group id_="913562048" name="Cables" pos="0.2 2.2 3.3">
+				<group id_="927915328" open_="true" name="Lighting" pos="19.5 7.4 0.25">
+					<group id_="913562048" open_="true" name="Cables" pos="0.2 2.2 3.3">
 						<voxbox id_="197013248" name="metal_mounting" pos="-0.05 0.05 0.0" size="1 3 1" material="metal" color="0.4 0.4 0.4"/>
 						<voxbox id_="452225984" name="metal_mounting" pos="-0.05 -0.9 1.8" rot="0.0 0.0 0.0" size="1 1 1" material="metal" color="0.4 0.4 0.4"/>
 						<voxbox id_="551715712" name="metal_mounting" pos="-0.05 -0.9 -7.2" rot="0.0 0.0 0.0" size="1 1 1" material="metal" color="0.4 0.4 0.4"/>
@@ -784,9 +836,7 @@
 						<vox id_="1496868096" name="furniture" pos="1.05 1.3 -0.15" rot="0.0 -80.0 0.0" texture="3 0.5" density="4" strength="2.5" prop="true" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_desk.vox" object="red book"/>
 						<vox id_="1542877184" name="furniture" pos="1.8 1.5 0.2" rot="0.0 -90.0 0.0" texture="3 0.5" density="4" strength="2.5" prop="true" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_curtains.vox" object="curtain"/>
 						<vox id_="2146238336" name="furniture" pos="-0.3 1.4 -1.75" rot="0.0 -100.0 0.0" texture="3 0.5" density="4" strength="2.5" prop="true" file="MOD/resources/vox/generic_props/hedwig's_owl_cage.vox"/>
-						<vox id_="1865006208" name="lamp" pos="1.15 1.3 0.45" rot="0.0 -110.0 0.0" texture="3 0.5" density="4" strength="2.5" prop="true" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_desk.vox" object="lamp">
-							<light id_="2054023552" name="light" pos="0.05 0.5 -0.05" color="1 0.8 0.6" scale=".5" size="0.2"/>
-						</vox>
+						<vox id_="1865006208" name="lamp" pos="1.15 1.3 0.45" rot="0.0 -110.0 0.0" texture="3 0.5" density="4" strength="2.5" prop="true" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_desk.vox" object="lamp"/>
 						<vox id_="1588689664" name="furniture" pos="-0.05 1.8 2.0" rot="0.0 180.0 0.0" texture="3 0.5" density="4" strength="2.5" prop="false" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_wall_decoration.vox" object="pinboard"/>
 						<vox id_="1312307456" name="furniture" pos="0.9 1.45 2.0" rot="0.0 180.0 -5.0" texture="3 0.5" density="4" strength="2.5" prop="false" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_wall_decoration.vox" object="gryffindor flag"/>
 						<voxagon id_="1853340160" name="corner_shelf" pos="1.4 1.9 1.8" texture="3 0.5" brush="MOD/resources/vox/4_privet_drive/stairs/wooden_parts.vox" object="material" extrude="1">
@@ -795,7 +845,7 @@
 							<vertex pos="0.3 0.3"/>
 						</voxagon>
 						<vox id_="587959360" name="light" pos="-0.1 3.1 -0.2" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox" object="ceiling light">
-							<light id_="286278720" name="bulb" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="0.5" size="0.2"/>
+							<light id_="286278720" name="bulb" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="0.75" size="0.2"/>
 						</vox>
 						<vox id_="1706333952" name="radiator" pos="1.55 0.15 0.15" rot="0.0 -90.0 0.0" texture="5 0.35" file="MOD/resources/vox/4_privet_drive/building/radiators.vox" object="radiator medium"/>
 					</group>
@@ -990,15 +1040,7 @@
 							<vox id_="348738336" name="wall_light" pos="-0.25 1.75 -1.2" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/parents_bedroom/lamps.vox" object="wall lamp"/>
 							<vox id_="1141248000" name="wall_light" pos="-1.55 1.75 -1.2" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/parents_bedroom/lamps.vox" object="wall lamp"/>
 							<vox id_="1577154560" name="light-set" pos="-1.0 2.8 1.3" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/parents_bedroom/lamps.vox" object="ceiling lamp">
-								<voxbox id_="350180224" name="light" pos="0.55 -0.05 0.05" rot="30.0 140.0 0.0" size="1 1 2" material="metal" color="0.6 0.5 0.3">
-									<light id_="488076384" name="bulb" pos="0.05 0.05 0.15" type="cone" color="1 0.8 0.7" scale="1.2" angle="130" glare="0.2"/>
-								</voxbox>
-								<voxbox id_="1561556096" name="light" pos="-0.05 -0.05 -0.15" rot="35.0 15.0 0.0" size="1 1 2" material="metal" color="0.6 0.5 0.3">
-									<light id_="745058688" name="bulb" pos="0.05 0.05 0.15" type="cone" color="1 0.8 0.7" angle="130" glare="0.2"/>
-								</voxbox>
-								<voxbox id_="721660928" name="light" pos="-0.35 -0.05 0.05" rot="35.0 -140.0 0.0" size="1 1 2" material="metal" color="0.6 0.5 0.3">
-									<light id_="1310931072" name="bulb" pos="0.05 0.05 0.15" type="cone" color="1 0.8 0.7" scale="0.8" angle="130" glare="0.2"/>
-								</voxbox>
+								<light id_="1523084032" name="bulb" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="1.2" size="0.2"/>
 							</vox>
 						</group>
 						<group id_="1775806336" name="Decoration" pos="-3.0 -1.5 -0.5">
@@ -1027,9 +1069,7 @@
 							<vox id_="1902101888" name="light" pos="1.3 1.9 0.7" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox" object="ceiling light">
 								<light id_="873189440" name="bulb" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="1.2" size="0.2"/>
 							</vox>
-							<vox id_="902813504" name="desk_lamp" pos="-1.1532 0.0 -0.60656" rot="0.0 103.0 0.0" texture="9 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_dresser.vox" object="dresser lamp">
-								<light id_="1560441856" name="light" pos="0.05 0.5 -0.05" color="1 0.8 0.6" scale=".5" size="0.2"/>
-							</vox>
+							<vox id_="902813504" name="desk_lamp" pos="-1.1532 0.0 -0.60656" rot="0.0 103.0 0.0" texture="9 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_dresser.vox" object="dresser lamp"/>
 						</group>
 						<group id_="489714880" name="Furniture" pos="17.8 -0.1 -1.7">
 							<vox id_="9110060" name="closet" pos="-0.4 0.3 0.05" rot="0.0 90.0 0.0" texture="3 0.5" density="7" prop="true" file="MOD/resources/vox/4_privet_drive/dudleys_bedroom/dudley_closet.vox" object="closet body">
@@ -1185,6 +1225,7 @@
 							<voxbox id_="1206132608" name="wallpaper" pos="0.8 0.0 -0.3" rot="0.0 -90.0 0.0" texture="10 0.35" size="3 13 1" material="wood" color="0.53 0.55 0.47"/>
 							<voxbox id_="1596095616" name="wallpaper" pos="0.8 1.4 -0.3" rot="90.0 -90.0 0.0" texture="10 0.35" size="3 16 1" material="wood" color="0.53 0.55 0.47"/>
 							<voxbox id_="218903600" name="wallpaper" pos="-0.8 1.3 -0.3" rot="-180.0 -90.0 0.0" texture="10 0.35" size="3 12 1" material="wood" color="0.53 0.55 0.47"/>
+							<vox id_="2070670720" name="window_grilles" pos="-0.05 0.0 0.4" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="window grilles"/>
 						</vox>
 					</voxbox>
 				</group>
