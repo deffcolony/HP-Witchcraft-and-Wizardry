@@ -15,7 +15,7 @@
 	</group>
 	<group id_="1989138944" name="Scene">
 		<group id_="322260192" open_="true" name="Ground" pos="0.0 0.0 0.0">
-			<voxscript id_="2096690176" pos="50.2 -2.5 -50.1" rot="0.0 -90.0 0.0" texture="10 .6" file="MOD/resources/scripts/privetdrive_ground.lua">
+			<voxscript id_="2096690176" pos="50.2 -2.5 -50.1" rot="0.0 -90.0 0.0" texture="10 .6" file="MOD/resources/scripts/ground.lua">
 				<parameters file="MOD/resources/img/privetdrive_ground.png" scale="255"/>
 			</voxscript>
 		</group>
