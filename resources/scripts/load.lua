@@ -1,3 +1,5 @@
+menu_levels = {"MOD/script_testing.xml", "MOD/privetdrive.xml"}
+
 function tick()
-	StartLevel("", "MOD/script_testing.xml", "menu")
+	StartLevel("yeehaw", menu_levels[math.random(#menu_levels)], "menu")
 end

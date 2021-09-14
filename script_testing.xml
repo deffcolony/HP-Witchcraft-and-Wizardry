@@ -13,7 +13,7 @@
 	</group>
 	<group id_="1285763712" open_="true" name="Main Menu" layer="menu">
 		<script id_="700950272" file="MOD/resources/scripts/menu ui.lua"/>
-		<script id_="2009194240" open_="true" pos="-2.5 2.9 2.1" rot="0.0 0.0 0.0" file="MOD/resources/scripts/menu path.lua">
+		<script id_="2009194240" open_="true" pos="-2.5 2.9 2.1" rot="0.0 0.0 0.0" file="MOD/resources/scripts/menu path.lua" param0="grad_stren=1">
 			<location id_="951378624" tags="path" pos="-5.7 0.1 4.1"/>
 			<location id_="2107438720" tags="path" pos="-4.3 0.1 -4.0" rot="0.0 -40.0 0.0"/>
 			<location id_="631871168" tags="path" pos="5.8 0.1 -4.0" rot="28.3 -47.6 29.5"/>
@@ -27,7 +27,7 @@
 		</script>
 	</group>
 	<layers>
-		<layer name="menu" visible="true"/>
+		<layer name="menu" visible="false"/>
 	</layers>
 </scene>
 
