@@ -44,8 +44,8 @@
 		<group id_="757052544" open_="true" name="Floor" pos="-5.4 -2.0 -10.1" prop0="texture=2 0.6">
 			<vox id_="1551528448" pos="50.0 0.9 63.6" rot="0.0 -90.0 0.0" file="MOD/resources/vox/groundc.vox"/>
 		</group>
-		<group id_="1247750528" name="Trees">
-			<vox id_="527924704" pos="9.0 0.0 -8.8" texture="2 0.6" density="2" strength="2" file="MOD/resources/vox/trees/evergreen1.vox"/>
+		<group id_="1247750528" open_="true" name="Trees">
+			<vox id_="527924704" pos="9.0 0.0 -8.8" texture="2 0.6" density="2" strength="2" file="MOD/resources/vox/nature/trees/evergreen1.vox" object="mid05"/>
 		</group>
 		<voxbox id_="637900800" tags="unbreakable" pos="13.8 -0.5 -46.5" size="16 80 832" brush="MOD/resources/vox/assets.vox" object="mossWall"/>
 		<voxbox id_="998698496" tags="unbreakable" pos="-26.1 -0.5 -46.5" size="16 80 832" brush="MOD/resources/vox/assets.vox" object="mossWall"/>
