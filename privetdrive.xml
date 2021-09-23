@@ -21,14 +21,8 @@
 		</group>
 		<group id_="953934720" open_="true" name="Buildings" pos="16.3 2.1 -0.9">
 			<group id_="1837544960" open_="true" name="Dursley Home" pos="-1.3 0.0 1.4">
-				<group id_="1595309184" name="Front Yard">
-					<group id_="1687458432" name="Fence">
-						<voxbox id_="1213800832" name="pole" pos="-18.2 0.5 -1.3" rot="0.0 0.0 0.0" texture="7 0.75" size="2 10 2" material="metal" color="0.35 0.25 0.22">
-							<rope id_="1867627776" pos="0.1 0.9 0.0" rot="0.0 90.0 0.0" color=".05 .05 .05">
-								<location id_="1386367616" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-								<location id_="1795337216" pos="2.3 0.0 -0.0" rot="0.0 0.0 0.0"/>
-							</rope>
-						</voxbox>
+				<group id_="1595309184" open_="true" name="Front Yard">
+					<group id_="1687458432" open_="true" name="Fence" pos="0.0 0.0 1.8">
 						<voxbox id_="1071513472" name="pole" pos="-18.2 0.5 -3.8" rot="0.0 0.0 0.0" texture="7 0.75" size="2 10 2" material="metal" color="0.35 0.25 0.22">
 							<rope id_="1316960768" pos="0.1 0.9 0.0" rot="0.0 90.0 0.0" color=".05 .05 .05">
 								<location id_="843499776" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
@@ -47,13 +41,13 @@
 								<location id_="2097673216" pos="2.3 0.0 -0.0" rot="0.0 0.0 0.0"/>
 							</rope>
 						</voxbox>
-						<voxbox id_="1777444864" name="pole" pos="-18.2 0.5 -11.3" rot="0.0 0.0 0.0" texture="7 0.75" size="2 10 2" material="metal" color="0.35 0.25 0.22">
+						<voxbox id_="1777444864" open_="true" name="pole" pos="-18.2 0.5 -11.3" rot="0.0 0.0 0.0" texture="7 0.75" size="2 10 2" material="metal" color="0.35 0.25 0.22">
 							<rope id_="1514498304" pos="0.2 0.9 0.1" rot="0.0 0.0 0.0" color=".05 .05 .05">
 								<location id_="639932544" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
 								<location id_="686465984" pos="2.3 0.0 -0.0" rot="0.0 0.0 0.0"/>
 							</rope>
 						</voxbox>
-						<voxbox id_="501774240" name="pole" pos="-15.7 0.5 -11.3" rot="0.0 0.0 0.0" texture="7 0.75" size="2 10 2" material="metal" color="0.35 0.25 0.22">
+						<voxbox id_="501774240" open_="true" name="pole" pos="-15.7 0.5 -11.3" rot="0.0 0.0 0.0" texture="7 0.75" size="2 10 2" material="metal" color="0.35 0.25 0.22">
 							<rope id_="290604352" pos="0.2 0.9 0.1" rot="0.0 0.0 0.0" color=".05 .05 .05">
 								<location id_="1292448768" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
 								<location id_="1534946816" pos="2.3 0.0 -0.0" rot="0.0 0.0 0.0"/>
@@ -67,21 +61,20 @@
 						</voxbox>
 						<voxbox id_="849005184" name="pole" pos="-10.7 0.5 -11.3" rot="0.0 0.0 0.0" texture="7 0.75" size="2 10 2" material="metal" color="0.35 0.25 0.22"/>
 					</group>
-					<group id_="691250368" name="Plants">
+					<group id_="691250368" open_="true" name="Plants">
 						<vox id_="1175525376" name="plant" pos="-7.6 0.45 -6.8" rot="0.0 15.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_tree_01"/>
-						<vox id_="775665920" name="plant" pos="-8.55 0.4 -5.65" rot="0.0 20.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_01"/>
-						<vox id_="202518592" name="plant" pos="-9.05 0.4 -2.9" rot="0.0 20.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_02"/>
-						<vox id_="1718131072" name="plant" pos="-7.55 0.4 -1.6" rot="0.0 85.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="tiny_garden_bush_01"/>
-						<vox id_="432039680" name="plant" pos="-7.35 0.4 -2.6" rot="0.0 155.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="normal_garden_bush_01"/>
-						<vox id_="157361536" name="plant" pos="-9.7 0.5 -1.55" rot="0.0 0.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="tiny_garden_bush_02"/>
+						<vox id_="775665920" name="plant" pos="-8.45 0.4 -5.75" rot="0.0 20.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_01"/>
+						<vox id_="202518592" name="plant" pos="-9.05 0.4 -3.3" rot="0.0 20.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_02"/>
+						<vox id_="1718131072" name="plant" pos="-8.35 0.4 -2.1" rot="0.0 85.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="tiny_garden_bush_01"/>
+						<vox id_="432039680" name="plant" pos="-7.35 0.4 -2.5" rot="0.0 155.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="normal_garden_bush_01"/>
+						<vox id_="157361536" name="plant" pos="-9.4 0.5 -2.15" rot="0.0 0.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="tiny_garden_bush_02"/>
 						<vox id_="1756209792" name="plant" pos="-7.45 0.4 -4.15" rot="0.0 85.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_bush_01"/>
-						<vox id_="2123561600" name="plant" pos="-8.95 0.4 -4.35" rot="0.0 135.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="spiky_garden_bush_01"/>
-						<vox id_="1169233664" name="plant" pos="-8.75 0.4 -1.8" rot="0.0 -125.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="spiky_garden_bush_02"/>
+						<vox id_="2123561600" name="plant" pos="-8.95 0.4 -4.65" rot="0.0 135.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="spiky_garden_bush_01"/>
 						<vox id_="808370368" name="plant" pos="-7.55 0.4 -8.0" rot="0.0 -170.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="spiky_garden_bush_02"/>
 						<vox id_="1428575360" name="plant" pos="-8.5 0.4 -7.1" rot="0.0 15.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="tiny_garden_bush_01"/>
 					</group>
 				</group>
-				<group id_="819446592" name="Garden" pos="9.3 1.0 0.0">
+				<group id_="819446592" open_="true" name="Garden" pos="9.3 1.0 0.0">
 					<group id_="1830663296" name="Plants" pos="4.45 0.3 -4.8">
 						<vox id_="2119104768" name="plant" pos="-3.95 -0.9 5.5" rot="0.0 -150.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_02"/>
 						<vox id_="1046346112" name="plant" pos="-8.05 -0.8 4.05" rot="0.0 90.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="square_wall_bush_01"/>
@@ -132,7 +125,7 @@
 						<vox id_="1031403008" name="vase" pos="-4.7 0.35 -7.3" rot="-14.8 -90.3 -2.6" texture="10 0.5" density="5" prop="true" file="MOD/resources/vox/4_privet_drive/backyard/dursley_backyard_props.vox" object="coal_sack"/>
 						<vox id_="625644864" name="vase" pos="-5.05 0.35 -7.45" rot="-14.8 -5.3 -2.6" texture="10 0.5" density="5" prop="true" file="MOD/resources/vox/4_privet_drive/backyard/dursley_backyard_props.vox" object="coal_sack"/>
 					</group>
-					<group id_="1235560064" name="Structures">
+					<group id_="1235560064" open_="true" name="Structures">
 						<group id_="1253321472" name="Brick Walls">
 							<voxbox id_="1538289280" pos="1.1 -0.5 7.9" rot="0.0 90.0 0.0" texture="10 0.5" size="107 7 4" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="garden brick wall" offset="0 10 0"/>
 							<voxbox id_="187575488" pos="1.1 -0.5 -6.2" rot="0.0 90.0 0.0" texture="10 0.5" size="18 7 4" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="garden brick wall" offset="0 10 0"/>
@@ -173,10 +166,11 @@
 								<vertex pos="-1.1 0.9"/>
 							</voxagon>
 						</group>
-						<group id_="48040820" name="Wooden Fence">
+						<group id_="48040820" open_="true" name="Wooden Fence">
 							<voxbox id_="2046486528" name="wooden_fence" pos="-5.0 -0.5 -8.2" texture="4 0.6" size="166 24 3" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="tall wooden fence"/>
+							<voxbox id_="6291840" name="wooden_fence" pos="-16.0 -0.5 -7.9" rot="0.0 90.0 0.0" texture="4 0.6" size="12 24 3" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="tall wooden fence"/>
 							<voxbox id_="1512073344" name="wooden_fence" pos="11.65 -0.5 -8.1" rot="0.0 -90.0 0.0" texture="4 0.6" size="160 24 3" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="tall wooden fence" offset="0 0 0"/>
-							<voxbox id_="632395456" name="wooden_fence" pos="11.6 -0.5 8.1" rot="0.0 180.0 0.0" texture="4 0.6" size="149 24 3" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="tall wooden fence"/>
+							<voxbox id_="632395456" name="wooden_fence" pos="11.6 -0.5 8.1" rot="0.0 180.0 0.0" texture="4 0.6" size="199 24 3" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="tall wooden fence"/>
 						</group>
 						<group id_="630167104" name="Snail Fence">
 							<voxbox id_="1332624768" pos="1.6 -0.5 -6.1" rot="0.0 0.0 0.0" texture="10 .6" size="66 3 1" brush="MOD/resources/vox/4_privet_drive/backyard/dursley_backyard_props.vox" object="tiny_fence"/>
@@ -881,14 +875,14 @@
 							</vox>
 							<vox id_="1706333952" name="radiator" pos="1.55 0.15 0.15" rot="0.0 -90.0 0.0" texture="5 0.35" file="MOD/resources/vox/4_privet_drive/building/radiators.vox" object="radiator medium"/>
 						</group>
-						<group id_="943448320" open_="true" name="Hallway">
-							<group id_="1814868096" open_="true" name="Wall Cupboard">
-								<vox id_="1268723328" open_="true" pos="15.9 0.2 -1.6" texture="5 0.4" file="MOD/resources/vox/4_privet_drive/hallway/hallway_end_cupboard.vox" object="main body">
+						<group id_="943448320" name="Hallway">
+							<group id_="1814868096" name="Wall Cupboard">
+								<vox id_="1268723328" pos="15.9 0.2 -1.6" texture="5 0.4" file="MOD/resources/vox/4_privet_drive/hallway/hallway_end_cupboard.vox" object="main body">
 									<vox id_="101783616" name="door" pos="-0.4 0.2 0.4" texture="5 0.3" prop="true" file="MOD/resources/vox/4_privet_drive/hallway/hallway_end_cupboard.vox" object="big door left">
 										<joint id_="1144590592" name="hinge" pos="-0.4 1.6 0.0" rot="90.0 90.0 0.0" type="hinge" rotstrength="0.002" rotspring="0" limits="0 110"/>
 										<joint id_="618566528" name="hinge" pos="-0.4 0.3 0.0" rot="90.0 90.0 0.0" type="hinge" rotstrength="0.002" rotspring="0" limits="0 110"/>
 									</vox>
-									<vox id_="1297429888" open_="true" name="door" pos="-0.4 2.2 0.4" texture="5 0.3" prop="true" file="MOD/resources/vox/4_privet_drive/hallway/hallway_end_cupboard.vox" object="small door left">
+									<vox id_="1297429888" name="door" pos="-0.4 2.2 0.4" texture="5 0.3" prop="true" file="MOD/resources/vox/4_privet_drive/hallway/hallway_end_cupboard.vox" object="small door left">
 										<joint id_="1253321472" name="hinge" pos="-0.4 0.4 0.0" rot="90.0 90.0 0.0" type="hinge" rotstrength="0.001" rotspring="0" limits="0 110"/>
 									</vox>
 									<vox id_="172042496" name="door" pos="0.4 0.2 0.4" texture="5 0.3" prop="true" file="MOD/resources/vox/4_privet_drive/hallway/hallway_end_cupboard.vox" object="big door right">
@@ -933,8 +927,8 @@
 							<vox id_="1226318976" name="picture" pos="15.1 1.4 1.25" rot="0.0 90.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/hallway/hallway_picture_frames.vox" object="small golden frame 4"/>
 							<vox id_="1835120" name="picture" pos="15.95 1.2 5.9" rot="0.0 90.0 0.0" texture="3 0.40" file="MOD/resources/vox/4_privet_drive/hallway/hallway_props.vox" object="curtain"/>
 						</group>
-						<group id_="537755712" name="Bathroom" pos="12.2 -0.3 2.3">
-							<group id_="711961024" name="Main Objects" pos="-0.2 0.2 -0.3">
+						<group id_="537755712" open_="true" name="Bathroom" pos="12.2 -0.3 2.3">
+							<group id_="711961024" open_="true" name="Main Objects" pos="-0.2 0.2 -0.3">
 								<vox id_="617321280" name="light" pos="0.55 2.3 1.3" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/bathroom/bathroom_fixtures.vox" object="bathroom light">
 									<voxbox id_="1437488768" name="cupboard light" pos="-0.4 0.0 -0.1" rot="0.0 90.0 0.0" size="1 1 9" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
 										<light id_="1153962752" name="light" pos="0.05 0.0 0.45" rot="60.0 90.0 0.0" type="area" color="1 0.8 0.7" scale="0.7" size="0.9 0.1" reach="3"/>
@@ -944,13 +938,13 @@
 								<vox id_="270549120" name="fixture" pos="-1.7 0.2 0.05" rot="0.0 -90.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/bathroom/bathroom_fixtures.vox" object="bathtub"/>
 								<vox id_="104995080" name="fixture" pos="0.55 0.2 0.9" rot="0.0 0.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/bathroom/bathroom_fixtures.vox" object="sink"/>
 								<vox id_="621384768" name="towel_holder" pos="1.2 0.95 1.2" rot="0.0 0.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/bathroom/bathroom_detail.vox" object="towel holder mounting"/>
-								<vox id_="316033888" name="towel" pos="1.3 0.65 0.9" rot="0.0 90.0 0.0" texture="3 0.35" prop="true" file="MOD/resources/vox/4_privet_drive/bathroom/bathroom_detail.vox" object="towel holder">
+								<vox id_="316033888" open_="true" name="towel" pos="1.3 0.65 0.9" rot="0.0 90.0 0.0" texture="3 0.35" prop="true" file="MOD/resources/vox/4_privet_drive/bathroom/bathroom_detail.vox" object="towel holder">
 									<joint id_="589270144" name="hinge" pos="-0.25 0.45 -0.05" rot="-90.0 90.0 0.0" type="hinge" size="0.15" rotstrength="0.002" rotspring="0" limits="-30 30"/>
 								</vox>
 								<vox id_="1646299264" name="toilet_paper_holder" pos="0.7 0.95 -0.9" rot="0.0 -90.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/bathroom/bathroom_detail.vox" object="paper holder mounting">
 									<voxbox id_="1604812416" name="decor" pos="-0.1 -0.05 -0.05" rot="0.0 0.0 0.0" texture="10 0.35" prop="true" size="2 2 2" material="wood" color=".9 .9 .9"/>
 								</vox>
-								<vox id_="1245260032" name="shelf_door" pos="1.6 0.6 -0.7" rot="0.0 0.0 0.0" texture="3 0.25" prop="true" file="MOD/resources/vox/4_privet_drive/bathroom/bathroom_fixtures.vox" object="shelf door">
+								<vox id_="1245260032" open_="true" name="shelf_door" pos="1.6 0.6 -0.7" rot="0.0 0.0 0.0" texture="3 0.25" prop="true" file="MOD/resources/vox/4_privet_drive/bathroom/bathroom_fixtures.vox" object="shelf door">
 									<joint id_="169420896" name="hinge" pos="0.25 1.3 -0.05" rot="-90.0 90.0 0.0" type="hinge" size="0.15" rotstrength="0.001" rotspring="0" limits="0 130"/>
 									<joint id_="382622528" name="hinge" pos="0.25 0.3 -0.05" rot="-90.0 90.0 0.0" type="hinge" size="0.15" rotstrength="0.001" rotspring="0" limits="0 130"/>
 								</vox>
@@ -1096,9 +1090,9 @@
 								<vox id_="1238050560" name="picture frame" pos="4.96 0.8 -1.22" rot="0.0 -75.0 0.0" texture="5 0.5" strength="0.1" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_picture_frames.vox" object="standing picture 2"/>
 							</group>
 						</group>
-						<group id_="1435194880" name="Dudley's Lair">
-							<group id_="243218944" name="Lights" pos="17.1 1.0 -3.0">
-								<vox id_="1902101888" name="light" pos="1.3 1.9 0.7" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox" object="ceiling light">
+						<group id_="1435194880" open_="true" name="Dudley's Lair">
+							<group id_="243218944" open_="true" name="Lights" pos="17.1 1.0 -3.0">
+								<vox id_="1902101888" open_="true" name="light" pos="1.3 1.9 0.7" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox" object="ceiling light">
 									<light id_="873189440" name="bulb" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="1.2" size="0.2"/>
 								</vox>
 								<vox id_="902813504" name="desk_lamp" pos="-1.1532 0.0 -0.60656" rot="0.0 103.0 0.0" texture="9 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_dresser.vox" object="dresser lamp"/>
@@ -1262,7 +1256,7 @@
 						</voxbox>
 					</group>
 				</group>
-				<group id_="488666240" name="Ground Floor" pos="-6.4 0.2 -2.7">
+				<group id_="488666240" open_="true" name="Ground Floor" pos="-6.4 0.2 -2.7">
 					<group id_="1973606016" name="Walls" pos="-14.1 0.2 0.2">
 						<group id_="937877376" name="Wallpapers">
 							<voxbox id_="1682346240" name="wallpaper" pos="20.0 0.3 1.3" rot="0.0 -90.0 0.0" texture="9 0.5" size="47 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_kitchen.vox" object="wallpaper"/>
@@ -1485,8 +1479,8 @@
 							<voxbox id_="55184680" name="power_plug" pos="6.8 1.5 5.9" rot="0.0 180.0 0.0" texture="6 0.4" size="1 1 1" material="plastic" color="0.9 0.9 0.9"/>
 						</group>
 					</group>
-					<group id_="1878310912" name="Furniture" pos="-14.1 0.2 0.2">
-						<group id_="2131622912" name="Living Room" pos="16.9 0.3 -2.1">
+					<group id_="1878310912" open_="true" name="Furniture" pos="-14.1 0.2 0.2">
+						<group id_="2131622912" open_="true" name="Living Room" pos="16.9 0.3 -2.1">
 							<vox id_="1870118400" name="furniture" pos="-1.9 0.1 0.2" rot="0.0 90.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_mahogany_furniture.vox" object="decor table (small)"/>
 							<vox id_="304564384" name="furniture" pos="2.2 0.1 0.3" rot="0.0 -90.0 0.0" texture="3 0.75" density="7" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="sofa">
 								<vox id_="1892729600" name="furniture" pos="-0.66 0.62 0.1" rot="-15.7 24.1 -1.7" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="pillow red"/>
@@ -1934,7 +1928,7 @@
 							</group>
 						</group>
 					</group>
-					<group id_="728804800" name="Doors" pos="-14.1 0.2 0.2">
+					<group id_="728804800" open_="true" name="Doors" pos="-14.1 0.2 0.2">
 						<voxbox id_="265436992" name="main entrance" pos="13.6 0.4 1.8" rot="0.0 0.0 0.0" size="8 22 11" brush="hole">
 							<vox id_="1959580416" name="door frame" pos="0.6 0.0 0.6" rot="0.0 90.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="brown door frame"/>
 							<vox id_="951640832" name="door" pos="0.7 0.025 0.6" rot="0.0 90.0 0.0" texture="3 0.50" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="main entrance door">
@@ -1966,9 +1960,9 @@
 								<joint id_="47975280" name="hinge" pos="-0.4 0.3 0.0" rot="90.0 90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 160"/>
 							</vox>
 						</voxbox>
-						<voxbox id_="1000402560" name="interior door" pos="19.2 0.4 0.9" rot="0.0 -90.0 0.0" size="5 22 11" brush="hole">
+						<voxbox id_="1000402560" open_="true" name="interior door" pos="19.2 0.4 0.9" rot="0.0 -90.0 0.0" size="5 22 11" brush="hole">
 							<vox id_="1779214336" name="door frame" pos="0.3 0.0 0.6" rot="0.0 90.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="white door frame"/>
-							<vox id_="90641824" name="door" pos="0.2 0.025 0.6" rot="0.0 90.0 0.0" texture="3 0.35" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="white interior door">
+							<vox id_="90641824" open_="true" name="door" pos="0.2 0.025 0.6" rot="0.0 90.0 0.0" texture="3 0.35" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="white interior door">
 								<joint id_="1017836224" name="hinge" pos="-0.4 1.7 -0.1" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 160"/>
 								<joint id_="1129123072" name="hinge" pos="-0.4 0.3 -0.1" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 160"/>
 							</vox>
@@ -2321,7 +2315,7 @@
 							</vox>
 						</group>
 					</group>
-					<group id_="986049280" name="Entrance (Exterior)" pos="-3.1 0.7 3.9">
+					<group id_="986049280" open_="true" name="Entrance (Exterior)" pos="-3.1 0.7 3.9">
 						<voxbox id_="1556312832" name="garden_hose" pos="2.7 -0.1 0.4" rot="0.0 0.0 0.0" size="5 10 8" brush="hole">
 							<vox id_="1395936512" name="container" pos="0.2 0.0 0.4" rot="0.0 -90.0 0.0" texture="3 0.50" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="garden hose box"/>
 							<vox id_="847563264" name="door" pos="0.0 0.1 0.4" rot="0.0 -90.0 0.0" texture="3 0.50" prop="true" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="garden hose door">
@@ -2349,12 +2343,16 @@
 						</vox>
 						<vox id_="24970740" name="house_number" pos="2.7 1.0 -0.5" rot="0.0 -90.0 0.0" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="house number"/>
 						<vox id_="861982080" name="concrete_flower_pot" pos="2.1 -0.3 0.8" rot="0.0 -90.0 0.0" texture="10 0.75" density="7" prop="true" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="concrete flower pot"/>
+						<vox id_="1138167680" name="concrete_flower_pot" pos="2.0 -0.3 -2.4" rot="0.0 -90.0 0.0" texture="10 0.75" density="7" prop="true" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="concrete flower pot 2"/>
 						<vox id_="793427264" name="fountain_thingy" pos="-4.1 -0.4 -6.1" rot="0.0 -90.0 0.0" texture="10 0.75" density="7" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="fountain_thingy"/>
-						<vox id_="718908288" name="hanging_flower_pot" pos="1.39 1.13 -2.2" rot="0.0 -90.0 0.0" texture="10 0.75" density="5" prop="true" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="hanging flower pot">
+						<vox id_="718908288" name="hanging_flower_pot" pos="1.39 1.13 -2.8" rot="0.0 -90.0 0.0" texture="10 0.75" density="5" prop="true" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="hanging flower pot">
 							<joint id_="215495520" name="ball" pos="0.01 1.0 0.0" rot="90.0 90.0 0.0" type="ball" rotstrength="0.002" rotspring="0" limits="0 150"/>
 						</vox>
+						<voxbox id_="726576448" open_="true" name="air_vent_hole" pos="2.7 1.6 -2.7" size="3 3 5" brush="hole">
+							<vox id_="1229333760" name="vox" pos="0.1 0.0 0.2" rot="0.0 -90.0 0.0" texture="7 0.75" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="air vent"/>
+						</voxbox>
 					</group>
-					<group id_="1420186240" name="Enclosed Porch" pos="-0.8 0.0 0.2">
+					<group id_="1420186240" open_="true" name="Enclosed Porch" pos="-0.8 0.0 0.2">
 						<voxagon id_="2095117184" name="brick_hole" pos="11.6 1.4 -0.8" rot="0.0 0.0 -90.0" brush="hole" extrude="2">
 							<vertex pos="-2.85 -1.15"/>
 							<vertex pos="-2.1 -3.3"/>
@@ -2387,7 +2385,7 @@
 							<vox id_="954065792" name="porch_furniture" pos="14.53 1.5 -3.19" rot="0.0 -135.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="porch plant 01"/>
 							<group id_="1710462976" name="Corner Shelf"/>
 						</group>
-						<group id_="166733760" name="Interior Door" pos="11.9 0.7 -2.0">
+						<group id_="166733760" open_="true" name="Interior Door" pos="11.9 0.7 -2.0">
 							<voxagon id_="373643552" name="door_hole" pos="-0.8 0.9 2.2" rot="0.0 0.0 -90.0" brush="hole" extrude="9">
 								<vertex pos="-1.8 -3.4"/>
 								<vertex pos="1.0 -3.4"/>
@@ -2499,12 +2497,12 @@
 						</group>
 					</group>
 				</group>
-				<group id_="1834071296" name="Roof" pos="-20.5 0.7 -2.5">
-					<group id_="433547104" name="Tiles" pos="19.1 2.4 2.3">
+				<group id_="1834071296" open_="true" name="Roof" pos="-20.5 0.7 -2.5">
+					<group id_="433547104" open_="true" name="Tiles" pos="19.1 2.4 2.3">
 						<voxbox id_="1097860480" name="roof_section" pos="-5.8 3.8 4.9" rot="0.0 90.0 0.0" texture="4 0.8" size="132 40 65" brush="MOD/resources/vox/4_privet_drive/building/vanilla_roofs.vox" object="roof02-custom"/>
 						<voxbox id_="30869340" name="roof_edge" pos="0.5 7.5 4.9" rot="0.0 90.0 0.0" texture="4 0.8" size="132 4 4" brush="MOD/resources/vox/4_privet_drive/building/vanilla_roofs.vox" object="roof02-custom-edge"/>
 						<voxbox id_="1816965376" name="roof_edge" pos="-2.4 2.9 8.8" rot="0.0 90.0 0.0" texture="4 0.8" size="45 4 4" brush="MOD/resources/vox/4_privet_drive/building/vanilla_roofs.vox" object="roof02-custom-edge"/>
-						<voxbox id_="363878080" name="roof_section" pos="-7.1 0.1 8.8" rot="0.0 90.0 0.0" texture="4 0.8" size="98 11 18" brush="MOD/resources/vox/4_privet_drive/building/vanilla_roofs.vox" object="roof02-custom"/>
+						<voxbox id_="363878080" name="roof_section" pos="-7.1 0.1 8.8" rot="0.0 90.0 0.0" texture="4 0.8" size="107 11 18" brush="MOD/resources/vox/4_privet_drive/building/vanilla_roofs.vox" object="roof02-custom"/>
 						<voxbox id_="1193352320" name="roof_section" pos="-5.6 1.0 8.8" rot="0.0 90.0 0.0" texture="4 0.8" size="46 21 34" brush="MOD/resources/vox/4_privet_drive/building/vanilla_roofs.vox" object="roof02-custom"/>
 						<voxbox id_="427714048" name="roof_section" pos="2.9 0.0 4.3" rot="0.0 -90.0 0.0" texture="4 0.8" size="39 31 51" brush="MOD/resources/vox/4_privet_drive/building/vanilla_roofs.vox" object="roof02-custom"/>
 						<voxbox id_="890754112" name="roof_section" pos="7.1 3.8 -2.2" rot="0.0 -90.0 0.0" texture="4 0.8" size="71 40 65" brush="MOD/resources/vox/4_privet_drive/building/vanilla_roofs.vox" object="roof02-custom"/>
@@ -2654,18 +2652,18 @@
 						<voxbox id_="1130958208" name="wooden_beam" pos="18.4 8.8 2.3" texture="2 0.8" size="26 2 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
 						<voxbox id_="1871822336" name="wooden_beam" pos="18.4 8.8 5.3" texture="2 0.8" size="26 2 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
 					</group>
-					<group id_="1691456256" name="Gutter" pos="13.0 6.0 0.6" rot="0.0 0.0 0.0">
+					<group id_="1691456256" open_="true" name="Gutter" pos="13.0 6.0 0.6" rot="0.0 0.0 0.0">
 						<voxbox id_="635869056" name="gutter part" pos="0.1 0.1 5.2" rot="0.0 90.0 0.0" texture="7 0.75" size="118 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
 						<voxbox id_="1642432384" name="gutter part" pos="0.1 0.1 6.6" rot="0.0 90.0 0.0" texture="7 0.75" size="10 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
 						<voxbox id_="2127493888" name="gutter part" pos="-1.2 -3.6 10.5" rot="0.0 90.0 0.0" texture="7 0.75" size="47 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
-						<voxbox id_="135995504" name="gutter part" pos="-1.2 -3.6 5.4" rot="0.0 90.0 0.0" texture="7 0.75" size="47 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
+						<voxbox id_="135995504" name="gutter part" pos="-1.2 -3.6 5.4" rot="0.0 90.0 0.0" texture="7 0.75" size="56 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
 						<voxbox id_="1803529728" name="gutter part" pos="9.2 -3.7 6.0" rot="0.0 -90.0 0.0" texture="7 0.75" size="31 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
 						<voxbox id_="380000928" name="gutter part" pos="9.2 -3.7 9.4" rot="0.0 -90.0 0.0" texture="7 0.75" size="11 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
 						<voxbox id_="659266880" name="gutter part" pos="13.4 0.1 -0.5" rot="0.0 -90.0 0.0" texture="7 0.75" size="71 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
 						<voxbox id_="1416647040" name="gutter part" pos="12.6 0.6 -5.7" rot="0.0 -90.0 0.0" texture="7 0.75" size="52 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
 						<voxbox id_="407068928" name="gutter part" pos="12.6 0.6 -6.6" rot="0.0 -90.0 0.0" texture="7 0.75" size="5 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
 					</group>
-					<group id_="2097411072" name="Metal Pannels" pos="13.0 6.02 0.6" rot="0.0 0.0 0.0">
+					<group id_="2097411072" open_="true" name="Metal Pannels" pos="13.0 6.02 0.6" rot="0.0 0.0 0.0">
 						<voxbox id_="479687264" name="metal part" pos="4.1 2.67 -6.3" rot="30.0 -90.0 0.0" texture="7 0.65" size="16 1 3" material="metal" color=".25 .25 .25" pbr="0 1"/>
 						<voxbox id_="1407012736" name="metal part" pos="1.54641 1.07 2.4" rot="30.0 -90.0 0.0" texture="7 0.65" size="9 1 8" material="metal" color=".25 .25 .25" pbr="0 1"/>
 						<voxbox id_="1920911872" name="metal part" pos="1.3 0.8 2.7" rot="0.0 -90.0 0.0" texture="7 0.65" size="3 5 3" material="metal" color=".25 .25 .25" pbr="0 1"/>
@@ -2674,8 +2672,8 @@
 						<voxbox id_="1460231168" name="metal part" pos="5.4 4.5 -5.8" rot="0.0 -90.0 0.0" texture="7 0.65" size="5 7 5" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="chimney exhaust thingy" offset="0 3 0" pbr="0 1"/>
 						<voxbox id_="400252768" name="metal part" pos="4.9 4.5 -5.8" rot="0.0 -90.0 0.0" texture="7 0.65" size="5 4 1" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="chimney exhaust thingy" offset="0 3 0" pbr="0 1"/>
 						<voxbox id_="175319504" name="metal part" pos="1.25 1.3 2.75" rot="0.0 -90.0 0.0" texture="7 0.65" size="2 10 2" material="metal" color=".4 .4 .4" pbr="0 1"/>
-						<voxbox id_="1286419072" name="metal part" pos="0.75 -2.34 0.7" rot="30.0 -90.0 0.0" texture="7 0.65" size="53 1 3" material="metal" color=".25 .25 .25" pbr="0 1"/>
-						<voxbox id_="84874304" name="metal part" pos="0.69 -2.29 0.7" rot="-90.0 -90.0 0.0" texture="7 0.65" size="53 1 2" material="metal" color=".25 .25 .25" pbr="0 1"/>
+						<voxbox id_="1286419072" name="metal part" pos="0.75 -2.34 -0.2" rot="30.0 -90.0 0.0" texture="7 0.65" size="62 1 3" material="metal" color=".25 .25 .25" pbr="0 1"/>
+						<voxbox id_="84874304" name="metal part" pos="0.69 -2.29 -0.2" rot="-90.0 -90.0 0.0" texture="7 0.65" size="62 1 2" material="metal" color=".25 .25 .25" pbr="0 1"/>
 						<voxbox id_="1600159104" name="metal part" pos="0.82 -2.35 6.01" rot="-90.0 0.0 31.0" texture="7 0.65" size="39 1 3" material="metal" color=".25 .25 .25" pbr="0 1"/>
 						<voxbox id_="841926848" name="metal part" pos="3.86 -0.35 6.01" rot="-90 0.0 -31.6" texture="7 0.65" size="61 1 3" material="metal" color=".25 .25 .25" pbr="0 1"/>
 						<voxbox id_="992734400" name="metal part" pos="4.00428 -0.3795 6.0" rot="31.0 -90.0 0.0" texture="7 0.65" size="3 1 41" material="metal" color=".25 .25 .25" pbr="0 1"/>
@@ -2731,18 +2729,19 @@
 							<voxbox id_="1163335040" name="downspout mounting" pos="0.0 2.0 0.3" rot="180.0 90.0 0.0" texture="7 0.75" size="2 1 5" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle" color="0.8 0.8 0.8"/>
 						</group>
 					</group>
-					<group id_="1131351424" name="Wooden Detail" pos="13.0 6.02 0.6" rot="0.0 0.0 0.0">
-						<voxagon id_="1975310080" name="woodagon" pos="0.0 -3.4 0.8" rot="90.0 0.0 0.0" texture="4 0.8" brush="MOD/resources/vox/4_privet_drive/building/roof_wooden_detail.vox" object="wooden planks" axis="y" extrude="1">
+					<group id_="1131351424" open_="true" name="Wooden Detail" pos="13.0 6.02 0.6" rot="0.0 0.0 0.0">
+						<voxagon id_="1975310080" name="woodagon" pos="0.0 -3.4 -0.1" rot="90.0 0.0 0.0" texture="4 0.8" brush="MOD/resources/vox/4_privet_drive/building/roof_wooden_detail.vox" object="wooden planks" axis="y" extrude="1">
 							<vertex pos="-1.0 0.1"/>
 							<vertex pos="0.7 -0.8"/>
 							<vertex pos="0.7 0.3"/>
 							<vertex pos="-1.0 0.3"/>
 						</voxagon>
-						<voxbox id_="1410158592" name="wood" pos="-1.0 -3.7 0.9" rot="0.0 0.0 0.0" texture="4 0.8" size="1 2 96" material="wood" color="0.20 0.15 0.14"/>
+						<voxbox id_="1410158592" name="wood" pos="-1.0 -3.7 -0.1" rot="0.0 0.0 0.0" texture="4 0.8" size="1 2 106" material="wood" color="0.20 0.15 0.14"/>
 						<voxbox id_="1464818944" name="wood" pos="-0.9 -3.7 5.3" rot="0.0 0.0 0.0" texture="4 0.8" size="4 2 49" material="wood" color="0.20 0.15 0.14"/>
 						<voxbox id_="2062216064" name="wood" pos="8.5 -3.8 6.0" rot="0.0 0.0 0.0" texture="4 0.8" size="4 2 45" material="wood" color="0.20 0.15 0.14"/>
-						<voxbox id_="1119947520" name="wood" pos="-0.9 -3.5 0.9" rot="0.0 0.0 -90.0" texture="4 0.8" size="1 17 44" material="wood" color="0.20 0.15 0.14"/>
-						<voxbox id_="1138167680" name="wood" pos="-0.2 -3.7 0.9" rot="-180.0 0.0 45.0" texture="4 0.8" size="2 13 1" material="wood" color="0.20 0.15 0.14"/>
+						<voxbox id_="1119947520" name="wood" pos="-0.9 -3.5 0.0" rot="0.0 0.0 -90.0" texture="4 0.8" size="1 17 53" material="wood" color="0.20 0.15 0.14"/>
+						<voxbox id_="1138167680" name="wood" pos="-0.2 -3.7 0.3" rot="-180.0 0.0 45.0" texture="4 0.8" size="2 13 1" material="wood" color="0.20 0.15 0.14"/>
+						<voxbox id_="39979400" name="wood" pos="-0.9 -3.7 0.5" rot="0.0 180.0 90.0" texture="4 0.8" size="2 17 5" material="wood" color="0.20 0.15 0.14"/>
 						<voxbox id_="24249800" name="wood" pos="0.4 0.2 -6.0" rot="0.0 0.0 -90.0" texture="4 0.8" size="3 4 120" material="wood" color="0.20 0.15 0.14"/>
 						<voxbox id_="120265904" name="wood" pos="12.7 0.2 0.2" rot="0.0 0.0 -90.0" texture="4 0.8" size="3 4 58" material="wood" color="0.20 0.15 0.14"/>
 						<voxbox id_="717925184" name="wood" pos="12.2 0.4 -6.0" rot="-90.0 0.0 59.0" texture="4 0.8" size="3 5 65" material="wood" color="0.20 0.15 0.14"/>
@@ -2758,1567 +2757,6 @@
 						<vox id_="181480256" pos="20.8 9.4 -3.7" rot="0.0 -100.0 0.0" texture="2 0.9" file="MOD/resources/vox/4_privet_drive/building/roof_antenna.vox" object="tv_antenna"/>
 					</group>
 					<voxbox id_="427517408" name="hole" pos="17.4 6.4 -5.2" rot="0.0 0.0 0.0" texture="10 0.5" size="9 32 5" brush="hole"/>
-				</group>
-			</group>
-			<group id_="548373184" open_="true" name="Dursley Neighbour 1" pos="0.3 0.0 17.3">
-				<group id_="2000084224" open_="true" name="Front Yard">
-					<group id_="1814147200" open_="true" name="Fence" pos="-1.4 0.0 3.6">
-						<voxbox id_="336941152" name="pole" pos="-18.2 0.5 -1.3" rot="0.0 0.0 0.0" texture="7 0.75" size="2 10 2" material="metal" color="0.35 0.25 0.22">
-							<rope id_="2005392896" pos="0.1 0.9 0.0" rot="0.0 90.0 0.0" color=".05 .05 .05">
-								<location id_="754103232" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-								<location id_="1482973568" pos="2.3 0.0 -0.0" rot="0.0 0.0 0.0"/>
-							</rope>
-						</voxbox>
-						<voxbox id_="1914751104" name="pole" pos="-18.2 0.5 -3.8" rot="0.0 0.0 0.0" texture="7 0.75" size="2 10 2" material="metal" color="0.35 0.25 0.22">
-							<rope id_="321998016" pos="0.1 0.9 0.0" rot="0.0 90.0 0.0" color=".05 .05 .05">
-								<location id_="1574532992" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-								<location id_="1245587712" pos="2.3 0.0 -0.0" rot="0.0 0.0 0.0"/>
-							</rope>
-						</voxbox>
-						<voxbox id_="1580300544" name="pole" pos="-18.2 0.5 -6.3" rot="0.0 0.0 0.0" texture="7 0.75" size="2 10 2" material="metal" color="0.35 0.25 0.22">
-							<rope id_="476082560" pos="0.1 0.9 0.0" rot="0.0 90.0 0.0" color=".05 .05 .05">
-								<location id_="593988992" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-								<location id_="2055072256" pos="2.3 0.0 -0.0" rot="0.0 0.0 0.0"/>
-							</rope>
-						</voxbox>
-						<voxbox id_="1576237056" name="pole" pos="-18.2 0.5 -8.8" rot="0.0 0.0 0.0" texture="7 0.75" size="2 10 2" material="metal" color="0.35 0.25 0.22">
-							<rope id_="837207936" pos="0.1 0.9 0.0" rot="0.0 90.0 0.0" color=".05 .05 .05">
-								<location id_="1371031296" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-								<location id_="455634080" pos="2.3 0.0 -0.0" rot="0.0 0.0 0.0"/>
-							</rope>
-						</voxbox>
-						<voxbox id_="274088288" name="pole" pos="-18.2 0.5 -11.3" rot="0.0 0.0 0.0" texture="7 0.75" size="2 10 2" material="metal" color="0.35 0.25 0.22">
-							<rope id_="398221056" pos="0.2 0.9 0.1" rot="0.0 0.0 0.0" color=".05 .05 .05">
-								<location id_="2053892480" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-								<location id_="514751168" pos="2.3 0.0 -0.0" rot="0.0 0.0 0.0"/>
-							</rope>
-						</voxbox>
-						<voxbox id_="1747755136" open_="true" name="pole" pos="-15.7 0.5 -11.3" rot="0.0 0.0 0.0" texture="7 0.75" size="2 10 2" material="metal" color="0.35 0.25 0.22">
-							<rope id_="1464491264" pos="0.2 0.9 0.1" rot="0.0 0.0 0.0" color=".05 .05 .05">
-								<location id_="467627904" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-								<location id_="2050943232" pos="2.3 0.0 -0.0" rot="0.0 0.0 0.0"/>
-							</rope>
-						</voxbox>
-						<voxbox id_="1962005504" name="pole" pos="-13.2 0.5 -11.3" rot="0.0 0.0 0.0" texture="7 0.75" size="2 10 2" material="metal" color="0.35 0.25 0.22">
-							<rope id_="887149440" pos="0.2 0.9 0.1" rot="0.0 0.0 0.0" color=".05 .05 .05">
-								<location id_="1353269888" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-								<location id_="1735564800" pos="2.3 0.0 -0.0" rot="0.0 0.0 0.0"/>
-							</rope>
-						</voxbox>
-						<voxbox id_="770094976" name="pole" pos="-10.7 0.5 -11.3" rot="0.0 0.0 0.0" texture="7 0.75" size="2 10 2" material="metal" color="0.35 0.25 0.22"/>
-					</group>
-					<group id_="512457248" name="Plants">
-						<vox id_="322915584" name="plant" pos="-7.6 0.45 -6.6" rot="0.0 15.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_tree_01"/>
-						<vox id_="1764795520" name="plant" pos="-8.55 0.4 -5.65" rot="0.0 20.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_01"/>
-						<vox id_="1936444800" name="plant" pos="-9.05 0.4 -2.9" rot="0.0 20.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_02"/>
-						<vox id_="2013847552" name="plant" pos="-7.55 0.4 -1.6" rot="0.0 85.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="tiny_garden_bush_01"/>
-						<vox id_="1777707008" name="plant" pos="-7.35 0.4 -2.6" rot="0.0 155.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="normal_garden_bush_01"/>
-						<vox id_="399531840" name="plant" pos="-9.7 0.5 -1.55" rot="0.0 0.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="tiny_garden_bush_02"/>
-						<vox id_="981658112" name="plant" pos="-7.45 0.4 -4.15" rot="0.0 85.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_bush_01"/>
-						<vox id_="1745920000" name="plant" pos="-8.95 0.4 -4.35" rot="0.0 135.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="spiky_garden_bush_01"/>
-						<vox id_="254426272" name="plant" pos="-8.75 0.4 -1.8" rot="0.0 -125.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="spiky_garden_bush_02"/>
-						<vox id_="381049568" name="plant" pos="-8.5 0.4 -7.1" rot="0.0 15.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="tiny_garden_bush_01"/>
-					</group>
-				</group>
-				<group id_="182332288" name="Garden" pos="9.3 1.0 0.0">
-					<group id_="1774495488" name="Plants" pos="4.45 0.3 -4.8">
-						<vox id_="371284096" name="plant" pos="-8.05 -0.8 4.05" rot="0.0 90.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="square_wall_bush_01"/>
-						<vox id_="770684864" name="plant" pos="-8.05 -0.8 7.65" rot="0.0 90.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="square_wall_bush_01"/>
-						<vox id_="1074659328" name="plant" pos="-1.85 -0.9 -2.2" rot="0.0 180.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_bush_02"/>
-						<vox id_="600280832" name="plant" pos="3.85 -0.9 11.6" rot="0.0 -170.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_bush_02"/>
-						<vox id_="292636096" name="plant" pos="1.95 -0.9 11.65" rot="0.0 160.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_01"/>
-						<vox id_="1680511104" name="plant" pos="-2.35 -0.9 11.25" rot="0.0 160.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="tiny_garden_bush_01"/>
-						<vox id_="317148064" name="plant" pos="-0.05 -0.9 -2.35" rot="0.0 -130.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_01"/>
-						<vox id_="662740480" name="plant" pos="3.85 -0.9 -2.3" rot="0.0 -130.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="low_garden_bush_02"/>
-						<vox id_="1075314816" name="plant" pos="4.4 -0.9 -1.1" rot="0.0 -130.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="tiny_garden_bush_01"/>
-						<vox id_="835962688" name="plant" pos="2.05 -0.9 -2.1" rot="0.0 15.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_bush_01"/>
-						<vox id_="446524032" name="plant" pos="-0.35 -0.9 11.65" rot="0.0 180.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_bush_01"/>
-						<vox id_="342184352" name="plant" pos="-2.1 -0.9 11.9" rot="0.0 20.0 0.0" texture="10 0.90" file="MOD/resources/vox/nature/trees/garden_trees_and_bushes.vox" object="big_garden_tree_02"/>
-					</group>
-					<group id_="1320893184" name="Props" pos="3.65 -0.7 -0.2"/>
-					<group id_="1082982912" name="Structures">
-						<group id_="466579264" name="Brick Walls"/>
-						<group id_="1525771264" name="Floor Tiles">
-							<voxagon id_="1223107456" name="garden_tiles" pos="-3.0 -0.6 3.1" texture="6 0.75" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="garden tiles" extrude="2">
-								<vertex pos="-1.1 0.4"/>
-								<vertex pos="-0.1 0.4"/>
-								<vertex pos="-0.1 -0.9"/>
-								<vertex pos="-1.1 -0.9"/>
-								<vertex pos="-1.1 -3.2"/>
-								<vertex pos="-0.1 -3.2"/>
-								<vertex pos="-0.1 -4.5"/>
-								<vertex pos="-1.1 -4.5"/>
-								<vertex pos="-1.1 -4.8"/>
-								<vertex pos="-1.9 -4.8"/>
-								<vertex pos="-1.9 -11.1"/>
-								<vertex pos="2.5 -11.1"/>
-								<vertex pos="2.5 4.9"/>
-								<vertex pos="-5.3 4.8"/>
-								<vertex pos="-5.3 2.4"/>
-								<vertex pos="-5.5 2.4"/>
-								<vertex pos="-5.5 1.3"/>
-								<vertex pos="-5.3 1.3"/>
-								<vertex pos="-5.3 0.9"/>
-								<vertex pos="-1.1 0.9"/>
-							</voxagon>
-						</group>
-						<group id_="995159360" name="Wooden Fence">
-							<voxbox id_="1689359104" name="wooden_fence" pos="10.05 -0.5 -8.1" rot="0.0 -90.0 0.0" texture="4 0.6" size="160 24 3" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="tall wooden fence" offset="0 0 0"/>
-							<voxbox id_="720481216" name="wooden_fence" pos="10.0 -0.5 8.1" rot="0.0 -180.0 0.0" texture="4 0.6" size="182 24 3" brush="MOD/resources/vox/4_privet_drive/building/garden_structures.vox" object="tall wooden fence"/>
-						</group>
-						<group id_="361649728" name="Snail Fence">
-							<voxbox id_="2118646016" pos="1.6 -0.5 -6.1" rot="0.0 0.0 0.0" texture="10 .6" size="66 3 1" brush="MOD/resources/vox/4_privet_drive/backyard/dursley_backyard_props.vox" object="tiny_fence"/>
-							<voxbox id_="1751425408" pos="1.6 -0.5 5.9" rot="0.0 0.0 0.0" texture="10 .6" size="70 3 1" brush="MOD/resources/vox/4_privet_drive/backyard/dursley_backyard_props.vox" object="tiny_fence"/>
-						</group>
-					</group>
-				</group>
-				<group id_="594709952" name="Attic" pos="-20.5 0.7 -2.5">
-					<group id_="327568928" name="Floor / Ceiling" pos="-18.6 0.3 0.2">
-						<group id_="1999887616" name="Ceiling" pos="38.3 6.2 0.3">
-							<voxbox id_="694330752" name="paint" pos="-5.7 -0.0 -5.1" rot="0.0 0.0 0.0" texture="6 0.35" size="107 1 51" material="plaster" color="0.9 0.9 0.85"/>
-							<voxbox id_="1349009792" name="paint" pos="-5.7 -0.0 3.2" rot="0.0 0.0 0.0" texture="6 0.35" size="52 1 26" material="plaster" color="0.9 0.9 0.85"/>
-							<voxbox id_="1661635584" name="paint" pos="-0.5 -0.0 0.0" rot="0.0 0.0 0.0" texture="6 0.35" size="55 1 58" material="plaster" color="0.9 0.9 0.85"/>
-							<voxbox id_="314723072" name="paint" pos="-5.7 -0.0 0.0" rot="0.0 0.0 0.0" texture="6 0.35" size="52 1 32" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_bathroom.vox" object="ceiling"/>
-							<voxbox id_="279462560" name="paint" pos="5.0 -0.0 0.3" rot="0.0 0.0 0.0" texture="6 0.35" size="7 1 55" material="plaster" color="0.9 0.9 0.85"/>
-							<voxbox id_="1677299712" name="paint" pos="-5.7 -0.0 -5.7" rot="0.0 0.0 0.0" texture="6 0.35" size="22 1 6" material="plaster" color="0.9 0.9 0.85"/>
-							<voxbox id_="1718721024" name="paint" pos="-1.3 -0.0 -5.7" rot="0.0 0.0 0.0" texture="6 0.35" size="63 1 6" material="plaster" color="0.9 0.9 0.85"/>
-						</group>
-						<group id_="2139028992" name="Floor Structure" pos="39.1 6.3 0.0">
-							<voxagon id_="1374504832" name="main structure" pos="0.0 0.0 0.1" rot="0.0 90.0 0.0" texture="2 0.7" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="structural floor" extrude="2">
-								<vertex pos="-6.0 -3.9"/>
-								<vertex pos="-2.2 -3.9"/>
-								<vertex pos="-2.2 -3.6"/>
-								<vertex pos="0.0 -3.6"/>
-								<vertex pos="0.0 -3.9"/>
-								<vertex pos="4.8 -3.9"/>
-								<vertex pos="4.8 -2.0"/>
-								<vertex pos="5.5 -2.0"/>
-								<vertex pos="5.5 2.1"/>
-								<vertex pos="4.0 2.1"/>
-								<vertex pos="4.0 2.4"/>
-								<vertex pos="-2.1 2.4"/>
-								<vertex pos="-2.1 2.1"/>
-								<vertex pos="-4.0 2.1"/>
-								<vertex pos="-4.0 2.4"/>
-								<vertex pos="-6.0 2.4"/>
-							</voxagon>
-							<voxagon id_="1158419456" name="main structure" pos="3.3 0.0 0.1" rot="0.0 90.0 0.0" texture="2 0.7" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="blank structural floor" extrude="2">
-								<vertex pos="-6.0 -0.9"/>
-								<vertex pos="-4.0 -0.9"/>
-								<vertex pos="-4.0 -1.2"/>
-								<vertex pos="-2.1 -1.2"/>
-								<vertex pos="-2.1 -0.9"/>
-								<vertex pos="4.0 -0.9"/>
-								<vertex pos="4.0 -1.2"/>
-								<vertex pos="5.5 -1.2"/>
-								<vertex pos="5.5 0.9"/>
-								<vertex pos="-0.5 0.9"/>
-								<vertex pos="-0.5 1.6"/>
-								<vertex pos="-6.0 1.6"/>
-							</voxagon>
-							<voxagon id_="584878976" name="main structure" pos="-4.9 0.0 0.1" rot="0.0 90.0 0.0" texture="2 0.7" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="blank structural floor" extrude="2">
-								<vertex pos="-6.1 -1.6"/>
-								<vertex pos="5.5 -1.6"/>
-								<vertex pos="5.5 1.0"/>
-								<vertex pos="0.0 1.0"/>
-								<vertex pos="0.0 1.3"/>
-								<vertex pos="-2.2 1.3"/>
-								<vertex pos="-2.2 1.0"/>
-								<vertex pos="-6.0 1.0"/>
-							</voxagon>
-						</group>
-					</group>
-					<group id_="1082851840" name="chimney" pos="19.6 6.7 0.0">
-						<voxbox id_="1812901888" name="concrete" pos="-1.3 0.1 -5.2" rot="0.0 0.0 0.0" texture="10 0.5" size="1 38 6" material="masonry" color="0.55 0.55 0.55"/>
-						<voxbox id_="504592448" name="concrete" pos="-3.37144 1.09699 -4.6" rot="-90.0 0.0 -59.0" texture="10 0.5" size="1 6 13" material="masonry" color="0.55 0.55 0.55"/>
-						<voxbox id_="1673826048" name="concrete" pos="-3.4 0.0 -5.2" rot="0.0 0.0 0.0" texture="10 0.5" size="1 11 6" material="masonry" color="0.55 0.55 0.55"/>
-						<voxbox id_="1394691200" name="concrete" pos="-2.3 1.7 -5.2" rot="0.0 0.0 0.0" texture="10 0.5" size="1 22 6" material="masonry" color="0.55 0.55 0.55"/>
-						<voxagon id_="145957584" pos="-2.4 1.1 -4.7" rot="90.0 0.0 0.0" texture="10 0.5" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="concrete" extrude="1">
-							<vertex pos="-1.0 0.0"/>
-							<vertex pos="0.1 -0.7"/>
-							<vertex pos="0.1 -1.1"/>
-							<vertex pos="1.2 -1.6"/>
-							<vertex pos="1.2 1.0"/>
-							<vertex pos="-1.0 1.0"/>
-						</voxagon>
-					</group>
-					<group id_="1311324288" name="Walls" pos="-1.4 -0.4 0.3">
-						<group id_="933813888" name="Exterior Walls" pos="20.2 3.0 2.1">
-							<voxagon id_="1212031232" name="brick wall" pos="-6.9 5.2 -7.9" rot="-90.0 -180.0 0.0" texture="10 0.5" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" axis="y" extrude="3">
-								<vertex pos="-5.4 0.8"/>
-								<vertex pos="-5.4 -1.0"/>
-								<vertex pos="-2.4 -1.0"/>
-							</voxagon>
-							<voxbox id_="2134244608" name="brick wall" pos="-0.1 6.8 -7.8" rot="0.0 -90.0 0.0" texture="10 0.5" size="8 15 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)"/>
-							<voxbox id_="1885258112" name="brick wall" pos="-1.5 4.2 -7.9" rot="0.0 0.0 0.0" texture="10 0.5" size="11 41 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)"/>
-							<voxbox id_="707373248" name="brick wall" pos="-1.8 5.9 -6.8" rot="0.0 90.0 0.0" texture="10 0.5" size="10 24 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)"/>
-							<voxagon id_="647731840" name="brick wall" pos="1.0 5.2 -7.9" rot="-90.0 -180.0 0.0" texture="10 0.5" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" axis="y" extrude="3">
-								<vertex pos="-5.1 -0.7"/>
-								<vertex pos="-5.3 -1.0"/>
-								<vertex pos="1.4 -1.0"/>
-								<vertex pos="1.4 1.5"/>
-								<vertex pos="0.0 2.3"/>
-							</voxagon>
-							<voxagon id_="2125855488" name="brick wall" pos="0.8 5.2 4.2" rot="-90.0 0.0 0.0" texture="10 0.5" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" axis="y" extrude="3">
-								<vertex pos="0.1 2.3"/>
-								<vertex pos="-5.3 -1.0"/>
-								<vertex pos="5.4 -1.0"/>
-							</voxagon>
-							<voxagon id_="1833940224" name="brick wall" pos="-0.9 7.4 -6.8" rot="-90.0 0.0 0.0" texture="10 0.5" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" axis="y" extrude="3">
-								<vertex pos="0.8 0.9"/>
-								<vertex pos="-0.6 0.9"/>
-								<vertex pos="-0.6 -1.2"/>
-								<vertex pos="0.8 -0.4"/>
-							</voxagon>
-						</group>
-						<group id_="1598061824" name="Interior Walls" pos="21.0 8.2 0.0">
-							<voxagon id_="685810560" name="chipboard" pos="0.2 0.2 -0.95" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="1.3 -0.8"/>
-								<vertex pos="4.6 1.2"/>
-								<vertex pos="-0.1 1.2"/>
-								<vertex pos="-0.1 -0.8"/>
-							</voxagon>
-							<voxagon id_="596741696" name="chipboard" pos="-3.3 0.2 -4.9" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="2.1 -0.9"/>
-								<vertex pos="2.1 1.3"/>
-								<vertex pos="-1.8 1.3"/>
-							</voxagon>
-							<voxagon id_="1257843712" name="chipboard" pos="-1.2 0.2 -4.8" rot="90.0 90.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="0.7 -0.9"/>
-								<vertex pos="0.7 1.3"/>
-								<vertex pos="0.0 1.3"/>
-								<vertex pos="0.0 -0.9"/>
-							</voxagon>
-							<voxagon id_="1942212352" name="chipboard" pos="0.2 2.4 -0.94" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.1 0.6"/>
-								<vertex pos="1.0 1.2"/>
-								<vertex pos="-1.2 1.2"/>
-							</voxagon>
-							<voxbox id_="739553344" name="wooden_beam" pos="0.1 -1.0 -1.0" rot="0.0 0.0 90.0" texture="2 0.8" size="20 2 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-							<voxbox id_="2080370688" name="wooden_beam" pos="-3.2 -1.2 -4.0" rot="0.0 0.0 90.0" texture="2 0.8" size="10 2 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-							<voxbox id_="785300288" name="wooden_beam" pos="-3.2 -1.2 -1.0" rot="0.0 0.0 90.0" texture="2 0.8" size="10 2 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-							<voxbox id_="1194073216" name="wooden_beam" pos="-3.2 -1.2 2.0" rot="0.0 0.0 90.0" texture="2 0.8" size="10 2 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-							<voxbox id_="1650100608" name="wooden_beam" pos="-3.2 -1.2 5.0" rot="0.0 0.0 90.0" texture="2 0.8" size="10 2 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-							<voxbox id_="1072562112" name="wooden_beam" pos="1.2 -1.0 -1.0" rot="0.0 0.0 90.0" texture="2 0.8" size="20 1 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-							<voxbox id_="1175066624" name="wooden_beam" pos="2.2 -1.0 -1.0" rot="0.0 0.0 90.0" texture="2 0.8" size="16 1 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-							<voxbox id_="312363648" name="wooden_beam" pos="3.2 -1.0 -1.0" rot="0.0 0.0 90.0" texture="2 0.8" size="10 1 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-							<voxbox id_="500594528" name="wooden_beam" pos="4.2 -1.0 -1.0" rot="0.0 0.0 90.0" texture="2 0.8" size="4 1 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-							<voxbox id_="1077149952" name="wooden_beam" pos="3.6 -1.2 5.0" rot="0.0 0.0 90.0" texture="2 0.8" size="10 2 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-							<voxbox id_="138354944" name="wooden_beam" pos="3.6 -1.2 2.0" rot="0.0 0.0 90.0" texture="2 0.8" size="10 2 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-							<voxbox id_="1898562688" name="wooden_beam" pos="3.6 -1.2 -4.0" rot="0.0 0.0 90.0" texture="2 0.8" size="10 2 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-						</group>
-					</group>
-					<group id_="1207312384" name="Stored Props" pos="17.6 6.9 0.0"/>
-					<group id_="829539776" name="Ladder">
-						<voxbox id_="1636533760" name="hole" pos="21.1 6.4 3.3" rot="0.0 -180.0 0.0" size="14 5 22" brush="hole">
-							<vox id_="713992768" name="ladder_mounting" pos="0.7 0.2 1.1" texture="2 0.8" file="MOD/resources/vox/4_privet_drive/attic/drop_down_ladder.vox" object="ladder mounting"/>
-							<vox id_="1724291840" name="ladder_pannel" pos="0.7 0.1 1.1" texture="6 0.35" density="5" prop="true" file="MOD/resources/vox/4_privet_drive/attic/drop_down_ladder.vox" object="pannel">
-								<vox id_="1120406272" name="ladder_steps" pos="0.0 -0.1 -0.49" rot="-53.0 -180.0 0.0" texture="8 0.6" density="5" file="MOD/resources/vox/4_privet_drive/attic/drop_down_ladder.vox" object="main ladder steps">
-									<voxbox id_="964486656" name="secondary_ladder" pos="0.45 -0.298 0.496" rot="-53.0 180.0 0.0" texture="8 0.6" density="5" prop="true" size="9 1 21" brush="MOD/resources/vox/4_privet_drive/attic/drop_down_ladder.vox" object="secondary ladder" offset="0 0 3">
-										<joint id_="1059126400" name="prismatic" pos="0.04 -0.06 0.05" rot="180.0 0.0 0.0" type="prismatic" size="0.15" rotstrength="1" limits="0 1.7"/>
-									</voxbox>
-								</vox>
-								<voxbox id_="320687232" name="ladder_sides" pos="0.6 0.1 1.1" rot="0.0 -180.0 0.0" texture="2 0.7" density="5" size="12 5 21" brush="MOD/resources/vox/4_privet_drive/attic/drop_down_ladder.vox" object="ladder sides"/>
-								<joint id_="1105135488" name="hinge" pos="-0.6 0.0 1.1" rot="0.0 90.0 0.0" type="hinge" rotstrength="0.15" rotspring="0" limits="-55 0"/>
-								<joint id_="1763681408" name="hinge" pos="0.4 0.0 1.1" rot="0.0 90.0 0.0" type="hinge" rotstrength="0.15" rotspring="0" limits="-55 0"/>
-							</vox>
-						</voxbox>
-					</group>
-					<group id_="2110060288" name="Lighting" pos="19.5 7.4 0.25">
-						<group id_="1910359936" name="Cables" pos="0.2 2.2 3.3">
-							<voxbox id_="1273442176" name="metal_mounting" pos="-0.05 0.05 0.0" size="1 3 1" material="metal" color="0.4 0.4 0.4"/>
-							<voxbox id_="1970787840" name="metal_mounting" pos="-0.05 -0.9 1.8" rot="0.0 0.0 0.0" size="1 1 1" material="metal" color="0.4 0.4 0.4"/>
-							<voxbox id_="28575440" name="metal_mounting" pos="-0.05 -0.9 -7.2" rot="0.0 0.0 0.0" size="1 1 1" material="metal" color="0.4 0.4 0.4"/>
-							<voxbox id_="1918880128" name="metal_mounting" pos="1.0 -0.8 -4.35" rot="90.0 0.0 0.0" size="1 1 1" material="metal" color="0.4 0.4 0.4"/>
-							<voxbox id_="262225536" name="metal_mounting" pos="-0.05 -0.8 2.65" rot="90.0 0.0 0.0" size="1 1 1" material="metal" color="0.4 0.4 0.4"/>
-							<voxbox id_="465858304" name="metal_mounting" pos="-0.9 -2.8 2.55" rot="90.0 0.0 0.0" size="1 2 1" material="metal" color="0.4 0.4 0.4"/>
-							<voxbox id_="1988352512" name="metal_mounting" pos="-0.05 -0.8 -8.85" rot="90.0 0.0 0.0" size="1 2 1" material="metal" color="0.4 0.4 0.4"/>
-							<rope id_="671457280" name="cable" pos="0.0 0.1 0.1" rot="0.0 -90.0 0.0" slack=".15" strength="2" maxstretch="0.6">
-								<location id_="1353925376" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-								<location id_="1471766272" pos="1.7 -0.95 0.0" rot="0.0 0.0 0.0"/>
-							</rope>
-							<rope id_="1433556480" name="cable" pos="0.0 -0.85 1.9" rot="0.0 -90.0 0.0" strength="2" maxstretch="0.6">
-								<location id_="572098688" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-								<location id_="806928512" pos="0.75 -0.0 0.0" rot="0.0 0.0 0.0"/>
-							</rope>
-							<rope id_="434333568" name="cable" pos="0.0 -0.85 -8.65" rot="0.0 -90.0 0.0" strength="2" maxstretch="0.6">
-								<location id_="303843456" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-								<location id_="1976883072" pos="1.45 0.0 -0.0" rot="0.0 0.0 0.0"/>
-							</rope>
-							<rope id_="1576499200" name="cable" pos="0.0 -0.85 -7.1" rot="0.0 -90.0 0.0" slack="0.05" strength="2" maxstretch="0.6">
-								<location id_="1114442112" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-								<location id_="2053171584" pos="2.75 0.0 -1.05" rot="0.0 0.0 0.0"/>
-							</rope>
-							<rope id_="783596224" name="cable" pos="1.0 -0.85 -4.3" rot="0.0 -180.0 0.0" strength="2" maxstretch="0.6">
-								<location id_="412443232" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-								<location id_="872730624" pos="1.05 -0.2 -0.0" rot="0.0 0.0 0.0"/>
-							</rope>
-						</group>
-						<group id_="1299527168" name="Lights" pos="0.1 1.0 3.3">
-							<vox id_="421225568" name="ceiling_light" pos="0.05 0.3 0.1" texture="2 0.7" prop="true" file="MOD/resources/vox/4_privet_drive/attic/attic_lighting.vox" object="loft_ceiling_light">
-								<light id_="480998048" name="bulb" pos="0.05 -0.1 -0.05" color="1 0.8 0.7" scale="0" size="0.15" reach="7"/>
-								<rope id_="320556128" name="cable" pos="0.05 0.3 -0.05" rot="0.0 0.0 90.0" slack="-0.1" strength="2" maxstretch="0.6">
-									<location id_="1314732416" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-									<location id_="454519904" pos="0.65 -0.0 0.0" rot="0.0 0.0 0.0"/>
-								</rope>
-							</vox>
-							<vox id_="1793043328" name="wall_light" pos="0.05 -0.1 -4.35" rot="0.0 90.0 0.0" texture="2 0.7" prop="true" file="MOD/resources/vox/4_privet_drive/attic/attic_lighting.vox" object="loft_wall_light">
-								<light id_="89396560" name="bulb" pos="0.3 0.0 -0.05" color="1 0.8 0.7" scale="0" size="0.10" reach="7"/>
-							</vox>
-							<vox id_="1434605056" name="circuit_box" pos="-0.6 -0.8 2.65" rot="0.0 90.0 0.0" texture="2 0.7" file="MOD/resources/vox/4_privet_drive/attic/attic_lighting.vox" object="circuit box">
-								<vox id_="259669472" name="door" pos="0.39 0.0 -0.38" rot="0.0 106.0 0.0" texture="2 0.7" prop="true" file="MOD/resources/vox/4_privet_drive/attic/attic_lighting.vox" object="circuit_box_door">
-									<joint id_="109320720" name="hinge" pos="0.0 0.25 -0.3" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.001" rotspring="0" collide="true"/>
-									<joint id_="87495904" name="hinge" pos="0.0 0.55 -0.3" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.001" rotspring="0" collide="true"/>
-								</vox>
-								<rope id_="630822528" name="cable" pos="0.0 0.0 -0.15" rot="0.0 -90.0 -90.0" color="0.1 0.1 0.1" slack="-0.1" strength="2" maxstretch="0.6">
-									<location id_="1462787200" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-									<location id_="296568512" pos="0.8 -0.0 0.0" rot="0.0 0.0 0.0"/>
-								</rope>
-								<voxbox id_="505903264" name="switch_1" pos="0.0 0.4 -0.1" size="1 1 1" color=".1 .1 .1"/>
-								<voxbox id_="130883376" name="switch_2" pos="0.0 0.2 -0.1" size="1 1 1" color=".1 .1 .1"/>
-							</vox>
-						</group>
-					</group>
-				</group>
-				<group id_="349000512" name="First Floor" pos="-1.9 3.8 -2.7">
-					<group id_="1784981888" name="Walls" pos="-18.6 0.3 0.2">
-						<group id_="613651008" name="Wallpapers">
-							<voxbox id_="1931267200" name="wallpaper" pos="21.4 0.0 -2.0" rot="0.0 -90.0 0.0" texture="9 0.5" size="81 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_hallway.vox" object="wallpaper"/>
-							<voxbox id_="1181489536" name="wallpaper" pos="21.6 0.0 -2.1" rot="0.0 -90.0 0.0" texture="9 0.40" size="32 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_dudleys_bedroom.vox" object="wallpaper"/>
-							<voxbox id_="758166720" name="wallpaper" pos="21.6 0.0 -2.1" rot="0.0 -180.0 0.0" texture="9 0.40" size="16 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_dudleys_bedroom.vox" object="wallpaper"/>
-							<voxbox id_="1047591360" name="wallpaper" pos="21.6 0.0 1.0" rot="0.0 0.0 0.0" texture="9 0.40" size="29 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_dudleys_bedroom.vox" object="wallpaper"/>
-							<voxbox id_="1123683328" name="wallpaper" pos="24.4 0.0 1.0" rot="0.0 90.0 0.0" texture="9 0.40" size="60 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_dudleys_bedroom.vox" object="wallpaper"/>
-							<voxbox id_="834127552" name="wallpaper" pos="24.4 0.0 -4.9" rot="0.0 180.0 0.0" texture="9 0.40" size="44 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_dudleys_bedroom.vox" object="wallpaper"/>
-							<voxbox id_="1088553856" name="wallpaper" pos="19.9 0.0 -2.1" rot="0.0 90.0 0.0" texture="9 0.40" size="29 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_dudleys_bedroom.vox" object="wallpaper"/>
-							<voxbox id_="1340555136" name="wallpaper" pos="19.5 0.0 -2.0" rot="0.0 -90.0 0.0" texture="9 0.5" size="57 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_hallway.vox" object="wallpaper"/>
-							<voxbox id_="1094452480" name="wallpaper" pos="19.4 -0.2 3.7" rot="0.0 -180.0 0.0" texture="9 0.5" size="52 33 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_hallway.vox" object="wallpaper" offset="0 -2 0"/>
-							<voxbox id_="1447254272" name="wallpaper" pos="14.3 0.0 0.8" rot="0.0 -90.0 0.0" texture="9 0.35" size="26 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_bathroom.vox" object="wallpaper"/>
-							<voxbox id_="1334525440" name="wallpaper" pos="14.2 -0.3 5.4" rot="0.0 0.0 0.0" texture="9 0.5" size="52 34 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_hallway.vox" object="wallpaper" offset="0 -3 0"/>
-							<voxbox id_="541688128" name="wallpaper" pos="19.5 0.0 6.0" rot="0.0 0.0 0.0" texture="9 0.5" size="18 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_hallway.vox" object="wallpaper"/>
-							<voxbox id_="120986840" name="wallpaper" pos="19.4 0.0 6.1" rot="0.0 90.0 0.0" texture="9 0.5" size="7 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_hallway.vox" object="wallpaper"/>
-							<voxbox id_="1512007808" name="wallpaper" pos="14.2 -0.3 5.4" rot="0.0 90.0 0.0" texture="9 0.5" size="17 34 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_hallway.vox" object="wallpaper" offset="0 -3 0"/>
-							<voxbox id_="1355498240" name="wallpaper" pos="19.3 0.0 -2.1" rot="0.0 -90.0 0.0" texture="9 0.5" size="27 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_parents_bedroom.vox" object="wallpaper"/>
-							<voxbox id_="1263348992" name="wallpaper" pos="19.8 0.0 -4.9" rot="0.0 -90.0 0.0" texture="9 0.5" size="28 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_parents_bedroom.vox" object="wallpaper"/>
-							<voxbox id_="2049435776" name="wallpaper" pos="19.7 0.0 -2.1" rot="0.0 180.0 0.0" texture="9 0.5" size="5 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_parents_bedroom.vox" object="wallpaper"/>
-							<voxbox id_="615224000" name="wallpaper" pos="19.8 0.0 -4.9" rot="0.0 -180.0 0.0" texture="9 0.5" size="14 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_parents_bedroom.vox" object="wallpaper"/>
-							<voxbox id_="156247360" name="wallpaper" pos="18.5 0.0 -4.9" rot="0.0 -90.0 0.0" texture="9 0.5" size="3 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_parents_bedroom.vox" object="wallpaper"/>
-							<voxbox id_="1383221760" name="wallpaper" pos="18.5 0.0 -4.5" rot="0.0 180.0 0.0" texture="6 0.5" size="42 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_parents_bedroom.vox" object="wallpaper"/>
-							<voxbox id_="1724816128" name="wallpaper" pos="19.3 0.0 0.6" rot="0.0 180.0 0.0" texture="9 0.5" size="51 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_parents_bedroom.vox" object="wallpaper"/>
-							<voxbox id_="464416448" name="wallpaper" pos="19.2 0.0 0.8" rot="0.0 -180.0 0.0" texture="9 0.35" size="50 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_bathroom.vox" object="wallpaper"/>
-							<voxbox id_="597593728" name="wallpaper" pos="16.3 0.0 3.2" rot="0.0 0.0 0.0" texture="9 0.35" size="16 13 2" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_bathroom.vox" object="wallpaper" offset="0 1 0"/>
-							<voxbox id_="1657113344" name="wallpaper" pos="17.3 0.1 1.3" rot="0.0 90.0 0.0" texture="9 0.35" size="5 20 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_bathroom.vox" object="wallpaper" offset="0 1 0"/>
-							<voxbox id_="6095220" name="wallpaper" pos="18.4 0.1 1.3" rot="0.0 90.0 0.0" texture="9 0.35" size="5 20 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_bathroom.vox" object="wallpaper" offset="0 1 0"/>
-							<voxbox id_="916707968" name="shelf" pos="16.3 1.4 3.2" rot="90.0 0.0 0.0" texture="10 0.35" size="16 2 1" material="wood" color="0.40 0.31 0.25"/>
-							<voxbox id_="1175328768" name="shelf" pos="17.4 1.7 0.8" rot="90.0 0.0 0.0" texture="10 0.35" size="10 4 1" material="wood" color="0.40 0.31 0.25"/>
-							<voxbox id_="583633728" name="shelf" pos="17.4 1.2 0.8" rot="90.0 0.0 0.0" texture="10 0.35" size="10 4 1" material="wood" color="0.40 0.31 0.25"/>
-							<voxbox id_="1184438912" name="shelf" pos="17.4 0.7 0.8" rot="90.0 0.0 0.0" texture="10 0.35" size="10 4 1" material="wood" color="0.40 0.31 0.25"/>
-							<voxbox id_="1549169024" name="wallpaper" pos="19.3 0.0 0.7" rot="0.0 -90.0 0.0" texture="9 0.35" size="28 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_bathroom.vox" object="wallpaper"/>
-							<voxbox id_="1242769536" name="wallpaper" pos="19.2 0.0 3.5" rot="0.0 180.0 0.0" texture="9 0.30" size="50 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_bathroom.vox" object="wallpaper"/>
-							<voxbox id_="481522368" name="wallpaper" pos="14.2 0.0 0.5" rot="0.0 90.0 0.0" texture="9 0.5" size="51 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_parents_bedroom.vox" object="wallpaper"/>
-							<voxbox id_="389438688" name="wallpaper" pos="21.6 0.0 1.2" rot="0.0 0.0 0.0" texture="6 0.35" size="36 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_harrys_room.vox" object="wallpaper"/>
-							<voxbox id_="1051458240" name="wallpaper" pos="21.6 0.0 1.2" rot="0.0 -90.0 0.0" texture="6 0.35" size="30 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_harrys_room.vox" object="wallpaper"/>
-							<voxbox id_="2025906944" name="wallpaper" pos="21.6 0.0 4.1" rot="0.0 0.0 0.0" texture="6 0.35" size="6 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_harrys_room.vox" object="wallpaper"/>
-							<voxbox id_="416703328" name="wallpaper" pos="22.2 0.0 4.2" rot="0.0 -90.0 0.0" texture="6 0.35" size="13 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_harrys_room.vox" object="wallpaper"/>
-							<voxbox id_="1854454272" name="wallpaper" pos="22.2 0.0 5.4" rot="0.0 0.0 0.0" texture="6 0.35" size="31 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_harrys_room.vox" object="wallpaper"/>
-							<voxbox id_="684040960" name="wallpaper" pos="25.2 0.0 5.4" rot="0.0 90.0 0.0" texture="6 0.35" size="42 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_harrys_room.vox" object="wallpaper"/>
-						</group>
-						<group id_="1888403968" name="Exterior Walls" pos="20.9 0.4 -0.2">
-							<group id_="2086728064" name="Walls" pos="-1.4 -0.4 0.3">
-								<voxbox id_="458845536" name="brick wall" pos="-5.8 -0.3 6.5" rot="0.0 90.0 0.0" texture="10 0.5" size="120 33 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" offset="0 0 0">
-									<voxbox id_="1934150912" name="insulation" pos="0.3 0.0 0.3" rot="0.0 0.0 0.0" texture="2 0.7" size="115 34 2" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="insulation (exterior)"/>
-								</voxbox>
-								<voxbox id_="408445280" name="brick wall" pos="-5.5 -0.3 -5.6" rot="0.0 0.0 0.0" texture="10 0.5" size="107 37 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" offset="0 3 0">
-									<voxbox id_="4391180" name="insulation" pos="0.1 0.3 0.3" rot="0.0 0.0 0.0" texture="2 0.7" size="21 30 2" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="insulation (exterior)"/>
-									<voxbox id_="1780328576" name="insulation" pos="4.4 0.3 0.3" rot="0.0 0.0 0.0" texture="2 0.7" size="63 31 2" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="insulation (exterior)"/>
-								</voxbox>
-								<voxbox id_="318065632" name="brick wall" pos="6.3 -0.3 1.0" rot="0.0 -90.0 0.0" texture="10 0.5" size="52 33 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" offset="0 3 0">
-									<voxbox id_="1135349376" name="insulation" pos="0.0 0.0 0.3" rot="0.0 0.0 0.0" texture="2 0.7" size="50 34 2" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="insulation (exterior)"/>
-									<voxbox id_="1417040384" name="insulation" pos="-6.2 0.0 1.1" rot="0.0 0.0 0.0" texture="2 0.7" size="62 34 2" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="insulation (exterior)"/>
-								</voxbox>
-								<voxbox id_="189017360" name="brick wall" pos="5.2 -0.3 0.7" rot="0.0 0.0 0.0" texture="10 0.5" size="10 35 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" offset="0 1 0"/>
-								<voxbox id_="1971508736" name="brick wall" pos="5.5 -0.3 -5.6" rot="0.0 -90.0 0.0" texture="10 0.5" size="63 37 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" offset="0 3 0"/>
-								<voxagon id_="1816113408" name="brick wall" pos="0.6 0.9 6.5" rot="-90.0 0.0 0.0" texture="10 0.5" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" offset="0 1 0" axis="y" extrude="3">
-									<vertex pos="5.7 2.3"/>
-									<vertex pos="5.3 2.5"/>
-									<vertex pos="-5.8 2.5"/>
-									<vertex pos="-6.3 2.2"/>
-									<vertex pos="-6.3 -0.8"/>
-									<vertex pos="-3.4 1.0"/>
-									<vertex pos="-2.7 1.0"/>
-									<vertex pos="0.8 -1.2"/>
-									<vertex pos="5.7 -1.2"/>
-									<voxbox id_="56364400" name="insulation" pos="5.4 0.3 -0.9" rot="-90.0 -180.0 0.0" texture="2 0.7" size="58 31 2" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="insulation (exterior)"/>
-									<voxbox id_="955245504" name="insulation" pos="-0.8 0.9 -1.2" rot="-90.0 180.0 0.0" texture="2 0.7" size="52 34 2" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="insulation (exterior)" offset="5 0 0"/>
-								</voxagon>
-								<voxagon id_="547390080" name="brick wall" pos="-1.6 0.2 10.4" rot="-90.0 0.0 0.0" texture="10 0.5" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" axis="y" extrude="3">
-									<vertex pos="-1.0 1.9"/>
-									<vertex pos="-5.4 -1.0"/>
-									<vertex pos="3.5 -1.0"/>
-								</voxagon>
-							</group>
-							<group id_="616403712" name="Window Detail">
-								<voxbox id_="696559104" name="detail" pos="3.8 2.1 -0.8" rot="0.0 90.0 0.0" texture="10 0.5" size="18 3 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="window brick (exterior)"/>
-								<voxbox id_="1607040768" name="detail" pos="0.0 2.1 6.8" rot="0.0 180.0 0.0" texture="10 0.5" size="10 3 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="window brick (exterior)"/>
-								<voxbox id_="1197743488" name="detail" pos="-1.3 2.1 -5.0" rot="0.0 180.0 0.0" texture="10 0.5" size="10 3 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="window brick (exterior)"/>
-							</group>
-						</group>
-						<group id_="684434240" name="Interior Walls">
-							<voxbox id_="1435850368" name="wooden wall" pos="14.2 0.3 3.5" rot="0.0 0.0 0.0" texture="2 0.7" size="51 28 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
-							<voxbox id_="1328299136" name="wooden wall" pos="19.3 0.0 3.6" rot="0.0 90.0 0.0" texture="2 0.7" size="56 31 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
-							<voxbox id_="1237722880" name="wooden wall" pos="19.8 0.0 -2.1" rot="0.0 90.0 0.0" texture="2 0.7" size="28 31 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
-							<voxbox id_="776452352" name="wooden wall" pos="19.4 0.0 0.7" rot="0.0 180.0 0.0" texture="2 0.7" size="52 31 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
-							<voxbox id_="612405760" name="wooden wall" pos="16.2 0.0 -4.6" rot="0.0 -180.0 0.0" texture="2 0.7" size="20 31 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
-							<voxbox id_="881513024" name="wooden wall" pos="19.3 0.0 -2.1" rot="0.0 0.0 0.0" texture="2 0.7" size="21 31 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
-							<voxbox id_="1384270336" name="wooden wall" pos="21.5 0.0 -2.1" rot="0.0 -90.0 0.0" texture="2 0.7" size="66 31 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
-							<voxbox id_="1540321024" name="wooden wall" pos="25.4 0.0 5.6" rot="0.0 180.0 0.0" texture="2 0.7" size="40 31 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
-							<voxbox id_="1845540864" name="wooden wall" pos="21.5 0.0 5.5" rot="0.0 -90.0 0.0" texture="2 0.7" size="6 31 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
-							<voxbox id_="1712363520" name="wooden wall" pos="19.4 -0.3 5.5" rot="0.0 -90.0 0.0" texture="2 0.7" size="7 34 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
-							<voxbox id_="119938200" name="wooden wall" pos="14.2 -0.3 6.2" rot="0.0 0.0 0.0" texture="2 0.7" size="55 34 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)" offset="5 0 0">
-								<voxagon id_="142680576" name="chipboard" pos="4.2 0.5 0.0" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-									<vertex pos="-0.6 -1.1"/>
-									<vertex pos="0.3 -0.6"/>
-									<vertex pos="0.3 0.5"/>
-									<vertex pos="-0.6 0.5"/>
-								</voxagon>
-								<voxagon id_="356537600" name="chipboard" pos="5.2 0.5 0.0" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-									<vertex pos="-0.6 0.1"/>
-									<vertex pos="0.7 0.1"/>
-									<vertex pos="0.7 0.5"/>
-									<vertex pos="-0.6 0.5"/>
-								</voxagon>
-								<voxagon id_="1082327552" name="chipboard" pos="2.8 0.5 0.0" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-									<vertex pos="-0.2 0.1"/>
-									<vertex pos="0.7 0.1"/>
-									<vertex pos="0.7 0.5"/>
-									<vertex pos="-0.2 0.5"/>
-								</voxagon>
-								<voxagon id_="2121136512" name="chipboard" pos="2.8 1.0 0.0" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-									<vertex pos="-0.2 -1.2"/>
-									<vertex pos="0.7 -0.7"/>
-									<vertex pos="0.7 0.5"/>
-									<vertex pos="-0.2 0.5"/>
-								</voxagon>
-								<voxagon id_="688432128" name="chipboard" pos="1.8 0.5 0.0" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-									<vertex pos="-0.2 -1.0"/>
-									<vertex pos="0.7 -1.5"/>
-									<vertex pos="0.7 0.5"/>
-									<vertex pos="-0.2 0.5"/>
-								</voxagon>
-								<voxagon id_="1373194112" name="chipboard" pos="0.8 0.5 0.0" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-									<vertex pos="-0.2 0.1"/>
-									<vertex pos="0.7 0.1"/>
-									<vertex pos="0.7 0.5"/>
-									<vertex pos="-0.2 0.5"/>
-								</voxagon>
-								<voxagon id_="477000128" name="chipboard" pos="0.8 1.0 0.0" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-									<vertex pos="-0.2 0.1"/>
-									<vertex pos="0.7 -0.4"/>
-									<vertex pos="0.7 0.5"/>
-									<vertex pos="-0.2 0.5"/>
-								</voxagon>
-								<voxagon id_="1892336384" name="chipboard" pos="0.2 0.6 0.0" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-									<vertex pos="-0.2 0.1"/>
-									<vertex pos="0.3 -0.1"/>
-									<vertex pos="0.3 0.5"/>
-									<vertex pos="-0.2 0.5"/>
-								</voxagon>
-								<voxagon id_="232208224" name="chipboard" pos="5.2 1.0 0.0" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-									<vertex pos="-0.6 0.0"/>
-									<vertex pos="0.3 0.5"/>
-									<vertex pos="-0.6 0.5"/>
-								</voxagon>
-							</voxbox>
-							<voxbox id_="83891200" name="wooden wall" pos="21.5 0.0 1.1" rot="0.0 0.0 0.0" texture="2 0.7" size="38 31 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
-						</group>
-						<group id_="511670784" name="chimney" pos="19.6 0.0 0.0">
-							<voxbox id_="1463901440" name="concrete" pos="-1.3 -0.3 -5.2" rot="0.0 0.0 0.0" texture="10 0.5" size="1 37 6" material="masonry" color="0.55 0.55 0.55"/>
-							<voxbox id_="1454398080" name="concrete" pos="-1.3 -0.3 -4.7" rot="0.0 -90.0 0.0" texture="10 0.5" size="1 37 20" material="masonry" color="0.55 0.55 0.55"/>
-							<voxbox id_="1862188032" name="concrete" pos="-3.4 -0.3 -5.2" rot="0.0 0.0 0.0" texture="10 0.5" size="1 37 6" material="masonry" color="0.55 0.55 0.55"/>
-						</group>
-						<group id_="1731239040" name="Power Plugs">
-							<voxbox id_="1820045824" name="power_plug" pos="24.5 0.5 -4.6" rot="0.0 180.0 0.0" texture="6 0.4" size="1 2 1" material="plastic" color="0.9 0.9 0.9"/>
-							<voxbox id_="1063845248" name="power_plug" pos="20.3 0.5 -5.0" rot="0.0 -90.0 0.0" texture="6 0.4" size="1 2 1" material="plastic" color="0.9 0.9 0.9"/>
-							<voxbox id_="1491100544" name="power_plug" pos="24.2 0.5 1.0" rot="0.0 -90.0 0.0" texture="6 0.4" size="1 2 1" material="plastic" color="0.9 0.9 0.9"/>
-						</group>
-					</group>
-					<group id_="1705154176" name="Floor / Ceiling" pos="-18.6 0.0 0.2">
-						<group id_="1142427776" name="Concrete" pos="20.1 0.0 0.1">
-							<voxbox id_="703571904" name="Concrete" pos="-0.4 0.1 3.5" rot="0.0 0.0 0.0" texture="5 0.8" size="58 2 27" material="masonry" color="0.5 0.5 0.5"/>
-							<voxbox id_="107878840" name="Concrete" pos="-6.1 0.1 -4.7" rot="0.0 0.0 0.0" texture="5 0.8" size="107 2 82" material="masonry" color="0.5 0.5 0.5"/>
-							<voxbox id_="1372473088" name="Concrete" pos="-6.1 0.1 -5.3" rot="0.0 0.0 0.0" texture="5 0.8" size="22 2 6" material="masonry" color="0.5 0.5 0.5"/>
-							<voxbox id_="1816637696" name="Concrete" pos="-1.6 0.1 -5.3" rot="0.0 0.0 0.0" texture="5 0.8" size="62 2 6" material="masonry" color="0.5 0.5 0.5"/>
-							<voxbox id_="160114224" name="Concrete" pos="4.6 0.1 1.0" rot="0.0 0.0 0.0" texture="5 0.8" size="8 2 25" material="masonry" color="0.5 0.5 0.5"/>
-						</group>
-						<group id_="73535880" name="Paint" pos="20.1 0.0 0.1">
-							<voxbox id_="299779968" name="paint" pos="4.6 0.0 1.1" rot="0.0 0.0 0.0" texture="6 0.35" size="8 1 52" material="plaster" color="0.9 0.9 0.85"/>
-							<voxbox id_="1301558912" name="paint" pos="-1.6 0.0 -5.3" rot="0.0 0.0 0.0" texture="6 0.35" size="62 1 6" material="plaster" color="0.9 0.9 0.85"/>
-							<voxbox id_="325340544" name="paint" pos="-6.1 0.0 -5.3" rot="0.0 0.0 0.0" texture="6 0.35" size="21 1 6" material="plaster" color="0.9 0.9 0.85"/>
-							<voxbox id_="651336512" name="paint" pos="-6.1 0.0 -4.7" rot="0.0 0.0 0.0" texture="6 0.35" size="107 1 83" material="plaster" color="0.9 0.9 0.85"/>
-							<voxbox id_="249052000" name="paint" pos="-0.4 -0.1 -5.0" rot="0.0 0.0 0.0" texture="6 0.35" size="3 1 59" material="plaster" color="0.9 0.9 0.85"/>
-							<voxbox id_="1023538176" name="paint" pos="-0.4 0.0 3.6" rot="0.0 0.0 0.0" texture="6 0.35" size="50 1 26" material="plaster" color="0.9 0.9 0.85"/>
-						</group>
-						<group id_="1481007360" name="Detail" pos="14.3 -0.1 -2.0">
-							<voxbox id_="1274032000" name="detail" pos="0.0 0.0 -2.9" rot="0.0 0.0 0.0" texture="6 0.35" size="1 1 59" material="wood" color="0.86 0.80 0.75"/>
-							<voxbox id_="1014952448" name="detail" pos="0.1 0.0 -2.8" rot="0.0 90.0 0.0" texture="6 0.35" size="1 1 17" material="wood" color="0.86 0.80 0.75"/>
-							<voxbox id_="1952108928" name="detail" pos="1.7 0.0 -2.8" rot="0.0 0.0 0.0" texture="6 0.35" size="1 1 3" material="wood" color="0.86 0.80 0.75"/>
-							<voxbox id_="732016256" name="detail" pos="1.7 0.0 -2.4" rot="0.0 90.0 0.0" texture="6 0.35" size="1 1 25" material="wood" color="0.86 0.80 0.75"/>
-							<voxbox id_="921885632" name="detail" pos="4.3 0.0 -2.4" rot="0.0 180.0 0.0" texture="6 0.35" size="1 1 4" material="wood" color="0.86 0.80 0.75"/>
-							<voxbox id_="1484022272" name="detail" pos="4.2 0.0 -2.8" rot="0.0 90.0 0.0" texture="6 0.35" size="1 1 58" material="wood" color="0.86 0.80 0.75"/>
-							<voxbox id_="1690473216" name="detail" pos="10.8 0.0 3.4" rot="0.0 0.0 0.0" texture="6 0.35" size="1 1 45" material="wood" color="0.86 0.80 0.75"/>
-							<voxbox id_="2077618048" name="detail" pos="10.9 0.0 7.9" rot="0.0 -90.0 0.0" texture="6 0.35" size="1 1 52" material="wood" color="0.86 0.80 0.75"/>
-							<voxbox id_="391339328" name="detail" pos="5.8 0.0 8.0" rot="0.0 -180.0 0.0" texture="6 0.35" size="1 1 47" material="wood" color="0.86 0.80 0.75"/>
-							<voxbox id_="614437504" name="detail" pos="5.8 0.0 3.4" rot="0.0 90.0 0.0" texture="6 0.35" size="1 1 51" material="wood" color="0.86 0.80 0.75"/>
-							<voxbox id_="395337280" name="detail" pos="10.1 0.0 2.9" rot="0.0 -90.0 0.0" texture="6 0.35" size="1 1 100" material="wood" color="0.86 0.80 0.75"/>
-							<voxbox id_="2142109312" name="detail" pos="10.1 0.0 2.9" rot="0.0 180.0 0.0" texture="6 0.35" size="1 1 58" material="wood" color="0.86 0.80 0.75"/>
-						</group>
-						<group id_="272384256" name="Carpet / Tiles" pos="33.2 0.3 -2.0">
-							<voxagon id_="550798144" name="carpet" pos="-10.8 0.0 6.2" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="brown carpet" extrude="1">
-								<vertex pos="-0.2 1.2"/>
-								<vertex pos="-0.2 -0.1"/>
-								<vertex pos="-0.8 -0.1"/>
-								<vertex pos="-0.8 -2.9"/>
-								<vertex pos="2.8 -2.9"/>
-								<vertex pos="2.8 1.2"/>
-							</voxagon>
-							<voxagon id_="291587456" name="carpet" pos="-12.1 0.0 6.6" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="brown carpet" extrude="1">
-								<vertex pos="0.3 0.9"/>
-								<vertex pos="0.3 -0.4"/>
-								<vertex pos="1.0 -0.4"/>
-								<vertex pos="1.0 0.9"/>
-							</voxagon>
-							<voxagon id_="1562997888" name="carpet" pos="-10.8 0.0 1.7" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="blue carpet" extrude="1">
-								<vertex pos="-0.8 1.3"/>
-								<vertex pos="-0.8 -1.9"/>
-								<vertex pos="-2.4 -1.9"/>
-								<vertex pos="-2.4 -4.6"/>
-								<vertex pos="2.0 -4.6"/>
-								<vertex pos="2.0 1.3"/>
-							</voxagon>
-							<voxagon id_="1413370112" name="carpet" pos="-15.8 0.0 1.7" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="ugly carpet" extrude="1">
-								<vertex pos="-3.1 1.0"/>
-								<vertex pos="-3.1 -4.2"/>
-								<vertex pos="-1.3 -4.2"/>
-								<vertex pos="1.1 -4.2"/>
-								<vertex pos="1.1 -4.6"/>
-								<vertex pos="2.3 -4.6"/>
-								<vertex pos="2.3 -1.9"/>
-								<vertex pos="1.8 -1.9"/>
-								<vertex pos="1.8 1.0"/>
-							</voxagon>
-							<voxagon id_="129113800" name="tiles" pos="-15.8 0.0 4.5" texture="6 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="bathroom tiles" offset="1 0 0" extrude="1">
-								<vertex pos="-3.1 0.9"/>
-								<vertex pos="-3.1 -1.7"/>
-								<vertex pos="1.8 -1.7"/>
-								<vertex pos="1.8 0.9"/>
-							</voxagon>
-							<voxagon id_="1802022272" name="carpet" pos="-15.0 0.0 6.2" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" extrude="1">
-								<vertex pos="1.3 1.8"/>
-								<vertex pos="1.3 1.2"/>
-								<vertex pos="1.2 1.2"/>
-								<vertex pos="1.2 -0.5"/>
-								<vertex pos="1.3 -0.5"/>
-								<vertex pos="1.3 -0.9"/>
-								<vertex pos="1.1 -0.9"/>
-								<vertex pos="1.1 -2.0"/>
-								<vertex pos="1.3 -2.0"/>
-								<vertex pos="1.3 -4.0"/>
-								<vertex pos="1.1 -4.0"/>
-								<vertex pos="1.1 -5.1"/>
-								<vertex pos="1.2 -5.1"/>
-								<vertex pos="1.2 -6.2"/>
-								<vertex pos="3.1 -6.2"/>
-								<vertex pos="3.1 -5.1"/>
-								<vertex pos="3.3 -5.1"/>
-								<vertex pos="3.3 -4.0"/>
-								<vertex pos="3.1 -4.0"/>
-								<vertex pos="3.1 -2.7"/>
-								<vertex pos="3.3 -2.7"/>
-								<vertex pos="3.3 -1.6"/>
-								<vertex pos="3.1 -1.6"/>
-								<vertex pos="3.1 1.8"/>
-							</voxagon>
-						</group>
-						<group id_="763344384" name="Wood" pos="0.0 0.1 0.0">
-							<voxbox id_="692167936" name="wood" pos="21.5 0.2 2.5" rot="0.0 90.0 0.0" texture="10 0.5" size="11 1 1" material="wood" color="0.55 0.4 0.3"/>
-							<voxbox id_="315116320" name="wood" pos="21.3 0.2 5.4" rot="0.0 90.0 0.0" texture="10 0.5" size="11 1 1" material="wood" color="0.55 0.4 0.3"/>
-							<voxbox id_="385899520" name="wood" pos="19.2 0.2 3.3" rot="0.0 90.0 0.0" texture="10 0.5" size="11 1 1" material="wood" color="0.55 0.4 0.3"/>
-							<voxbox id_="40110480" name="wood" pos="19.2 0.2 0.2" rot="0.0 90.0 0.0" texture="10 0.5" size="11 1 1" material="wood" color="0.55 0.4 0.3"/>
-							<voxbox id_="1757586176" name="wood" pos="21.5 0.2 0.2" rot="0.0 90.0 0.0" texture="10 0.5" size="11 1 1" material="wood" color="0.55 0.4 0.3"/>
-						</group>
-						<group id_="1241262080" name="Garage">
-							<voxagon id_="2140012032" name="chipboard" pos="16.4 0.0 8.2" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-2.5 -0.9"/>
-								<vertex pos="0.5 -0.9"/>
-								<vertex pos="0.5 0.9"/>
-								<vertex pos="-2.5 0.9"/>
-							</voxagon>
-							<voxagon id_="1351238144" name="chipboard" pos="16.4 0.0 9.3" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-2.5 0.0"/>
-								<vertex pos="0.5 0.0"/>
-								<vertex pos="0.5 0.9"/>
-								<vertex pos="-2.5 0.9"/>
-							</voxagon>
-							<voxagon id_="1345863936" name="chipboard" pos="16.4 0.0 6.2" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-2.5 0.1"/>
-								<vertex pos="4.0 0.1"/>
-								<vertex pos="4.0 0.9"/>
-								<vertex pos="-2.5 0.9"/>
-							</voxagon>
-						</group>
-					</group>
-					<group id_="1647151232" name="Furniture" pos="-14.1 0.2 0.2"/>
-					<group id_="90117504" name="Doors" pos="-0.5 -0.3 0.0">
-						<voxbox id_="1839511168" name="interior door" pos="3.6 0.7 2.7" rot="0.0 -180.0 0.0" size="5 22 11" brush="hole">
-							<vox id_="719301504" name="door frame" pos="0.3 0.0 0.6" rot="0.0 90.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="white door frame"/>
-							<vox id_="1128664320" name="door" pos="0.2 0.025 0.6" rot="0.0 90.0 0.0" texture="3 0.35" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="white interior door">
-								<joint id_="858967232" name="hinge" pos="-0.4 1.7 -0.1" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 110"/>
-								<joint id_="2076503808" name="hinge" pos="-0.4 0.3 -0.1" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 110"/>
-							</vox>
-						</voxbox>
-						<voxbox id_="1307981824" name="interior door" pos="3.1 0.7 -0.7" rot="0.0 0.0 0.0" size="5 22 11" brush="hole">
-							<vox id_="887018368" name="door frame" pos="0.3 0.0 0.6" rot="0.0 90.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="white door frame"/>
-							<vox id_="69013616" name="door" pos="0.4 0.025 0.6" rot="0.0 90.0 0.0" texture="3 0.35" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="white interior door">
-								<joint id_="1964954752" name="hinge" pos="-0.4 1.7 0.0" rot="90.0 90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 150"/>
-								<joint id_="97523520" name="hinge" pos="-0.4 0.3 0.0" rot="90.0 90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 150"/>
-							</vox>
-						</voxbox>
-						<voxbox id_="1758634880" name="interior door" pos="1.0 0.7 -0.7" rot="0.0 0.0 0.0" size="5 22 11" brush="hole">
-							<vox id_="2146828288" name="door frame" pos="0.3 0.0 0.6" rot="0.0 90.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="white door frame"/>
-							<vox id_="1003286336" name="door" pos="0.2 0.025 0.6" rot="0.0 90.0 0.0" texture="3 0.35" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="white interior door">
-								<joint id_="2137914752" name="hinge" pos="-0.4 1.7 -0.1" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 110"/>
-								<joint id_="507476224" name="hinge" pos="-0.4 0.3 -0.1" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 110"/>
-							</vox>
-						</voxbox>
-						<voxbox id_="1461869696" name="interior door" pos="1.0 0.7 2.4" rot="0.0 0.0 0.0" size="5 22 11" brush="hole">
-							<vox id_="891081856" name="door frame" pos="0.3 0.0 0.6" rot="0.0 90.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="white door frame"/>
-							<vox id_="1731828992" name="door" pos="0.2 0.025 0.6" rot="0.0 90.0 0.0" texture="3 0.35" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="white interior door">
-								<joint id_="2062281600" name="hinge" pos="-0.4 1.7 -0.1" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 110"/>
-								<joint id_="1462852864" name="hinge" pos="-0.4 0.3 -0.1" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 110"/>
-							</vox>
-						</voxbox>
-					</group>
-					<group id_="2080043008" name="Windows" pos="-14.1 -0.1 0.2">
-						<voxbox id_="566068992" name="triple-window" pos="9.1 1.5 -3.1" rot="0.0 0.0 0.0" size="7 14 22" brush="hole">
-							<vox id_="1900659968" name="window frame" pos="0.4 0.0 1.1" rot="0.0 -90.0 0.0" texture="3 0.5" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="wide triple-window frame">
-								<vox id_="143794752" name="window" pos="-0.7 0.1 0.3" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="basic window door"/>
-								<vox id_="396844704" name="window" pos="0.7 0.1 0.2" rot="0.0 -180.0 0.0" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="basic window door"/>
-							</vox>
-						</voxbox>
-						<voxbox id_="2005065216" name="single-window" pos="9.1 1.5 4.2" rot="0.0 0.0 0.0" size="7 14 8" brush="hole">
-							<vox id_="1289171840" name="window frame" pos="0.4 0.0 0.4" rot="0.0 -90.0 0.0" texture="3 0.5" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="single-window frame">
-								<vox id_="1503356544" name="window" pos="0.0 0.1 0.3" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="basic window door"/>
-							</vox>
-						</voxbox>
-						<voxbox id_="179514064" name="single-window" pos="15.0 1.5 -5.6" rot="0.0 -90.0 0.0" size="7 14 8" brush="hole">
-							<vox id_="942399680" name="window frame" pos="0.4 0.0 0.4" rot="0.0 -90.0 0.0" texture="3 0.5" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="single-window frame">
-								<vox id_="1487954560" name="window" pos="0.0 0.1 0.3" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="basic window door"/>
-							</vox>
-						</voxbox>
-						<voxbox id_="2060315392" name="single-window" pos="15.5 1.5 6.7" rot="0.0 90.0 0.0" size="7 14 8" brush="hole">
-							<vox id_="1311389824" name="window frame" pos="0.4 0.0 0.4" rot="0.0 -90.0 0.0" texture="3 0.5" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="single-window frame">
-								<vox id_="417817504" name="window" pos="0.0 0.1 0.3" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="basic window door"/>
-							</vox>
-						</voxbox>
-						<voxbox id_="1415467392" name="double-window" pos="20.6 1.5 -1.1" rot="0.0 -180.0 0.0" size="7 14 16" brush="hole">
-							<vox id_="1347961216" name="window frame" pos="0.4 0.0 0.8" rot="0.0 -90.0 0.0" texture="3 0.5" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="double-window frame">
-								<vox id_="218575904" name="window" pos="-0.4 0.1 0.3" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="basic window door"/>
-								<vox id_="1376602112" name="window" pos="0.4 0.1 0.2" rot="0.0 -180.0 0.0" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="basic window door"/>
-							</vox>
-						</voxbox>
-						<voxbox id_="720350144" name="double-window" pos="21.4 1.5 4.3" rot="0.0 -180.0 0.0" size="7 14 16" brush="hole">
-							<vox id_="484471680" name="window frame" pos="0.4 0.0 0.8" rot="0.0 -90.0 0.0" texture="3 0.5" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="double-window frame">
-								<vox id_="871550912" name="window" pos="-0.4 0.1 0.3" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="basic window door"/>
-								<vox id_="1073610752" name="window" pos="0.4 0.1 0.2" rot="0.0 -180.0 0.0" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="basic window door"/>
-								<voxbox id_="541819200" name="wallpaper" pos="0.8 0.0 -0.3" rot="0.0 -90.0 0.0" texture="10 0.35" size="3 13 1" material="wood" color="0.53 0.55 0.47"/>
-								<voxbox id_="1233266176" name="wallpaper" pos="0.8 1.4 -0.3" rot="90.0 -90.0 0.0" texture="10 0.35" size="3 16 1" material="wood" color="0.53 0.55 0.47"/>
-								<voxbox id_="690529408" name="wallpaper" pos="-0.8 1.3 -0.3" rot="-180.0 -90.0 0.0" texture="10 0.35" size="3 12 1" material="wood" color="0.53 0.55 0.47"/>
-							</vox>
-						</voxbox>
-					</group>
-				</group>
-				<group id_="1757913856" name="Ground Floor" pos="-6.4 0.2 -2.7">
-					<group id_="1863564416" name="Walls" pos="-14.1 0.2 0.2">
-						<group id_="1085735680" name="Wallpapers">
-							<voxbox id_="472281248" name="wallpaper" pos="20.0 0.3 1.3" rot="0.0 -90.0 0.0" texture="9 0.5" size="47 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_kitchen.vox" object="wallpaper"/>
-							<voxbox id_="1593015296" name="wallpaper" pos="20.5 0.3 1.1" rot="0.0 -180.0 0.0" texture="9 0.5" size="63 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_living_room.vox" object="wp_living_room"/>
-							<voxbox id_="78058144" name="wallpaper" pos="24.5 3.1 1.1" rot="0.0 -180.0 0.0" texture="9 0.5" size="40 3 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_living_room.vox" object="wp_living_room" offset="0 4 0"/>
-							<voxbox id_="1089209216" name="wallpaper" pos="24.4 3.1 1.2" rot="90.0 180.0 0.0" texture="9 0.5" size="39 2 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_living_room.vox" object="wp_living_room" offset="1 4 0"/>
-							<voxbox id_="1558999936" name="wallpaper" pos="20.5 3.0 1.2" rot="0.0 0.0 0.0" texture="9 0.5" size="48 4 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_kitchen.vox" offset="2 4 0"/>
-							<voxbox id_="1270361856" name="wallpaper" pos="20.5 0.3 1.1" rot="0.0 -90.0 0.0" texture="9 0.5" size="1 28 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_living_room.vox" object="wp_living_room"/>
-							<voxbox id_="1465539968" name="wallpaper" pos="20.5 0.3 1.3" rot="0.0 180.0 0.0" texture="9 0.5" size="6 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_kitchen.vox" offset="1 0 0"/>
-							<voxbox id_="185347120" name="wallpaper" pos="25.3 0.3 1.3" rot="0.0 -180.0 0.0" texture="9 0.5" size="9 25 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_kitchen.vox" offset="1 0 0"/>
-							<voxbox id_="270286976" name="wallpaper" pos="19.8 0.3 1.3" rot="0.0 -180.0 0.0" texture="9 0.5" size="56 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_staircase.vox" object="wallpaper">
-								<voxbox id_="1957155456" name="detail" pos="2.05 1.7 0.0" rot="0.0 -180.0 0.0" texture="10 0.5" size="2 2 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_staircase.vox" object="wallpaper" material="plastic" color="0.9 0.9 0.9"/>
-							</voxbox>
-							<voxbox id_="793427264" name="wallpaper" pos="19.8 0.3 1.3" rot="0.0 -90.0 0.0" texture="9 0.5" size="42 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_staircase.vox" object="wallpaper"/>
-							<voxbox id_="1011478848" name="wallpaper" pos="19.8 0.3 5.5" rot="0.0 -180.0 0.0" texture="9 0.5" size="56 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_staircase.vox" object="wallpaper"/>
-							<voxbox id_="1031468544" name="wallpaper" pos="14.2 0.3 5.5" rot="0.0 90.0 0.0" texture="9 0.5" size="42 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_staircase.vox" object="wallpaper"/>
-							<voxbox id_="1686802944" name="wallpaper" pos="14.2 0.3 1.0" rot="0.0 90.0 0.0" texture="9 0.5" size="60 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_living_room.vox" object="wp_living_room"/>
-							<voxbox id_="1172576128" name="wallpaper" pos="14.3 0.3 -5.0" rot="0.0 0.0 0.0" texture="9 0.5" size="19 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_living_room.vox" object="wp_living_room"/>
-							<voxbox id_="1525771264" name="wallpaper" pos="16.2 0.3 -4.9" rot="0.0 -90.0 0.0" texture="9 0.5" size="4 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_living_room.vox" object="wp_living_room"/>
-							<voxbox id_="2054023552" name="wallpaper" pos="18.5 0.3 -4.9" rot="0.0 -90.0 0.0" texture="9 0.5" size="4 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_living_room.vox" object="wp_living_room"/>
-							<voxbox id_="574589184" name="wallpaper" pos="24.5 0.3 -4.9" rot="0.0 -180.0 0.0" texture="9 0.5" size="61 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_living_room.vox" object="wp_living_room"/>
-							<voxbox id_="1902232960" name="wallpaper" pos="24.5 0.3 1.0" rot="0.0 -90.0 0.0" texture="9 0.5" size="2 28 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_living_room.vox" object="wp_living_room" offset="3 0 0"/>
-							<voxbox id_="1675792256" name="wallpaper" pos="24.5 0.3 -4.9" rot="0.0 -90.0 0.0" texture="9 0.5" size="59 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_living_room.vox" object="wp_living_room" offset="3 0 0"/>
-							<voxbox id_="295847552" name="wallpaper" pos="25.3 0.3 1.2" rot="0.0 -90.0 0.0" texture="9 0.5" size="49 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_kitchen.vox" object="wallpaper"/>
-							<voxbox id_="1237853952" name="wallpaper" pos="25.3 0.3 6.1" rot="0.0 -180.0 0.0" texture="9 0.5" size="54 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_kitchen.vox" object="wallpaper"/>
-							<voxbox id_="697280064" name="wallpaper" pos="18.4 0.3 -4.5" rot="0.0 -180.0 0.0" texture="9 0.5" size="22 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_living_room.vox" object="wp_living_room"/>
-							<voxbox id_="1279471872" name="power_plug" pos="14.3 0.7 0.8" rot="0.0 180.0 0.0" texture="6 0.4" size="1 2 1" material="plastic" color="0.9 0.9 0.9"/>
-							<voxbox id_="1308178432" name="power_plug" pos="14.3 0.7 -4.3" rot="0.0 180.0 0.0" texture="6 0.4" size="1 2 1" material="plastic" color="0.9 0.9 0.9"/>
-							<voxbox id_="1000009344" name="power_plug" pos="18.8 0.7 -4.9" rot="0.0 180.0 0.0" texture="6 0.4" size="1 2 1" material="plastic" color="0.9 0.9 0.9"/>
-							<voxbox id_="1238706048" name="power_plug" pos="24.2 0.7 -4.9" rot="0.0 180.0 0.0" texture="6 0.4" size="1 2 1" material="plastic" color="0.9 0.9 0.9"/>
-						</group>
-						<group id_="1822339712" name="Exterior Walls" pos="20.9 0.4 -0.2">
-							<group id_="1446992128" name="Walls" pos="-0.4 0.0 0.3">
-								<voxbox id_="879874496" name="brick wall" pos="-6.8 -0.3 5.8" rot="0.0 90.0 0.0" texture="10 0.5" size="113 33 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" offset="25 0 0">
-									<voxbox id_="21234960" name="insulation" pos="0.2 0.1 0.3" rot="0.0 0.0 0.0" texture="2 0.7" size="109 32 2" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="insulation (exterior)"/>
-								</voxbox>
-								<voxbox id_="2054547968" name="brick wall" pos="-7.8 -0.3 5.7" rot="0.0 0.0 0.0" texture="10 0.5" size="13 31 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)"/>
-								<voxbox id_="1847179392" name="brick wall" pos="-8.1 -0.3 6.4" rot="0.0 90.0 0.0" texture="10 0.5" size="6 28 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)"/>
-								<voxbox id_="990178304" name="brick wall" pos="-8.1 -0.3 10.3" rot="0.0 90.0 0.0" texture="10 0.5" size="6 28 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" offset="0 3 0"/>
-								<voxbox id_="1281831296" name="brick wall" pos="1.1 -0.3 10.4" rot="0.0 -180.0 0.0" texture="10 0.5" size="89 28 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" offset="0 3 0"/>
-								<voxbox id_="549094144" name="brick wall" pos="1.1 -0.3 6.3" rot="0.0 -90.0 0.0" texture="10 0.5" size="38 28 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" offset="0 3 0"/>
-								<voxbox id_="2005130752" name="brick wall" pos="5.3 -0.3 6.5" rot="0.0 180.0 0.0" texture="10 0.5" size="45 33 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" offset="6 -1 0">
-									<voxbox id_="1884471680" name="insulation" pos="6.0 0.1 0.9" rot="0.0 0.0 0.0" texture="2 0.7" size="56 32 2" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="insulation (exterior)"/>
-									<voxbox id_="1696699520" name="insulation" pos="0.3 0.1 0.3" rot="0.0 0.0 0.0" texture="2 0.7" size="42 32 2" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="insulation (exterior)"/>
-									<voxbox id_="619353024" name="insulation" pos="6.1 0.1 0.5" rot="0.0 -90.0 0.0" texture="2 0.7" size="4 32 2" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="insulation (exterior)"/>
-								</voxbox>
-								<voxbox id_="387800192" name="brick wall" pos="-6.5 -0.3 -5.6" rot="0.0 0.0 0.0" texture="10 0.5" size="110 33 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" offset="0 -1 0">
-									<voxbox id_="1195580672" name="insulation" pos="0.1 0.1 0.3" rot="0.0 0.0 0.0" texture="2 0.7" size="21 32 2" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="insulation (exterior)"/>
-									<voxbox id_="272843008" name="insulation" pos="4.4 0.2 0.3" rot="0.0 0.0 0.0" texture="2 0.7" size="62 31 2" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="insulation (exterior)"/>
-								</voxbox>
-								<voxbox id_="534609792" name="brick wall" pos="4.5 -0.3 -5.6" rot="0.0 -90.0 0.0" texture="10 0.5" size="63 33 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" offset="0 -1 0">
-									<voxbox id_="208155040" name="insulation" pos="0.1 0.0 0.3" rot="0.0 0.0 0.0" texture="2 0.7" size="65 32 2" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="insulation (exterior)"/>
-								</voxbox>
-								<voxbox id_="590122176" name="brick wall" pos="5.3 -0.3 1.0" rot="0.0 -90.0 0.0" texture="10 0.5" size="52 33 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)" offset="0 -1 0">
-									<voxbox id_="2120350080" name="insulation" pos="0.0 0.1 0.3" rot="0.0 0.0 0.0" texture="2 0.7" size="50 32 2" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="insulation (exterior)"/>
-								</voxbox>
-								<voxbox id_="808894656" name="brick wall" pos="4.2 -0.3 0.7" rot="0.0 0.0 0.0" texture="10 0.5" size="10 33 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="brick wall (exterior)"/>
-							</group>
-							<group id_="714254912" name="Window Detail">
-								<voxbox id_="1028977984" name="detail" pos="-7.2 2.4 -0.6" rot="0.0 90.0 0.0" texture="10 0.5" size="24 3 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="window brick (exterior)"/>
-								<voxbox id_="725134592" name="detail" pos="4.6 2.4 5.0" rot="0.0 90.0 0.0" texture="10 0.5" size="24 3 3" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="window brick (exterior)"/>
-							</group>
-						</group>
-						<group id_="738045952" name="Interior Walls">
-							<voxbox id_="1401835008" name="wooden wall" pos="14.2 0.4 1.1" rot="0.0 0.0 0.0" texture="2 0.7" size="61 30 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
-							<voxbox id_="62000840" name="wooden wall" pos="12.7 0.3 6.2" rot="0.0 0.0 0.0" texture="2 0.7" size="21 31 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
-							<voxbox id_="1366640128" name="wooden wall" pos="17.7 0.3 6.2" rot="0.0 0.0 0.0" texture="2 0.7" size="36 31 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
-							<voxbox id_="361387552" name="wooden wall" pos="24.5 3.1 1.1" rot="0.0 0.0 90.0" texture="2 0.7" size="3 42 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
-							<voxbox id_="694461824" name="wooden wall" pos="19.8 0.4 5.5" rot="0.0 90.0 0.0" texture="2 0.7" size="43 30 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
-							<voxbox id_="1425429504" name="wooden wall" pos="24.495 0.4 1.105" rot="0.0 0.0 0.0" texture="2 0.7" size="8 30 1" brush="MOD/resources/vox/4_privet_drive/building/wall_structures.vox" object="wood (interior)"/>
-							<voxbox id_="1184373376" name="wooden plank" pos="14.795 0.8 5.905" rot="-90.0 -90.0 0.0" texture="2 0.7" size="5 29 1" material="wood" color=".4 .35 .3"/>
-							<voxagon id_="1470520960" name="chipboard" pos="16.4 1.3 6.2" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-1.6 -2.1"/>
-								<vertex pos="1.3 -2.1"/>
-								<vertex pos="1.3 -1.5"/>
-								<vertex pos="-1.6 -1.5"/>
-							</voxagon>
-							<voxagon id_="1775216384" name="chipboard" pos="14.7 1.3 6.2" rot="90.0 90.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="0.0 0.5"/>
-								<vertex pos="0.0 -1.6"/>
-								<vertex pos="0.4 -1.6"/>
-								<vertex pos="0.4 0.5"/>
-							</voxagon>
-							<voxagon id_="1036515072" name="chipboard" pos="14.8 1.3 5.8" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="0.0 0.5"/>
-								<vertex pos="0.0 -1.6"/>
-								<vertex pos="2.9 -1.6"/>
-								<vertex pos="2.9 0.5"/>
-							</voxagon>
-							<voxagon id_="1395739904" name="chipboard" pos="14.8 0.7 5.7" rot="0.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="0.0 0.5"/>
-								<vertex pos="0.0 0.1"/>
-								<vertex pos="2.9 0.1"/>
-								<vertex pos="2.9 0.5"/>
-							</voxagon>
-							<voxagon id_="216740784" name="chipboard" pos="14.8 2.8 5.7" rot="0.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="0.0 0.5"/>
-								<vertex pos="0.0 0.2"/>
-								<vertex pos="2.9 0.2"/>
-								<vertex pos="2.9 0.5"/>
-							</voxagon>
-							<voxagon id_="671326208" name="chipboard" pos="17.8 1.3 5.9" rot="90.0 -90.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.1 0.5"/>
-								<vertex pos="-0.1 -1.6"/>
-								<vertex pos="0.3 -1.6"/>
-								<vertex pos="0.3 0.5"/>
-							</voxagon>
-							<voxagon id_="458321216" name="chipboard" pos="13.4 0.8 6.2" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.6 -2.0"/>
-								<vertex pos="0.3 -2.0"/>
-								<vertex pos="0.3 0.5"/>
-								<vertex pos="-0.6 0.5"/>
-							</voxagon>
-							<voxagon id_="1532325248" name="chipboard" pos="17.4 0.8 6.2" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-2.6 0.0"/>
-								<vertex pos="0.3 0.0"/>
-								<vertex pos="0.3 0.5"/>
-								<vertex pos="-2.6 0.5"/>
-							</voxagon>
-							<voxagon id_="1450531328" name="chipboard" pos="18.4 0.8 6.2" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.6 -2.0"/>
-								<vertex pos="0.3 -2.0"/>
-								<vertex pos="0.3 0.5"/>
-								<vertex pos="-0.6 0.5"/>
-							</voxagon>
-							<voxagon id_="1489986304" name="chipboard" pos="21.4 0.3 6.2" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.6 -0.4"/>
-								<vertex pos="-0.1 -0.4"/>
-								<vertex pos="-0.1 0.0"/>
-								<vertex pos="-0.6 0.0"/>
-							</voxagon>
-							<voxagon id_="1191386112" name="chipboard" pos="21.4 3.6 6.2" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.6 0.1"/>
-								<vertex pos="-0.1 0.3"/>
-								<vertex pos="-0.1 2.8"/>
-								<vertex pos="-0.6 2.8"/>
-							</voxagon>
-							<voxagon id_="1800187136" name="chipboard" pos="19.4 1.3 6.2" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.6 -2.1"/>
-								<vertex pos="0.3 -2.1"/>
-								<vertex pos="0.3 0.5"/>
-								<vertex pos="-0.6 0.5"/>
-							</voxagon>
-							<voxagon id_="95557320" name="chipboard" pos="19.4 0.8 6.2" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.6 0.1"/>
-								<vertex pos="0.3 0.1"/>
-								<vertex pos="0.3 0.5"/>
-								<vertex pos="-0.6 0.5"/>
-							</voxagon>
-							<voxagon id_="1692767104" name="chipboard" pos="18.4 3.4 6.2" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.6 0.0"/>
-								<vertex pos="0.3 0.0"/>
-								<vertex pos="0.3 0.5"/>
-								<vertex pos="-0.6 0.5"/>
-							</voxagon>
-							<voxagon id_="797752896" name="chipboard" pos="13.4 3.4 6.2" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.6 0.0"/>
-								<vertex pos="0.3 0.0"/>
-								<vertex pos="0.3 0.5"/>
-								<vertex pos="-0.6 0.5"/>
-							</voxagon>
-							<voxagon id_="2089546240" name="chipboard" pos="14.4 3.4 6.2" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.6 0.0"/>
-								<vertex pos="0.3 0.0"/>
-								<vertex pos="0.3 2.6"/>
-								<vertex pos="-0.6 2.6"/>
-							</voxagon>
-							<voxagon id_="496793216" name="chipboard" pos="14.4 0.8 6.2" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.6 0.1"/>
-								<vertex pos="0.3 0.1"/>
-								<vertex pos="0.3 0.5"/>
-								<vertex pos="-0.6 0.5"/>
-							</voxagon>
-							<voxagon id_="896849344" name="chipboard" pos="20.4 0.8 6.2" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.6 -2.0"/>
-								<vertex pos="0.3 -2.0"/>
-								<vertex pos="0.3 0.5"/>
-								<vertex pos="-0.6 0.5"/>
-							</voxagon>
-							<voxagon id_="53480640" name="chipboard" pos="20.4 3.4 6.2" rot="90.0 0.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.6 0.0"/>
-								<vertex pos="0.3 0.0"/>
-								<vertex pos="0.3 0.5"/>
-								<vertex pos="-0.6 0.5"/>
-							</voxagon>
-						</group>
-						<group id_="115415936" name="chimney" pos="19.6 0.0 0.0">
-							<voxbox id_="1863171072" name="concrete" pos="-3.4 0.2 -5.2" rot="0.0 0.0 0.0" texture="10 0.5" size="1 32 6" material="masonry" color="0.55 0.55 0.55"/>
-							<voxbox id_="1862319104" name="concrete" pos="-1.3 0.2 -5.2" rot="0.0 0.0 0.0" texture="10 0.5" size="1 32 6" material="masonry" color="0.55 0.55 0.55"/>
-							<voxbox id_="1329413376" name="concrete" pos="-1.3 0.2 -4.7" rot="0.0 -90.0 0.0" texture="10 0.5" size="1 32 20" material="masonry" color="0.55 0.55 0.55"/>
-							<voxbox id_="838256576" name="fireplace" pos="-2.8 0.4 -4.9" rot="0.0 0.0 0.0" size="10 11 7" brush="hole">
-								<vox id_="1416057216" name="prop" tags="fireplace" pos="0.5 0.0 0.5" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/living_room/livingr_fireplace.vox">
-									<trigger id_="1315649920" name="fireplace" tags="sfx" pos="0.0 -0.1 0.0" type="polygon" size="3">
-										<vertex pos="-3.0 -0.5"/>
-										<vertex pos="7.5 -0.5"/>
-										<vertex pos="7.5 5.7"/>
-										<vertex pos="8.7 5.7"/>
-										<vertex pos="8.7 9.7"/>
-										<vertex pos="2.7 9.7"/>
-										<vertex pos="2.7 5.7"/>
-										<vertex pos="3.2 5.7"/>
-										<vertex pos="3.2 5.4"/>
-										<vertex pos="-3.0 5.4"/>
-									</trigger>
-								</vox>
-							</voxbox>
-						</group>
-						<group id_="953344832" name="Kitchen Wall-Tiles" pos="18.5 0.0 0.0">
-							<voxbox id_="988998592" name="tile-section" pos="1.5 1.4 6.1" rot="0.0 90.0 0.0" texture="6 0.4" size="1 5 18" brush="MOD/resources/vox/4_privet_drive/kitchen/kitchen_wall_tiles.vox"/>
-							<voxbox id_="1350320640" name="tile-section" pos="5.9 1.4 6.1" rot="0.0 90.0 0.0" texture="6 0.4" size="1 5 8" brush="MOD/resources/vox/4_privet_drive/kitchen/kitchen_wall_tiles.vox"/>
-							<voxbox id_="1548972416" name="tile-section" pos="6.8 1.4 6.0" rot="0.0 -180.0 0.0" texture="6 0.4" size="1 5 13" brush="MOD/resources/vox/4_privet_drive/kitchen/kitchen_wall_tiles.vox"/>
-							<voxbox id_="854248384" name="tile-section" pos="6.8 1.4 2.5" rot="0.0 -180.0 0.0" texture="6 0.4" size="1 5 12" brush="MOD/resources/vox/4_privet_drive/kitchen/kitchen_wall_tiles.vox"/>
-							<voxbox id_="1652263424" name="tile-section" pos="6.7 1.4 1.2" rot="0.0 -90.0 0.0" texture="6 0.4" size="1 5 8" brush="MOD/resources/vox/4_privet_drive/kitchen/kitchen_wall_tiles.vox"/>
-							<voxbox id_="346903232" name="tile-section" pos="1.5 1.4 6.1" rot="0.0 -180.0 0.0" texture="6 0.4" size="1 5 32" brush="MOD/resources/vox/4_privet_drive/kitchen/kitchen_wall_tiles.vox"/>
-							<voxbox id_="1788914304" name="power_plug" pos="1.5 1.5 5.9" rot="0.0 180.0 0.0" texture="6 0.4" size="1 2 1" material="plastic" color="0.9 0.9 0.9"/>
-							<voxbox id_="1436243584" name="power_plug" pos="1.5 2.0 4.0" rot="0.0 -180.0 0.0" texture="7 0.7" size="1 1 4" material="wood" color="0.4 0.3 0.2"/>
-							<voxbox id_="1994578816" name="power_plug" pos="1.5 1.5 3.1" rot="0.0 180.0 0.0" texture="6 0.4" size="1 2 1" material="plastic" color="0.9 0.9 0.9"/>
-							<voxbox id_="844351808" name="power_plug" pos="6.8 1.5 1.5" rot="0.0 180.0 0.0" texture="6 0.4" size="1 2 1" material="plastic" color="0.9 0.9 0.9"/>
-							<voxbox id_="274481536" name="power_plug" pos="6.8 1.5 5.9" rot="0.0 180.0 0.0" texture="6 0.4" size="1 1 1" material="plastic" color="0.9 0.9 0.9"/>
-						</group>
-					</group>
-					<group id_="982968896" name="Furniture" pos="-14.1 0.2 0.2"/>
-					<group id_="1721997952" name="Doors" pos="-14.1 0.2 0.2">
-						<voxbox id_="547455616" name="main entrance" pos="13.6 0.4 1.8" rot="0.0 0.0 0.0" size="8 22 11" brush="hole">
-							<vox id_="1683984768" name="door frame" pos="0.6 0.0 0.6" rot="0.0 90.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="brown door frame"/>
-							<vox id_="1525574528" name="door" pos="0.7 0.025 0.6" rot="0.0 90.0 0.0" texture="3 0.50" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="main entrance door">
-								<joint id_="757183616" name="hinge" pos="-0.4 1.7 0.0" rot="90.0 90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 150"/>
-								<joint id_="1666420096" name="hinge" pos="-0.4 0.3 0.0" rot="90.0 90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 150"/>
-								<vox id_="252066848" name="knocker" pos="0.1 1.405 -0.2" rot="0.0 180.0 0.0" texture="3 0.50" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="main entrance knocker">
-									<joint id_="1661176832" name="hinge" pos="0.05 0.2 -0.1" rot="0.0 -90.0 90.0" type="hinge" size="0.15" collide="true" limits="0 150"/>
-								</vox>
-							</vox>
-						</voxbox>
-						<voxbox id_="1542877184" name="kitchen door" pos="24.1 0.4 5.9" rot="0.0 -90.0 0.0" size="8 22 11" brush="hole">
-							<vox id_="1675333504" name="door frame" pos="0.3 0.0 0.6" rot="0.0 90.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="white door frame"/>
-							<vox id_="1067384448" name="door" pos="0.2 0.025 0.6" rot="0.0 90.0 0.0" texture="3 0.25" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="kitchen door">
-								<joint id_="787200960" name="hinge" pos="-0.4 1.7 -0.1" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 150"/>
-								<joint id_="40503720" name="hinge" pos="-0.4 0.3 -0.1" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 150"/>
-							</vox>
-						</voxbox>
-						<voxbox id_="1747624064" name="garden door" pos="20.9 0.2 6.9" rot="0.0 0.0 0.0" size="8 22 11" brush="hole">
-							<vox id_="149234576" name="door frame" pos="0.6 0.0 0.6" rot="0.0 90.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="brown door frame"/>
-							<vox id_="414671584" name="door" pos="0.6 0.025 0.5" rot="0.0 -90.0 0.0" texture="3 0.50" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="garage door">
-								<joint id_="459500928" name="hinge" pos="-0.4 1.7 -0.1" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 150"/>
-								<joint id_="610767232" name="hinge" pos="-0.4 0.3 -0.1" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 150"/>
-							</vox>
-						</voxbox>
-						<voxbox id_="536182752" name="interior door" pos="19.6 0.4 1.8" rot="0.0 0.0 0.0" size="5 22 11" brush="hole">
-							<vox id_="1281896832" name="door frame" pos="0.3 0.0 0.6" rot="0.0 90.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="white door frame"/>
-							<vox id_="15598520" name="door" pos="0.4 0.025 0.6" rot="0.0 90.0 0.0" texture="3 0.35" strength="3" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="glass interior door">
-								<joint id_="808894656" name="hinge" pos="-0.4 1.7 0.0" rot="90.0 90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 160"/>
-								<joint id_="209269216" name="hinge" pos="-0.4 0.3 0.0" rot="90.0 90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 160"/>
-							</vox>
-						</voxbox>
-						<voxbox id_="122690880" name="interior door" pos="19.2 0.4 0.9" rot="0.0 -90.0 0.0" size="5 22 11" brush="hole">
-							<vox id_="1042020480" name="door frame" pos="0.3 0.0 0.6" rot="0.0 90.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="white door frame"/>
-							<vox id_="1631094016" name="door" pos="0.2 0.025 0.6" rot="0.0 90.0 0.0" texture="3 0.35" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="white interior door">
-								<joint id_="689611904" name="hinge" pos="-0.4 1.7 -0.1" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 160"/>
-								<joint id_="1723964160" name="hinge" pos="-0.4 0.3 -0.1" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.003" rotspring="0" limits="0 160"/>
-							</vox>
-						</voxbox>
-						<vox id_="856673344" name="garage_frame" pos="12.6 0.2 8.1" rot="0.0 -90.0 0.0" texture="2 0.80" file="MOD/resources/vox/4_privet_drive/garage/garage_gate.vox" object="garage door frame">
-							<vox id_="785365824" name="garage_door" pos="0.0 0.0 -0.1" texture="2 0.80" file="MOD/resources/vox/4_privet_drive/garage/garage_gate.vox" object="garage door"/>
-							<vox id_="138027232" name="garage_door_mounting" pos="0.0 2.4 -2.6" rot="90.0 0.0 0.0" texture="2 0.65" file="MOD/resources/vox/4_privet_drive/garage/garage_gate.vox" object="garage door mounting">
-								<voxbox id_="165947280" name="metal_beams" pos="1.2 0.0 -0.1" rot="0.0 -180.0 90.0" texture="2 0.7" size="1 1 7" material="metal" color=".4 .4 .4"/>
-								<voxbox id_="1062534464" name="metal_beams" pos="0.9 0.0 -0.1" rot="0.0 -180.0 90.0" texture="2 0.7" size="1 1 7" material="metal" color=".4 .4 .4"/>
-								<voxbox id_="53152940" name="metal_beams" pos="-0.8 0.0 -0.1" rot="0.0 -180.0 90.0" texture="2 0.7" size="1 1 7" material="metal" color=".4 .4 .4"/>
-								<voxbox id_="283460512" name="metal_beams" pos="-1.1 0.0 -0.1" rot="0.0 -180.0 90.0" texture="2 0.7" size="1 1 7" material="metal" color=".4 .4 .4"/>
-								<voxbox id_="183053216" name="metal_beams" pos="-1.0 0.0 -0.7" rot="0.0 -270.0 90.0" texture="2 0.7" size="1 1 2" material="metal" color=".3 .3 .3"/>
-								<voxbox id_="1718917632" name="metal_beams" pos="1.0 0.0 -0.7" rot="0.0 -270.0 90.0" texture="2 0.7" size="1 1 2" material="metal" color=".3 .3 .3"/>
-							</vox>
-						</vox>
-					</group>
-					<group id_="495023616" name="Windows" pos="-14.1 0.2 0.2">
-						<voxbox id_="1745199104" name="triple-window" pos="13.6 1.4 -3.1" rot="0.0 0.0 0.0" size="7 14 22" brush="hole">
-							<vox id_="325209472" name="window frame" pos="0.4 0.0 1.1" rot="0.0 -90.0 0.0" texture="3 0.5" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="wide triple-window frame">
-								<vox id_="583371520" name="window" pos="-0.7 0.1 0.3" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="basic window door"/>
-								<vox id_="1771742848" name="window" pos="0.7 0.1 0.2" rot="0.0 -180.0 0.0" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="basic window door"/>
-							</vox>
-						</voxbox>
-						<voxbox id_="2044061568" name="triple-window" pos="25.8 1.4 4.7" rot="0.0 -180.0 0.0" size="6 14 22" brush="hole">
-							<voxbox id_="267009952" name="frame" pos="-0.1 0.0 2.3" rot="0.0 90.0 0.0" size="24 14 7" brush="MOD/resources/vox/4_privet_drive/building/windows.vox" object="wide triple-window frame"/>
-							<vox id_="1518823936" name="window" pos="0.0 0.1 0.4" rot="0.0 -90.0 0.0" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="basic window door"/>
-							<vox id_="1888403968" name="window" pos="0.1 0.1 1.8" rot="0.0 90.0 0.0" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="basic window door"/>
-							<voxbox id_="932699712" name="wallpaper" pos="0.3 0.0 2.1" rot="0.0 0.0 0.0" texture="9 0.5" size="3 13 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_kitchen.vox" object="wallpaper"/>
-							<voxbox id_="1191910400" name="wallpaper" pos="0.3 0.0 0.0" rot="0.0 0.0 0.0" texture="9 0.5" size="3 13 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_kitchen.vox" object="wallpaper" offset="5 10 2"/>
-							<voxbox id_="724282560" name="wallpaper" pos="0.3 1.4 0.0" rot="90.0 0.0 0.0" texture="9 0.5" size="3 22 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_kitchen.vox" object="wallpaper"/>
-						</voxbox>
-						<voxbox id_="1187912448" name="small-window" pos="13.6 1.5 4.2" rot="0.0 0.0 0.0" size="7 12 7" brush="hole">
-							<vox id_="1569420800" name="window frame" pos="0.4 0.0 0.3" rot="0.0 -90.0 0.0" texture="3 0.5" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="small-window frame">
-								<vox id_="1465802112" name="window" pos="0.0 0.1 0.3" rot="0.0 0.0 0.0" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="small-window door"/>
-							</vox>
-						</voxbox>
-						<voxbox id_="2130115584" name="small-window" pos="21.7 1.2 9.3" rot="0.0 180.0 0.0" size="7 12 7" brush="hole">
-							<vox id_="459632032" name="window frame" pos="0.2 0.0 0.3" rot="0.0 -90.0 0.0" texture="3 0.5" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="garage-window frame">
-								<vox id_="1427592320" name="window" pos="0.0 0.1 0.1" rot="0.0 0.0 0.0" file="MOD/resources/vox/4_privet_drive/building/windows.vox" object="small-window door"/>
-							</vox>
-						</voxbox>
-					</group>
-					<group id_="1626506240" name="Floor" pos="-18.6 0.3 0.2">
-						<group id_="549946112" name="Foundation">
-							<voxbox id_="1283731968" name="Concrete" pos="18.2 0.2 1.8" rot="0.0 0.0 0.0" texture="4 0.8" size="6 1 11" material="wood" color="0.20 0.15 0.14"/>
-							<voxbox id_="122297640" name="Concrete" pos="17.7 0.1 1.8" rot="0.0 0.0 0.0" texture="5 0.8" size="6 1 11" material="masonry" color=".5 .5 .5"/>
-							<voxbox id_="1576171520" name="Concrete" pos="26.0 0.1 9.6" rot="0.0 0.0 0.0" texture="5 0.8" size="5 2 6" material="masonry" color=".5 .5 .5"/>
-							<voxbox id_="1110837504" name="Concrete" pos="27.5 0.0 6.9" rot="0.0 90.0 0.0" texture="5 0.8" size="9 3 11" material="masonry" color="0.5 0.5 0.5"/>
-							<voxbox id_="624137408" name="Concrete" pos="18.5 -0.1 -5.2" rot="0.0 0.0 0.0" texture="5 0.8" size="107 3 115" material="masonry" color="0.5 0.5 0.5"/>
-							<voxbox id_="864669248" name="Concrete" pos="17.2 0.0 6.1" rot="0.0 0.0 0.0" texture="5 0.8" size="13 2 2" material="masonry" color="0.5 0.5 0.5"/>
-							<voxbox id_="1854061056" name="Concrete" pos="29.2 -0.1 1.1" rot="0.0 0.0 0.0" texture="5 0.8" size="8 3 52" material="masonry" color="0.5 0.5 0.5"/>
-						</group>
-						<group id_="678339008" name="Carpet / Tiles" pos="24.0 0.2 -2.0">
-							<voxagon id_="511736320" name="carpet" pos="2.1 0.0 2.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="ugly carpet" extrude="1">
-								<vertex pos="-7.3 -4.9"/>
-								<vertex pos="-5.5 -4.9"/>
-								<vertex pos="-5.5 -4.5"/>
-								<vertex pos="-3.1 -4.5"/>
-								<vertex pos="-3.1 -4.9"/>
-								<vertex pos="2.8 -4.9"/>
-								<vertex pos="2.8 -3.1"/>
-								<vertex pos="3.0 -3.1"/>
-								<vertex pos="3.0 -0.9"/>
-								<vertex pos="2.8 -0.9"/>
-								<vertex pos="2.8 1.2"/>
-								<vertex pos="-1.2 1.2"/>
-								<vertex pos="-1.2 1.0"/>
-								<vertex pos="-7.3 1.0"/>
-							</voxagon>
-							<voxagon id_="468348832" name="carpet" pos="-4.2 0.0 8.3" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" extrude="1">
-								<vertex pos="-1.0 -5.0"/>
-								<vertex pos="2.8 -5.0"/>
-								<vertex pos="2.8 -5.2"/>
-								<vertex pos="3.9 -5.2"/>
-								<vertex pos="3.9 -5.0"/>
-								<vertex pos="4.4 -5.0"/>
-								<vertex pos="4.4 -4.5"/>
-								<vertex pos="4.6 -4.5"/>
-								<vertex pos="4.6 -3.4"/>
-								<vertex pos="4.4 -3.4"/>
-								<vertex pos="4.4 -2.5"/>
-								<vertex pos="0.8 -2.5"/>
-								<vertex pos="0.7 -2.7"/>
-								<vertex pos="0.5 -2.7"/>
-								<vertex pos="0.5 -2.5"/>
-								<vertex pos="-1.0 -2.5"/>
-							</voxagon>
-							<voxagon id_="1878769664" name="carpet" pos="-1.7 0.0 5.5" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="brown carpet" extrude="1">
-								<vertex pos="-1.5 0.3"/>
-								<vertex pos="1.9 0.3"/>
-								<vertex pos="1.9 1.9"/>
-								<vertex pos="-1.5 1.9"/>
-							</voxagon>
-							<voxagon id_="223556944" name="tiles" pos="2.1 0.0 6.2" texture="10 0.4" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="kitchen tiles" extrude="1">
-								<vertex pos="-1.6 1.8"/>
-								<vertex pos="-1.6 -2.9"/>
-								<vertex pos="3.6 -2.9"/>
-								<vertex pos="3.6 1.8"/>
-							</voxagon>
-						</group>
-						<group id_="1459117056" name="Wood">
-							<voxbox id_="657890496" name="wood" pos="24.9 0.2 1.2" rot="0.0 0.0 0.0" texture="10 0.5" size="48 1 1" material="wood" color="0.55 0.4 0.3"/>
-							<voxbox id_="1354056448" name="wood" pos="29.1 0.2 -0.9" rot="0.0 90.0 0.0" texture="10 0.35" size="22 1 1" material="wood" color="0.85 0.80 0.75"/>
-							<voxbox id_="1094321408" name="wood" pos="20.3 0.2 4.3" rot="0.0 0.0 0.0" texture="10 0.5" size="39 1 1" material="wood" color="0.6 0.6 0.6"/>
-							<voxbox id_="899667584" name="wood" pos="24.5 0.2 1.8" rot="0.0 -90.0 0.0" texture="10 0.5" size="11 1 1" material="wood" color="0.55 0.4 0.3"/>
-							<voxbox id_="532709120" name="wood" pos="23.7 0.2 1.1" rot="0.0 -180.0 0.0" texture="10 0.5" size="11 1 1" material="wood" color="0.55 0.4 0.3"/>
-						</group>
-					</group>
-					<group id_="2144731008" name="Stairs / Entrance" pos="-4.4 0.0 6.0">
-						<group id_="1725864832" name="Steps" pos="7.3 0.5 -1.3">
-							<voxagon id_="870567808" name="carpet" pos="-1.7 0.3 -0.9" rot="0.0 0.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" offset="9" extrude="1">
-								<vertex pos="-0.9 1.2"/>
-								<vertex pos="-0.9 0.1"/>
-								<vertex pos="0.5 0.1"/>
-								<vertex pos="0.5 0.4"/>
-							</voxagon>
-							<voxagon id_="1050671744" name="carpet" pos="-1.6 0.2 -0.6" rot="-90.0 0.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" axis="z" extrude="1">
-								<vertex pos="-1.0 0.1"/>
-								<vertex pos="-1.0 -0.1"/>
-								<vertex pos="0.4 -0.1"/>
-								<vertex pos="0.4 0.1"/>
-							</voxagon>
-							<voxagon id_="544178624" name="carpet" pos="-1.6 0.6 -0.3" rot="-90.0 30.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" offset="2" axis="z" extrude="1">
-								<vertex pos="-1.1 0.0"/>
-								<vertex pos="-1.1 -0.3"/>
-								<vertex pos="0.7 -0.3"/>
-								<vertex pos="0.7 0.0"/>
-							</voxagon>
-							<voxagon id_="782678656" name="carpet" pos="-1.2 0.9 -0.1" rot="-90.0 65.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" axis="z" extrude="1">
-								<vertex pos="0.6 -0.3"/>
-								<vertex pos="0.6 0.0"/>
-								<vertex pos="-1.1 0.0"/>
-								<vertex pos="-1.1 -0.3"/>
-							</voxagon>
-							<voxagon id_="2080108544" name="carpet" pos="-0.8 1.2 -0.1" rot="-90.0 90.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" axis="z" extrude="1">
-								<vertex pos="0.6 -0.3"/>
-								<vertex pos="0.6 0.0"/>
-								<vertex pos="-0.9 0.0"/>
-								<vertex pos="-1.0 -0.3"/>
-							</voxagon>
-							<voxagon id_="860278016" name="carpet" pos="-0.4 1.5 -0.1" rot="-90.0 90.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" offset="12" axis="z" extrude="1">
-								<vertex pos="0.6 -0.3"/>
-								<vertex pos="0.6 0.0"/>
-								<vertex pos="-1.0 0.0"/>
-								<vertex pos="-1.0 -0.3"/>
-							</voxagon>
-							<voxagon id_="1509713920" name="carpet" pos="0.1 1.8 -0.1" rot="-90.0 90.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" offset="8" axis="z" extrude="1">
-								<vertex pos="0.6 -0.3"/>
-								<vertex pos="0.6 0.0"/>
-								<vertex pos="-1.0 0.0"/>
-								<vertex pos="-1.0 -0.3"/>
-							</voxagon>
-							<voxagon id_="1086456576" name="carpet" pos="0.6 2.1 -0.1" rot="-90.0 90.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" axis="z" extrude="1">
-								<vertex pos="0.6 -0.3"/>
-								<vertex pos="0.6 0.0"/>
-								<vertex pos="-1.0 0.0"/>
-								<vertex pos="-1.0 -0.3"/>
-							</voxagon>
-							<voxagon id_="2041439872" name="carpet" pos="1.1 2.4 -0.1" rot="-90.0 90.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" offset="15" axis="z" extrude="1">
-								<vertex pos="0.6 -0.3"/>
-								<vertex pos="0.6 0.0"/>
-								<vertex pos="-1.0 0.0"/>
-								<vertex pos="-1.0 -0.3"/>
-							</voxagon>
-							<voxagon id_="1298740608" name="carpet" pos="1.6 2.7 -0.1" rot="-90.0 90.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" axis="z" extrude="1">
-								<vertex pos="0.6 -0.3"/>
-								<vertex pos="0.6 0.0"/>
-								<vertex pos="-1.0 0.0"/>
-								<vertex pos="-1.0 -0.3"/>
-							</voxagon>
-							<voxagon id_="1143935104" name="carpet" pos="2.1 3.0 -0.1" rot="-90.0 90.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" offset="6" axis="z" extrude="1">
-								<vertex pos="0.6 -0.3"/>
-								<vertex pos="0.6 0.0"/>
-								<vertex pos="-1.0 0.0"/>
-								<vertex pos="-1.0 -0.3"/>
-							</voxagon>
-							<voxagon id_="27068020" name="carpet" pos="2.6 3.3 -0.1" rot="-90.0 90.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" offset="7" axis="z" extrude="1">
-								<vertex pos="0.6 -0.3"/>
-								<vertex pos="0.6 0.1"/>
-								<vertex pos="-1.0 0.1"/>
-								<vertex pos="-1.0 -0.3"/>
-							</voxagon>
-							<voxagon id_="1023210496" name="carpet" pos="-2.2 0.6 0.2" rot="0.0 -180.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" offset="5" extrude="1">
-								<vertex pos="-1.0 0.9"/>
-								<vertex pos="-1.2 0.8"/>
-								<vertex pos="-0.5 -0.7"/>
-								<vertex pos="0.4 -0.7"/>
-								<vertex pos="0.4 0.1"/>
-							</voxagon>
-							<voxagon id_="1695454208" name="carpet" pos="-1.0 0.9 -0.1" rot="0.0 90.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" extrude="1">
-								<vertex pos="-1.0 0.1"/>
-								<vertex pos="-1.0 -0.9"/>
-								<vertex pos="0.6 -0.1"/>
-								<vertex pos="0.6 0.1"/>
-							</voxagon>
-							<voxagon id_="2126641920" name="carpet" pos="-0.9 1.2 -0.1" rot="0.0 90.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" extrude="1">
-								<vertex pos="-1.0 0.4"/>
-								<vertex pos="-1.0 -0.1"/>
-								<vertex pos="0.6 -0.1"/>
-								<vertex pos="0.6 0.4"/>
-								<vertex pos="0.5 0.4"/>
-							</voxagon>
-							<voxagon id_="1520462464" name="carpet" pos="-0.4 1.5 -0.1" rot="0.0 90.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" extrude="1">
-								<vertex pos="-1.0 0.4"/>
-								<vertex pos="-1.0 -0.2"/>
-								<vertex pos="0.6 -0.2"/>
-								<vertex pos="0.6 0.4"/>
-							</voxagon>
-							<voxagon id_="1879752704" name="carpet" pos="0.1 1.8 -0.1" rot="0.0 90.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" offset="15" extrude="1">
-								<vertex pos="-1.0 0.4"/>
-								<vertex pos="-1.0 -0.2"/>
-								<vertex pos="0.6 -0.2"/>
-								<vertex pos="0.6 0.4"/>
-							</voxagon>
-							<voxagon id_="149300128" name="carpet" pos="0.6 2.1 -0.1" rot="0.0 90.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" offset="10" extrude="1">
-								<vertex pos="-1.0 0.4"/>
-								<vertex pos="-1.0 -0.2"/>
-								<vertex pos="0.6 -0.2"/>
-								<vertex pos="0.6 0.4"/>
-							</voxagon>
-							<voxagon id_="1987303936" name="carpet" pos="1.1 2.4 -0.1" rot="0.0 90.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" extrude="1">
-								<vertex pos="-1.0 0.4"/>
-								<vertex pos="-1.0 -0.2"/>
-								<vertex pos="0.6 -0.2"/>
-								<vertex pos="0.6 0.4"/>
-							</voxagon>
-							<voxagon id_="2065296512" name="carpet" pos="1.6 2.7 -0.1" rot="0.0 90.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" offset="30" extrude="1">
-								<vertex pos="-1.0 0.4"/>
-								<vertex pos="-1.0 -0.2"/>
-								<vertex pos="0.6 -0.2"/>
-								<vertex pos="0.6 0.4"/>
-							</voxagon>
-							<voxagon id_="1681363200" name="carpet" pos="2.1 3.0 -0.1" rot="0.0 90.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" extrude="1">
-								<vertex pos="-1.0 0.4"/>
-								<vertex pos="-1.0 -0.2"/>
-								<vertex pos="0.6 -0.2"/>
-								<vertex pos="0.6 0.4"/>
-							</voxagon>
-						</group>
-						<group id_="1725864832" name="Wood" pos="6.8 0.8 -0.6">
-							<voxagon id_="2068901120" name="backboard" pos="-2.2 -0.1 -0.9" rot="-90.0 -90.0 0.0" texture="6 0.3" brush="MOD/resources/vox/4_privet_drive/stairs/wooden_parts.vox" object="material" extrude="1">
-								<vertex pos="-1.0 0.2"/>
-								<vertex pos="-1.0 -0.1"/>
-								<vertex pos="1.1 -0.1"/>
-								<vertex pos="1.1 0.6"/>
-								<vertex pos="0.4 0.6"/>
-							</voxagon>
-							<voxagon id_="628397504" name="backboard" pos="3.1 0.9 -1.0" rot="-90.0 -90.0 0.0" texture="6 0.5" brush="MOD/resources/vox/4_privet_drive/stairs/wooden_parts.vox" object="material" extrude="1">
-								<vertex pos="-0.4 1.5"/>
-								<vertex pos="-0.4 -1.1"/>
-								<vertex pos="1.1 -1.1"/>
-								<vertex pos="1.1 1.5"/>
-							</voxagon>
-							<voxagon id_="2055924224" name="backboard" pos="-0.3 0.8 -1.0" rot="-90.0 -90.0 0.0" texture="6 0.5" brush="MOD/resources/vox/4_privet_drive/stairs/wooden_parts.vox" object="material" extrude="1">
-								<vertex pos="-0.4 0.0"/>
-								<vertex pos="-0.4 -1.1"/>
-								<vertex pos="1.1 -1.1"/>
-								<vertex pos="1.1 0.0"/>
-							</voxagon>
-							<voxagon id_="586255296" name="backboard" pos="2.1 -0.1 0.2" rot="-90.0 0.0 0.0" texture="6 0.5" brush="MOD/resources/vox/4_privet_drive/stairs/wooden_parts.vox" object="material" extrude="1">
-								<vertex pos="0.0 2.5"/>
-								<vertex pos="0.0 2.2"/>
-								<vertex pos="-0.5 2.2"/>
-								<vertex pos="-0.5 1.9"/>
-								<vertex pos="-1.0 1.9"/>
-								<vertex pos="-1.0 1.6"/>
-								<vertex pos="-1.5 1.6"/>
-								<vertex pos="-1.5 1.3"/>
-								<vertex pos="-2.0 1.3"/>
-								<vertex pos="-2.0 1.0"/>
-								<vertex pos="-2.4 1.0"/>
-								<vertex pos="-2.4 0.7"/>
-								<vertex pos="-2.4 -0.1"/>
-								<vertex pos="1.1 -0.1"/>
-								<vertex pos="1.1 1.1"/>
-								<vertex pos="1.1 2.5"/>
-							</voxagon>
-							<vox id_="204615872" name="wooden_handrail" pos="1.3 -0.2 -1.5" rot="0.0 -180.0 0.0" texture="6 0.3" file="MOD/resources/vox/4_privet_drive/stairs/wooden_parts.vox" object="panel_with_guard_rail">
-								<vox id_="1555395328" name="stairs_door" pos="-0.6 0.025 0.0" rot="0.0 0.0 0.0" texture="6 0.3" prop="true" file="MOD/resources/vox/4_privet_drive/stairs/wooden_parts.vox" object="stairs_door">
-									<joint id_="1800580480" name="hinge" pos="-0.5 1.9 0.0" rot="90.0 90.0 0.0" type="hinge" rotstrength="0.002" rotspring="0" limits="0 160"/>
-									<joint id_="272711936" name="hinge" pos="-0.5 0.3 0.0" rot="90.0 90.0 0.0" type="hinge" rotstrength="0.002" rotspring="0" limits="0 160"/>
-									<vox id_="2072636928" name="detail" pos="-0.0 0.9 -0.1" rot="0.0 -90.0 90.0" texture="9 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/stairs/storage_room_props.vox" object="scoopy thing">
-										<joint id_="102635640" pos="0.15 0.0 -0.05" collide="true"/>
-									</vox>
-								</vox>
-							</vox>
-							<voxbox id_="822920256" name="shelf-plank" pos="2.6 0.6 -1.4" rot="0.0 0.0 0.0" texture="6 0.5" size="5 1 15" brush="MOD/resources/vox/4_privet_drive/stairs/wooden_parts.vox" object="material" color="0.8 0.8 0.8"/>
-							<voxbox id_="6685080" name="wood" pos="-0.3 0.8 -1.4" rot="0.0 0.0 0.0" texture="5 0.6" size="4 1 15" material="wood" color="0.6 0.5 0.45"/>
-							<voxbox id_="1364739456" name="wood" pos="0.1 1.1 -1.4" rot="0.0 0.0 0.0" texture="5 0.6" size="5 1 15" material="wood" color="0.6 0.5 0.45"/>
-							<voxbox id_="1395870976" name="wood" pos="0.1 1.1 -1.4" rot="0.0 0.0 -90.0" texture="5 0.6" size="3 1 15" material="wood" color="0.6 0.5 0.45"/>
-							<voxbox id_="445082144" name="wood" pos="2.6 1.8 -1.4" rot="0.0 0.0 0.0" texture="6 0.5" size="5 1 15" brush="MOD/resources/vox/4_privet_drive/stairs/wooden_parts.vox" object="material" color="0.8 0.8 0.8"/>
-							<voxbox id_="486962208" name="wood" pos="2.6 1.0 -1.4" rot="0.0 0.0 0.0" texture="6 0.5" size="5 1 15" brush="MOD/resources/vox/4_privet_drive/stairs/wooden_parts.vox" object="material" color="0.8 0.8 0.8"/>
-							<voxbox id_="243284480" name="wood" pos="0.6 1.4 -1.4" rot="0.0 0.0 -90.0" texture="5 0.6" size="3 1 15" material="wood" color="0.6 0.5 0.45"/>
-							<voxbox id_="132194176" name="wood" pos="0.6 1.4 -1.4" rot="0.0 0.0 0.0" texture="5 0.6" size="5 1 15" material="wood" color="0.6 0.5 0.45"/>
-							<voxbox id_="1212686592" name="wood" pos="1.1 1.7 -1.4" rot="0.0 0.0 -90.0" texture="5 0.6" size="3 1 15" material="wood" color="0.6 0.5 0.45"/>
-							<voxbox id_="2141716096" name="wood" pos="1.1 1.7 -1.4" rot="0.0 0.0 0.0" texture="5 0.6" size="5 1 15" material="wood" color="0.6 0.5 0.45"/>
-							<voxbox id_="893506816" name="wood" pos="1.6 2.0 -1.4" rot="0.0 0.0 -90.0" texture="5 0.6" size="3 1 15" material="wood" color="0.6 0.5 0.45"/>
-							<voxbox id_="1895547904" name="wood" pos="1.6 2.0 -1.4" rot="0.0 0.0 0.0" texture="5 0.6" size="5 1 15" material="wood" color="0.6 0.5 0.45"/>
-							<voxbox id_="422077600" name="wood" pos="2.1 2.3 -1.4" rot="0.0 0.0 -90.0" texture="5 0.6" size="3 1 15" material="wood" color="0.6 0.5 0.45"/>
-							<voxbox id_="2076307200" name="wood" pos="2.1 2.3 -1.4" rot="0.0 0.0 0.0" texture="5 0.6" size="10 1 15" material="wood" color="0.6 0.5 0.45"/>
-						</group>
-						<group id_="989719552" name="Stairs Detail" pos="9.3 2.0 -0.5" rot="0.0 0.0 0.0">
-							<voxbox id_="518355872" name="detail" pos="0.1 0.1 -0.1" rot="0.0 0.0 0.0" texture="2 0.5" size="4 3 1" material="plastic" color="0.8 0.8 0.8"/>
-							<voxbox id_="1246046464" name="detail" pos="0.4 -0.1 -0.6" rot="0.0 -20.0 0.0" texture="2 0.5" prop="true" size="2 3 2" material="glass" color="0.6 0.6 0.6"/>
-							<voxbox id_="1326922880" name="detail" pos="0.3 -0.1 -1.0" rot="0.0 10.0 0.0" texture="2 0.5" prop="true" size="2 3 2" material="glass" color="0.6 0.6 0.6"/>
-							<voxbox id_="1195449600" name="detail" pos="0.3 -0.4 -0.7" rot="90.0 -15.0 0.0" texture="2 0.5" prop="true" size="2 4 1" material="wood" color="0.7 0.6 0.6"/>
-							<voxbox id_="949215808" name="detail" pos="0.217 0.9 -0.501" rot="90.0 5.0 0.0" texture="2 0.5" prop="true" size="2 2 2" material="wood" color="0.35 0.35 0.5"/>
-							<voxbox id_="1310144640" name="detail" pos="-0.3 0.2 -0.1" rot="0.0 0.0 0.0" texture="2 1" size="2 2 1" material="plastic" color="0.3 0.3 0.3"/>
-							<voxbox id_="742764800" name="detail" pos="-0.2 -0.7 -0.1" rot="0.0 0.0 0.0" texture="2 1" size="1 9 1" material="plastic" color="0.4 0.4 0.4"/>
-							<voxbox id_="1677692928" name="detail" pos="-0.5 0.0 0.0" rot="0.0 0.0 0.0" texture="6 0.5" size="11 5 1" material="wood" color="0.7 0.5 0.4"/>
-							<vox id_="2058808064" name="detail" pos="-0.8 -1.4 -0.5" texture="9 0.5" file="MOD/resources/vox/4_privet_drive/stairs/storage_room_props.vox" object="improvised bed"/>
-							<vox id_="518028160" name="detail" pos="0.1 -1.2 -1.4" rot="80.0 0.0 0.0" texture="9 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/stairs/storage_room_props.vox" object="folding basket"/>
-							<vox id_="1402883712" name="detail" pos="-2.2 -1.4 -0.9" rot="0.0 70.0 0.0" texture="9 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/stairs/storage_room_props.vox" object="red crate"/>
-							<vox id_="52104300" name="detail" pos="-0.6 -1.4 -1.2" rot="0.0 -10.0 0.0" texture="9 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/stairs/storage_room_props.vox" object="single boot"/>
-							<vox id_="925686976" name="detail" pos="-1.1 -1.3 -1.0" rot="-89.9 -6.7 1.4" texture="9 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/stairs/storage_room_props.vox" object="single boot"/>
-							<vox id_="273236256" name="detail" pos="-1.1 -0.1 -0.1" rot="0.0 0.0 -20.0" texture="9 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/stairs/storage_room_props.vox" object="old lamp">
-								<light id_="774944960" name="bulb" pos="0.0 0.3 0.0" color="1 0.75 0.4" scale="0.5"/>
-								<rope id_="2100425984" pos="0.0 0.0 -0.1" rot="0.0 0.0 -55.0" strength="2" maxstretch=".3">
-									<location id_="1757586176" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-									<location id_="1682739456" pos="0.7 0.0 0.1" rot="0.0 0.0 0.0"/>
-								</rope>
-							</vox>
-						</group>
-						<group id_="522812576" name="Entrance Props">
-							<vox id_="1838069248" name="light" pos="5.8 3.3 -3.3" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox" object="ceiling light">
-								<light id_="790084672" name="bulb" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="0" size="0.2"/>
-							</vox>
-							<vox id_="659332416" name="light" pos="8.8 3.3 -3.3" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox" object="ceiling light">
-								<light id_="2137128320" name="bulb" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="0" size="0.2"/>
-							</vox>
-						</group>
-					</group>
-					<group id_="259669472" name="Entrance (Exterior)" pos="-3.1 0.7 3.9">
-						<voxbox id_="1188961152" name="garden_hose" pos="2.7 -0.1 0.4" rot="0.0 0.0 0.0" size="5 10 8" brush="hole">
-							<vox id_="395009568" name="container" pos="0.2 0.0 0.4" rot="0.0 -90.0 0.0" texture="3 0.50" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="garden hose box"/>
-							<vox id_="1999428736" name="door" pos="0.0 0.1 0.4" rot="0.0 -90.0 0.0" texture="3 0.50" prop="true" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="garden hose door">
-								<joint id_="12780300" name="hinge" pos="0.3 0.4 0.0" rot="-90.0 -90.0 0.0" type="hinge" rotstrength="0.002" rotspring="0" limits="0 150"/>
-							</vox>
-						</voxbox>
-						<voxbox id_="1380534528" name="fuse_breaker_box" pos="2.4 0.9 2.0" rot="0.0 -90.0 0.0" size="3 9 6" brush="hole">
-							<vox id_="465465088" name="container" pos="0.2 0.0 0.3" rot="0.0 -90.0 0.0" texture="3 0.50" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="fuse breaker box">
-								<voxbox id_="712419776" name="switch_2" pos="0.0 0.2 0.0" size="1 1 1" color=".1 .1 .1"/>
-								<voxbox id_="225654224" name="switch_1" pos="0.0 0.4 0.0" size="1 1 1" color=".1 .1 .1"/>
-							</vox>
-							<vox id_="96540416" name="door" pos="0.0 0.0 0.3" rot="0.0 -90.0 0.0" texture="3 0.50" prop="true" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="fuse breaker box door">
-								<joint id_="217723872" name="hinge" pos="-0.3 0.4 -0.1" rot="90.0 90.0 0.0" type="hinge" rotstrength="0.002" rotspring="0" limits="0 150"/>
-							</vox>
-						</voxbox>
-						<voxbox id_="1796713600" name="letterbox" pos="2.4 0.1 2.0" rot="0.0 -90.0 0.0" size="3 6 6" brush="hole">
-							<vox id_="1759552384" name="container" pos="0.1 0.0 0.3" rot="0.0 -90.0 0.0" texture="3 0.50" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="letterbox"/>
-							<vox id_="215692144" name="top" pos="0.1 0.6 0.3" rot="0.0 -90.0 0.0" texture="3 0.50" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="letterbox top"/>
-							<vox id_="1473470336" name="door" pos="0.0 0.1 0.3" rot="0.0 -90.0 0.0" texture="3 0.50" prop="true" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="letterbox door">
-								<joint id_="1700500864" name="hinge" pos="-0.2 0.2 0.0" rot="90.0 90.0 0.0" type="hinge" rotstrength="0.0005" rotspring="0" limits="0 150"/>
-							</vox>
-						</voxbox>
-						<vox id_="2011684736" name="lantern" pos="2.6 1.4 -0.5" rot="0.0 -90.0 0.0" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="lantern">
-							<light id_="998764032" name="light" pos="0.0 0.3 0.3" color="1 0.8 0.6" scale="0" size="0.25"/>
-						</vox>
-						<vox id_="952361728" name="house_number" pos="2.7 1.0 -0.5" rot="0.0 -90.0 0.0" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="house number"/>
-						<vox id_="2061822848" name="concrete_flower_pot" pos="2.1 -0.3 0.8" rot="0.0 -90.0 0.0" texture="10 0.75" density="7" prop="true" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="concrete flower pot"/>
-						<vox id_="276316640" name="fountain_thingy" pos="-4.1 -0.4 -6.1" rot="0.0 -90.0 0.0" texture="10 0.75" density="7" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="fountain_thingy"/>
-						<vox id_="1603042816" name="hanging_flower_pot" pos="1.39 1.13 -2.2" rot="0.0 -90.0 0.0" texture="10 0.75" density="5" prop="true" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="hanging flower pot">
-							<joint id_="399531840" name="ball" pos="0.01 1.0 0.0" rot="90.0 90.0 0.0" type="ball" rotstrength="0.002" rotspring="0" limits="0 150"/>
-						</vox>
-					</group>
-				</group>
-				<group id_="1856354944" name="Roof" pos="-20.5 0.7 -2.5">
-					<group id_="1435784832" name="Tiles" pos="19.1 2.4 2.3">
-						<voxbox id_="785693504" name="roof_section" pos="-5.8 3.8 4.9" rot="0.0 90.0 0.0" texture="4 0.8" size="132 40 65" brush="MOD/resources/vox/4_privet_drive/building/vanilla_roofs.vox" object="roof02-custom"/>
-						<voxbox id_="252918864" name="roof_edge" pos="0.5 7.5 4.9" rot="0.0 90.0 0.0" texture="4 0.8" size="132 4 4" brush="MOD/resources/vox/4_privet_drive/building/vanilla_roofs.vox" object="roof02-custom-edge"/>
-						<voxbox id_="667131648" name="roof_edge" pos="-2.4 2.9 8.8" rot="0.0 90.0 0.0" texture="4 0.8" size="45 4 4" brush="MOD/resources/vox/4_privet_drive/building/vanilla_roofs.vox" object="roof02-custom-edge"/>
-						<voxbox id_="2031740032" name="roof_section" pos="-7.1 0.1 8.8" rot="0.0 90.0 0.0" texture="4 0.8" size="98 11 18" brush="MOD/resources/vox/4_privet_drive/building/vanilla_roofs.vox" object="roof02-custom"/>
-						<voxbox id_="467234656" name="roof_section" pos="-5.6 1.0 8.8" rot="0.0 90.0 0.0" texture="4 0.8" size="46 21 34" brush="MOD/resources/vox/4_privet_drive/building/vanilla_roofs.vox" object="roof02-custom"/>
-						<voxbox id_="1955058176" name="roof_section" pos="2.9 0.0 4.3" rot="0.0 -90.0 0.0" texture="4 0.8" size="45 31 51" brush="MOD/resources/vox/4_privet_drive/building/vanilla_roofs.vox" object="roof02-custom"/>
-						<voxbox id_="1478254720" name="roof_section" pos="7.1 3.8 -2.2" rot="0.0 -90.0 0.0" texture="4 0.8" size="71 40 65" brush="MOD/resources/vox/4_privet_drive/building/vanilla_roofs.vox" object="roof02-custom"/>
-						<voxbox id_="322522336" name="roof_section" pos="6.3 4.3 -8.3" rot="0.0 -90.0 0.0" texture="4 0.8" size="61 38 57" brush="MOD/resources/vox/4_privet_drive/building/vanilla_roofs.vox" object="roof02-custom"/>
-					</group>
-					<group id_="1681756416" name="Support">
-						<voxagon id_="240204096" name="roof_structure" pos="18.0 8.9 0.3" rot="149.0 90.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="structural roof" extrude="3">
-							<vertex pos="-6.0 -2.1"/>
-							<vertex pos="5.5 -2.1"/>
-							<vertex pos="5.5 -0.4"/>
-							<vertex pos="4.8 -0.4"/>
-							<vertex pos="4.8 4.1"/>
-							<vertex pos="-6.0 4.1"/>
-							<voxagon id_="203960480" name="chipboard" pos="5.3 0.2 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.3 -1.8"/>
-								<vertex pos="0.2 -1.8"/>
-								<vertex pos="0.2 -0.4"/>
-								<vertex pos="-0.3 -0.4"/>
-							</voxagon>
-							<voxagon id_="1678938240" name="chipboard" pos="4.6 0.2 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.6 -1.8"/>
-								<vertex pos="0.2 -1.8"/>
-								<vertex pos="0.2 3.7"/>
-								<vertex pos="-0.6 3.7"/>
-							</voxagon>
-							<voxagon id_="1459182592" name="chipboard" pos="3.6 0.2 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.6 -1.8"/>
-								<vertex pos="0.2 -1.8"/>
-								<vertex pos="0.2 3.7"/>
-								<vertex pos="-0.6 3.7"/>
-							</voxagon>
-							<voxagon id_="25822760" name="chipboard" pos="2.6 0.2 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.6 0.7"/>
-								<vertex pos="0.2 0.7"/>
-								<vertex pos="0.2 3.7"/>
-								<vertex pos="-0.6 3.7"/>
-							</voxagon>
-							<voxagon id_="1584495104" name="chipboard" pos="-5.4 0.2 -0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.6 -1.8"/>
-								<vertex pos="0.2 -1.8"/>
-								<vertex pos="0.2 3.7"/>
-								<vertex pos="-0.6 3.7"/>
-							</voxagon>
-							<voxagon id_="1050409600" name="chipboard" pos="-4.4 0.2 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.6 -1.8"/>
-								<vertex pos="0.2 -1.8"/>
-								<vertex pos="0.2 3.7"/>
-								<vertex pos="-0.6 3.7"/>
-							</voxagon>
-							<voxagon id_="1400000000" name="chipboard" pos="-3.4 0.2 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.6 0.2"/>
-								<vertex pos="0.2 0.2"/>
-								<vertex pos="0.2 3.7"/>
-								<vertex pos="-0.6 3.7"/>
-							</voxagon>
-						</voxagon>
-						<voxagon id_="1729928320" name="roof_structure" pos="15.5 4.4 8.1" rot="149.0 90.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="structural roof" extrude="3">
-							<vertex pos="-2.1 -1.7"/>
-							<vertex pos="1.8 -1.7"/>
-							<vertex pos="1.8 3.4"/>
-							<vertex pos="-2.1 3.4"/>
-							<voxagon id_="520846368" name="chipboard" pos="0.4 0.2 2.5" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.4 -0.7"/>
-								<vertex pos="0.4 -0.7"/>
-								<vertex pos="0.4 0.9"/>
-								<vertex pos="-0.4 0.9"/>
-							</voxagon>
-							<voxagon id_="572754048" name="chipboard" pos="-0.6 0.2 2.5" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.4 -0.7"/>
-								<vertex pos="0.4 -0.7"/>
-								<vertex pos="0.4 0.9"/>
-								<vertex pos="-0.4 0.9"/>
-							</voxagon>
-							<voxagon id_="1293104256" name="chipboard" pos="1.4 0.2 2.5" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.4 -0.7"/>
-								<vertex pos="0.4 -0.7"/>
-								<vertex pos="0.4 0.9"/>
-								<vertex pos="-0.4 0.9"/>
-							</voxagon>
-							<voxagon id_="1355891456" name="chipboard" pos="-1.5 0.2 2.5" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.4 -0.7"/>
-								<vertex pos="0.3 -0.7"/>
-								<vertex pos="0.3 0.9"/>
-								<vertex pos="-0.4 0.9"/>
-							</voxagon>
-						</voxagon>
-						<voxagon id_="341987712" name="roof_structure" pos="18.4 4.4 8.2" rot="149.0 -90.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="structural roof" offset="-1 0 0" extrude="3">
-							<vertex pos="-1.9 -1.7"/>
-							<vertex pos="2.0 -1.7"/>
-							<vertex pos="2.0 3.4"/>
-							<vertex pos="-1.9 3.4"/>
-						</voxagon>
-						<voxagon id_="133832680" name="roof_structure" pos="21.4 8.9 0.8" rot="149.0 -90.0 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="structural roof" offset="3 0 0" extrude="3">
-							<vertex pos="-6.0 -2.1"/>
-							<vertex pos="5.5 -2.1"/>
-							<vertex pos="5.4 4.1"/>
-							<vertex pos="-6.0 4.1"/>
-							<voxagon id_="842385600" name="chipboard" pos="-5.0 0.2 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.3 -2.0"/>
-								<vertex pos="0.5 -2.0"/>
-								<vertex pos="0.5 3.7"/>
-								<vertex pos="-0.3 3.7"/>
-							</voxagon>
-							<voxagon id_="615420608" name="chipboard" pos="-4.0 0.2 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.3 -1.8"/>
-								<vertex pos="0.5 -1.8"/>
-								<vertex pos="0.5 3.7"/>
-								<vertex pos="-0.3 3.7"/>
-							</voxagon>
-							<voxagon id_="959964352" name="chipboard" pos="5.0 0.2 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.3 -1.8"/>
-								<vertex pos="0.5 -1.8"/>
-								<vertex pos="0.5 3.7"/>
-								<vertex pos="-0.3 3.7"/>
-							</voxagon>
-							<voxagon id_="963569088" name="chipboard" pos="4.0 0.2 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.3 -0.5"/>
-								<vertex pos="0.5 -0.5"/>
-								<vertex pos="0.5 3.7"/>
-								<vertex pos="-0.3 3.7"/>
-							</voxagon>
-							<voxagon id_="977529088" name="chipboard" pos="-3.0 0.2 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.3 -1.9"/>
-								<vertex pos="0.5 -1.9"/>
-								<vertex pos="0.5 3.7"/>
-								<vertex pos="-0.3 3.7"/>
-							</voxagon>
-							<voxagon id_="1116211712" name="chipboard" pos="-2.0 0.2 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.3 -0.6"/>
-								<vertex pos="0.5 -0.6"/>
-								<vertex pos="0.5 3.7"/>
-								<vertex pos="-0.3 3.7"/>
-							</voxagon>
-							<voxagon id_="468086688" name="chipboard" pos="-5.7 0.2 0.0" texture="2 0.8" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="chipboard" offset="3 0 0" extrude="1">
-								<vertex pos="-0.3 -1.9"/>
-								<vertex pos="0.2 -1.9"/>
-								<vertex pos="0.2 3.7"/>
-								<vertex pos="-0.3 3.7"/>
-							</voxagon>
-						</voxagon>
-						<voxbox id_="1106905088" name="wooden_beam" pos="18.4 8.8 -3.7" texture="2 0.8" size="26 2 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-						<voxbox id_="1595767936" name="wooden_beam" pos="18.4 8.8 -0.7" texture="2 0.8" size="26 2 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-						<voxbox id_="667656000" name="wooden_beam" pos="13.7 3.0 7.1" rot="0.0 0.0 0.0" texture="2 0.8" size="65 2 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-						<voxbox id_="1122700160" name="wooden_beam" pos="13.7 3.0 9.1" rot="0.0 0.0 0.0" texture="2 0.8" size="65 2 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-						<voxbox id_="1371162368" name="wooden_beam" pos="16.8 3.2 7.1" rot="0.0 90.0 90.0" texture="2 0.8" size="18 2 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-						<voxbox id_="96016096" name="wooden_beam" pos="16.8 3.2 9.1" rot="0.0 90.0 90.0" texture="2 0.8" size="18 2 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-						<voxbox id_="94443136" name="wooden_beam" pos="18.4 8.8 2.3" texture="2 0.8" size="26 2 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-						<voxbox id_="983755392" name="wooden_beam" pos="18.4 8.8 5.3" texture="2 0.8" size="26 2 2" brush="MOD/resources/vox/4_privet_drive/attic/attic_structure.vox" object="wooden beam"/>
-					</group>
-					<group id_="606113920" name="Gutter" pos="13.0 6.0 0.6" rot="0.0 0.0 0.0">
-						<voxbox id_="437282880" name="gutter part" pos="0.1 0.1 5.2" rot="0.0 90.0 0.0" texture="7 0.75" size="118 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
-						<voxbox id_="2100819200" name="gutter part" pos="0.1 0.1 6.6" rot="0.0 90.0 0.0" texture="7 0.75" size="10 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
-						<voxbox id_="810926400" name="gutter part" pos="-1.2 -3.6 10.5" rot="0.0 90.0 0.0" texture="7 0.75" size="47 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
-						<voxbox id_="1055783872" name="gutter part" pos="-1.2 -3.6 5.4" rot="0.0 90.0 0.0" texture="7 0.75" size="47 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
-						<voxbox id_="574064832" name="gutter part" pos="9.2 -3.7 6.0" rot="0.0 -90.0 0.0" texture="7 0.75" size="31 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
-						<voxbox id_="1985403264" name="gutter part" pos="9.2 -3.7 9.4" rot="0.0 -90.0 0.0" texture="7 0.75" size="11 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
-						<voxbox id_="1047919040" name="gutter part" pos="13.4 0.1 -0.5" rot="0.0 -90.0 0.0" texture="7 0.75" size="71 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
-						<voxbox id_="492533088" name="gutter part" pos="12.6 0.6 -5.2" rot="0.0 -90.0 0.0" texture="7 0.75" size="47 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
-						<voxbox id_="214774576" name="gutter part" pos="12.6 0.6 -6.6" rot="0.0 -90.0 0.0" texture="7 0.75" size="10 2 4" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="gutter"/>
-					</group>
-					<group id_="1144656128" name="Metal Pannels" pos="13.0 6.02 0.6" rot="0.0 0.0 0.0">
-						<voxbox id_="1310800000" name="metal part" pos="4.1 2.67 -6.3" rot="30.0 -90.0 0.0" texture="7 0.65" size="16 1 3" material="metal" color=".25 .25 .25" pbr="0 1"/>
-						<voxbox id_="462974560" name="metal part" pos="1.54641 1.07 2.4" rot="30.0 -90.0 0.0" texture="7 0.65" size="9 1 8" material="metal" color=".25 .25 .25" pbr="0 1"/>
-						<voxbox id_="1050081856" name="metal part" pos="1.3 0.8 2.7" rot="0.0 -90.0 0.0" texture="7 0.65" size="3 5 3" material="metal" color=".25 .25 .25" pbr="0 1"/>
-						<voxbox id_="211759744" name="metal part" pos="1.3 1.3 2.7" rot="0.0 -90.0 0.0" texture="7 0.65" size="3 8 3" material="metal" color=".4 .4 .4" pbr="0 1"/>
-						<voxbox id_="837601216" name="metal part" pos="4.8 4.5 -5.8" rot="0.0 -90.0 0.0" texture="7 0.65" size="5 7 5" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="chimney exhaust thingy" offset="0 3 0" pbr="0 1"/>
-						<voxbox id_="913889792" name="metal part" pos="5.4 4.5 -5.8" rot="0.0 -90.0 0.0" texture="7 0.65" size="5 7 5" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="chimney exhaust thingy" offset="0 3 0" pbr="0 1"/>
-						<voxbox id_="593857920" name="metal part" pos="4.9 4.5 -5.8" rot="0.0 -90.0 0.0" texture="7 0.65" size="5 4 1" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="chimney exhaust thingy" offset="0 3 0" pbr="0 1"/>
-						<voxbox id_="622826624" name="metal part" pos="1.25 1.3 2.75" rot="0.0 -90.0 0.0" texture="7 0.65" size="2 10 2" material="metal" color=".4 .4 .4" pbr="0 1"/>
-						<voxbox id_="1575319424" name="metal part" pos="0.75 -2.34 0.7" rot="30.0 -90.0 0.0" texture="7 0.65" size="53 1 3" material="metal" color=".25 .25 .25" pbr="0 1"/>
-						<voxbox id_="1936510336" name="metal part" pos="0.69 -2.29 0.7" rot="-90.0 -90.0 0.0" texture="7 0.65" size="53 1 2" material="metal" color=".25 .25 .25" pbr="0 1"/>
-						<voxbox id_="1178605824" name="metal part" pos="0.82 -2.35 6.01" rot="-90.0 0.0 31.0" texture="7 0.65" size="39 1 3" material="metal" color=".25 .25 .25" pbr="0 1"/>
-						<voxbox id_="1522297600" name="metal part" pos="3.86 -0.35 6.01" rot="-90 0.0 -31.6" texture="7 0.65" size="61 1 3" material="metal" color=".25 .25 .25" pbr="0 1"/>
-						<voxbox id_="1624212224" name="metal part" pos="4.00428 -0.3795 6.0" rot="31.0 -90.0 0.0" texture="7 0.65" size="3 1 41" material="metal" color=".25 .25 .25" pbr="0 1"/>
-						<voxbox id_="78451376" name="metal part" pos="3.958 -0.378 6.3" rot="31.6 90.0 0.0" texture="7 0.65" size="3 1 60" material="metal" color=".25 .25 .25" pbr="0 1"/>
-						<voxbox id_="884855552" name="metal part" pos="5.89 3.8 -6.3" rot="33.0 -90.0 0.0" texture="7 0.65" size="16 1 3" material="metal" color=".25 .25 .25" pbr="0 1"/>
-						<voxbox id_="1471831808" name="metal part" pos="5.643 3.64 -6.0" rot="0.0 180.0 -32.0" texture="7 0.65" size="19 1 3" material="metal" color=".25 .25 .25" pbr="0 1"/>
-						<voxbox id_="45091520" name="metal part" pos="5.643 3.64 -4.7" rot="0.0 180.0 -32.0" texture="7 0.65" size="19 1 3" material="metal" color=".25 .25 .25" pbr="0 1"/>
-						<voxbox id_="2109601536" name="metal part" pos="3.97 2.56 -6.15" rot="-90.0 -90.0 0.0" texture="7 0.65" size="12 1 3" material="metal" color=".25 .25 .25" pbr="0 1"/>
-						<voxbox id_="833799872" name="metal part" pos="5.63 3.72 -6.15" rot="-90.0 -90.0 0.0" texture="7 0.65" size="12 1 2" material="metal" color=".25 .25 .25" pbr="0 1"/>
-						<voxbox id_="464416448" name="metal part" pos="5.77 3.756 -6.15" rot="-90.0 180.0 -32.0" texture="7 0.65" size="20 1 2" material="metal" color=".25 .25 .25" pbr="0 1"/>
-						<voxbox id_="747811392" name="metal part" pos="5.77 3.756 -5.05" rot="-90.0 180.0 -32.0" texture="7 0.65" size="20 1 2" material="metal" color=".25 .25 .25ä" pbr="0 1"/>
-					</group>
-					<group id_="739225664" name="Downspout" pos="25.5 6.4 -4.2" rot="0.0 0.0 0.0">
-						<group id_="2064641024" name="Section" pos="0.4 -0.3 0.0">
-							<voxbox id_="970778496" name="downspout start" pos="-0.3 0.4 -0.8" rot="0.0 -90.0 0.0" texture="7 0.75" size="4 3 3" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout start"/>
-							<voxbox id_="2105931264" name="downspout middle" pos="-0.3 0.4 -0.5" rot="-145.0 90.0 0.0" texture="7 0.75" size="2 6 2" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle"/>
-							<voxbox id_="1745264640" name="downspout middle" pos="-0.6 -0.2 -0.5" rot="-180.0 90.0 0.0" texture="7 0.75" size="2 61 2" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle"/>
-							<voxbox id_="654482432" name="downspout middle" pos="-0.6 0.1 -0.5" rot="-180.0 90.0 0.0" texture="7 0.75" size="2 2 2" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle"/>
-							<voxbox id_="1371424512" name="downspout mounting" pos="-0.6 -0.1 -0.5" rot="180.0 90.0 0.0" texture="7 0.75" size="2 1 5" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle" color="0.8 0.8 0.8"/>
-							<voxbox id_="820233088" name="downspout mounting" pos="-0.6 -2.1 -0.5" rot="180.0 90.0 0.0" texture="7 0.75" size="2 1 5" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle" color="0.8 0.8 0.8"/>
-							<voxbox id_="1914554496" name="downspout mounting" pos="-0.6 -4.1 -0.5" rot="180.0 90.0 0.0" texture="7 0.75" size="2 1 5" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle" color="0.8 0.8 0.8"/>
-						</group>
-						<group id_="1550217600" name="Section" pos="0.4 -7.1 10.2">
-							<voxbox id_="1977735040" name="downspout start" pos="0.5 6.7 -0.0" rot="0.0 -90.0 0.0" texture="7 0.75" size="4 3 3" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout start"/>
-							<voxbox id_="970581888" name="downspout middle" pos="0.5 6.7 0.3" rot="-145.0 90.0 0.0" texture="7 0.75" size="2 6 2" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle"/>
-							<voxbox id_="811843968" name="downspout middle" pos="0.2 6.1 0.3" rot="-180.0 90.0 0.0" texture="7 0.75" size="2 56 2" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle"/>
-							<voxbox id_="1784195456" name="downspout middle" pos="0.2 6.4 0.3" rot="-180.0 90.0 0.0" texture="7 0.75" size="2 2 2" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle"/>
-							<voxbox id_="1962267648" name="downspout mounting" pos="0.2 6.2 0.3" rot="180.0 90.0 0.0" texture="7 0.75" size="2 1 5" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle" color="0.8 0.8 0.8"/>
-							<voxbox id_="941875328" name="downspout mounting" pos="0.2 4.2 0.1" rot="180.0 90.0 0.0" texture="7 0.75" size="2 1 5" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle" color="0.8 0.8 0.8"/>
-							<voxbox id_="1613988096" name="downspout mounting" pos="0.2 2.2 0.3" rot="180.0 90.0 0.0" texture="7 0.75" size="2 1 5" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle" color="0.8 0.8 0.8"/>
-						</group>
-						<group id_="52694160" name="Section" pos="-11.9 -7.1 10.2" rot="0.0 -180.0 0.0">
-							<voxbox id_="958653568" name="downspout start" pos="0.5 6.7 -0.2" rot="0.0 -90.0 0.0" texture="7 0.75" size="4 3 3" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout start"/>
-							<voxbox id_="706193472" name="downspout middle" pos="0.5 6.7 0.1" rot="-145.0 90.0 0.0" texture="7 0.75" size="2 6 2" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle"/>
-							<voxbox id_="270024800" name="downspout middle" pos="0.2 6.1 0.1" rot="-180.0 90.0 0.0" texture="7 0.75" size="2 8 2" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle"/>
-							<voxbox id_="510359968" name="downspout middle" pos="0.3 4.3 -0.1" rot="0.0 -90.0 0.0" texture="7 0.75" size="2 10 3" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout end"/>
-							<voxbox id_="832685696" name="downspout middle" pos="0.2 6.3 0.1" rot="180.0 90.0 0.0" texture="7 0.75" size="2 1 2" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle"/>
-							<voxbox id_="2145845120" name="downspout mounting" pos="0.2 6.2 0.1" rot="180.0 90.0 0.0" texture="7 0.75" size="2 1 5" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle" color="0.8 0.8 0.8"/>
-							<voxbox id_="1981208704" name="downspout mounting" pos="0.2 4.8 0.1" rot="180.0 90.0 0.0" texture="7 0.75" size="2 1 5" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle" color="0.8 0.8 0.8"/>
-						</group>
-						<group id_="1182800384" name="Section" pos="-13.4 -6.7 10.4" rot="0.0 -180.0 0.0">
-							<voxbox id_="2055596544" name="downspout start" pos="0.3 2.6 -0.2" rot="0.0 -90.0 0.0" texture="7 0.75" size="4 3 3" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout start"/>
-							<voxbox id_="1948176512" name="downspout middle" pos="0.3 2.6 0.1" rot="-145.0 90.0 0.0" texture="7 0.75" size="2 6 2" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle"/>
-							<voxbox id_="1980422144" name="downspout middle" pos="0.0 1.9 0.1" rot="-180.0 90.0 0.0" texture="7 0.75" size="2 17 2" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle"/>
-							<voxbox id_="1427002368" name="downspout middle" pos="0.0 2.2 0.1" rot="-180.0 90.0 0.0" texture="7 0.75" size="2 2 2" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle"/>
-							<voxbox id_="920050496" name="downspout mounting" pos="0.0 2.0 0.1" rot="180.0 90.0 0.0" texture="7 0.75" size="2 1 5" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle" color="0.8 0.8 0.8"/>
-						</group>
-						<group id_="1299330560" name="Section" pos="-3.6 -6.7 13.9" rot="0.0 0.0 0.0">
-							<voxbox id_="1819193728" name="downspout start" pos="0.3 2.5 0.0" rot="0.0 -90.0 0.0" texture="7 0.75" size="4 3 3" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout start"/>
-							<voxbox id_="1660980224" name="downspout middle" pos="0.3 2.5 0.3" rot="-145.0 90.0 0.0" texture="7 0.75" size="2 6 2" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle"/>
-							<voxbox id_="1357464448" name="downspout middle" pos="0.0 1.9 0.3" rot="-180.0 90.0 0.0" texture="7 0.75" size="2 17 2" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle"/>
-							<voxbox id_="1841215232" name="downspout middle" pos="0.0 2.1 0.3" rot="180.0 90.0 0.0" texture="7 0.75" size="2 1 2" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle"/>
-							<voxbox id_="289490176" name="downspout mounting" pos="0.0 2.0 0.3" rot="180.0 90.0 0.0" texture="7 0.75" size="2 1 5" brush="MOD/resources/vox/4_privet_drive/building/roof_gutter_and_downspout.vox" object="downspout middle" color="0.8 0.8 0.8"/>
-						</group>
-					</group>
-					<group id_="1872936576" name="Wooden Detail" pos="13.0 6.02 0.6" rot="0.0 0.0 0.0">
-						<voxagon id_="350901152" name="woodagon" pos="0.0 -3.4 0.8" rot="90.0 0.0 0.0" texture="4 0.8" brush="MOD/resources/vox/4_privet_drive/building/roof_wooden_detail.vox" object="wooden planks" axis="y" extrude="1">
-							<vertex pos="-1.0 0.1"/>
-							<vertex pos="0.7 -0.8"/>
-							<vertex pos="0.7 0.3"/>
-							<vertex pos="-1.0 0.3"/>
-						</voxagon>
-						<voxbox id_="1380272384" name="wood" pos="-1.0 -3.7 0.9" rot="0.0 0.0 0.0" texture="4 0.8" size="1 2 96" material="wood" color="0.20 0.15 0.14"/>
-						<voxbox id_="121969936" name="wood" pos="-0.9 -3.7 5.3" rot="0.0 0.0 0.0" texture="4 0.8" size="4 2 49" material="wood" color="0.20 0.15 0.14"/>
-						<voxbox id_="50465800" name="wood" pos="8.5 -3.8 6.0" rot="0.0 0.0 0.0" texture="4 0.8" size="4 2 45" material="wood" color="0.20 0.15 0.14"/>
-						<voxbox id_="1505388288" name="wood" pos="-0.9 -3.5 0.9" rot="0.0 0.0 -90.0" texture="4 0.8" size="1 17 44" material="wood" color="0.20 0.15 0.14"/>
-						<voxbox id_="1765647616" name="wood" pos="-0.2 -3.7 0.9" rot="-180.0 0.0 45.0" texture="4 0.8" size="2 13 1" material="wood" color="0.20 0.15 0.14"/>
-						<voxbox id_="1802349952" name="wood" pos="0.4 0.2 -6.0" rot="0.0 0.0 -90.0" texture="4 0.8" size="3 4 120" material="wood" color="0.20 0.15 0.14"/>
-						<voxbox id_="1335836288" name="wood" pos="12.7 0.2 0.2" rot="0.0 0.0 -90.0" texture="4 0.8" size="3 4 58" material="wood" color="0.20 0.15 0.14"/>
-						<voxbox id_="737718272" name="wood" pos="12.2 0.4 -6.0" rot="-90.0 0.0 59.0" texture="4 0.8" size="3 5 65" material="wood" color="0.20 0.15 0.14"/>
-						<voxbox id_="1620017664" name="wood" pos="12.83722 -0.06578 0.3" rot="-90.0 0.0 59.0" texture="4 0.8" size="4 7 10" material="wood" color="0.20 0.15 0.14"/>
-						<voxbox id_="2022695424" name="wood" pos="0.5 -0.1 -6.5" rot="-90.0 180.0 59.0" texture="4 0.8" size="3 5 75" material="wood" color="0.20 0.15 0.14"/>
-						<voxbox id_="389635296" name="wood" pos="11.9 0.7 -6.1" rot="0.0 0.0 -90.0" texture="4 0.8" size="3 4 57" material="wood" color="0.20 0.15 0.14"/>
-						<voxbox id_="795000192" name="wood" pos="0.5 -0.1 5.9" rot="-90.0 -180.0 59.0" texture="4 0.8" size="3 6 75" material="wood" color="0.20 0.15 0.14"/>
-						<voxbox id_="1373128576" name="wood" pos="-0.6 -3.7 9.6" rot="-90.0 -180.0 59.0" texture="4 0.8" size="3 6 54" material="wood" color="0.20 0.15 0.14"/>
-						<voxbox id_="324881792" name="wood" pos="8.58572 -3.7515 10.2" rot="-90.0 0.0 59.0" texture="4 0.8" size="3 6 55" material="wood" color="0.20 0.15 0.14"/>
-						<voxbox id_="1460624384" name="wood" pos="12.88574 -0.01203 6.5" rot="-90.0 0.0 59.0" texture="4 0.8" size="3 6 73" material="wood" color="0.20 0.15 0.14"/>
-					</group>
-					<group id_="710846848" name="Props">
-						<vox id_="1874050816" pos="20.8 9.4 -3.7" rot="0.0 -100.0 0.0" texture="2 0.9" file="MOD/resources/vox/4_privet_drive/building/roof_antenna.vox" object="tv_antenna"/>
-					</group>
-					<voxbox id_="1385908864" name="hole" pos="17.4 6.4 -5.2" rot="0.0 0.0 0.0" texture="10 0.5" size="9 32 5" brush="hole"/>
 				</group>
 			</group>
 		</group>
@@ -4345,99 +2783,21 @@
 				</body>
 			</group>
 		</group>
-		<group id_="234174416" name="Road">
-			<voxbox id_="544309696" pos="-3.5 2.5 -50.1" rot="0.0 -90.0 0.0" texture="4 0.85" size="496 3 2" brush="MOD/resources/vox/4_privet_drive/building/road_details.vox" object="road_edge_stones"/>
+		<group id_="234174416" open_="true" name="Road">
+			<voxbox id_="544309696" pos="-3.5 2.5 -50.1" rot="0.0 -90.0 0.0" texture="4 0.85" size="490 3 2" brush="MOD/resources/vox/4_privet_drive/building/road_details.vox" object="road_edge_stones"/>
 			<voxbox id_="27854500" pos="-3.5 2.5 8.5" rot="0.0 -90.0 0.0" texture="4 0.85" size="414 3 2" brush="MOD/resources/vox/4_privet_drive/building/road_details.vox" object="road_edge_stones"/>
 			<voxbox id_="2127428352" pos="-12.3 2.5 49.9" rot="0.0 90.0 0.0" texture="4 0.85" size="1000 3 2" brush="MOD/resources/vox/4_privet_drive/building/road_details.vox" object="road_edge_stones"/>
 		</group>
-		<group id_="903862144" open_="true" name="Temporary Primitives">
-			<group id_="354833568" open_="true" name="Left Neighbour" pos="12.8 2.5 -20.2">
-				<voxbox id_="1812443136" pos="-4.7 0.0 -6.2" rot="0.0 0.0 0.0" texture="10 .8" size="94 62 124" color="0.7 0.63 0.6"/>
-				<voxbox id_="219690080" pos="-4.7 0.0 6.2" rot="0.0 0.0 0.0" texture="10 .8" size="73 34 38" color="0.7 0.63 0.6"/>
-				<voxbox id_="1914685568" pos="-4.7 6.2 -6.6" rot="0.0 0.0 35.0" texture="10 .8" size="60 6 132" color=".3 .3 .3"/>
-				<voxbox id_="614830720" pos="4.7 6.2 6.6" rot="0.0 -180.0 35.0" texture="10 .8" size="62 6 132" color=".3 .3 .3"/>
-			</group>
-			<group id_="547979968" open_="true" name="Neighbour" pos="-19.5 2.5 -25.4" rot="0.0 -180.0 0.0">
-				<voxbox id_="522026112" pos="-4.7 0.0 -6.2" rot="0.0 0.0 0.0" texture="10 .8" size="94 62 124" color="0.7 0.63 0.6"/>
-				<voxbox id_="238958848" pos="-4.7 0.0 6.2" rot="0.0 0.0 0.0" texture="10 .8" size="73 34 38" color="0.7 0.63 0.6"/>
-				<voxbox id_="1817293056" pos="-4.7 6.2 -6.6" rot="0.0 0.0 35.0" texture="10 .8" size="60 6 132" color=".3 .3 .3"/>
-				<voxbox id_="1323907968" pos="4.7 6.2 6.6" rot="0.0 -180.0 35.0" texture="10 .8" size="62 6 132" color=".3 .3 .3"/>
-			</group>
-			<group id_="1963906048" open_="true" name="Neighbour" pos="52.4 2.5 2.1" rot="0.0 -180.0 0.0">
-				<voxbox id_="1329413376" pos="-4.7 0.0 -6.2" rot="0.0 0.0 0.0" texture="10 .8" size="94 62 124" color="0.7 0.63 0.6"/>
-				<voxbox id_="639080512" pos="-4.7 0.0 6.2" rot="0.0 0.0 0.0" texture="10 .8" size="73 34 38" color="0.7 0.63 0.6"/>
-				<voxbox id_="465596160" pos="-4.7 6.2 -6.6" rot="0.0 0.0 35.0" texture="10 .8" size="60 6 132" color=".3 .3 .3"/>
-				<voxbox id_="214709040" pos="4.7 6.2 6.6" rot="0.0 -180.0 35.0" texture="10 .8" size="62 6 132" color=".3 .3 .3"/>
-			</group>
-			<group id_="618238848" open_="true" name="Neighbour" pos="52.4 2.5 18.3" rot="0.0 -180.0 0.0">
-				<voxbox id_="882168384" pos="-4.7 0.0 -6.2" rot="0.0 0.0 0.0" texture="10 .8" size="94 62 124" color="0.7 0.63 0.6"/>
-				<voxbox id_="964421120" pos="-4.7 0.0 6.2" rot="0.0 0.0 0.0" texture="10 .8" size="73 34 38" color="0.7 0.63 0.6"/>
-				<voxbox id_="846186944" pos="-4.7 6.2 -6.6" rot="0.0 0.0 35.0" texture="10 .8" size="60 6 132" color=".3 .3 .3"/>
-				<voxbox id_="80483120" pos="4.7 6.2 6.6" rot="0.0 -180.0 35.0" texture="10 .8" size="62 6 132" color=".3 .3 .3"/>
-			</group>
-			<group id_="817283776" open_="true" name="Neighbour" pos="52.4 2.5 34.5" rot="0.0 -180.0 0.0">
-				<voxbox id_="1791994624" pos="-4.7 0.0 -6.2" rot="0.0 0.0 0.0" texture="10 .8" size="94 62 124" color="0.7 0.63 0.6"/>
-				<voxbox id_="1142034560" pos="-4.7 0.0 6.2" rot="0.0 0.0 0.0" texture="10 .8" size="73 34 38" color="0.7 0.63 0.6"/>
-				<voxbox id_="449997632" pos="-4.7 6.2 -6.6" rot="0.0 0.0 35.0" texture="10 .8" size="60 6 132" color=".3 .3 .3"/>
-				<voxbox id_="1130368384" pos="4.7 6.2 6.6" rot="0.0 -180.0 35.0" texture="10 .8" size="62 6 132" color=".3 .3 .3"/>
-			</group>
-			<group id_="394157568" open_="true" name="Neighbour" pos="15.8 2.5 30.6" rot="0.0 0.0 0.0">
-				<voxbox id_="1540845440" pos="-4.7 0.0 -6.2" rot="0.0 0.0 0.0" texture="10 .8" size="94 62 124" color="0.7 0.63 0.6"/>
-				<voxbox id_="1155928960" pos="-4.7 0.0 6.2" rot="0.0 0.0 0.0" texture="10 .8" size="73 34 38" color="0.7 0.63 0.6"/>
-				<voxbox id_="275071392" pos="-4.7 6.2 -6.6" rot="0.0 0.0 35.0" texture="10 .8" size="60 6 132" color=".3 .3 .3"/>
-				<voxbox id_="1594391552" pos="4.7 6.2 6.6" rot="0.0 -180.0 35.0" texture="10 .8" size="62 6 132" color=".3 .3 .3"/>
-			</group>
-			<group id_="1409896448" open_="true" name="Neighbour" pos="17.0 2.5 46.8" rot="0.0 0.0 0.0">
-				<voxbox id_="730443328" pos="-4.7 0.0 -6.2" rot="0.0 0.0 0.0" texture="10 .8" size="94 62 124" color="0.7 0.63 0.6"/>
-				<voxbox id_="1719572992" pos="-4.7 0.0 6.2" rot="0.0 0.0 0.0" texture="10 .8" size="73 34 38" color="0.7 0.63 0.6"/>
-				<voxbox id_="397106848" pos="-4.7 6.2 -6.6" rot="0.0 0.0 35.0" texture="10 .8" size="60 6 132" color=".3 .3 .3"/>
-				<voxbox id_="716090048" pos="4.7 6.2 6.6" rot="0.0 -180.0 35.0" texture="10 .8" size="62 6 132" color=".3 .3 .3"/>
-			</group>
-			<group id_="1692832640" open_="true" name="Neighbour" pos="-21.7 2.5 50.0" rot="0.0 -180.0 0.0">
-				<voxbox id_="304105600" pos="-4.7 0.0 -6.2" rot="0.0 0.0 0.0" texture="10 .8" size="94 62 124" color="0.7 0.63 0.6"/>
-				<voxbox id_="1314404736" pos="-4.7 0.0 6.2" rot="0.0 0.0 0.0" texture="10 .8" size="73 34 38" color="0.7 0.63 0.6"/>
-				<voxbox id_="397303488" pos="-4.7 6.2 -6.6" rot="0.0 0.0 35.0" texture="10 .8" size="60 6 132" color=".3 .3 .3"/>
-				<voxbox id_="614830720" pos="4.7 6.2 6.6" rot="0.0 -180.0 35.0" texture="10 .8" size="62 6 132" color=".3 .3 .3"/>
-			</group>
-			<group id_="1172838272" open_="true" name="Neighbour" pos="52.4 2.5 50.7" rot="0.0 -180.0 0.0">
-				<voxbox id_="405430432" pos="-4.69999 0.0 58.6" rot="0.0 0.0 0.0" texture="10 .8" size="94 62 124" color="0.7 0.63 0.6"/>
-				<voxbox id_="189869376" pos="-4.69999 0.0 71.0" rot="0.0 0.0 0.0" texture="10 .8" size="73 34 38" color="0.7 0.63 0.6"/>
-				<voxbox id_="347755232" pos="-4.69999 6.2 58.2" rot="0.0 0.0 35.0" texture="10 .8" size="60 6 132" color=".3 .3 .3"/>
-				<voxbox id_="768849728" pos="4.70001 6.2 71.39999" rot="0.0 -180.0 35.0" texture="10 .8" size="62 6 132" color=".3 .3 .3"/>
-			</group>
-			<voxbox id_="2071784960" pos="-49.8 2.4 -0.6" rot="0.0 0.0 0.0" texture="10 .8" size="378 4 91" color=".5 .5 .5"/>
-			<voxbox id_="769701760" pos="-3.6 2.4 58.0" rot="0.0 0.0 0.0" texture="10 .8" size="539 4 55" color=".5 .5 .5"/>
-			<voxbox id_="935780096" pos="-46.7 2.4 7.9" rot="0.0 -160.0 0.0" texture="10 .8" size="378 4 91" color=".5 .5 .5"/>
-			<voxbox id_="1297626496" pos="-26.3 2.6 11.3" rot="0.0 0.0 0.0" texture="10 .8" size="115 58 110" color="0.7 0.63 0.6"/>
-			<voxbox id_="1009053824" pos="-24.0 2.6 -14.1" rot="0.0 0.0 0.0" texture="10 .8" size="92 58 110" color="0.7 0.63 0.6"/>
-			<voxbox id_="1580628224" pos="5.5 2.6 -40.3" rot="0.0 0.0 0.0" texture="10 .8" size="114 58 110" color="0.7 0.63 0.6"/>
-			<voxbox id_="1926679424" pos="41.26874 2.6 -41.5713" rot="0.0 40.0 0.0" texture="4 1" size="114 58 189" color="0.15 0.3 0.15"/>
-			<voxbox id_="512391712" pos="53.26874 2.6 -41.5713" rot="0.0 180.0 0.0" texture="4 1" size="114 87 189" color="0.15 0.3 0.15"/>
-			<voxbox id_="550142784" pos="53.26874 2.6 -60.7713" rot="0.0 -145.0 0.0" texture="4 1" size="114 70 189" color="0.15 0.3 0.15"/>
-			<voxbox id_="1218912896" pos="99.38739 2.6 -51.16488" rot="0.0 -145.0 0.0" texture="4 1" size="343 90 764" color="0.15 0.3 0.15"/>
-			<voxbox id_="1962660864" pos="54.16874 2.6 -35.3713" rot="0.0 110.0 0.0" texture="4 1" size="340 138 189" color="0.15 0.3 0.15"/>
-			<voxbox id_="605851776" pos="29.16874 2.6 -77.77132" rot="0.0 50.0 0.0" texture="4 1" size="340 110 189" color="0.15 0.3 0.15"/>
-			<voxbox id_="394288640" pos="-0.6 2.6 -53.8" rot="0.0 0.0 0.0" texture="10 .8" size="114 58 110" color="0.7 0.63 0.6"/>
-			<voxbox id_="1943981952" pos="-2.87784 2.6 -66.37569" rot="0.0 10.0 0.0" texture="10 .8" size="63 58 104" color="0.7 0.63 0.6"/>
-			<voxbox id_="1613922560" pos="-70.33126 2.6 -8.4829" rot="0.0 20.0 0.0" texture="10 .8" size="85 58 124" color="0.7 0.63 0.6"/>
-			<voxbox id_="364271328" pos="-36.4 2.6 11.3" rot="0.0 0.0 0.0" texture="10 .8" size="101 36 96" color="0.6 0.53 0.5"/>
-			<voxbox id_="726445376" pos="-36.4 6.2 12.8" rot="0.0 0.0 0.0" texture="10 .8" size="74 26 81" color="0.6 0.53 0.5"/>
-			<voxbox id_="642685248" pos="-45.7 2.6 11.3" rot="0.0 0.0 0.0" texture="10 .8" size="93 36 113" color="0.7 0.63 0.6"/>
-			<voxbox id_="1464622336" pos="-45.7 6.2 12.8" rot="0.0 0.0 0.0" texture="10 .8" size="66 26 98" color="0.7 0.63 0.6"/>
-			<voxbox id_="75567616" pos="-35.99998 6.2 -4.6" rot="0.0 -180.0 0.0" texture="10 .8" size="74 26 81" color="0.6 0.53 0.5"/>
-			<voxbox id_="174205312" pos="-33.3 2.6 -3.1" rot="0.0 -180.0 0.0" texture="10 .8" size="101 36 96" color="0.6 0.53 0.5"/>
-			<voxbox id_="1619362304" pos="-23.99999 2.6 -3.10001" rot="0.0 -180.0 0.0" texture="10 .8" size="93 36 113" color="0.7 0.63 0.6"/>
-			<voxbox id_="1972033024" pos="-26.7 6.2 -4.6" rot="0.0 -180.0 0.0" texture="10 .8" size="66 26 98" color="0.7 0.63 0.6"/>
-			<voxbox id_="337268832" pos="-16.6 2.6 26.6" rot="0.0 -90.0 0.0" texture="10 .8" size="101 36 96" color="0.6 0.53 0.5"/>
-			<voxbox id_="499218176" pos="-18.1 6.2 26.6" rot="0.0 -90.0 0.0" texture="10 .8" size="74 26 81" color="0.6 0.53 0.5"/>
-			<voxbox id_="1159533696" pos="9.9 2.6 66.19999" rot="0.0 -90.0 0.0" texture="10 .8" size="146 54 93" color="0.6 0.53 0.5"/>
-			<voxbox id_="878236032" pos="25.8 2.6 66.19999" rot="0.0 -90.0 0.0" texture="10 .8" size="115 54 105" color="0.6 0.53 0.5"/>
-			<voxbox id_="821216192" pos="-24.33126 2.6 62.72868" rot="0.0 -115.0 0.0" texture="4 1" size="340 110 189" color="0.15 0.3 0.15"/>
-			<voxbox id_="1544318976" pos="-99.04355 2.6 55.20275" rot="0.0 50.0 0.0" texture="4 1" size="343 90 764" color="0.15 0.3 0.15"/>
-			<voxbox id_="463892128" pos="-59.45335 2.6 28.24385" rot="0.0 -55.0 0.0" texture="4 1" size="340 138 189" color="0.15 0.3 0.15"/>
-			<voxbox id_="1014165952" pos="-52.01003 2.6 52.54546" rot="0.0 50.0 0.0" texture="4 1" size="114 70 189" color="0.15 0.3 0.15"/>
-			<voxbox id_="154281152" pos="-56.97936 2.6 33.99967" rot="0.0 15.0 0.0" texture="4 1" size="114 87 189" color="0.15 0.3 0.15"/>
-			<voxbox id_="545161728" pos="-45.38822 2.6 30.89383" rot="0.0 -125.0 0.0" texture="4 1" size="114 58 189" color="0.15 0.3 0.15"/>
+		<group id_="903862144" name="Temporary Primitives">
+			<group id_="354833568" name="Left Neighbour" pos="12.8 2.5 -20.2"/>
+			<group id_="547979968" name="Neighbour" pos="-19.5 2.5 -25.4" rot="0.0 -180.0 0.0"/>
+			<group id_="1963906048" name="Neighbour" pos="52.4 2.5 2.1" rot="0.0 -180.0 0.0"/>
+			<group id_="618238848" name="Neighbour" pos="52.4 2.5 18.3" rot="0.0 -180.0 0.0"/>
+			<group id_="817283776" name="Neighbour" pos="52.4 2.5 34.5" rot="0.0 -180.0 0.0"/>
+			<group id_="394157568" name="Neighbour" pos="15.8 2.5 30.6" rot="0.0 0.0 0.0"/>
+			<group id_="1409896448" name="Neighbour" pos="17.0 2.5 46.8" rot="0.0 0.0 0.0"/>
+			<group id_="1692832640" name="Neighbour" pos="-21.7 2.5 50.0" rot="0.0 -180.0 0.0"/>
+			<group id_="1172838272" name="Neighbour" pos="52.4 2.5 50.7" rot="0.0 -180.0 0.0"/>
 		</group>
 	</group>
 	<spawnpoint id_="1077084416" name="da wizard spawnpoint" pos="-4.6 3.1 2.5" rot="0.0 90.0 0.0"/>
