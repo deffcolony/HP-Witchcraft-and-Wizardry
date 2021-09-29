@@ -7,7 +7,7 @@ function init()
 end
 
 function draw()
-	UiMakeInteractive()
+	--UiMakeInteractive()
 	UiTranslate(350, 0)
 	UiAlign("center")
 	UiWordWrap(400)
