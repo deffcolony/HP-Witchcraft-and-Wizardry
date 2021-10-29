@@ -1,13 +1,57 @@
 Gameplay:
 
+* pressing play will show a menu while you can play the game **the menu is stuck on the screen**
+
+* sometimes you get spawned in the broom area and sometimes you get spawned at harry's house **when you press play**
+
+* when you grab the oven in the kitchen... you grab the whole door with another door attached to it O__O
+
+* the blender in the kitchen should have functional buttons
+
+* light switches should have a sound when you interact with it
+
+* is it possible to add a button to the attic stairs when you pull it down... so the attic stairs closses itself when you press the button on it
+
+* light switch in the attic should be interactable 
+
+* fusebox in attic should contain interactable switches to turn off the power in the house
 
 
 Visuals/Sound:
 
+* the tv upstairs directly plays sound when you play the map... it should work like all other tvs in the house 
 
+* pressing E button will trigger a button sound
+
+* the radio sound distance is not realistic when you walk away you still hear the same sound volume... All sounds should be configured like a realistic envoirment. for example when you walk upstairs that the sound will cut away or atleast fades away **take a look at the television sound. its perfectly configured with a realistic sound distance when you walk away.. but maby you can make it even better
+
+* the smoke of the fireplace comes inside the house... it should perfectly fit inside the chimey not inside the house
+
+* 
 
 Quality of life:
 
+* is it possible to make the miniTV screen bulge? like a old retro tv (like the other old tv screens in the house)
 
 
 Misc:
+
+* make the toilet interactable (button that triggers sound)
+
+* make the shower interactable (button that triggers sound and shows steam)
+
+* make the all sinks interactable (button that triggers sound)
+
+* make the vacuum cleaner interactable (button that triggers sound)
+
+* make the desk lamp interactable in harry potter's room (button that triggers sound and light)
+
+* make the desk lamp interactable in dudley's room (button that triggers sound and light)
+
+* make the computer interactable in dudley's room (button that will triggers sound)
+
+* make the computer monitor interactable in dudley's room (screen that shows a old windows system) put a easteregg inside the computer system hide it in a folder or be creative
+
+* make sure you can open the windows in the house **for fresh air ofcourse**
+
+* make sure you can sleep in ur bed in harry's room **that you can save the game and skip 6 hours of time**
