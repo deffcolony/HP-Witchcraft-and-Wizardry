@@ -1,27 +1,35 @@
 function init()
 	levels = {
 		{name = "Privet Drive", path = "MOD/privetdrive.xml"}, 
-		{name = "Bardar's Testing", path = "MOD/script_testing.xml"}, 
-		{name = "Some Other Map", path = "MOD/entrance.xml"}}
-	scroll = 0
+		--{name = "Bardar's Testing", path = "MOD/script_testing.xml"}, 
+		--{name = "Some Other Map", path = "MOD/entrance.xml"}
+		}
 end
 
 function draw()
-	--UiMakeInteractive()
+	UiMakeInteractive()
+
 	UiTranslate(350, 0)
 	UiAlign("center")
-	UiWordWrap(400)
-
 	UiColor(1, 1, 1, 0.2)
 	UiImageBox("MOD/resources/img/infobox.png", 400, 1080, 6, 6)
 
+	-- Title
 	UiTranslate(0, 200)
 	UiColor(1, 1, 1)
 	UiFont("bold.ttf", 50)
-	UiText("TITLE/IMAGE")
+	UiText("Harry Potter", true)
+	UiColor(0.9, 0.9, 0.9)
+	UiFont("bold.ttf", 30)
+	UiText("Witchcraft and Wizardry.", true)
 
+
+	-- Buttons
+	UiColor(1, 1, 1)
 	UiFont("regular.ttf", 36)
 	UiTranslate(0, 200)
+
+	UiRect()
 	if UiTextButton("Level Select") then
 		draw = level_select
 	end
@@ -42,7 +50,7 @@ function level_select()
 	UiPush()
 		UiTranslate(UiCenter()-200, UiHeight()-25)
 		UiAlign("left middle")
-		scroll, done = UiSlider("MOD/resources/img/dot.png", "x", scroll, 0, 400)
+		scroll, done = UiSlider("MOD/resources/img/dot.png", "x", scroll or 0, 0, 400)
 		move = inv_lerp(0, 400, scroll)
 	UiPop()
 	UiTranslate(UiCenter(), UiMiddle())

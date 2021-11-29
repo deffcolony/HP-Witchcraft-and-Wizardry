@@ -1,4 +1,4 @@
-<scene id_="883282560" open_="true" version="0.7.4">
+<scene id_="883282560" open_="true" version="0.8.0">
 	<group id_="1990449792" name="Map">
 		<environment id_="1120865024" name="skybox" skyboxrot="-60" sunBrightness="0.5" sunSpread="0.10"/>
 		<boundary id_="82580400" name="playable area">
@@ -14,7 +14,7 @@
 		<script id_="1390037888" name="fireplace" file="MOD/resources/scripts/fireplace.lua"/>
 	</group>
 	<group id_="1989138944" open_="true" name="Scene">
-		<group id_="322260192" name="Ground" pos="0.0 0.0 0.0">
+		<group id_="322260192" open_="true" name="Ground" pos="0.0 0.0 0.0">
 			<voxscript id_="2096690176" pos="50.2 -2.5 -50.1" rot="0.0 -90.0 0.0" texture="10 .6" file="MOD/resources/scripts/ground.lua">
 				<parameters file="MOD/resources/img/privetdrive_ground.png" scale="255"/>
 			</voxscript>
@@ -2384,7 +2384,7 @@
 							<vertex pos="0.8 0.9"/>
 							<vertex pos="-2.1 0.9"/>
 						</voxagon>
-						<group id_="403071008" name="Props / Detail">
+						<group id_="403071008" open_="true" name="Props / Detail">
 							<vox id_="673095808" name="doube_door_curtains" pos="11.0 0.7 -2.0" rot="0.0 -90.0 0.0" texture="9 0.5" file="MOD/resources/vox/4_privet_drive/building/curtains.vox" object="double door curtains"/>
 							<vox id_="1365329280" name="porch_chair" pos="13.28 0.6 -3.24" rot="0.0 5.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="porch chair">
 								<vox id_="132194176" name="porch_chair" pos="0.14 0.6 -0.12" rot="10.0 175.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="porch chair pillow"/>
@@ -2396,9 +2396,9 @@
 							<vox id_="700950272" name="porch_furniture" pos="14.53 0.6 -3.19" rot="0.0 -135.0 0.0" texture="3 0.75" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="porch pillar"/>
 							<vox id_="1531079936" name="porch_furniture" pos="14.33 0.6 -0.89" rot="0.0 -145.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="small tv stand"/>
 							<vox id_="1218650752" name="porch_furniture" pos="11.98 0.6 -3.34" rot="0.0 90.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="porch shelf"/>
-							<script id_="1595112576" name="harryhouseminitvremote" pos="14.3 1.3 -0.9" file="MOD/resources/scripts/harryhouseminitvremote.lua">
-								<vox id_="1742643072" name="minitv" tags="harryhouseminitv" pos="0.03 0.0 0.01" rot="0.0 -140.0 0.0" texture="9 0.4" density="4" strength="3" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="small grey tv">
-									<screen id_="181218096" name="minitv screen" tags="harryhouseminitvscreen" pos="0.0 0.45 0.3" rot="0.0 0.0 0.0" size="0.4, 0.3" bulge="0" script="MOD/resources/scripts/harryhouseminitvscreen.lua" emissive="0.5"/>
+							<script id_="1595112576" open_="true" name="harryhouseminitvremote" pos="14.3 1.3 -0.9" file="MOD/resources/scripts/harryhouseminitvremote.lua">
+								<vox id_="1742643072" open_="true" name="minitv" tags="harryhouseminitv" pos="0.03 0.0 0.01" rot="0.0 -140.0 0.0" texture="9 0.4" density="4" strength="3" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="small grey tv">
+									<screen id_="181218096" name="minitv screen" tags="harryhouseminitvscreen" pos="-0.0 0.45 0.3" rot="0.0 0.0 0.0" size="0.4, 0.3" bulge="0.025" script="MOD/resources/scripts/harryhouseminitvscreen.lua" emissive="0.5" fxraster="0.1" fxnoise="0.5"/>
 									<light id_="1273835392" name="speakers minitv" tags="harryhouseminitvspeaker" pos="0.0 0.4 0.3" scale="0" unshadowed="4" sound="MOD/resources/snd/harryhouseminitvRun.ogg 0.5"/>
 									<rope id_="111090304" name="cable" pos="-0.64 0.15 -0.36" rot="0.0 90.0 0.0" slack="0.7" strength="18" maxstretch="0.2">
 										<location id_="1795140608" pos="-0.13 0.01 0.33" rot="0.0 0.0 0.0"/>
@@ -2851,13 +2851,17 @@
 	</group>
 	<spawnpoint id_="1077084416" name="da wizard spawnpoint" pos="-4.6 3.1 2.5" rot="0.0 90.0 0.0"/>
 	<instance id_="1382500736" pos="-5.6 3.3 -10.4" rot="0.0 180.0 0.0" file="MOD/resources/prefab/knightbus.xml"/>
-	<group id_="1824633600" name="Main Menu" layer="menu">
+	<group id_="1824633600" open_="true" name="Main Menu" layer="menu">
 		<script id_="403857472" file="MOD/resources/scripts/menu ui.lua"/>
-		<script id_="366434144" file="MOD/resources/scripts/menu path.lua" param0="gradientStrength=1" param1="speed=0.5">
-			<location id_="177023536" pos="-7.2 11.3 0.0" rot="-20.0 -90.0 0.0"/>
-			<location id_="708356352" pos="16.1 11.3 12.0" rot="-20.0 0.0 0.0"/>
-			<location id_="527334848" pos="29.8 11.3 0.8" rot="-20.0 90.0 0.0"/>
-			<location id_="1443256320" pos="15.0 11.3 -12.1" rot="-20.0 180.0 0.0"/>
+		<script id_="366434144" open_="true" file="MOD/resources/scripts/menu path.lua" param0="speed=2.5">
+			<location id_="257768816" pos="-0.4 4.5 -1.0" rot="0.0 -90.0 0.0"/>
+			<location id_="1253583616" pos="2.6 8.4 12.0" rot="0.0 -50.0 0.0"/>
+			<location id_="708356352" pos="17.8 9.8 16.9" rot="-20.0 0.0 0.0"/>
+			<location id_="1234642560" pos="26.2 7.3 9.1" rot="-20.0 50.0 0.0"/>
+			<location id_="527334848" pos="31.0 4.8 0.8" rot="0.0 90.0 0.0"/>
+			<location id_="1562604672" pos="24.3 8.0 -8.7" rot="0.0 140.0 0.0"/>
+			<location id_="1443256320" pos="15.0 15.7 -12.3" rot="-30.0 -180.0 0.0"/>
+			<location id_="177023536" pos="3.5 12.3 -10.2" rot="-20.0 -130.0 0.0"/>
 		</script>
 	</group>
 	<layers>

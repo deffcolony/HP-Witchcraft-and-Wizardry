@@ -1,4 +1,4 @@
-<scene id_="1997790336" open_="true" version="0.7.4" shadowVolume="5 5 5">
+<scene id_="1997790336" open_="true" version="0.8.0" shadowVolume="1 1 1">
 	<script id_="2048518272" file="MOD/resources/scripts/load.lua"/>
 	<layers/>
 </scene>
