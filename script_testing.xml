@@ -1,17 +1,15 @@
-<scene id_="396844704" open_="true" version="0.7.4">
+<scene id_="396844704" open_="true" version="0.8.0">
 	<environment id_="971564928" template="foggy"/>
 	<spawnpoint id_="1125518464" pos="-1.2 0.0 -7.4"/>
-	<group id_="1981405312" open_="true" name="level">
-		<voxbox id_="2045372288" name="baseplate" pos="-25.0 -0.5 -25.0" texture="3" size="500 5 500"/>
-		<script id_="1708037888" open_="true" file="MOD/resources/scripts/broom.lua">
-			<vehicle id_="1869593984" open_="true" name="broom" tags="broom" pos="0.0 0.8 0.0">
-				<body id_="301287392" open_="true" tags="awake" dynamic="true">
-					<vox id_="1435129344" pos="0.0 -0.7 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/brooms/broom_firebolt.vox"/>
-				</body>
-			</vehicle>
-		</script>
-	</group>
-	<group id_="1285763712" open_="true" name="Main Menu" layer="menu">
+	<voxbox id_="2045372288" name="baseplate" pos="-25.0 -0.5 -25.0" rot="0.0 0.0 0.0" texture="3" size="500 5 500"/>
+	<script id_="1708037888" pos="5.1 0.0 -1.7" rot="0.0 0.0 0.0" file="MOD/resources/scripts/broom.lua">
+		<vehicle id_="1869593984" open_="true" name="broom" tags="broom" pos="0.0 0.8 0.0">
+			<body id_="301287392" open_="true" tags="awake" dynamic="true">
+				<vox id_="1435129344" pos="0.0 -0.7 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/brooms/broom_firebolt.vox"/>
+			</body>
+		</vehicle>
+	</script>
+	<group id_="1285763712" name="Main Menu" layer="menu">
 		<script id_="700950272" file="MOD/resources/scripts/menu ui.lua"/>
 		<script id_="2009194240" open_="true" pos="-2.5 2.9 2.1" rot="0.0 0.0 0.0" file="MOD/resources/scripts/menu path.lua" param0="smooth=0.75" param1="speed=3">
 			<location id_="951378624" tags="path" pos="-5.7 0.1 4.1"/>
@@ -26,8 +24,12 @@
 			<location id_="558662976" tags="path" pos="-0.5 1.9 -0.1" rot="0.0 -80.0 0.0"/>
 		</script>
 	</group>
+	<script id_="313150112" open_="true" pos="0.0 0.0 1.5" file="MOD/resources/scripts/lightswitch.lua" param0="lit=true">
+		<voxbox id_="894358848" name="light switch" tags="lightswitch interact" pos="-0.1 1.5 -0.1" rot="0.0 0.0 0.0" size="2 2 2" color="0.76 0.14 0.14"/>
+		<light id_="1737530880" pos="0.0 2.1 0.0" scale="5"/>
+	</script>
 	<layers>
-		<layer name="menu" visible="true"/>
+		<layer name="menu" visible="false"/>
 	</layers>
 </scene>
 
