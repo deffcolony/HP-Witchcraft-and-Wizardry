@@ -27,6 +27,7 @@ Visuals/Sound:
 
 Quality of life:
 
+- lights and appliances stop when their power cord breaks.
 
 Misc:
 

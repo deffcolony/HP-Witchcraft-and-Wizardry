@@ -1,5 +1,4 @@
 state = GetBoolParam("lit", false)
-prev_state = state
 
 function init()
 	sounds = {}
@@ -8,12 +7,11 @@ function init()
 	end
 
 	switches = FindShapes("lightswitch")
-	lights = FindLights("")
-
 	for i,v in ipairs(switches) do
 		SetTag(v, "interact")
 	end
 
+	lights = FindLights("")
 	for i,v in ipairs(lights) do
 		SetLightEnabled(v, state)
 	end
@@ -25,17 +23,15 @@ function tick()
 		local interactShape = GetPlayerInteractShape()
 		for i,v in ipairs(switches) do
 			if interactShape == v then
+
 				state = not state
+				for i,v in ipairs(lights) do
+					SetLightEnabled(v, state)
+				end
+
 				PlaySound(sounds[math.random(#sounds)], GetShapeWorldTransform(v).pos, 0.25)
 				break
 			end
 		end
-	end
-
-	if state ~= prev_state then
-		for i,v in ipairs(lights) do
-			SetLightEnabled(v, state)
-		end
-		prev_state = state
 	end
 end
