@@ -7,540 +7,200 @@
 		<script id_="2094789504" pos="0.0 0.2 0.0" file="main.lua"/>
 		<script id_="1515219200" pos="0.0 0.2 0.0" file="sandbox.lua"/>
 	</group>
-	<group id_="2070867328" name="Floor" pos="0.0 0.0 0.0">
+	<group id_="2070867328" open_="true" name="Floor" pos="0.0 0.0 0.0">
 		<voxbox id_="1754702464" pos="-100.00001 0.0 -100.00001" size="2000 1 2000" color="0.2 0.2 0.2"/>
 	</group>
-	<group id_="1644791808" name="Stations" pos="-0.2 0.0 1.0">
-		<group id_="682664640" open_="true" name="Station 1" pos="18.0 0.0 0.0">
-			<group id_="103749824" name="Walls" pos="-0.1 0.4 0.0">
-				<vox id_="518093696" open_="true" pos="-9.0 0.1 -44.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="1068826304" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1426740224" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1822995072" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1940639360" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="1635157504" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="712485312" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="593595776" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="769308544" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+	<group id_="1644791808" open_="true" name="Stations" pos="-0.2 0.0 1.0">
+		<group id_="682664640" name="Station 1" pos="-13.2 0.0 -0.5">
+			<group id_="103749824" name="Walls" pos="-9.2 0.5 0.1">
+				<vox id_="530873984" pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1676709760" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1884209408" open_="true" pos="-9.0 0.1 -34.90001" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="88872240" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="225260976" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1629455488" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1119881984" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="1693356928" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1369785984" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1483301248" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1229858048" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="1405243136" pos="0.1 13.0 30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="131866480" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1358447616" open_="true" pos="-9.0 0.1 -14.90001" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="222377216" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="492402016" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1645840512" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="893048064" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="375609728" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1730845824" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1279996160" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="973137920" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="1534422528" pos="0.1 13.0 20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="2005589504" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="738308096" open_="true" pos="-9.0 0.1 -24.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="1187912448" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1040316416" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1779542016" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="705603648" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="1913112576" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1157305344" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1131810304" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="976021696" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="1863826560" pos="0.1 13.0 10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1648003328" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1670221312" open_="true" pos="-9.0 0.1 -4.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="1575188352" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1832039680" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1322531712" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="904910784" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="1820504576" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="357192992" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1156060032" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1238706048" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="559187264" pos="0.1 13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="20382940" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="399335232" open_="true" pos="-9.0 0.1 5.1" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="129834736" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1570928256" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1261251712" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1356350336" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="1092682880" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1742512000" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1519807104" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="614240896" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="216019840" pos="0.1 13.0 -10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1589541632" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="532381408" open_="true" pos="-9.0 0.1 15.1" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="2075520768" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="199700384" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1724160768" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="2080698368" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="842713344" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="929160576" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1400524288" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1404849920" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="174467488" pos="0.1 13.0 -20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="68358224" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="138682640" open_="true" pos="-9.0 0.1 25.1" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="204288176" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1713412224" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1114048896" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1118308992" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="1213538688" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="317672384" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="325537184" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1469800064" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="46271240" pos="0.1 13.0 -30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1392266240" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1446205696" open_="true" pos="-9.0 0.1 35.1" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="2080763904" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="822133760" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1459837952" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="399335232" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="2011619200" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="2137062784" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="68948080" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="756593792" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="829474240" pos="0.1 13.0 -39.99998" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="239941936" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1747099776" open_="true" pos="-9.0 0.1 45.09999" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="1422217984" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1550676352" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="577276288" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1082589696" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="1093338240" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1824043776" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1716951424" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="916380288" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="1799662848" open_="true" pos="0.1 13.0 -47.7" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end2">
+					<vox id_="1440765824" pos="-8.7 -13.0 -2.3" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="20251860" open_="true" pos="9.2 0.1 45.1" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="657956032" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="843630848" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1339506560" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1734057344" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="183708624" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1907345024" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1495032960" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1601011072" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-				</vox>
-				<vox id_="35326060" open_="true" pos="9.2 0.1 35.1" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="561612288" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="610767232" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1285567104" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1444763776" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="866569856" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1807396608" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1432311168" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="385965056" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-				</vox>
-				<vox id_="504657984" open_="true" pos="9.2 0.1 15.1" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="49548240" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1301886592" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1971508736" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1174018048" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="484864928" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="474902848" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="972679168" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1409634304" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-				</vox>
-				<vox id_="438528128" open_="true" pos="9.2 0.1 25.1" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="2030953472" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="623154304" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="772913216" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1486381696" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="38799680" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1572304640" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="75698704" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1561621632" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-				</vox>
-				<vox id_="2142437120" open_="true" pos="9.2 0.1 5.1" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="1067777664" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1113917824" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="2082140288" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="311315008" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="673357952" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="830785024" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="2016600320" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="2015355008" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-				</vox>
-				<vox id_="494630368" open_="true" pos="9.2 0.1 -4.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="1877852032" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="719432576" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="997780992" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="2071784960" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="59313700" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="2060380928" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1873329792" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="643012928" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-				</vox>
-				<vox id_="575244608" open_="true" pos="9.2 0.1 -14.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="1723570944" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1020851072" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="931126784" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1920649728" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="451439520" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1190337536" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="2122447360" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1640531712" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-				</vox>
-				<vox id_="242170304" open_="true" pos="9.2 0.1 -24.89999" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="1681494272" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1687130624" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="706914432" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1045559616" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="1760469888" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="835503936" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1116277248" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1039988736" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-				</vox>
-				<vox id_="976283840" open_="true" pos="9.2 0.1 -34.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="1829024768" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1726782336" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="894948672" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1813753984" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="510359968" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="228341360" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1339178880" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="860540224" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-				</vox>
-				<vox id_="1619689984" open_="true" pos="9.2 0.1 -44.89999" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="696624640" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="2073489024" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="391994752" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="709601600" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="706979968" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="2120415616" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1296708864" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1759355776" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="1029371264" open_="true" pos="0.1 13.0 47.8" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end">
+					<vox id_="430401184" pos="-8.7 -13.0 2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
 			</group>
-			<group id_="2044520320" name="Floors" pos="-0.2 0.0 0.1">
-				<vox id_="1089668096" pos="9.2 0.1 -45.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="889181184" pos="9.2 0.1 -35.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="688301056" pos="9.2 0.1 -25.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="1136922368" pos="9.2 0.1 -15.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="1837807104" pos="9.2 0.1 -5.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="1509320704" pos="9.2 0.1 5.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="1215898112" pos="9.2 0.1 15.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="2048256128" pos="9.2 0.1 25.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="233781184" pos="9.2 0.1 35.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="1136201472" pos="9.2 0.1 45.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="1508730752" pos="-9.0 0.1 45.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="796442112" pos="-9.0 0.1 35.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="1264004480" pos="-9.0 0.1 25.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="1108150272" pos="-9.0 0.1 15.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="1883226368" pos="-9.0 0.1 5.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="2058414720" pos="-9.0 0.1 -5.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="1197809024" pos="-9.0 0.1 -15.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="13042460" pos="-9.0 0.1 -25.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="2063526912" pos="-9.0 0.1 -35.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="1422480128" pos="-9.0 0.1 -45.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<group id_="1725078400" name="Walls" pos="9.2 0.5 0.1" rot="0.0 -180.0 0.0">
+				<vox id_="1445550208" pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="941351040" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="2131622912" pos="0.1 13.0 30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="768325440" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="2030560256" pos="0.1 13.0 20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="710846848" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1357595520" pos="0.1 13.0 10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="310004192" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1063583104" pos="0.1 13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1884143872" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1364083968" pos="0.1 13.0 -10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1124731904" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="533298976" pos="0.1 13.0 -20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1662749824" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="2116548736" pos="0.1 13.0 -30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1761256448" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1942933248" pos="0.1 13.0 -39.99998" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="869846912" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1255418752" open_="true" pos="0.1 13.0 -47.7" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end2">
+					<vox id_="1451055616" pos="-8.7 -13.0 -2.3" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="2145714048" open_="true" pos="0.1 13.0 47.8" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end">
+					<vox id_="603361216" pos="-8.7 -13.0 2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+			</group>
+			<group id_="922475520" name="Floors" pos="-4.8 0.0 0.6" rot="0.0 0.0 0.0">
+				<vox id_="1086325504" pos="13.9 0.1 -45.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="46992180" pos="13.9 0.1 -35.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1820635648" pos="13.9 0.1 -25.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1978914816" pos="13.9 0.1 -15.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1130630528" pos="13.9 0.1 -5.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="629577216" pos="13.9 0.1 5.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1219306112" pos="13.9 0.1 15.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1203511040" pos="13.9 0.1 25.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="24774120" pos="13.9 0.1 35.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="506099872" pos="13.9 0.1 45.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1581676800" pos="-4.3 0.1 45.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1067646592" pos="-4.3 0.1 35.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1240541184" pos="-4.3 0.1 25.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="629446144" pos="-4.3 0.1 15.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1379682560" pos="-4.3 0.1 5.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1089471360" pos="-4.3 0.1 -5.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1019081472" pos="-4.3 0.1 -15.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1044445440" pos="-4.3 0.1 -25.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="887149440" pos="-4.3 0.1 -35.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="297420512" pos="-4.3 0.1 -45.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1651083648" pos="-4.3 0.1 -46.2" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="2119760256" pos="13.9 0.1 -46.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
 			</group>
 		</group>
-		<group id_="501184384" open_="true" name="Station 2" pos="-18.0 0.4 0.0">
-			<group id_="2141191808" name="Walls" pos="-0.1 0.0 0.0">
-				<vox id_="928505152" open_="true" pos="-9.0 0.1 -44.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="363615936" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="648387200" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="725724416" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="75829776" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="1516333440" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="789494848" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="2092102400" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="91297216" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+		<group id_="388783296" name="Station 1" pos="23.0 0.0 -0.5">
+			<group id_="1722194560" name="Walls" pos="-9.2 0.5 0.1">
+				<vox id_="1902232960" pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="619549632" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1479172224" open_="true" pos="-9.0 0.1 -34.90001" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="323505440" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="428500512" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="731360832" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1676251008" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="414999296" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="626824576" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1893188480" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="575441216" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="293291488" pos="0.1 13.0 30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1860221824" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1517250944" open_="true" pos="-9.0 0.1 -14.90001" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="1945096064" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="728346048" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1542877184" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1552773632" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="511932928" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1578727552" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1557820288" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="2118711552" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="58461680" pos="0.1 13.0 20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1031271872" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="2120153472" open_="true" pos="-9.0 0.1 -24.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="1487954560" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1659407232" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1038219136" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="813744640" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="1018229440" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1609334656" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="50793500" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="112728800" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="1837151744" pos="0.1 13.0 10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="858836160" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="977660160" open_="true" pos="-9.0 0.1 -4.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="313674432" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1667468672" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="165488496" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="427320800" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="997125568" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="359224736" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1901577600" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1671925376" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="1370965760" pos="0.1 13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="344412704" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1868348800" open_="true" pos="-9.0 0.1 5.1" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="91821536" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="870109056" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1093797120" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1336163968" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="1093141632" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="360732160" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1601666560" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="662740480" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="1767613824" pos="0.1 13.0 -10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1774167808" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="752202560" open_="true" pos="-9.0 0.1 15.1" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="1458658304" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1929432064" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="899733120" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="931388928" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="1777838080" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="704227328" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="617452352" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="15205280" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="669491072" pos="0.1 13.0 -20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1000271488" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1329741056" open_="true" pos="-9.0 0.1 25.1" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="585665408" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="2010046208" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="633444096" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="23594400" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="999943808" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1820897792" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="644520384" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="288113856" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="827835712" pos="0.1 13.0 -30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="725462272" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1280913792" open_="true" pos="-9.0 0.1 35.1" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="443050400" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="464219808" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1459575808" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="593792384" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="1342586880" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="768915264" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1573025536" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1419858560" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="592088384" pos="0.1 13.0 -39.99998" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1696371840" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1946406912" open_="true" pos="-9.0 0.1 45.09999" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part1">
-					<vox id_="34342960" open_="true" pos="-8.6 0.0 -3.5" rot="0.0 180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1792125696" pos="-0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="831243840" pos="-0.1 0.79999 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1832105216" pos="-0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-					<vox id_="300304288" open_="true" pos="-8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1195646208" pos="0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="2104751616" pos="0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1442863104" pos="0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
+				<vox id_="1345142912" open_="true" pos="0.1 13.0 -47.7" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end2">
+					<vox id_="840616064" pos="-8.7 -13.0 -2.3" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="557155520" open_="true" pos="9.2 0.1 45.1" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="897177088" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1285304960" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="557221056" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1129254144" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="1937690112" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="2096690176" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="975628416" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1051982528" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-				</vox>
-				<vox id_="1096484224" open_="true" pos="9.2 0.1 35.1" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="677749120" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1027077312" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1100416640" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1621656192" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="1624605568" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1650297216" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1225532416" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1054407552" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-				</vox>
-				<vox id_="1908000512" open_="true" pos="9.2 0.1 15.1" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="119544960" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="50924580" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="242170304" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1376798720" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="1814540416" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1806478976" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1303459584" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1746509952" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-				</vox>
-				<vox id_="1297429888" open_="true" pos="9.2 0.1 25.1" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="1310603392" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="47385420" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="151004160" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1275080704" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="2065624192" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1532915072" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="805421056" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1465736576" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-				</vox>
-				<vox id_="766949056" open_="true" pos="9.2 0.1 5.1" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="2142502656" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="2061691776" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1984878848" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="269500480" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="1709283200" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1704695424" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1671663232" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="802471744" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-				</vox>
-				<vox id_="1683132800" open_="true" pos="9.2 0.1 -4.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="1584298368" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1396067584" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="622040128" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1552904704" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="902682432" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1445812352" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="791264448" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="2056841856" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-				</vox>
-				<vox id_="1717082496" open_="true" pos="9.2 0.1 -14.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="1690669824" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1422938880" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1912129536" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="303384672" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="1286484608" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="117251056" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="686859200" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1659079552" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-				</vox>
-				<vox id_="480866976" open_="true" pos="9.2 0.1 -24.89999" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="293160416" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1266298368" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1853143552" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="918870784" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="495351328" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1875951360" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1412976896" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="140911008" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-				</vox>
-				<vox id_="1586395648" open_="true" pos="9.2 0.1 -34.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="854313920" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1049819712" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="2112354176" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="1090520064" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="1017639552" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="1648855296" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="827770176" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="659725632" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
-				</vox>
-				<vox id_="493385120" open_="true" pos="9.2 0.1 -44.89999" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_part2">
-					<vox id_="605720704" open_="true" pos="8.6 0.0 -3.5" rot="0.0 -180.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="65277840" pos="-0.1 0.8 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="262356624" pos="-0.1 3.6 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-						<joint id_="566134528" pos="-0.1 2.2 1.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="-75 0" sound="true"/>
-					</vox>
-					<vox id_="1734122880" open_="true" pos="8.6 0.0 -1.4" rot="0.0 0.0 0.0" texture="2 0.7" density="2" strength="10" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="large_door1">
-						<joint id_="250297264" pos="0.1 0.8 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="712223168" pos="0.1 3.6 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-						<joint id_="1860549504" pos="0.1 2.2 1.0" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0.03" rotspring="0" limits="0 75" sound="true"/>
-					</vox>
+				<vox id_="1155601280" open_="true" pos="0.1 13.0 47.8" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end">
+					<vox id_="1024324672" pos="-8.7 -13.0 2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
 			</group>
-			<group id_="1014821376" name="Floors" pos="-0.0 -0.4 0.1" rot="0.0 0.0 0.0">
-				<vox id_="350376832" pos="9.2 0.1 -45.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="1056570368" pos="9.2 0.1 -35.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="445213216" pos="9.2 0.1 -25.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="1599044864" pos="9.2 0.1 -15.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="467169120" pos="9.2 0.1 -5.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="1377912960" pos="9.2 0.1 5.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="104929536" pos="9.2 0.1 15.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="1423790976" pos="9.2 0.1 25.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="406937856" pos="9.2 0.1 35.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="803454848" pos="9.2 0.1 45.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="893179136" pos="-9.0 0.1 45.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="728214912" pos="-9.0 0.1 35.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="896849344" pos="-9.0 0.1 25.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="336678976" pos="-9.0 0.1 15.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="2056841856" pos="-9.0 0.1 5.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="367024000" pos="-9.0 0.1 -5.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="363288224" pos="-9.0 0.1 -15.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="651991936" pos="-9.0 0.1 -25.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="1901446528" pos="-9.0 0.1 -35.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
-				<vox id_="1217864320" pos="-9.0 0.1 -45.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<group id_="1954402816" name="Walls" pos="9.2 0.5 0.1" rot="0.0 -180.0 0.0">
+				<vox id_="435775456" pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="51514440" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1145508096" pos="0.1 13.0 30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="799063680" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="862113152" pos="0.1 13.0 20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="513374816" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1639089920" pos="0.1 13.0 10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="296175264" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1069022912" pos="0.1 13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1050409600" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="501577632" pos="0.1 13.0 -10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1184635520" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="694855104" pos="0.1 13.0 -20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="404119648" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1023013888" pos="0.1 13.0 -30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="419849248" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="208417200" pos="0.1 13.0 -39.99998" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="612536832" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="714779264" open_="true" pos="0.1 13.0 -47.7" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end2">
+					<vox id_="2109142784" pos="-8.7 -13.0 -2.3" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="585731008" open_="true" pos="0.1 13.0 47.8" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end">
+					<vox id_="733130432" pos="-8.7 -13.0 2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+			</group>
+			<group id_="1818079616" name="Floors" pos="-4.8 0.0 0.6" rot="0.0 0.0 0.0">
+				<vox id_="213660400" pos="13.9 0.1 -45.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1781770496" pos="13.9 0.1 -35.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="620532736" pos="13.9 0.1 -25.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="240007488" pos="13.9 0.1 -15.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="196816624" pos="13.9 0.1 -5.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="335237088" pos="13.9 0.1 5.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="865717888" pos="13.9 0.1 15.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1037170496" pos="13.9 0.1 25.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1835054464" pos="13.9 0.1 35.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="398876448" pos="13.9 0.1 45.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1112475904" pos="-4.3 0.1 45.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="111811240" pos="-4.3 0.1 35.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1781311616" pos="-4.3 0.1 25.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="2023809664" pos="-4.3 0.1 15.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="38537520" pos="-4.3 0.1 5.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1716951424" pos="-4.3 0.1 -5.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="376986080" pos="-4.3 0.1 -15.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="319441952" pos="-4.3 0.1 -25.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="1364673920" pos="-4.3 0.1 -35.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="698132096" pos="-4.3 0.1 -45.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="431646432" pos="-4.3 0.1 -46.2" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+				<vox id_="121249000" pos="13.9 0.1 -46.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
 			</group>
 		</group>
 	</group>
