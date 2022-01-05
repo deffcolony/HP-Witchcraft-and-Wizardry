@@ -11,78 +11,78 @@
 		<voxbox id_="1754702464" pos="-100.00001 0.0 -100.00001" size="2000 1 2000" color="0.2 0.2 0.2"/>
 	</group>
 	<group id_="1644791808" open_="true" name="Stations" pos="-0.2 0.0 1.0">
-		<group id_="682664640" name="Station 1" pos="-13.2 0.0 -0.5">
-			<group id_="103749824" name="Walls" pos="-9.2 0.5 0.1">
-				<vox id_="530873984" pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="1676709760" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+		<group id_="682664640" open_="true" name="Station 1" pos="-13.2 0.0 -0.5">
+			<group id_="103749824" open_="true" name="Walls" pos="-9.2 0.5 0.1">
+				<vox id_="530873984" open_="true" pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="946069888" pos="-8.2 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1405243136" pos="0.1 13.0 30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="131866480" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="1405243136" open_="true" pos="0.1 13.0 30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1408520192" pos="-8.2 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1534422528" pos="0.1 13.0 20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="2005589504" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="1534422528" open_="true" pos="0.1 13.0 20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="246430400" pos="-8.2 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1863826560" pos="0.1 13.0 10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="1648003328" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="1863826560" open_="true" pos="0.1 13.0 10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1197088128" pos="-8.2 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="559187264" pos="0.1 13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="20382940" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="559187264" open_="true" pos="0.1 13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1014362560" pos="-8.2 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="216019840" pos="0.1 13.0 -10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="1589541632" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="216019840" open_="true" pos="0.1 13.0 -10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="2029904896" pos="-8.2 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="174467488" pos="0.1 13.0 -20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="68358224" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="174467488" open_="true" pos="0.1 13.0 -20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1106642944" pos="-8.2 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="46271240" pos="0.1 13.0 -30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="1392266240" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="46271240" open_="true" pos="0.1 13.0 -30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1177753856" pos="-8.2 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="829474240" pos="0.1 13.0 -39.99998" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="239941936" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="829474240" open_="true" pos="0.1 13.0 -39.99998" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1958073088" pos="-8.2 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
 				<vox id_="1799662848" open_="true" pos="0.1 13.0 -47.7" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end2">
-					<vox id_="1440765824" pos="-8.7 -13.0 -2.3" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+					<vox id_="1629914240" pos="-8.3 -13.0 -2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
 				<vox id_="1029371264" open_="true" pos="0.1 13.0 47.8" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end">
-					<vox id_="430401184" pos="-8.7 -13.0 2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+					<vox id_="349852512" pos="-8.2 -13.0 2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
 			</group>
-			<group id_="1725078400" name="Walls" pos="9.2 0.5 0.1" rot="0.0 -180.0 0.0">
-				<vox id_="1445550208" pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="941351040" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+			<group id_="1725078400" open_="true" name="Walls" pos="9.2 0.5 0.1" rot="0.0 -180.0 0.0">
+				<vox id_="1445550208" open_="true" pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="167716864" pos="-8.3 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="2131622912" pos="0.1 13.0 30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="768325440" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="2131622912" open_="true" pos="0.1 13.0 30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1467768320" pos="-8.3 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="2030560256" pos="0.1 13.0 20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="710846848" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="2030560256" open_="true" pos="0.1 13.0 20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="964748800" pos="-8.3 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1357595520" pos="0.1 13.0 10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="310004192" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="1357595520" open_="true" pos="0.1 13.0 10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="391535968" pos="-8.3 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1063583104" pos="0.1 13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="1884143872" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="1063583104" open_="true" pos="0.1 13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="286540864" pos="-8.3 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1364083968" pos="0.1 13.0 -10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="1124731904" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="1364083968" open_="true" pos="0.1 13.0 -10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="66129860" pos="-8.3 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="533298976" pos="0.1 13.0 -20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="1662749824" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="533298976" open_="true" pos="0.1 13.0 -20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="725593344" pos="-8.3 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="2116548736" pos="0.1 13.0 -30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="1761256448" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="2116548736" open_="true" pos="0.1 13.0 -30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="564168320" pos="-8.3 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1942933248" pos="0.1 13.0 -39.99998" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="869846912" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="1942933248" open_="true" pos="0.1 13.0 -39.99998" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="869846912" pos="-8.3 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
 				<vox id_="1255418752" open_="true" pos="0.1 13.0 -47.7" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end2">
-					<vox id_="1451055616" pos="-8.7 -13.0 -2.3" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+					<vox id_="2145124224" pos="-8.3 -13.0 -2.3" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
 				<vox id_="2145714048" open_="true" pos="0.1 13.0 47.8" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end">
-					<vox id_="603361216" pos="-8.7 -13.0 2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+					<vox id_="1113655680" pos="-8.3 -13.0 2.1" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
 			</group>
-			<group id_="922475520" name="Floors" pos="-4.8 0.0 0.6" rot="0.0 0.0 0.0">
+			<group id_="922475520" open_="true" name="Floors" pos="-4.8 0.0 0.6" rot="0.0 0.0 0.0">
 				<vox id_="1086325504" pos="13.9 0.1 -45.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
 				<vox id_="46992180" pos="13.9 0.1 -35.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
 				<vox id_="1820635648" pos="13.9 0.1 -25.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
@@ -107,75 +107,75 @@
 				<vox id_="2119760256" pos="13.9 0.1 -46.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
 			</group>
 		</group>
-		<group id_="388783296" name="Station 1" pos="23.0 0.0 -0.5">
-			<group id_="1722194560" name="Walls" pos="-9.2 0.5 0.1">
-				<vox id_="1902232960" pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="619549632" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+		<group id_="388783296" open_="true" name="Station 1" pos="23.0 0.0 -0.5">
+			<group id_="1722194560" open_="true" name="Walls" pos="-9.2 0.5 0.1">
+				<vox id_="1902232960" open_="true" pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="619549632" pos="-8.3 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="293291488" pos="0.1 13.0 30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="1860221824" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="293291488" open_="true" pos="0.1 13.0 30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1924713216" pos="-8.3 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="58461680" pos="0.1 13.0 20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="1031271872" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="58461680" open_="true" pos="0.1 13.0 20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="598380224" pos="-8.3 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1837151744" pos="0.1 13.0 10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="858836160" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="1837151744" open_="true" pos="0.1 13.0 10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="310725152" pos="-8.3 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1370965760" pos="0.1 13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="344412704" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="1370965760" open_="true" pos="0.1 13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="2056579712" pos="-8.3 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1767613824" pos="0.1 13.0 -10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="1774167808" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="1767613824" open_="true" pos="0.1 13.0 -10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1468096000" pos="-8.3 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="669491072" pos="0.1 13.0 -20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="1000271488" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="669491072" open_="true" pos="0.1 13.0 -20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1075576960" pos="-8.3 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="827835712" pos="0.1 13.0 -30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="725462272" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="827835712" open_="true" pos="0.1 13.0 -30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="482177792" pos="-8.3 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="592088384" pos="0.1 13.0 -39.99998" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="1696371840" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="592088384" open_="true" pos="0.1 13.0 -39.99998" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1295070464" pos="-8.3 -13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
 				<vox id_="1345142912" open_="true" pos="0.1 13.0 -47.7" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end2">
-					<vox id_="840616064" pos="-8.7 -13.0 -2.3" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+					<vox id_="368728032" pos="-8.3 -13.0 -2.3" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
 				<vox id_="1155601280" open_="true" pos="0.1 13.0 47.8" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end">
-					<vox id_="1024324672" pos="-8.7 -13.0 2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+					<vox id_="1656720128" pos="-8.3 -13.0 2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
 			</group>
-			<group id_="1954402816" name="Walls" pos="9.2 0.5 0.1" rot="0.0 -180.0 0.0">
-				<vox id_="435775456" pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="51514440" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+			<group id_="1954402816" open_="true" name="Walls" pos="9.2 0.5 0.1" rot="0.0 -180.0 0.0">
+				<vox id_="435775456" open_="true" pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1067581056" pos="-8.2 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1145508096" pos="0.1 13.0 30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="799063680" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="1145508096" open_="true" pos="0.1 13.0 30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="197799712" pos="-8.2 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="862113152" pos="0.1 13.0 20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="513374816" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="862113152" open_="true" pos="0.1 13.0 20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="230110944" pos="-8.2 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1639089920" pos="0.1 13.0 10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="296175264" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="1639089920" open_="true" pos="0.1 13.0 10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1445222528" pos="-8.2 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1069022912" pos="0.1 13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="1050409600" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="1069022912" open_="true" pos="0.1 13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="425026912" pos="-8.2 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="501577632" pos="0.1 13.0 -10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="1184635520" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="501577632" open_="true" pos="0.1 13.0 -10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="288244928" pos="-8.2 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="694855104" pos="0.1 13.0 -20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="404119648" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="694855104" open_="true" pos="0.1 13.0 -20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="333008736" pos="-8.2 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="1023013888" pos="0.1 13.0 -30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="419849248" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="1023013888" open_="true" pos="0.1 13.0 -30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="284771296" pos="-8.2 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
-				<vox id_="208417200" pos="0.1 13.0 -39.99998" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
-					<vox id_="612536832" pos="-8.7 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				<vox id_="208417200" open_="true" pos="0.1 13.0 -39.99998" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="539066496" pos="-8.2 -13.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
 				<vox id_="714779264" open_="true" pos="0.1 13.0 -47.7" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end2">
-					<vox id_="2109142784" pos="-8.7 -13.0 -2.3" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+					<vox id_="1041627200" pos="-8.2 -13.0 -2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
 				<vox id_="585731008" open_="true" pos="0.1 13.0 47.8" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end">
-					<vox id_="733130432" pos="-8.7 -13.0 2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+					<vox id_="845400448" pos="-8.2 -13.0 2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
 			</group>
 			<group id_="1818079616" name="Floors" pos="-4.8 0.0 0.6" rot="0.0 0.0 0.0">
