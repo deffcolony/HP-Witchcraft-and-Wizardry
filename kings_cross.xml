@@ -236,8 +236,8 @@
 				<group id_="921689024" open_="true" name="Outer Walls" pos="-24.5 0.1 -4.90001" rot="0.0 0.0 0.0">
 					<vox id_="703244224" pos="11.6 0.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="57216420" pos="-8.4 0.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
-					<vox id_="1783605504" pos="11.6 16.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall3"/>
-					<vox id_="1250109952" pos="-8.4 16.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall2"/>
+					<vox id_="1783605504" pos="-8.4 16.1 1.1" rot="0 180" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall3"/>
+					<vox id_="1250109952" pos="11.6 16.1 1.1" rot="0 180" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall2"/>
 					<vox id_="1548579072" pos="11.6 0.1 4.5" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="546406976" pos="-8.4 0.1 4.5" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="1573353216" pos="-19.9 7.1 3.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar"/>
@@ -246,8 +246,8 @@
 				<group id_="1361200256" open_="true" name="Outer Walls" pos="24.6 0.1 -4.9" rot="0.0 0.0 0.0">
 					<vox id_="1561556096" pos="-11.5 0.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="1531997440" pos="8.5 0.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
-					<vox id_="209138144" pos="8.5 16.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall3"/>
-					<vox id_="51973220" pos="-11.5 16.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall2"/>
+					<vox id_="209138144" pos="-11.5 16.1 1.1" rot="0 180" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall3"/>
+					<vox id_="51973220" pos="8.5 16.1 1.1" rot="0 180" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall2"/>
 					<vox id_="867421888" pos="-11.5 0.1 4.5" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="753120128" pos="8.5 0.1 4.5" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="119282800" pos="20.0 0.1 3.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar"/>
