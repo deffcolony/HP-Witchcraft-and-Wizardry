@@ -204,7 +204,7 @@
 			</group>
 		</group>
 		<group id_="1484087808" open_="true" name="Facades" pos="9.7 -0.1 -0.5">
-			<group id_="1155076992" name="Rear" pos="0.0 0.0 -56.0">
+			<group id_="1155076992" open_="true" name="Rear" pos="0.0 0.0 -56.0">
 				<group id_="980871616" name="Outer Walls" pos="-24.5 0.1 2.8" rot="0.0 0.0 0.0">
 					<vox id_="34211880" pos="11.6 0.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="1042413696" pos="-8.4 0.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
@@ -225,11 +225,9 @@
 					<vox id_="1171789696" pos="8.5 0.1 -2.1" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="1399868800" pos="-11.5 0.1 -2.1" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 				</group>
-				<group id_="865586752" name="Clock Tower" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0">
-					<vox id_="219624544" pos="0.1 0.1 0.09999" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center"/>
-					<vox id_="1435784832" pos="0.1 7.20001 0.09999" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center"/>
-					<vox id_="299255648" pos="0.09999 7.20001 -0.70003" rot="0.0 90.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center2"/>
-					<vox id_="500594528" pos="0.09999 0.2 -0.70003" rot="0.0 90.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center2"/>
+				<group id_="865586752" open_="true" name="Clock Tower" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0">
+					<vox id_="219624544" pos="0.1 0.1 0.09999" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center"/>
+					<vox id_="855952384" pos="0.1 7.2 0.09999" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center"/>
 				</group>
 			</group>
 			<group id_="1652001280" open_="true" name="Front" pos="0.0 0.0 56.0">
@@ -254,10 +252,8 @@
 					<vox id_="671129600" pos="20.0 7.1 3.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar"/>
 				</group>
 				<group id_="409559456" open_="true" name="Clock Tower" pos="0.1 0.0 0.0" rot="0.0 0.0 0.0">
-					<vox id_="1337278208" pos="0.0 7.2 0.09999" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center"/>
-					<vox id_="1271082752" pos="0.0 7.2 0.9" rot="0.0 -90.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center2"/>
-					<vox id_="1098450432" pos="0.0 0.2 0.9" rot="0.0 -90.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center2"/>
-					<vox id_="1940377216" pos="0.0 0.1 0.09999" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center"/>
+					<vox id_="1337278208" pos="0.0 7.2 0.09999" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center"/>
+					<vox id_="1940377216" pos="0.0 0.1 0.09999" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center"/>
 				</group>
 			</group>
 		</group>
