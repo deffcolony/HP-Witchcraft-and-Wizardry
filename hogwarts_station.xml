@@ -1,0 +1,348 @@
+<scene id_="120790224" open_="true" version="0.9.2" shadowVolume="200 50 200">
+	<group id_="1123879936" name="Misc." pos="0.0 -0.2 0.0">
+		<environment id_="182659984" template="sunset" pos="0.0 0.2 0.0"/>
+		<spawnpoint id_="1384008192" pos="5.6 1.2 66.90001" rot="0 180 0"/>
+	</group>
+	<group id_="654220288" name="Scripts" pos="0.0 -0.2 0.0">
+		<script id_="2094789504" pos="0.0 0.2 0.0" file="main.lua"/>
+		<script id_="1515219200" pos="0.0 0.2 0.0" file="sandbox.lua"/>
+	</group>
+	<group id_="2070867328" name="Floor" pos="0.0 0.0 0.0">
+		<voxbox id_="1754702464" pos="-100.00001 0.0 -100.00001" size="2000 1 2000" material="rock" color="0.2 0.2 0.2"/>
+	</group>
+	<group id_="682664640" name="Station 1" pos="-13.4 0.0 0.5" rot="0.0 0.0 0.0" prop0="density=6" prop1="strength=7">
+		<group id_="1855634048" name="Walls" pos="0.0 0.5 0.0" prop0="texture=6 0.8">
+			<group id_="103749824" name="Walls" pos="-9.2 -6.0 0.1">
+				<vox id_="530873984" open_="true" pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="946069888" pos="-8.2 -7.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1405243136" open_="true" pos="0.1 13.0 30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="958719104" pos="-8.2 -7.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1534422528" open_="true" pos="0.1 13.0 20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="45746920" pos="-8.2 -7.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1863826560" open_="true" pos="0.1 13.0 10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="585403264" pos="-8.2 -7.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="559187264" open_="true" pos="0.1 13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="419128288" pos="-8.2 -7.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="216019840" open_="true" pos="0.1 13.0 -10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="329338496" pos="-8.2 -7.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="174467488" open_="true" pos="0.1 13.0 -20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1856289408" pos="-8.2 -7.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="46271240" open_="true" pos="0.1 13.0 -30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="25560600" pos="-8.2 -7.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="829474240" open_="true" pos="0.1 13.0 -39.99998" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1013576128" pos="-8.2 -7.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1799662848" open_="true" pos="0.1 13.0 -47.7" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end2">
+					<vox id_="882627200" pos="-8.2 -7.0 -2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1029371264" open_="true" pos="0.1 13.0 47.8" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end">
+					<vox id_="349852512" pos="-8.2 -7.0 2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+			</group>
+			<group id_="1725078400" name="Walls" pos="9.2 -6.0 0.1" rot="0.0 -180.0 0.0">
+				<vox id_="1445550208" open_="true" pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1269182080" pos="-8.2 -7.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="2131622912" open_="true" pos="0.1 13.0 30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="926342336" pos="-8.2 -7.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="2030560256" open_="true" pos="0.1 13.0 20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1343438976" pos="-8.2 -7.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1357595520" open_="true" pos="0.1 13.0 10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1889059456" pos="-8.2 -7.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1063583104" open_="true" pos="0.1 13.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="564954816" pos="-8.2 -7.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1364083968" open_="true" pos="0.1 13.0 -10.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="1096353152" pos="-8.2 -7.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="533298976" open_="true" pos="0.1 13.0 -20.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="405889216" pos="-8.2 -7.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="2116548736" open_="true" pos="0.1 13.0 -30.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="985393920" pos="-8.2 -7.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1942933248" open_="true" pos="0.1 13.0 -39.99998" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
+					<vox id_="869846912" pos="-8.2 -7.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="1255418752" open_="true" pos="0.1 13.0 -47.7" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end2">
+					<vox id_="2145124224" pos="-8.2 -7.0 -2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+				<vox id_="2145714048" open_="true" pos="0.1 13.0 47.8" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof_end">
+					<vox id_="1113655680" pos="-8.2 -7.0 2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
+				</vox>
+			</group>
+		</group>
+		<group id_="922475520" name="Floors" pos="-4.8 0.0 0.6" rot="0.0 0.0 0.0" prop0="texture=6 0.8">
+			<vox id_="1086325504" pos="13.9 0.1 -45.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="46992180" pos="13.9 0.1 -35.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="1820635648" pos="13.9 0.1 -25.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="1978914816" pos="13.9 0.1 -15.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="1130630528" pos="13.9 0.1 -5.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="629577216" pos="13.9 0.1 5.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="1219306112" pos="13.9 0.1 15.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="1203511040" pos="13.9 0.1 25.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="24774120" pos="13.9 0.1 35.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="506099872" pos="13.9 0.1 45.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="1581676800" pos="-4.3 0.1 45.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="1067646592" pos="-4.3 0.1 35.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="1240541184" pos="-4.3 0.1 25.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="629446144" pos="-4.3 0.1 15.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="1379682560" pos="-4.3 0.1 5.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="1089471360" pos="-4.3 0.1 -5.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="1019081472" pos="-4.3 0.1 -15.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="1044445440" pos="-4.3 0.1 -25.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="887149440" pos="-4.3 0.1 -35.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="297420512" pos="-4.3 0.1 -45.0" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="1651083648" pos="-4.3 0.1 -46.2" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+			<vox id_="2119760256" pos="13.9 0.1 -46.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
+		</group>
+		<group id_="1678872576" name="Facades" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" prop0="texture=6 0.8">
+			<group id_="997125568" name="Rear" pos="22.9 -0.1 -56.0">
+				<group id_="850840256" name="Outer Walls" pos="-24.5 0.1 2.8" rot="0.0 0.0 0.0">
+					<vox id_="195702432" pos="11.6 0.1 1.19999" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
+					<vox id_="1603829376" pos="-8.4 0.1 -2.20001" rot="0.0 180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
+					<vox id_="904320896" pos="11.6 12.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall3"/>
+					<vox id_="828949888" pos="-8.4 12.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall2"/>
+					<vox id_="629249536" pos="-19.9 0.1 -1.6" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar"/>
+					<vox id_="797294080" pos="-19.9 25.7 -1.6" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_small"/>
+					<vox id_="1342324736" pos="-8.4 0.1 1.1" rot="0.0 180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
+					<vox id_="514292384" pos="11.6 0.1 -2.10002" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
+					<vox id_="525630784" pos="23.1 0.1 -1.6" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar"/>
+					<vox id_="547193472" pos="23.1 25.7 -1.6" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_small"/>
+				</group>
+			</group>
+			<group id_="2001263872" name="Front" pos="22.9 -0.1 56.0">
+				<group id_="1986845056" name="Outer Walls" pos="-24.5 0.1 -4.90001" rot="0.0 0.0 0.0">
+					<vox id_="2005589504" pos="11.6 0.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
+					<vox id_="549094144" pos="-8.4 0.1 4.4" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
+					<vox id_="1727503360" pos="-8.4 12.1 1.1" rot="0 180" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall3"/>
+					<vox id_="948363776" pos="11.6 12.1 1.1" rot="0 180" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall2"/>
+					<vox id_="1509648384" pos="11.6 0.1 4.5" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
+					<vox id_="1785047424" pos="-8.4 0.1 1.1" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
+					<vox id_="1967904000" pos="-19.9 25.7 3.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_small"/>
+					<vox id_="282739552" pos="-19.9 0.1 3.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar"/>
+					<vox id_="2001984896" pos="23.1 0.1 3.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar"/>
+					<vox id_="245447296" pos="23.1 25.7 3.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_small"/>
+				</group>
+			</group>
+		</group>
+	</group>
+	<group id_="1573877504" name="Train">
+		<group id_="507672832" name="Hogwarts Express" pos="37.2 0.4 34.5" rot="0.0 0.0 0.0" prop0="texture=2 0.5" prop1="density=50" prop2="strength=10">
+			<vehicle id_="286803040" name="Hogwarts Express" tags="train" pos="-42.3 4.1 -20.2" rot="0.0 -180.0 0.0" sound="dumptruck 0.3" spring="0.5" damping="0.5" topspeed="60" acceleration="0.7" strength="80" antispin="0.5" antiroll="0.2" difflock="1" steerassist="0.1" friction="1.7">
+				<body id_="50727960" open_="true" pos="-0.2 -4.2 -1.35" rot="0.0 0.0 0.0" dynamic="true">
+					<vox id_="1285436032" open_="true" pos="0.2 0.4 -7.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="Front_Full_Axle">
+						<vox id_="1436964480" pos="-0.05 0.3 -2.3" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="front_fAxle"/>
+						<vox id_="2102457600" pos="-0.05 0.3 2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="front_rAxle"/>
+					</vox>
+					<vox id_="561808896" open_="true" pos="0.2 0.6 1.8" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="Rear_Full_Axle">
+						<vox id_="2032788608" pos="-0.05 0.7 3.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="rear_raxle"/>
+						<vox id_="612143616" pos="0.0 0.2 7.3" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="Rear_End_Axle"/>
+						<vox id_="1319910016" pos="-0.05 0.7 -0.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="rear_maxle"/>
+						<vox id_="1108215808" pos="-0.05 0.7 -4.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="rear_faxle"/>
+						<vox id_="1858714368" pos="-1.4 0.2 -2.8" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="rear_lbrakepad"/>
+						<vox id_="2112157568" pos="-1.4 0.2 1.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="rear_lbrakepad"/>
+						<vox id_="1390496640" pos="-1.4 0.2 4.8" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="rear_lbrakepad"/>
+						<vox id_="1181555072" pos="1.4 0.2 4.8" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="rear_rbrakepad"/>
+						<vox id_="1744216064" pos="1.4 0.2 1.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="rear_rbrakepad"/>
+						<vox id_="1405439744" pos="1.4 0.2 -2.8" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="rear_rbrakepad"/>
+					</vox>
+					<vox id_="273105184" open_="true" pos="0.2 0.8 -2.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="engine_floor">
+						<vox id_="1197350272" pos="2.1 0.0 -9.8" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="front_piston"/>
+						<vox id_="1458461568" pos="-2.1 0.0 -9.8" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="front_piston"/>
+						<vox id_="1504929536" pos="0.0 1.4 -7.3" rot="0.0 0.0 0.0" density="10" prop="false" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="large_logo"/>
+					</vox>
+					<vox id_="221328576" open_="true" pos="-1.6 1.7 -5.9" rot="0.0 0.0 0.0" prop="true" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="inner_piston">
+						<joint id_="247413504" pos="0.0 0.1 -1.0" type="prismatic" size="0.2" limits="-0.5 0" sound="true"/>
+						<joint id_="128589480" pos="0.0 0.1 1.0" type="ball" size="0.1" rotstrength="50" rotspring="0" sound="true"/>
+					</vox>
+					<vox id_="1863761024" open_="true" pos="-1.6 1.7 -4.8" rot="0.0 0.0 0.0" prop="true" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="bearing">
+						<joint id_="561743360" pos="0.0 0.1 0.0" type="prismatic" size="0.2" limits="-0.3 0.3" sound="true"/>
+					</vox>
+					<vox id_="1925892864" open_="true" pos="0.2 3.0 -1.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="engine_middle">
+						<vox id_="504526912" open_="true" pos="0.0 0.1 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="engine_rear">
+							<vox id_="1955189248" open_="true" pos="0.0 0.9 2.4" rot="0.0 0.0 0.0" density="10" prop="true" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="large_door">
+								<vox id_="107092360" open_="true" pos="1.2 1.9 0.1" rot="0.0 0.0 0.0" prop="false" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="large_door_hinge">
+									<joint id_="1989532288" pos="0.3 0.2 -0.2" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.01" rotspring="0" sound="true"/>
+									<joint id_="1148195200" pos="0.3 0.0 -0.2" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.01" rotspring="0" sound="true"/>
+								</vox>
+								<vox id_="276775424" open_="true" pos="1.2 1.0 0.1" rot="0.0 0.0 0.0" prop="false" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="large_door_hinge">
+									<joint id_="412705376" pos="0.3 0.2 -0.2" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.01" rotspring="0" sound="true"/>
+									<joint id_="1406816128" pos="0.3 0.0 -0.2" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.01" rotspring="0" sound="true"/>
+								</vox>
+								<vox id_="505313408" open_="true" pos="-0.55 0.4 0.2" rot="0.0 0.0 0.0" prop="true" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="door_handle">
+									<joint id_="657300672" pos="0.0 0.05 -0.1" rot="-90.0 0.0 0.0" type="ball" rotstrength="50" rotspring="0" sound="true"/>
+									<joint id_="10027620" pos="0.0 0.35 -0.1" rot="-90.0 0.0 0.0" type="ball" rotstrength="50" rotspring="0" sound="true"/>
+								</vox>
+							</vox>
+							<vox id_="1375619072" pos="-2.1 2.25 0.05" rot="0.0 0.0 0.0" density="10" prop="false" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="small_logo"/>
+							<vox id_="1384925696" pos="2.1 2.25 0.05" rot="0.0 0.0 0.0" density="10" prop="false" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="small_logo"/>
+						</vox>
+						<vox id_="161818256" open_="true" pos="0.0 -0.9 11.1" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="cab">
+							<location id_="892982528" tags="player" pos="-3.45 3.85 -1.35" rot="0.0 180.0 0.0"/>
+						</vox>
+						<vox id_="239745312" open_="true" pos="0.0 0.0 -6.7" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="engine_front">
+							<vox id_="1147015552" open_="true" pos="0.0 1.0 -2.3" rot="0.0 0.0 0.0" density="10" prop="true" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="engine_door">
+								<joint id_="541032704" pos="-1.1 1.55 0.2" rot="90.0 180.0 0.0" type="hinge" rotstrength="1" rotspring="0" limits="-90 0" sound="true"/>
+								<joint id_="209596928" pos="-1.1 0.65 0.2" rot="90.0 180.0 0.0" type="hinge" rotstrength="1" rotspring="0" limits="-90 0" sound="true"/>
+								<vox id_="427845120" pos="0.0 1.3 -0.2" rot="0.0 0.0 0.0" density="10" prop="false" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="number_plate"/>
+							</vox>
+							<location id_="1223566208" tags="vital" pos="0.0 2.25 0.0"/>
+							<location id_="339562752" tags="exhaust" pos="0.0 4.35 0.9" rot="-90.0 0.0 0.0"/>
+							<location id_="1320499968" tags="exhaust" pos="0.0 4.5 8.3" rot="-90.0 0.0 0.0"/>
+							<vox id_="244070960" open_="true" pos="0.0 0.1 -2.3" rot="0.0 180.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="front_light">
+								<light id_="1946079232" pos="0.0 0.4 -0.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="60" angle="80" penumbra="30" size="0.1" reach="100" unshadowed="0.2" fogscale="0.7"/>
+							</vox>
+							<vox id_="1018098368" pos="1.6 1.65 0.15" rot="0.0 0.0 0.0" density="10" prop="false" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="small_logo"/>
+							<vox id_="2143223552" pos="-1.6 1.65 0.15" rot="0.0 0.0 0.0" density="10" prop="false" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="small_logo"/>
+						</vox>
+					</vox>
+					<vox id_="110565984" open_="true" pos="2.0 1.7 -4.8" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="bearing">
+						<joint id_="1269313152" pos="0.0 0.1 0.0" type="prismatic" size="0.2" limits="-0.3 0.3" sound="true"/>
+					</vox>
+					<vox id_="1385450112" open_="true" pos="2.0 1.7 -5.9" rot="0.0 0.0 0.0" prop="true" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="inner_piston">
+						<joint id_="1386957440" pos="0.0 0.1 -1.0" type="prismatic" size="0.2" limits="-0.5 0" sound="true"/>
+						<joint id_="239220992" pos="0.0 0.1 1.0" type="ball" size="0.1" rotstrength="50" rotspring="0" sound="true"/>
+					</vox>
+					<vox id_="2023023232" open_="true" pos="-1.15 0.2 -2.4" rot="0.0 0.0 0.0" collide="true" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_back1">
+						<wheel id_="809615616" open_="true" name="wheel_rear_fl" pos="-0.15 1.35 -0.05" rot="0.0 0.0 0.0" drive="1" travel="-0 0">
+							<vox id_="2072636928" pos="-0.05 -1.25 0.05" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_rear_fl"/>
+						</wheel>
+					</vox>
+					<vox id_="3145920" open_="true" pos="-1.15 0.2 1.4" rot="0.0 0.0 0.0" collide="true" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_back1">
+						<wheel id_="1181620608" open_="true" name="wheel_rear_ml" pos="-0.15 1.35 -0.05" rot="0.0 0.0 0.0" drive="1" travel="-0 0">
+							<vox id_="537296896" pos="-0.05 -1.25 0.05" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_rear_ml"/>
+						</wheel>
+					</vox>
+					<vox id_="1400720896" open_="true" pos="-1.15 0.2 5.2" rot="0.0 0.0 0.0" collide="true" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_back1">
+						<wheel id_="1757913856" open_="true" name="wheel_rear_bl" pos="-0.15 1.35 -0.05" rot="0.0 0.0 0.0" drive="1" travel="-0 0">
+							<vox id_="144056928" pos="-0.05 -1.25 0.05" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_rear_rl"/>
+						</wheel>
+					</vox>
+					<vox id_="2115041280" open_="true" pos="1.55 0.2 5.1" rot="0.0 -180.0 0.0" collide="true" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_back1">
+						<wheel id_="51579980" open_="true" name="wheel_rear_br" pos="-0.15 1.35 -0.05" rot="0.0 -180.0 0.0" drive="1" travel="-0 0">
+							<vox id_="1462721664" pos="-0.05 -1.25 0.05" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_rear_rr"/>
+						</wheel>
+					</vox>
+					<vox id_="924507264" open_="true" pos="1.55 0.2 -2.5" rot="0.0 -180.0 0.0" collide="true" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_back1">
+						<wheel id_="831112768" open_="true" name="wheel_rear_fr" pos="-0.25 1.35 -0.05" rot="0.0 -180.0 0.0" drive="1" travel="-0 0">
+							<vox id_="651402048" pos="-0.15 -1.25 0.05" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_rear_fr"/>
+						</wheel>
+					</vox>
+					<vox id_="1067646592" open_="true" pos="1.55 0.2 1.3" rot="0.0 -180.0 0.0" collide="true" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_back1">
+						<wheel id_="1474584448" open_="true" name="wheel_rear_mr" pos="-0.25 1.35 -0.05" rot="0.0 -180.0 0.0" drive="1" travel="-0 0">
+							<vox id_="1091044352" pos="-0.15 -1.25 0.05" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_rear_mr"/>
+						</wheel>
+					</vox>
+					<vox id_="571902016" open_="true" pos="1.55 0.3 -9.3" rot="0.0 0.0 0.0" prop="true" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_front_br">
+						<vox id_="1390955392" pos="-0.1 -0.1 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_back3"/>
+						<joint id_="137109680" pos="-0.2 0.5 0.0" rot="0.0 90.0 -90.0" type="hinge"/>
+					</vox>
+					<vox id_="103028880" open_="true" pos="1.55 0.3 -4.8" rot="0.0 0.0 0.0" prop="true" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_front_br">
+						<vox id_="337137760" pos="-0.1 -0.1 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_back3"/>
+						<joint id_="1863892096" pos="-0.2 0.5 0.0" rot="0.0 90.0 -90.0" type="hinge"/>
+					</vox>
+					<vox id_="976808192" open_="true" pos="-1.15 0.3 -9.3" rot="0.0 180.0 0.0" prop="true" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_front_br">
+						<vox id_="1147801984" pos="-0.1 -0.1 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_back3"/>
+						<joint id_="592350528" pos="-0.2 0.5 -0.0" rot="0.0 90.0 -90.0" type="hinge"/>
+					</vox>
+					<vox id_="228865680" open_="true" pos="-1.15 0.3 -4.8" rot="0.0 180.0 0.0" prop="true" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_front_br">
+						<vox id_="2068114688" pos="-0.1 -0.1 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="wheel_back3"/>
+						<joint id_="661757376" pos="-0.2 0.5 -0.0" rot="0.0 90.0 -90.0" type="hinge"/>
+					</vox>
+					<vox id_="318327776" open_="true" tags="unbreakable nocull" pos="0.2 2.0 11.6" rot="0.0 -180.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="slot">
+						<vox id_="1385908864" tags="unbreakable nocull" pos="-0.4 0.0 -0.4" rot="0.0 0.0 0.0" prop="false" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="hook"/>
+					</vox>
+				</body>
+			</vehicle>
+			<group id_="1438275328" name="Tender" pos="-42.2 -0.0 -56.9" rot="0.0 180.0 0.0" prop0="density=30" prop1="strength=10">
+				<body id_="1816899840" open_="true" pos="-0.05 0.0 0.65" rot="0.0 0.0 0.0" dynamic="true">
+					<vox id_="1459444736" open_="true" pos="0.15 0.8 -0.3" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="Tender_Outer_Axle">
+						<vox id_="556041344" open_="true" pos="0.0 -0.2 -0.5" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="Tender_Axle">
+							<vox id_="598118016" pos="-0.05 0.3 5.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="Tender_Raxle"/>
+							<vox id_="975169664" pos="-0.05 0.3 0.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="Tender_Maxle"/>
+							<vox id_="434792352" pos="-0.05 0.3 -4.8" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="Tender_Faxle"/>
+							<group id_="1498637696" open_="true" name="Wheels" pos="1.3 -0.6 -2.4" prop0="density=50" prop1="strength=100">
+								<vox id_="1701746048" open_="true" tags="unbreakable nocull" pos="-2.75 0.2 -2.4" rot="0.0 0.0 0.0" prop="true" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="wheel_tender_fl">
+									<vox id_="1846917248" pos="0.1 -0.1 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="wheel_back"/>
+									<joint id_="1768269184" pos="0.2 0.85 -0.05" rot="0.0 90.0 0.0" type="hinge" size="0.2"/>
+								</vox>
+								<vox id_="588876928" open_="true" tags="unbreakable nocull" pos="-2.75 0.2 2.6" rot="0.0 0.0 0.0" prop="true" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="wheel_tender_ml">
+									<vox id_="1891615488" pos="0.1 -0.1 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="wheel_back"/>
+									<joint id_="1584626176" pos="0.2 0.85 -0.05" rot="0.0 90.0 0.0" type="hinge" size="0.2"/>
+								</vox>
+								<vox id_="2091119232" open_="true" tags="unbreakable nocull" pos="-2.75 0.2 7.4" rot="0.0 0.0 0.0" prop="true" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="wheel_tender_rl">
+									<vox id_="1788717696" pos="0.1 -0.1 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="wheel_back"/>
+									<joint id_="197275392" pos="0.2 0.85 -0.05" rot="0.0 90.0 0.0" type="hinge" size="0.2"/>
+								</vox>
+								<vox id_="1493525504" open_="true" tags="unbreakable nocull" pos="0.15 0.2 -2.4" rot="0.0 0.0 0.0" prop="true" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="wheel_tender_fr">
+									<vox id_="1229989120" pos="-0.2 -0.1 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="wheel_back"/>
+									<joint id_="1907017344" pos="-0.2 0.85 -0.05" rot="0.0 -90.0 0.0" type="hinge" size="0.2"/>
+								</vox>
+								<vox id_="1217995392" open_="true" tags="unbreakable nocull" pos="0.15 0.2 2.6" rot="0.0 0.0 0.0" prop="true" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="wheel_tender_mr">
+									<vox id_="1623360256" pos="-0.2 -0.1 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="wheel_back"/>
+									<joint id_="1520134784" pos="-0.2 0.85 -0.05" rot="0.0 -90.0 0.0" type="hinge" size="0.2"/>
+								</vox>
+								<vox id_="445082144" open_="true" tags="unbreakable nocull" pos="0.14999 0.2 7.4" rot="0.0 0.0 0.0" prop="true" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="wheel_tender_rr">
+									<vox id_="889574400" pos="-0.2 -0.1 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="wheel_back"/>
+									<joint id_="1856748160" pos="-0.2 0.85 -0.05" rot="0.0 -90.0 0.0" type="hinge" size="0.2"/>
+								</vox>
+							</group>
+						</vox>
+						<vox id_="512391712" open_="true" pos="0.0 1.3 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="Tender_Body">
+							<vox id_="1341144960" pos="0.0 0.95 7.0" rot="0.0 90.0 0.0" density="10" prop="false" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="small_logo"/>
+							<vox id_="845662592" pos="2.9 0.85 -0.05" rot="0.0 -90.0 0.0" density="10" prop="false" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="large_logo"/>
+							<vox id_="972482496" pos="-2.9 0.85 -0.05" rot="0.0 90.0 0.0" density="10" prop="false" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="large_logo"/>
+						</vox>
+						<vox id_="496072256" pos="-2.1 0.0 8.2" rot="0.0 -180.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="front_piston"/>
+						<vox id_="777566592" pos="2.1 0.0 8.2" rot="0.0 -180.0 0.0" file="MOD/resources/vox/vehicles/Hogwarts_Express.vox" object="front_piston"/>
+					</vox>
+					<vox id_="166406064" open_="true" tags="unbreakable nocull" pos="0.15 1.9 -8.7" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="slot">
+						<vox id_="1265511808" tags="unbreakable nocull" pos="-0.4 0.0 -0.4" rot="0.0 0.0 0.0" prop="false" file="MOD/resources/vox/vehicles/Hogwarts_Express_Tender.vox" object="hook"/>
+					</vox>
+				</body>
+			</group>
+		</group>
+		<group id_="2097083392" name="Tracks" pos="-21.7 0.1 0.5" prop0="tags=unbreakable nocull" prop1="texture=2 0.5">
+			<group id_="1130040704" name="Row 1" pos="-0.1 0.0 0.0">
+				<vox id_="1883422976" pos="0.1 0.1 -45.3" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1409306624" pos="0.1 0.1 -35.5" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="83694576" pos="0.1 0.1 -15.9" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1109067904" pos="0.1 0.1 -25.7" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1012330816" pos="0.1 0.1 -6.1" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="553157632" pos="0.1 0.1 3.7" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1038088064" pos="0.1 0.1 13.5" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1500341632" pos="0.1 0.1 23.3" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1655016064" pos="0.1 0.1 33.1" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="58396140" pos="0.1 0.1 42.89999" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="778811840" pos="0.1 0.1 49.0" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="short"/>
+			</group>
+			<group id_="272843008" name="Row 1" pos="16.5 0.0 0.0">
+				<vox id_="1223369600" pos="0.1 0.1 -45.3" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="869257024" pos="0.1 0.1 -35.5" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="742633728" pos="0.1 0.1 -15.9" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1886634496" pos="0.1 0.1 -25.7" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1349665280" pos="0.1 0.1 -6.1" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1262431488" pos="0.1 0.1 3.7" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1764795520" pos="0.1 0.1 13.5" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="138551552" pos="0.1 0.1 23.3" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="344216064" pos="0.1 0.1 33.1" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1992284928" pos="0.1 0.1 42.89999" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="817677056" pos="0.1 0.1 49.0" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="short"/>
+			</group>
+		</group>
+	</group>
+	<layers/>
+</scene>
+

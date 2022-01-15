@@ -10,8 +10,8 @@
 	<group id_="2070867328" open_="true" name="Floor" pos="0.0 0.0 0.0">
 		<voxbox id_="1754702464" pos="-100.00001 0.0 -100.00001" size="2000 1 2000" color="0.2 0.2 0.2"/>
 	</group>
-	<group id_="1644791808" open_="true" name="Stations" pos="-0.2 0.0 1.0">
-		<group id_="682664640" open_="true" name="Station 1" pos="-13.2 0.0 -0.5">
+	<group id_="1644791808" open_="true" name="Stations" pos="-0.2 0.0 1.0" prop0="density=6" prop1="strength=7">
+		<group id_="682664640" name="Station 1" pos="-13.2 0.0 -0.5" prop0="texture=6 1">
 			<group id_="103749824" open_="true" name="Walls" pos="-9.2 -5.5 0.1">
 				<vox id_="530873984" open_="true" pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
 					<vox id_="946069888" pos="-8.2 -7.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
@@ -47,7 +47,7 @@
 					<vox id_="349852512" pos="-8.2 -7.0 2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
 			</group>
-			<group id_="1725078400" open_="true" name="Walls" pos="9.2 -5.5 0.1" rot="0.0 -180.0 0.0">
+			<group id_="1725078400" name="Walls" pos="9.2 -5.5 0.1" rot="0.0 -180.0 0.0">
 				<vox id_="1445550208" open_="true" pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
 					<vox id_="1269182080" pos="-8.2 -7.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
@@ -107,7 +107,7 @@
 				<vox id_="2119760256" pos="13.9 0.1 -46.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
 			</group>
 		</group>
-		<group id_="318131168" open_="true" name="Station 2" pos="32.8 0.0 -0.5">
+		<group id_="318131168" name="Station 2" pos="32.8 0.0 -0.5" prop0="texture=6 1">
 			<group id_="1035728640" name="Walls" pos="-9.2 -5.5 0.1">
 				<vox id_="1996413952" open_="true" pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
 					<vox id_="884527872" pos="-8.2 -7.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
@@ -143,7 +143,7 @@
 					<vox id_="1781573760" pos="-8.2 -7.0 2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
 			</group>
-			<group id_="1474649984" open_="true" name="Walls" pos="9.2 -5.5 0.1" rot="0.0 -180.0 0.0">
+			<group id_="1474649984" name="Walls" pos="9.2 -5.5 0.1" rot="0.0 -180.0 0.0">
 				<vox id_="244660816" open_="true" pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
 					<vox id_="721792000" pos="-8.2 -7.0 -0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
@@ -178,7 +178,7 @@
 					<vox id_="627348864" pos="-8.2 -7.0 2.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="wall_support"/>
 				</vox>
 			</group>
-			<group id_="1492214784" open_="true" name="Floors" pos="-4.8 0.0 0.6" rot="0.0 0.0 0.0">
+			<group id_="1492214784" name="Floors" pos="-4.8 0.0 0.6" rot="0.0 0.0 0.0">
 				<vox id_="1380337920" pos="13.9 0.1 -45.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
 				<vox id_="789167168" pos="13.9 0.1 -35.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
 				<vox id_="1885716864" pos="13.9 0.1 -25.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
@@ -203,9 +203,9 @@
 				<vox id_="542146880" pos="13.9 0.1 -46.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="walkway"/>
 			</group>
 		</group>
-		<group id_="1484087808" open_="true" name="Facades" pos="9.7 -0.1 -0.5">
-			<group id_="1155076992" open_="true" name="Rear" pos="0.0 0.0 -56.0">
-				<group id_="980871616" open_="true" name="Outer Walls" pos="-24.5 0.1 2.8" rot="0.0 0.0 0.0">
+		<group id_="1484087808" name="Facades" pos="9.7 -0.1 -0.5" prop0="texture=6 1">
+			<group id_="1155076992" name="Rear" pos="0.0 0.0 -56.0">
+				<group id_="980871616" name="Outer Walls" pos="-24.5 0.1 2.8" rot="0.0 0.0 0.0">
 					<vox id_="34211880" pos="11.6 0.1 1.19999" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="1042413696" pos="-8.4 0.1 -2.20001" rot="0.0 180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="1951518976" pos="11.6 12.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall3"/>
@@ -215,7 +215,7 @@
 					<vox id_="779008448" pos="-8.4 0.1 1.1" rot="0.0 180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="512719424" pos="11.6 0.1 -2.10002" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 				</group>
-				<group id_="473067712" open_="true" name="Outer Walls" pos="24.6 0.1 2.8" rot="0.0 0.0 0.0">
+				<group id_="473067712" name="Outer Walls" pos="24.6 0.1 2.8" rot="0.0 0.0 0.0">
 					<vox id_="1622770432" pos="-11.5 0.1 -2.2" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="1963906048" pos="8.5 0.1 -2.10001" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="1690669824" pos="-11.5 12.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall2"/>
@@ -225,7 +225,7 @@
 					<vox id_="1171789696" pos="8.5 0.1 1.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="1399868800" pos="-11.5 0.1 1.1" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 				</group>
-				<group id_="865586752" open_="true" name="Clock Tower" pos="0.0 0.0 -0.4" rot="0.0 0.0 0.0">
+				<group id_="865586752" name="Clock Tower" pos="0.0 0.0 -0.4" rot="0.0 0.0 0.0">
 					<vox id_="219624544" pos="0.1 0.1 0.59999" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center"/>
 					<vox id_="855952384" pos="0.1 25.7 0.5" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center2"/>
 					<vox id_="1758634880" open_="true" pos="0.1 32.8 -0.35" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="clock_tower">
@@ -264,8 +264,8 @@
 					</vox>
 				</group>
 			</group>
-			<group id_="1652001280" open_="true" name="Front" pos="0.0 0.0 56.0">
-				<group id_="921689024" open_="true" name="Outer Walls" pos="-24.5 0.1 -4.90001" rot="0.0 0.0 0.0">
+			<group id_="1652001280" name="Front" pos="0.0 0.0 56.0">
+				<group id_="921689024" name="Outer Walls" pos="-24.5 0.1 -4.90001" rot="0.0 0.0 0.0">
 					<vox id_="703244224" pos="11.6 0.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="57216420" pos="-8.4 0.1 4.4" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="1783605504" pos="-8.4 12.1 1.1" rot="0 180" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall3"/>
@@ -275,7 +275,7 @@
 					<vox id_="1573353216" pos="-19.9 25.7 3.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_small"/>
 					<vox id_="1916651776" pos="-19.9 0.1 3.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar"/>
 				</group>
-				<group id_="1361200256" open_="true" name="Outer Walls" pos="24.6 0.1 -4.9" rot="0.0 0.0 0.0">
+				<group id_="1361200256" name="Outer Walls" pos="24.6 0.1 -4.9" rot="0.0 0.0 0.0">
 					<vox id_="1561556096" pos="-11.5 0.1 4.4" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="1531997440" pos="8.5 0.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="209138144" pos="-11.5 12.1 1.1" rot="0 180" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall3"/>
@@ -285,7 +285,7 @@
 					<vox id_="119282800" pos="20.0 0.1 3.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar"/>
 					<vox id_="671129600" pos="20.0 25.7 3.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_small"/>
 				</group>
-				<group id_="409559456" open_="true" name="Clock Tower" pos="0.1 0.0 0.0" rot="0.0 0.0 0.0">
+				<group id_="409559456" name="Clock Tower" pos="0.1 0.0 0.0" rot="0.0 0.0 0.0">
 					<vox id_="1337278208" pos="0.0 25.7 0.1" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center2"/>
 					<vox id_="1940377216" pos="0.0 0.1 -0.10001" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center"/>
 					<vox id_="1413894400" pos="0.0 32.8 0.95" rot="0.0 180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="clock_tower">
@@ -311,6 +311,60 @@
 						</vox>
 					</vox>
 				</group>
+			</group>
+		</group>
+		<group id_="1577940992" open_="true" name="Tracks" pos="-13.3 0.1 0.5" prop0="tags=unbreakable nocull" prop1="texture=2 0.5">
+			<group id_="1509713920" name="Row 1" pos="-8.3 0.0 0.0">
+				<vox id_="307775840" pos="0.1 0.1 -46.3" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1484218880" pos="0.1 0.1 -36.5" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="493843904" pos="0.1 0.1 -16.9" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="431711968" pos="0.1 0.1 -26.7" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1335770752" pos="0.1 0.1 -7.1" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1213407616" pos="0.1 0.1 2.7" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="2131950720" pos="0.1 0.1 12.5" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1751884160" pos="0.1 0.1 22.3" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1930546176" pos="0.1 0.1 32.1" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1891418880" pos="0.1 0.1 41.89999" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="164702016" pos="0.1 0.1 48.0" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="short"/>
+			</group>
+			<group id_="125574640" name="Row 2" pos="8.3 0.0 0.0">
+				<vox id_="1982060672" pos="0.1 0.1 -46.3" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1810870144" pos="0.1 0.1 -36.5" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="457403648" pos="0.1 0.1 -16.9" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="424174880" pos="0.1 0.1 -26.7" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="10551940" pos="0.1 0.1 -7.1" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1443780608" pos="0.1 0.1 2.7" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1683198336" pos="0.1 0.1 12.5" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="991358016" pos="0.1 0.1 22.3" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1786948096" pos="0.1 0.1 32.1" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1473273600" pos="0.1 0.1 41.89999" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="422208672" pos="0.1 0.1 48.0" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="short"/>
+			</group>
+			<group id_="1471831808" name="Row 3" pos="37.7 0.0 -1.3">
+				<vox id_="1141248000" pos="0.1 0.1 -44.9" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="821806080" pos="0.1 0.1 -35.1" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="7930340" pos="0.1 0.1 -15.5" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="185412656" pos="0.1 0.1 -25.3" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="194719344" pos="0.1 0.1 -5.7" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1186863872" pos="0.1 0.1 4.1" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1172445056" pos="0.1 0.1 13.9" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1107953664" pos="0.1 0.1 23.7" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="2135227648" pos="0.1 0.1 33.5" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="389176512" pos="0.1 0.1 43.29999" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1921108480" pos="0.1 0.1 49.4" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="short"/>
+			</group>
+			<group id_="1865858304" name="Row 4" pos="54.3 0.0 -1.3">
+				<vox id_="1204494080" pos="0.1 0.1 -45.0" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="175843824" pos="0.1 0.1 -35.2" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="2064444416" pos="0.1 0.1 -15.6" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1705088640" pos="0.1 0.1 -25.4" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="2122578432" pos="0.1 0.1 -5.8" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1101530752" pos="0.1 0.1 4.0" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1204625152" pos="0.1 0.1 13.8" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="466775872" pos="0.1 0.1 23.6" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="751809344" pos="0.1 0.1 33.4" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="1364804992" pos="0.1 0.1 43.19999" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
+				<vox id_="556565696" pos="0.1 0.1 49.3" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="short"/>
 			</group>
 		</group>
 	</group>
