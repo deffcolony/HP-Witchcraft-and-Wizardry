@@ -211,7 +211,7 @@
 					<vox id_="1951518976" pos="11.6 12.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall3"/>
 					<vox id_="1762567168" pos="-8.4 12.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall2"/>
 					<vox id_="1240344448" pos="-19.9 0.1 -1.6" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar"/>
-					<vox id_="654613504" pos="-19.9 7.1 -1.6" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar"/>
+					<vox id_="654613504" pos="-19.9 25.7 -1.6" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_small"/>
 					<vox id_="779008448" pos="-8.4 0.1 1.1" rot="0.0 180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="512719424" pos="11.6 0.1 -2.10002" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 				</group>
@@ -221,33 +221,45 @@
 					<vox id_="1690669824" pos="-11.5 12.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall2"/>
 					<vox id_="464481984" pos="8.5 12.1 1.2" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall3"/>
 					<vox id_="439576768" pos="20.0 0.1 -1.6" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar"/>
-					<vox id_="745845184" pos="20.0 7.1 -1.6" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar"/>
+					<vox id_="745845184" pos="20.0 25.7 -1.6" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_small"/>
 					<vox id_="1171789696" pos="8.5 0.1 1.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="1399868800" pos="-11.5 0.1 1.1" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 				</group>
 				<group id_="865586752" open_="true" name="Clock Tower" pos="0.0 0.0 -0.4" rot="0.0 0.0 0.0">
-					<vox id_="219624544" pos="0.1 0.1 0.49999" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center"/>
+					<vox id_="219624544" pos="0.1 0.1 0.59999" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center"/>
 					<vox id_="855952384" pos="0.1 25.7 0.5" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center2"/>
-					<vox id_="1758634880" pos="0.1 32.8 -0.35" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="clock_tower">
+					<vox id_="1758634880" open_="true" pos="0.1 32.8 -0.35" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="clock_tower">
 						<vox id_="668639104" open_="true" pos="0.0 2.7 -4.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="clock">
 							<vox id_="1632208128" open_="true" tags="nocull" pos="0.3 1.85 -0.1" rot="0.0 0.0 0.0" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="big_hand">
 								<joint id_="1966855424" tags="big" pos="-0.3 0.05 0.0" type="hinge"/>
 							</vox>
 						</vox>
+						<vox id_="1527868416" pos="0.0 4.6 -3.4" rot="-90.0 0.0 0.0" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="gear1">
+							<joint id_="25560600" pos="0.0 0.3 0.0" rot="90.0 0.0 0.0" type="hinge" size="0.1"/>
+						</vox>
 						<vox id_="42469920" open_="true" pos="0.0 2.7 4.2" rot="0.0 180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="clock">
 							<vox id_="623940800" open_="true" tags="nocull" pos="0.3 1.85 -0.1" rot="0.0 0.0 0.0" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="big_hand">
-								<joint id_="1922288256" tags="big" pos="-0.3 0.05 0.0" type="hinge"/>
+								<joint id_="1922288256" tags="big" pos="-0.3 0.05 0.0" rot="0.0 0.0 0.0" type="hinge"/>
 							</vox>
 						</vox>
-						<vox id_="761771392" open_="true" pos="3.8 2.7 -0.0" rot="0.0 -90.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="clock">
+						<vox id_="406544608" open_="true" pos="0.0 4.6 3.4" rot="-90.0 -180.0 0.0" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="gear1">
+							<joint id_="910350592" pos="0.0 0.3 0.0" rot="90.0 0.0 0.0" type="hinge" size="0.1"/>
+						</vox>
+						<vox id_="761771392" pos="3.8 2.7 -0.0" rot="0.0 -90.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="clock">
 							<vox id_="625775936" open_="true" tags="nocull" pos="0.3 1.85 -0.1" rot="0.0 0.0 0.0" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="big_hand">
 								<joint id_="902223616" tags="big" pos="-0.3 0.05 0.0" type="hinge"/>
 							</vox>
 						</vox>
-						<vox id_="746107392" open_="true" pos="-3.8 2.7 0.0" rot="0.0 90.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="clock">
+						<vox id_="938532800" pos="3.0 4.6 -0.0" rot="-90.0 -90.0 0.0" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="gear1">
+							<joint id_="501643168" pos="0.0 0.3 0.0" rot="90.0 0.0 0.0" type="hinge" size="0.1"/>
+						</vox>
+						<vox id_="746107392" pos="-3.8 2.7 0.0" rot="0.0 90.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="clock">
 							<vox id_="1434342912" open_="true" tags="nocull" pos="0.3 1.85 -0.1" rot="0.0 0.0 0.0" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="big_hand">
 								<joint id_="1543598080" tags="big" pos="-0.3 0.05 0.0" type="hinge"/>
 							</vox>
+						</vox>
+						<vox id_="849791616" open_="true" pos="-3.0 4.6 -0.0" rot="-90.0 90.0 0.0" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="gear1">
+							<joint id_="834258688" pos="0.0 0.3 0.0" rot="90.0 0.0 0.0" type="hinge" size="0.1"/>
 						</vox>
 					</vox>
 				</group>
@@ -260,7 +272,7 @@
 					<vox id_="1250109952" pos="11.6 12.1 1.1" rot="0 180" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall2"/>
 					<vox id_="1548579072" pos="11.6 0.1 4.5" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="546406976" pos="-8.4 0.1 1.1" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
-					<vox id_="1573353216" pos="-19.9 7.1 3.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar"/>
+					<vox id_="1573353216" pos="-19.9 25.7 3.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_small"/>
 					<vox id_="1916651776" pos="-19.9 0.1 3.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar"/>
 				</group>
 				<group id_="1361200256" open_="true" name="Outer Walls" pos="24.6 0.1 -4.9" rot="0.0 0.0 0.0">
@@ -271,11 +283,11 @@
 					<vox id_="867421888" pos="-11.5 0.1 1.1" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="753120128" pos="8.5 0.1 4.5" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall1"/>
 					<vox id_="119282800" pos="20.0 0.1 3.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar"/>
-					<vox id_="671129600" pos="20.0 7.1 3.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar"/>
+					<vox id_="671129600" pos="20.0 25.7 3.9" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_small"/>
 				</group>
 				<group id_="409559456" open_="true" name="Clock Tower" pos="0.1 0.0 0.0" rot="0.0 0.0 0.0">
 					<vox id_="1337278208" pos="0.0 25.7 0.1" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center2"/>
-					<vox id_="1940377216" pos="0.0 0.1 0.09999" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center"/>
+					<vox id_="1940377216" pos="0.0 0.1 -0.10001" rot="0.0 -180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="pillar_center"/>
 					<vox id_="1413894400" pos="0.0 32.8 0.95" rot="0.0 180.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="clock_tower">
 						<vox id_="31917980" open_="true" pos="0.0 2.7 -4.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="clock">
 							<vox id_="776976704" open_="true" tags="nocull" pos="0.3 1.85 -0.1" rot="0.0 0.0 0.0" prop="true" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="big_hand">
