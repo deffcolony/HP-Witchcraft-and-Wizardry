@@ -2,9 +2,8 @@ Gameplay:
 
 * the blender in the kitchen should have functional buttons
 
-* is it possible to add a button to the attic stairs when you pull it down... so the attic stairs closses itself when you press the button on it
-
 * fusebox in attic should contain interactable switches to turn off the power in the house
+  -> Thomas: I need to work on a good power system to handle stuff like this neatly
 
 
 Visuals/Sound:
