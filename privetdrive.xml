@@ -877,7 +877,9 @@
 							<vox id_="1496868096" name="furniture" pos="1.05 1.3 -0.15" rot="0.0 -80.0 0.0" texture="3 0.5" density="4" strength="2.5" prop="true" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_desk.vox" object="red book"/>
 							<vox id_="1542877184" name="furniture" pos="1.8 1.5 0.2" rot="0.0 -90.0 0.0" texture="3 0.5" density="4" strength="2.5" prop="true" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_curtains.vox" object="curtain"/>
 							<vox id_="2146238336" name="furniture" pos="-0.3 1.4 -1.75" rot="0.0 -100.0 0.0" texture="3 0.5" density="4" strength="2.5" prop="true" file="MOD/resources/vox/generic_props/hedwig's_owl_cage.vox"/>
-							<vox id_="1865006208" name="lamp" pos="1.15 1.3 0.45" rot="0.0 -110.0 0.0" texture="3 0.5" density="4" strength="2.5" prop="true" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_desk.vox" object="lamp"/>
+							<vox id_="1865006208" open_="true" name="lamp" tags="interact onInteract=togglelight(light_harry_2);sound(lightswitch,0.25)" pos="1.15 1.3 0.45" rot="0.0 -110.0 0.0" texture="3 0.5" density="4" strength="2.5" prop="true" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_desk.vox" object="lamp">
+								<light id_="650615552" tags="light=off light_harry_2" pos="0.05 0.5 -0.05" unshadowed="0.2"/>
+							</vox>
 							<vox id_="1588689664" name="furniture" pos="-0.05 1.8 2.0" rot="0.0 180.0 0.0" texture="3 0.5" density="4" strength="2.5" prop="false" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_wall_decoration.vox" object="pinboard"/>
 							<vox id_="1312307456" name="furniture" pos="0.9 1.45 2.0" rot="0.0 180.0 -5.0" texture="3 0.5" density="4" strength="2.5" prop="false" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_wall_decoration.vox" object="gryffindor flag"/>
 							<voxagon id_="1853340160" name="corner_shelf" pos="1.4 1.9 1.8" texture="3 0.5" brush="MOD/resources/vox/4_privet_drive/stairs/wooden_parts.vox" object="material" extrude="1">
@@ -1113,8 +1115,10 @@
 							<vox id_="1902101888" open_="true" name="light" pos="18.4 2.9 -2.3" rot="0.0 0.0 0.0" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox" object="ceiling light">
 								<light id_="873189440" tags="light_dudley light=off" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="1.2" size="0.2"/>
 							</vox>
-							<vox id_="902813504" name="desk_lamp" pos="15.9468 1.0 -3.60656" rot="0.0 103.0 0.0" texture="9 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_dresser.vox" object="dresser lamp"/>
-							<voxbox id_="1942081280" open_="true" name="light switch" pos="17.0 1.7 0.3" rot="0.0 0.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
+							<vox id_="902813504" open_="true" name="desk_lamp" tags="interact onInteract=togglelight(light_dudley_2);sound(lightswitch,0.25)" pos="15.947 1.0 -3.607" rot="0.0 103.0 0.0" texture="9 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_dresser.vox" object="dresser lamp">
+								<light id_="2118777088" tags="light=off light_dudley_2" pos="0.05 0.5 0.0" unshadowed="0.2"/>
+							</vox>
+							<voxbox id_="1942081280" open_="true" name="light switch" pos="17.0 1.7 -1.1" rot="0.0 0.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
 								<voxbox id_="1207181312" tags="interact onInteract=togglelight(light_dudley);sound(lightswitch,0.25)" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
 							</voxbox>
 							<group id_="489714880" open_="true" name="Furniture" pos="17.8 -0.1 -1.7">
@@ -1147,11 +1151,11 @@
 									</vox>
 									<vox id_="648518272" name="console" pos="-0.0 0.2 -0.2" rot="0.0 -180.0 0.0" texture="3 0.65" density="1" strength="1" prop="true" file="MOD/resources/vox/4_privet_drive/dudleys_bedroom/dudley_tv_stand.vox" object="playstation 1"/>
 								</vox>
-								<vox id_="1110640896" name="furniture" pos="-1.95 0.3 -2.0" rot="0.0 -2.0 0.0" texture="3 0.35" density="7" strength="2.5" prop="true" file="MOD/resources/vox/4_privet_drive/dudleys_bedroom/dudley_nightstand.vox" object="nightstand body">
+								<vox id_="1110640896" open_="true" name="furniture" pos="-1.95 0.3 -2.0" rot="0.0 -2.0 0.0" texture="3 0.35" density="7" strength="2.5" prop="true" file="MOD/resources/vox/4_privet_drive/dudleys_bedroom/dudley_nightstand.vox" object="nightstand body">
 									<vox id_="1095894400" name="furniture" pos="0.05 0.1 0.0" rot="0.0 0.0 0.0" texture="3 0.35" density="1" strength="1" prop="true" file="MOD/resources/vox/4_privet_drive/dudleys_bedroom/dudley_nightstand.vox" object="nightstand drawer">
 										<joint id_="1092879488" name="prismatic" pos="-0.2 0.1 -0.05" rot="0.0 -270.0 90.0" type="prismatic" size="0.15" rotstrength="0.001" rotspring="0" limits="0 .4"/>
 									</vox>
-									<vox id_="2026365696" name="furniture" pos="0.05 0.4 0.0" rot="0.0 0.0 0.0" texture="3 0.35" density="1" strength="1" prop="true" file="MOD/resources/vox/4_privet_drive/dudleys_bedroom/dudley_nightstand.vox" object="nightstand drawer">
+									<vox id_="2026365696" open_="true" name="furniture" pos="0.05 0.4 0.0" rot="0.0 0.0 0.0" texture="3 0.35" density="1" strength="1" prop="true" file="MOD/resources/vox/4_privet_drive/dudleys_bedroom/dudley_nightstand.vox" object="nightstand drawer">
 										<joint id_="161425024" name="prismatic" pos="-0.2 0.1 -0.05" rot="0.0 -270.0 90.0" type="prismatic" size="0.15" rotstrength="0.001" rotspring="0" limits="0 .4"/>
 									</vox>
 								</vox>
@@ -1194,7 +1198,7 @@
 									<voxbox id_="929750464" name="shelf" pos="1.2 -0.1 0.1" rot="0.0 0.0 0.0" texture="9 0.40" size="1 1 2" color="0.5 0.35 0.25"/>
 								</voxbox>
 							</group>
-							<group id_="1715771648" name="Small Props">
+							<group id_="1715771648" open_="true" name="Small Props">
 								<vox id_="860671296" name="boxing_glove L" pos="17.3 2.36 -1.7" rot="114.5 120.9 3.7" texture="3 0.35" prop="true" file="MOD/resources/vox/4_privet_drive/dudleys_bedroom/dudley_small_props.vox" object="boxing glove L"/>
 								<vox id_="2071195136" name="boxing_glove R" pos="17.3 2.3 -1.62" rot="-91.4 -125.3 1.8" texture="3 0.35" prop="true" file="MOD/resources/vox/4_privet_drive/dudleys_bedroom/dudley_small_props.vox" object="boxing glove R"/>
 								<vox id_="1271738112" name="rc_crane" pos="17.57 2.0 -4.8" rot="0.0 -180.0 0.0" desc="Dudley got this remote controlled crane for his last birthday... along with 38 other presents." texture="3 0.65" prop="true" file="MOD/resources/vox/4_privet_drive/dudleys_bedroom/dudley_small_props.vox" object="RC crane body">
@@ -1512,7 +1516,9 @@
 							<vox id_="1615233280" name="furniture" pos="-1.6 0.1 -1.3" rot="0.0 50.0 0.0" texture="3 0.75" density="6" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="armchair">
 								<vox id_="795131264" name="furniture" pos="-0.16 0.62 0.08" rot="-15.4 29.1 -0.9" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="pillow green"/>
 							</vox>
-							<vox id_="587893824" name="furniture" pos="2.2 1.0 -2.4" rot="0.0 160.0 0.0" texture="3 0.75" strength="0.1" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_lamps.vox" object="desk lamp"/>
+							<vox id_="587893824" open_="true" name="furniture" tags="interact onInteract=togglelight(light_liv_2);sound(lightswitch,0.25)" pos="2.2 1.0 -2.4" rot="0.0 160.0 0.0" texture="3 0.75" strength="0.1" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_lamps.vox" object="desk lamp">
+								<light id_="1346388224" tags="light=off light_liv_2" pos="0.05 0.65 -0.05"/>
+							</vox>
 							<voxbox id_="98441080" open_="true" name="light switch" pos="2.4 1.6 3.2" rot="0.0 90.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
 								<voxbox id_="771536896" name="Button" tags="interact onInteract=togglelight(light_livingroom);sound(lightswitch,0.25)" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
 							</voxbox>
@@ -1834,7 +1840,7 @@
 							<vox id_="634951552" name="chair" pos="-0.5 -0.9 0.7" rot="0.0 -170.0 0.0" texture="3 0.75" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_table_with_chairs.vox" object="dining chair"/>
 							<vox id_="773109824" name="chair" pos="1.35 -0.9 1.75" rot="0.0 -115.0 0.0" texture="3 0.75" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_table_with_chairs.vox" object="dining chair"/>
 							<vox id_="2084761856" name="chair" pos="-0.6 -0.9 -1.6" rot="0.0 5.0 0.0" texture="3 0.75" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_table_with_chairs.vox" object="dining chair with armrest"/>
-							<vox id_="136192128" name="cupboard" pos="-0.6 -0.9 -3.2" rot="0.0 0.0 0.0" texture="7 0.6" density="8" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_cupboard.vox" object="cupboard main body">
+							<vox id_="136192128" open_="true" name="cupboard" pos="-0.6 -0.9 -3.2" rot="0.0 0.0 0.0" texture="7 0.6" density="8" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_cupboard.vox" object="cupboard main body">
 								<vox id_="948363776" name="door" pos="-0.8 1.0 0.2" rot="0.0 0.0 0.0" texture="7 0.6" density="2" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_cupboard.vox" object="cupboard door 1">
 									<joint id_="1021834112" name="hinge" pos="-0.15 0.6 -0.06" rot="90.0 90.0 0.0" type="hinge" size="0.2" rotstrength="0.001" rotspring="0" limits="0 160"/>
 								</vox>
@@ -1856,7 +1862,7 @@
 								<vox id_="849726080" name="door" pos="0.3 0.1 0.2" rot="0.0 -180.0 0.0" texture="7 0.6" density="2" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_cupboard.vox" object="cupboard door 3">
 									<joint id_="445737536" name="hinge" pos="-0.15 0.3 -0.04" rot="-90.0 -90.0 0.0" type="hinge" size="0.2" rotstrength="0.001" rotspring="0" limits="0 160"/>
 								</vox>
-								<vox id_="1349730816" name="door" pos="0.3 1.1 0.1" rot="0.0 -180.0 0.0" texture="7 0.6" density="2" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_cupboard.vox" object="cupboard door 2">
+								<vox id_="1349730816" open_="true" name="door" pos="0.3 1.1 0.1" rot="0.0 -180.0 0.0" texture="7 0.6" density="2" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_cupboard.vox" object="cupboard door 2">
 									<joint id_="409756096" name="hinge" pos="-0.14 0.6 -0.03" rot="-90.0 -90.0 0.0" type="hinge" size="0.1" rotstrength="0.001" rotspring="0" limits="0 160"/>
 								</vox>
 								<vox id_="2029184000" name="prop" pos="0.2 1.9 -0.1" rot="-90.0 0.0 0.0" texture="5 0.5" strength="0.1" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="dishes small"/>
