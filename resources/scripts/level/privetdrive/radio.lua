@@ -32,9 +32,11 @@ end
 
 
 function tick()
+  local interactShape = GetPlayerInteractShape()
+  if interactShape == 0 then interactShape = nil end
   if radioAlive then
     t = GetShapeWorldTransform(myRadio)
-    if InputPressed("interact") and GetPlayerInteractShape() == myButtonGreen then
+    if InputPressed("interact") and interactShape == myButtonGreen then
       PlaySound(nextSongSound, t.pos, 0.2)
       if radioOn then
         DrawShapeOutline(myRadio, 1, 1, 1, 1)
@@ -48,7 +50,7 @@ function tick()
       end
     end
     
-    if InputPressed("interact") and GetPlayerInteractShape() == powerbutton then
+    if InputPressed("interact") and interactShape == powerbutton then
       PlaySound(OnOffSound, t.pos, 0.2)
       DrawShapeOutline(myRadio, 1, 1, 1, 1)
       if radioOn then
@@ -60,12 +62,12 @@ function tick()
       end
     end
     
-    if InputPressed("interact") and GetPlayerInteractShape() == myVolUp then
+    if InputPressed("interact") and interactShape == myVolUp then
       PlaySound(nextSongSound, t.pos, 0.2)
       volume = volume + 0.1
     end
     
-    if InputPressed("interact") and GetPlayerInteractShape() == myVolDown then
+    if InputPressed("interact") and interactShape == myVolDown then
       PlaySound(nextSongSound, t.pos, 0.2)
       volume = volume - 0.1
     end
@@ -77,7 +79,7 @@ function tick()
       volume = 0.1
     end
     
-    if InputPressed("interact") and GetPlayerInteractShape() == mylast then
+    if InputPressed("interact") and interactShape == mylast then
       PlaySound(nextSongSound, t.pos, 0.2)
       if radioOn then
         DrawShapeOutline(myRadio, 1, 1, 1, 1)
@@ -90,7 +92,7 @@ function tick()
       end
     end
     
-    if InputPressed("interact") and GetPlayerInteractShape() == myRandom then
+    if InputPressed("interact") and interactShape == myRandom then
       if radioOn then
         playRandom()
         DrawShapeOutline(myRadio, 1, 1, 1, 1)
