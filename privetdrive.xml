@@ -11,11 +11,11 @@
 	<group id_="127868544" hidden_="true" name="Script">
 		<script id_="847301120" hidden_="true" name="main" file="main.lua"/>
 		<script id_="432498464" hidden_="true" name="sandbox" file="sandbox.lua"/>
-		<script id_="1390037888" hidden_="true" name="fireplace" file="MOD/resources/scripts/fireplace.lua"/>
+		<script id_="1390037888" hidden_="true" name="fireplace" file="MOD/resources/scripts/level/privetdrive/fireplace.lua"/>
 	</group>
 	<group id_="1989138944" open_="true" name="Scene">
 		<group id_="322260192" open_="true" hidden_="true" name="Ground" pos="0.0 0.0 0.0">
-			<voxscript id_="2096690176" hidden_="true" pos="50.2 -2.5 -50.1" rot="0.0 -90.0 0.0" texture="10 .6" file="MOD/resources/scripts/ground.lua">
+			<voxscript id_="2096690176" hidden_="true" pos="50.2 -2.5 -50.1" rot="0.0 -90.0 0.0" texture="10 .6" file="MOD/resources/scripts/voxscript/ground.lua">
 				<parameters file="MOD/resources/img/privetdrive_ground.png" scale="255"/>
 			</voxscript>
 		</group>
@@ -1183,9 +1183,9 @@
 									<voxbox id_="1957614208" hidden_="true" name="wallpaper" pos="-0.25 0.0 -0.25" rot="0.0 -75.0 0.0" texture="9 0.5" prop="true" size="1 1 1" brush="MOD/resources/vox/4_privet_drive/stairs/wooden_parts.vox" object="material" material="grass"/>
 								</vox>
 								<vox id_="1950929152" hidden_="true" name="radiator" pos="-1.05 0.05 -3.05" rot="0.0 0.0 0.0" texture="5 0.35" file="MOD/resources/vox/4_privet_drive/building/radiators.vox" object="radiator medium"/>
-								<vox id_="1496409344" open_="true" hidden_="true" name="TV grey" tags="harryhousetv2" pos="1.32 0.9 2.19" rot="0.0 178.5 0.0" texture="9 0.4" density="6" strength="5" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_television.vox" object="television">
-									<screen id_="2073554560" hidden_="true" name="TV screen" tags="harryhousetvscreen2" pos="0.05 0.35 0.2" size="0.7, 0.5" bulge="0.08" script="MOD/resources/scripts/harryhousetvscreen2.lua" emissive="0.5"/>
-									<light id_="515209952" hidden_="true" name="speaker tv" tags="harryhousetvspeaker2" pos="0.1 0.4 0.3" scale="0" unshadowed="4" sound="MOD/resources/snd/harryhousetvRun.ogg 0.8"/>
+								<vox id_="1496409344" open_="true" hidden_="true" name="TV grey" tags="harryhousetv" pos="1.32 0.9 2.19" rot="0.0 178.5 0.0" texture="9 0.4" density="6" strength="5" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_television.vox" object="television">
+									<screen id_="2073554560" hidden_="true" name="TV screen" tags="harryhousetvscreen" pos="0.05 0.35 0.2" size="0.7, 0.5" bulge="0.08" script="MOD/resources/scripts/level/privetdrive/tvscreen.lua" emissive="0.5"/>
+									<light id_="515209952" hidden_="true" name="speaker tv" tags="harryhousetvspeaker" pos="0.1 0.4 0.3" scale="0" unshadowed="4" sound="MOD/resources/snd/harryhousetvRun.ogg 0.8"/>
 									<rope id_="1628537856" hidden_="true" name="cable" pos="-0.2 0.15 -0.41" rot="0.0 90.0 0.0" slack=".2" strength="18" maxstretch="0.2">
 										<location id_="1993005824" hidden_="true" pos="-0.01 0.13 0.44" rot="0.0 0.0 0.0"/>
 										<location id_="1064369600" hidden_="true" pos="0.09 -0.27 -0.26" rot="0.0 35.0 0.0"/>
@@ -1595,7 +1595,7 @@
 								<vox id_="1162548480" name="stool" pos="0.3 0.0 1.3" rot="0.0 40.0 0.0" texture="10 0.4" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="stool"/>
 								<vox id_="1474060160" name="stool" pos="1.0 0.0 1.3" rot="0.0 45.0 0.0" texture="10 0.4" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="stool"/>
 								<vox id_="2139487744" name="stool" pos="-0.4 0.0 1.2" rot="0.0 55.0 0.0" texture="10 0.4" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="stool"/>
-								<script id_="1319385728" open_="true" name="kitchen sink" pos="-1.3 0.6 -0.8" file="MOD/resources/scripts/harryhouseknsink.lua">
+								<script id_="1319385728" open_="true" name="kitchen sink" pos="-1.3 0.6 -0.8" file="MOD/resources/scripts/level/privetdrive/knsink.lua">
 									<vox id_="1832432896" open_="true" name="sink" tags="hhouseknsink" pos="0.0 0.1 0.1" texture="10 0.6" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="sink">
 										<trigger id_="625448192" name="sink sfx" tags="hhouseknsinksfx" pos="2.0 -0.7 0.0" type="polygon" size="3">
 											<vertex pos="-2.5 -2.4"/>
@@ -1730,7 +1730,7 @@
 								</vox>
 								<vox id_="1538158208" name="salt" pos="-2.06 0.0 1.3" rot="0.0 -80.0 0.0" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="salt"/>
 								<vox id_="951640832" name="pepper" pos="-2.06 0.0 1.44" rot="0.0 -105.0 0.0" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="pepper"/>
-								<script id_="1740545792" name="harryhousemicrowave" pos="-1.8 -0.1 2.6" file="MOD/resources/scripts/harryhousemicrowave.lua">
+								<script id_="1740545792" name="harryhousemicrowave" pos="-1.8 -0.1 2.6" file="MOD/resources/scripts/level/privetdrive/microwave.lua">
 									<vox id_="444361216" name="microwave" tags="harryhousemicrowave" pos="0.26 0.12 -0.16" rot="0.0 35.0 0.0" texture="2 0.7" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="microwave body">
 										<rope id_="1508599680" name="cable" pos="-0.2 0.15 -0.25" rot="0.0 -165.0 0.0" slack="0.3" strength="5" maxstretch="1">
 											<location id_="592481600" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
@@ -1752,7 +1752,7 @@
 									</rope>
 									<vox id_="487748672" name="on/off" tags="mixerpower interact" pos="0.113 0.1 -0.01" rot="0.0 0.0 0.0" desc="on/off" texture="2 0.7" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="radio button volume"/>
 								</vox>
-								<script id_="736276352" pos="2.9 -0.1 2.18" file="MOD/resources/scripts/harryhouseradio.lua">
+								<script id_="736276352" pos="2.9 -0.1 2.18" file="MOD/resources/scripts/level/privetdrive/radio.lua">
 									<vox id_="419062752" name="radio" tags="myradio" pos="0.01 0.1 0.02" rot="0.0 175.0 0.0" texture="2 0.7" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="radio">
 										<voxbox id_="2137718144" name="antenna" tags="unbreakable" pos="-0.15 0.2 -0.2" rot="35.0 0.0 0.0" texture="9 0.5" density="0.1" prop="true" size="1 3 1" material="metal" color=".7 .7 .7">
 											<joint id_="247085792" name="hinge" pos="0.05 0.05 0.05" rot="0.0 90.0 0.0" type="hinge" size="0.15" limits="-80 10"/>
@@ -1831,10 +1831,10 @@
 								<vox id_="795000192" name="dining_wheel_thing" pos="0.1 0.5 -0.4" rot="0.0 -180.0 0.0" texture="3 0.75" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_furniture_static.vox" object="wheel thing flap">
 									<joint id_="1644857344" name="hinge" pos="-0.38 0.3 -0.1" rot="0.0 270.0 -90.0" type="hinge" size="0.2" rotstrength="0.001" rotspring="0" limits="0 90"/>
 								</vox>
-								<script id_="108993024" name="harryhousetvremote2" pos="-0.2 0.3 -0.4" file="MOD/resources/scripts/harryhousetvremote2.lua">
+								<script id_="108993024" name="harryhousetvremote2" pos="-0.2 0.3 -0.4" file="MOD/resources/scripts/level/privetdrive/tvremote.lua">
 									<vox id_="2109798144" name="TV grey" tags="harryhousetv2" pos="0.12 0.6 0.39" rot="0.0 22.5 0.0" texture="9 0.4" density="6" strength="5" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_television.vox" object="television">
-										<screen id_="980543936" name="TV screen" tags="harryhousetvscreen2" pos="0.05 0.35 0.2" size="0.7, 0.5" bulge="0.08" script="MOD/resources/scripts/harryhousetvscreen2.lua" emissive="0.5"/>
-										<light id_="1520396928" name="speaker tv" tags="harryhousetvspeaker2" pos="0.1 0.4 0.3" scale="0" unshadowed="4" sound="MOD/resources/snd/harryhousetvRun.ogg 0.8"/>
+										<screen id_="980543936" name="TV screen" tags="harryhousetvscreen" pos="0.05 0.35 0.2" size="0.7, 0.5" bulge="0.08" script="MOD/resources/scripts/level/privetdrive/tvscreen.lua" emissive="0.5"/>
+										<light id_="1520396928" name="speaker tv" tags="harryhousetvspeaker" pos="0.1 0.4 0.3" scale="0" unshadowed="4" sound="MOD/resources/snd/harryhousetvRun.ogg 0.8"/>
 										<rope id_="1253190400" name="cable" pos="-0.2 0.15 -0.41" rot="0.0 90.0 0.0" slack="1" strength="18" maxstretch="0.2">
 											<location id_="2069622144" pos="-0.01 0.13 0.44" rot="0.0 0.0 0.0"/>
 											<location id_="1774429952" pos="0.59 -0.62 0.29" rot="0.0 35.0 0.0"/>
@@ -2421,9 +2421,9 @@
 							<vox id_="700950272" name="porch_furniture" pos="14.53 0.6 -3.19" rot="0.0 -135.0 0.0" texture="3 0.75" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="porch pillar"/>
 							<vox id_="1531079936" name="porch_furniture" pos="14.33 0.6 -0.89" rot="0.0 -145.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="small tv stand"/>
 							<vox id_="1218650752" name="porch_furniture" pos="11.98 0.6 -3.34" rot="0.0 90.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="porch shelf"/>
-							<script id_="1595112576" open_="true" name="harryhouseminitvremote" pos="14.3 1.3 -0.9" file="MOD/resources/scripts/harryhouseminitvremote.lua">
+							<script id_="1595112576" open_="true" name="harryhouseminitvremote" pos="14.3 1.3 -0.9" file="MOD/resources/scripts/level/privetdrive/minitvremote.lua">
 								<vox id_="1742643072" open_="true" name="minitv" tags="harryhouseminitv" pos="0.03 0.0 0.01" rot="0.0 -140.0 0.0" texture="9 0.4" density="4" strength="3" prop="true" file="MOD/resources/vox/4_privet_drive/enclosed_porch/porch_furniture.vox" object="small grey tv">
-									<screen id_="181218096" name="minitv screen" tags="harryhouseminitvscreen" pos="-0.0 0.45 0.3" rot="0.0 0.0 0.0" size="0.4, 0.3" bulge="0.025" script="MOD/resources/scripts/harryhouseminitvscreen.lua" emissive="0.5" fxraster="0.1" fxnoise="0.5"/>
+									<screen id_="181218096" name="minitv screen" tags="harryhouseminitvscreen" pos="-0.0 0.45 0.3" rot="0.0 0.0 0.0" size="0.4, 0.3" bulge="0.025" script="MOD/resources/scripts/level/privetdrive/minitvscreen.lua" emissive="0.5" fxraster="0.1" fxnoise="0.5"/>
 									<light id_="1273835392" name="speakers minitv" tags="harryhouseminitvspeaker" pos="0.0 0.4 0.3" scale="0" unshadowed="4" sound="MOD/resources/snd/harryhouseminitvRun.ogg 0.5"/>
 									<rope id_="111090304" name="cable" pos="-0.64 0.15 -0.36" rot="0.0 90.0 0.0" slack="0.7" strength="18" maxstretch="0.2">
 										<location id_="1795140608" pos="-0.13 0.01 0.33" rot="0.0 0.0 0.0"/>
