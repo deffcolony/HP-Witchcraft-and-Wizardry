@@ -1,10 +1,22 @@
-
-
 function tick()
 	if InputPressed( "interact" ) then
 		local shape = GetPlayerInteractShape()
 		if HasTag( shape, "onInteract" ) then
 			runEvent( shape, GetTagValue( shape, "onInteract" ), "onInteract" )
+		end
+	end
+	local joints_onBreak = FindJoints( "onBreak", true )
+	for i = 1, #joints_onBreak do
+		if IsJointBroken( joints_onBreak[i] ) then
+			runEvent( joints_onBreak[i], GetTagValue( joints_onBreak[i], "onBreak" ), "onBreak" )
+			RemoveTag( joints_onBreak[i], "onBreak" )
+		end
+	end
+	local shapes_onBreak = FindShapes( "onBreak", true )
+	for i = 1, #shapes_onBreak do
+		if IsShapeBroken( shapes_onBreak[i] ) then
+			runEvent( shapes_onBreak[i], GetTagValue( shapes_onBreak[i], "onBreak" ), "onBreak" )
+			RemoveTag( shapes_onBreak[i], "onBreak" )
 		end
 	end
 end
@@ -34,7 +46,7 @@ end
 
 local INIT = {}
 function init()
-	for k, v in pairs(INIT) do
+	for k, v in pairs( INIT ) do
 		v()
 	end
 end
@@ -47,27 +59,37 @@ function runCommand( caller, command, params )
 end
 
 function INIT.light()
-	local lights = FindLights("light", true)
+	local lights = FindLights( "light", true )
 	for i = 1, #lights do
-		local val = GetTagValue(lights[i], "light")
+		local val = GetTagValue( lights[i], "light" )
 		if val == "off" or val == "false" then
-			SetLightEnabled(lights[i], false)
+			SetLightEnabled( lights[i], false )
 		end
 	end
 end
 
-function COMMAND:togglelight(target)
-	local lights = FindLights(target, true)
+function COMMAND:togglelight( target )
+	local lights = FindLights( target, true )
 	for i = 1, #lights do
-		SetLightEnabled(lights[i], not IsLightActive(lights[i]))
+		if not HasTag( lights[i], "unplugged" ) and GetTagValue( lights[i], "power" ) ~= "false" then
+			SetLightEnabled( lights[i], not IsLightActive( lights[i] ) )
+		end
+	end
+end
+
+function COMMAND:unpluglight( target )
+	local lights = FindLights( target, true )
+	for i = 1, #lights do
+		SetTag( lights[i], "unplugged" )
+		SetLightEnabled( lights[i], false )
 	end
 end
 
 function INIT.sound()
 	sounds = {}
-	sounds.lightswitch = LoadSound("MOD/resources/snd/light_switch0.ogg")
+	sounds.lightswitch = LoadSound( "MOD/resources/snd/light_switch0.ogg" )
 end
 
-function COMMAND:sound(sound, volume)
-	PlaySound(sounds[sound], GetShapeWorldTransform(self.caller).pos, volume or 1)
+function COMMAND:sound( sound, volume )
+	PlaySound( sounds[sound], GetShapeWorldTransform( self.caller ).pos, volume or 1 )
 end
