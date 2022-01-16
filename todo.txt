@@ -1,7 +1,5 @@
 Gameplay:
 
-* when you grab the oven in the kitchen... you grab the whole door with another door attached to it O__O
-
 * the blender in the kitchen should have functional buttons
 
 * light switches should have a sound when you interact with it

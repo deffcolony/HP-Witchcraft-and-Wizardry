@@ -1,6 +1,6 @@
 <prefab version="0.7.4">
 	<group id_="1269968640" name="instance=MOD/resources/prefab/angila_flight_ready.xml" pos="0.0 0.4 0.0" rot="0.0 0.0 0.0">
-		<script id_="908580992" open_="true" pos="0.0 -0.1 0.0" file="MOD/resources/scripts/flying_angila.lua">
+		<script id_="908580992" open_="true" pos="0.0 -0.1 0.0" file="MOD/resources/scripts/prefab/angila_flight_ready/flying_angila.lua">
 			<vehicle id_="574130432" open_="true" tags="vehicle" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" driven="false" sound="small" spring="0.6" damping="0.8" topspeed="75" acceleration="5" strength="5" antispin="0" antiroll="0.4" steerassist="0.5">
 				<body id_="1735826944" open_="true" tags="body" pos="-0.05 0.6 -0.5" rot="0.0 0.0 0.0" dynamic="true">
 					<vox id_="1101989504" open_="true" pos="0.05 -0.3 0.5" rot="0 180 0" texture="2 0.7" density="1.5" strength="4" file="MOD/resources/vox/vehicles/anglia.vox" object="body">
