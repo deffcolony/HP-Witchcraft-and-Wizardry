@@ -24,6 +24,6 @@ function tick()
 	end
 
 	local slider_movement = GetJointMovement( slider )
-	local max_movement = math.max( 0, (-10 - hinge_movement) / 27 )
+	local max_movement = math.max( -0.5, (-35 - hinge_movement) / 10 )
 	SetJointMotor( slider, math.max( slider_movement - max_movement, 0 ) * 10, slider_movement > max_movement and 1000 or 0 )
 end
