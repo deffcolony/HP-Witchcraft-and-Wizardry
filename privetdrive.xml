@@ -8,10 +8,11 @@
 			<vertex pos="-100.0 100.0"/>
 		</boundary>
 	</group>
-	<group id_="127868544" name="Script">
+	<group id_="127868544" open_="true" name="Script">
 		<script id_="847301120" name="main" file="main.lua"/>
 		<script id_="432498464" name="sandbox" file="sandbox.lua"/>
 		<script id_="1390037888" name="fireplace" file="MOD/resources/scripts/level/privetdrive/fireplace.lua"/>
+		<script id_="773699712" file="MOD/resources/scripts/common/tags.lua"/>
 	</group>
 	<group id_="1989138944" open_="true" name="Scene">
 		<group id_="322260192" open_="true" name="Ground" pos="0.0 0.0 0.0">
@@ -178,7 +179,7 @@
 						</group>
 					</group>
 				</group>
-				<group id_="1023276032" name="Attic" pos="-20.5 0.7 -2.5">
+				<group id_="1023276032" open_="true" name="Attic" pos="-20.5 0.7 -2.5">
 					<group id_="968746752" open_="true" name="Floor / Ceiling" pos="-18.6 0.3 0.2">
 						<group id_="1640990464" open_="true" name="Ceiling" pos="38.3 6.2 0.3">
 							<voxbox id_="1299854848" name="paint" pos="-5.7 -0.0 -5.1" rot="0.0 0.0 0.0" texture="6 0.35" size="107 1 51" material="plaster" color="0.9 0.9 0.85"/>
@@ -468,8 +469,8 @@
 							</vox>
 						</voxbox>
 					</group>
-					<group id_="927915328" name="Lighting" pos="19.5 7.4 0.25">
-						<group id_="913562048" name="Cables" pos="0.2 2.2 3.3">
+					<group id_="927915328" open_="true" name="Lighting" pos="19.5 7.4 0.25">
+						<group id_="913562048" open_="true" name="Cables" pos="0.2 2.2 3.3">
 							<voxbox id_="197013248" name="metal_mounting" pos="-0.05 0.05 0.0" size="1 3 1" material="metal" color="0.4 0.4 0.4"/>
 							<voxbox id_="452225984" name="metal_mounting" pos="-0.05 -0.9 1.8" rot="0.0 0.0 0.0" size="1 1 1" material="metal" color="0.4 0.4 0.4"/>
 							<voxbox id_="551715712" name="metal_mounting" pos="-0.05 -0.9 -7.2" rot="0.0 0.0 0.0" size="1 1 1" material="metal" color="0.4 0.4 0.4"/>
@@ -498,16 +499,16 @@
 								<location id_="96343800" pos="1.05 -0.2 -0.0" rot="0.0 0.0 0.0"/>
 							</rope>
 						</group>
-						<group id_="399466304" name="Lights" pos="0.1 1.0 3.3">
-							<vox id_="1629521024" name="ceiling_light" pos="0.05 0.3 0.1" texture="2 0.7" prop="true" file="MOD/resources/vox/4_privet_drive/attic/attic_lighting.vox" object="loft_ceiling_light">
-								<light id_="391667040" name="bulb" pos="0.05 -0.1 -0.05" color="1 0.8 0.7" scale="0.8" size="0.15" reach="7"/>
+						<group id_="399466304" open_="true" name="Lights" pos="0.1 1.0 3.3">
+							<vox id_="1629521024" open_="true" name="ceiling_light" pos="0.05 0.3 0.1" texture="2 0.7" prop="true" file="MOD/resources/vox/4_privet_drive/attic/attic_lighting.vox" object="loft_ceiling_light">
+								<light id_="391667040" name="bulb" tags="light_attic light=off" pos="0.05 -0.1 -0.05" color="1 0.8 0.7" scale="0.8" size="0.15" reach="7"/>
 								<rope id_="1838200320" name="cable" pos="0.05 0.3 -0.05" rot="0.0 0.0 90.0" slack="-0.1" strength="2" maxstretch="0.6">
 									<location id_="1335705216" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
 									<location id_="470970432" pos="0.65 -0.0 0.0" rot="0.0 0.0 0.0"/>
 								</rope>
 							</vox>
-							<vox id_="583043840" name="wall_light" pos="0.05 -0.1 -4.35" rot="0.0 90.0 0.0" texture="2 0.7" prop="true" file="MOD/resources/vox/4_privet_drive/attic/attic_lighting.vox" object="loft_wall_light">
-								<light id_="1594391552" name="bulb" pos="0.3 0.0 -0.05" color="1 0.8 0.7" scale="0.65" size="0.10" reach="7"/>
+							<vox id_="583043840" open_="true" name="wall_light" pos="0.05 -0.1 -4.35" rot="0.0 90.0 0.0" texture="2 0.7" prop="true" file="MOD/resources/vox/4_privet_drive/attic/attic_lighting.vox" object="loft_wall_light">
+								<light id_="1594391552" name="bulb" tags="light_attic light=off" pos="0.3 0.0 -0.05" color="1 0.8 0.7" scale="0.65" size="0.10" reach="7"/>
 							</vox>
 							<vox id_="1318140416" name="circuit_box" pos="-0.6 -0.8 2.65" rot="0.0 90.0 0.0" texture="2 0.7" file="MOD/resources/vox/4_privet_drive/attic/attic_lighting.vox" object="circuit box">
 								<vox id_="1159599232" name="door" pos="0.39 0.0 -0.38" rot="0.0 106.0 0.0" texture="2 0.7" prop="true" file="MOD/resources/vox/4_privet_drive/attic/attic_lighting.vox" object="circuit_box_door">
@@ -525,11 +526,11 @@
 					</group>
 					<group id_="1328168064" open_="true" name="Light Switches" pos="0.0 0.0 0.0">
 						<voxbox id_="2110584576" open_="true" name="Attic_Base" pos="20.0 8.3 -0.6" rot="0.0 -90.0 0.0" texture="10 .65" size="1 2 2" material="metal" color=".8 .8 .8">
-							<voxbox id_="55709000" name="Button" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color=".5 .5 .5"/>
+							<voxbox id_="55709000" name="Button" tags="interact onInteract=togglelight(light_attic);sound(lightswitch,0.25)" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color=".5 .5 .5"/>
 						</voxbox>
 					</group>
 				</group>
-				<group id_="1247488384" name="First Floor" pos="-1.9 3.8 -2.7">
+				<group id_="1247488384" open_="true" name="First Floor" pos="-1.9 3.8 -2.7">
 					<group id_="2110519040" open_="true" name="Walls" pos="-18.6 0.3 0.2">
 						<group id_="1611104256" open_="true" name="Wallpapers">
 							<voxbox id_="1350713856" name="wallpaper" pos="21.4 0.0 -2.0" rot="0.0 -90.0 0.0" texture="9 0.5" size="81 31 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_hallway.vox" object="wallpaper"/>
@@ -816,15 +817,13 @@
 						</group>
 					</group>
 					<group id_="1324956672" open_="true" name="Rooms" pos="-14.1 0.2 0.2">
-						<group id_="429221472" name="Harry's Prison" pos="19.0 -0.2 3.3" rot="0.0 0.0 0.0">
-							<script id_="477262272" name="lights" pos="-0.9 1.9 -0.4" file="MOD/resources/scripts/common/lightswitch.lua">
-								<vox id_="587959360" open_="true" name="light" pos="0.8 1.2 0.2" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox" object="ceiling light">
-									<light id_="286278720" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="0.75" size="0.2"/>
-								</vox>
-								<voxbox id_="1467702784" open_="true" name="light switch" pos="-1.1 0.0 -0.3" rot="0.0 0.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
-									<voxbox id_="491550016" tags="lightswitch" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
-								</voxbox>
-							</script>
+						<group id_="429221472" open_="true" name="Harry's Prison" pos="19.0 -0.2 3.3" rot="0.0 0.0 0.0">
+							<vox id_="587959360" open_="true" name="light" pos="-0.1 3.1 -0.2" rot="0.0 0.0 0.0" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox" object="ceiling light">
+								<light id_="286278720" tags="light_harry light=off" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="0.75" size="0.2"/>
+							</vox>
+							<voxbox id_="1467702784" open_="true" name="light switch" pos="-2.0 1.9 -0.7" rot="0.0 0.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
+								<voxbox id_="491550016" tags="interact onInteract=togglelight(light_harry);sound(lightswitch,0.25)" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
+							</voxbox>
 							<vox id_="516258592" open_="true" name="closet" pos="-1.5 0.4 0.1" rot="0.0 90.0 0.0" texture="3 0.5" density="5" prop="true" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_closet.vox" object="full closet">
 								<vox id_="949740160" name="door" pos="-0.3 0.2 0.3" rot="0.0 0.0 0.0" texture="3 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_closet.vox" object="closet door (left)">
 									<joint id_="1040250880" name="hinge" pos="-0.2 1.5 -0.1" rot="90.0 90.0 0.0" type="hinge" rotstrength="0.002" rotspring="0" limits="0 130"/>
@@ -885,26 +884,24 @@
 							</voxagon>
 							<vox id_="1706333952" name="radiator" pos="1.55 0.15 0.15" rot="0.0 -90.0 0.0" texture="5 0.35" file="MOD/resources/vox/4_privet_drive/building/radiators.vox" object="radiator medium"/>
 						</group>
-						<group id_="943448320" name="Hallway">
-							<script id_="194915968" name="lights" pos="14.0 2.3 2.1" file="MOD/resources/scripts/common/lightswitch.lua">
-								<vox id_="463040096" name="light" pos="1.85 0.25 -2.3" texture="7 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/hallway/hallway_props.vox" object="ceiling light">
-									<light id_="1510107136" name="bulb" pos="0.05 0.0 -0.05" color="1 0.9 0.85" scale="0.75" size="0.25" reach="8"/>
-									<rope id_="292177312" pos="0.05 0.4 0.0" rot="0.0 0.0 90.0" color="0.7 0.5 0.1" strength="15" maxstretch="0.7">
-										<location id_="2120219008" pos="0.0 0.0 -0.05" rot="0.0 0.0 0.0"/>
-										<location id_="1197415808" pos="0.25 -0.0 -0.05" rot="0.0 0.0 0.0"/>
-									</rope>
-								</vox>
-								<vox id_="1116080640" name="light" pos="-1.9 0.25 2.5" texture="7 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/hallway/hallway_props.vox" object="ceiling light">
-									<light id_="1199840768" name="bulb" pos="0.05 0.0 -0.05" color="1 0.9 0.85" scale="0.75" size="0.25" reach="6"/>
-									<rope id_="694920640" pos="0.05 0.4 0.0" rot="0.0 0.0 90.0" color="0.7 0.5 0.1" strength="15" maxstretch="0.7">
-										<location id_="1656851200" pos="0.0 0.0 -0.05" rot="0.0 0.0 0.0"/>
-										<location id_="1149637120" pos="0.25 -0.0 -0.05" rot="0.0 0.0 0.0"/>
-									</rope>
-								</vox>
-								<voxbox id_="1404325632" open_="true" name="light switch" pos="0.9 -0.6 1.3" rot="0.0 0.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
-									<voxbox id_="1362183424" tags="lightswitch" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
-								</voxbox>
-							</script>
+						<group id_="943448320" open_="true" name="Hallway">
+							<vox id_="463040096" open_="true" name="light" pos="15.85 2.55 -0.2" rot="0.0 0.0 0.0" texture="7 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/hallway/hallway_props.vox" object="ceiling light">
+								<light id_="1510107136" name="bulb" tags="light_hallway light=off" pos="0.05 0.0 -0.05" color="1 0.9 0.85" scale="0.75" size="0.25" reach="8"/>
+								<rope id_="292177312" pos="0.05 0.4 0.0" rot="0.0 0.0 90.0" color="0.7 0.5 0.1" strength="15" maxstretch="0.7">
+									<location id_="2120219008" pos="0.0 0.0 -0.05" rot="0.0 0.0 0.0"/>
+									<location id_="1197415808" pos="0.25 -0.0 -0.05" rot="0.0 0.0 0.0"/>
+								</rope>
+							</vox>
+							<vox id_="1116080640" open_="true" name="light" pos="12.1 2.55 4.6" rot="0.0 0.0 0.0" texture="7 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/hallway/hallway_props.vox" object="ceiling light">
+								<light id_="1199840768" name="bulb" tags="light_hallway light=off" pos="0.05 0.0 -0.05" color="1 0.9 0.85" scale="0.75" size="0.25" reach="6"/>
+								<rope id_="694920640" pos="0.05 0.4 0.0" rot="0.0 0.0 90.0" color="0.7 0.5 0.1" strength="15" maxstretch="0.7">
+									<location id_="1656851200" pos="0.0 0.0 -0.05" rot="0.0 0.0 0.0"/>
+									<location id_="1149637120" pos="0.25 -0.0 -0.05" rot="0.0 0.0 0.0"/>
+								</rope>
+							</vox>
+							<voxbox id_="1404325632" open_="true" name="light switch" pos="14.9 1.7 3.4" rot="0.0 0.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
+								<voxbox id_="1362183424" tags="interact onInteract=togglelight(light_hallway);sound(lightswitch,0.25)" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
+							</voxbox>
 							<group id_="1814868096" name="Wall Cupboard">
 								<vox id_="1268723328" pos="15.9 0.2 -1.6" texture="5 0.4" file="MOD/resources/vox/4_privet_drive/hallway/hallway_end_cupboard.vox" object="main body">
 									<vox id_="101783616" name="door" pos="-0.4 0.2 0.4" texture="5 0.3" prop="true" file="MOD/resources/vox/4_privet_drive/hallway/hallway_end_cupboard.vox" object="big door left">
@@ -942,24 +939,22 @@
 							<vox id_="1226318976" name="picture" pos="15.1 1.4 1.25" rot="0.0 90.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/hallway/hallway_picture_frames.vox" object="small golden frame 4"/>
 							<vox id_="1835120" name="picture" pos="15.95 1.2 5.9" rot="0.0 90.0 0.0" texture="3 0.40" file="MOD/resources/vox/4_privet_drive/hallway/hallway_props.vox" object="curtain"/>
 						</group>
-						<group id_="537755712" name="Bathroom" pos="12.2 -0.3 2.3">
-							<script id_="812761536" name="lights" pos="-0.2 0.2 -0.3" rot="0.0 0.0 0.0" file="MOD/resources/scripts/common/lightswitch.lua">
-								<vox id_="1560966144" name="light" pos="0.55 2.3 1.3" rot="0.0 0.0 0.0" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/bathroom/bathroom_fixtures.vox" object="bathroom light">
-									<voxbox id_="965207552" open_="true" name="cupboard light" pos="-0.4 0.0 -0.1" rot="0.0 90.0 0.0" size="1 1 9" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
-										<light id_="883479168" pos="0.05 0.0 0.45" rot="60.0 90.0 0.0" type="area" color="1 0.8 0.7" scale="0.7" size="0.9 0.1" reach="3"/>
-									</voxbox>
-								</vox>
-								<voxbox id_="724020352" name="lightbulb" pos="-0.1 2.45 0.0" rot="0.0 0.0 0.0" prop="true" size="1 2 1" material="glass" color="1 .8 .6" pbr="0 0 0 1">
-									<rope id_="49810400" name="rope" pos="0.05 0.2 0.05" strength="1.5" maxstretch="0.3">
-										<location id_="818266880" name="a" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-										<location id_="303056960" name="b" pos="0.0 0.6 0.0" rot="0.0 0.0 0.0"/>
-									</rope>
-									<light id_="1322072832" pos="0.05 0.1 0.05" color="1 0.8 0.7" scale="0.8"/>
+						<group id_="537755712" open_="true" name="Bathroom" pos="12.2 -0.3 2.3">
+							<vox id_="1560966144" open_="true" name="light" pos="0.35 2.5 1.0" rot="0.0 0.0 0.0" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/bathroom/bathroom_fixtures.vox" object="bathroom light">
+								<voxbox id_="965207552" open_="true" name="cupboard light" pos="-0.4 0.0 -0.1" rot="0.0 90.0 0.0" size="1 1 9" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
+									<light id_="883479168" tags="light_bathroom light=off" pos="0.05 0.0 0.45" rot="60.0 90.0 0.0" type="area" color="1 0.8 0.7" scale="0.7" size="0.9 0.1" reach="3"/>
 								</voxbox>
-								<voxbox id_="1420710528" name="light switch" pos="2.8 1.8 0.1" rot="0.0 180.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
-									<voxbox id_="889115648" tags="lightswitch" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
-								</voxbox>
-							</script>
+							</vox>
+							<voxbox id_="724020352" open_="true" name="lightbulb" pos="-0.3 2.65 -0.3" rot="0.0 0.0 0.0" prop="true" size="1 2 1" material="glass" color="1 .8 .6" pbr="0 0 0 1">
+								<rope id_="49810400" name="rope" pos="0.05 0.2 0.05" strength="1.5" maxstretch="0.3">
+									<location id_="818266880" name="a" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+									<location id_="303056960" name="b" pos="0.0 0.6 0.0" rot="0.0 0.0 0.0"/>
+								</rope>
+								<light id_="1322072832" tags="light_bathroom light=off" pos="0.05 0.1 0.05" color="1 0.8 0.7" scale="0.8"/>
+							</voxbox>
+							<voxbox id_="1420710528" open_="true" name="light switch" pos="2.6 2.0 -0.2" rot="0.0 -180.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
+								<voxbox id_="889115648" tags="interact onInteract=togglelight(light_bathroom);sound(lightswitch,0.25)" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
+							</voxbox>
 							<group id_="711961024" name="Main Objects" pos="-0.2 0.2 -0.3">
 								<vox id_="552305600" name="radiator" pos="2.55 0.05 -0.55" rot="0.0 -90.0 0.0" texture="5 0.35" file="MOD/resources/vox/4_privet_drive/building/radiators.vox" object="radiator medium"/>
 								<vox id_="270549120" name="fixture" pos="-1.7 0.2 0.05" rot="0.0 -90.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/bathroom/bathroom_fixtures.vox" object="bathtub"/>
@@ -1005,19 +1000,17 @@
 								<voxbox id_="1975179008" name="decor" pos="0.7 2.4 1.05" rot="0.0 -90.0 -90.0" size="6 1 6" material="wood" color="1 1 1" pbr="1 0.95"/>
 							</group>
 						</group>
-						<group id_="604409856" name="Parent's Bedroom" pos="12.9 1.8 -1.5">
-							<script id_="2024923904" name="lights" pos="-0.3 -1.6 -0.6" file="MOD/resources/scripts/common/lightswitch.lua">
-								<vox id_="1978849280" name="floor_lamp" pos="0.75 0.0 2.2" rot="0.0 -110.0 0.0" texture="3 0.5" density="4" strength="2" prop="true" file="MOD/resources/vox/4_privet_drive/parents_bedroom/lamps.vox" object="floor lamp"/>
-								<vox id_="348738336" name="wall_light" pos="0.35 1.75 -2.3" rot="0.0 0.0 0.0" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/parents_bedroom/lamps.vox" object="wall lamp"/>
-								<vox id_="1141248000" name="wall_light" pos="-0.95 1.75 -2.3" rot="0.0 0.0 0.0" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/parents_bedroom/lamps.vox" object="wall lamp"/>
-								<vox id_="1577154560" open_="true" name="light-set" pos="-0.4 2.8 0.2" rot="0.0 0.0 0.0" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/parents_bedroom/lamps.vox" object="ceiling lamp">
-									<light id_="1523084032" name="bulb" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="1.2" size="0.2"/>
-								</vox>
-								<voxbox id_="399400768" open_="true" name="light switch" pos="2.2 1.5 1.1" rot="0.0 180.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
-									<voxbox id_="366040896" tags="lightswitch" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
-								</voxbox>
-							</script>
-							<group id_="1920125440" name="Furniture" pos="-1.1 -1.7 -0.6">
+						<group id_="604409856" open_="true" name="Parent's Bedroom" pos="12.9 1.8 -1.5">
+							<vox id_="1978849280" name="floor_lamp" pos="0.45 -1.6 1.6" rot="0.0 -110.0 0.0" texture="3 0.5" density="4" strength="2" prop="true" file="MOD/resources/vox/4_privet_drive/parents_bedroom/lamps.vox" object="floor lamp"/>
+							<vox id_="348738336" name="wall_light" pos="0.05 0.15 -2.9" rot="0.0 0.0 0.0" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/parents_bedroom/lamps.vox" object="wall lamp"/>
+							<vox id_="1141248000" name="wall_light" pos="-1.25 0.15 -2.9" rot="0.0 0.0 0.0" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/parents_bedroom/lamps.vox" object="wall lamp"/>
+							<vox id_="1577154560" open_="true" name="light-set" pos="-0.7 1.2 -0.4" rot="0.0 0.0 0.0" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/parents_bedroom/lamps.vox" object="ceiling lamp">
+								<light id_="1523084032" name="bulb" tags="light_parents light=off" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="1.2" size="0.2"/>
+							</vox>
+							<voxbox id_="399400768" open_="true" name="light switch" pos="1.9 -0.1 0.5" rot="0.0 -180.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
+								<voxbox id_="366040896" tags="interact onInteract=togglelight(light_parents);sound(lightswitch,0.25)" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
+							</voxbox>
+							<group id_="1920125440" open_="true" name="Furniture" pos="-1.1 -1.7 -0.6">
 								<vox id_="557024448" name="double_bed" pos="0.5 0.1 -1.35" rot="0.0 -90.0 0.0" texture="3 0.5" density="4" strength="2.5" prop="true" file="MOD/resources/vox/4_privet_drive/parents_bedroom/furniture.vox" object="double bed"/>
 								<vox id_="1218847360" name="desk" pos="-1.6 0.1 0.0" rot="0.0 90.0 0.0" texture="3 0.5" density="8" strength="2.5" prop="true" file="MOD/resources/vox/4_privet_drive/parents_bedroom/furniture.vox" object="desk body">
 									<vox id_="1577220096" name="drawer" pos="0.4 0.3 0.1" texture="3 0.5" density=".3" prop="true" file="MOD/resources/vox/4_privet_drive/parents_bedroom/furniture.vox" object="desk drawer big">
@@ -1053,7 +1046,7 @@
 										<joint id_="263470800" name="prismatic" pos="0.0 0.1 -0.3" rot="0.0 -360.0 90.0" type="prismatic" size="0.15" rotstrength="0.001" rotspring="0" limits="0 .5"/>
 									</vox>
 								</vox>
-								<vox id_="2070343040" name="furniture" pos="0.1 0.1 -2.0" rot="0.0 0.0 0.0" texture="10 0.3" density="4" strength="2.5" file="MOD/resources/vox/4_privet_drive/parents_bedroom/big_shelf.vox" object="main_body">
+								<vox id_="2070343040" open_="true" name="furniture" pos="0.1 0.1 -2.0" rot="0.0 0.0 0.0" texture="10 0.3" density="4" strength="2.5" file="MOD/resources/vox/4_privet_drive/parents_bedroom/big_shelf.vox" object="main_body">
 									<vox id_="1525377920" name="door" pos="-1.9 0.05 0.4" texture="10 0.3" density="4" strength="2.5" prop="true" file="MOD/resources/vox/4_privet_drive/parents_bedroom/big_shelf.vox" object="big door 01">
 										<joint id_="730443328" name="hinge" pos="-0.15 1.7 -0.05" rot="90.0 90.0 0.0" type="hinge" size="0.15" rotstrength="0.002" rotspring="0" limits="0 150"/>
 										<joint id_="907925632" name="hinge" pos="-0.15 0.35 -0.05" rot="90.0 90.0 0.0" type="hinge" size="0.15" rotstrength="0.002" rotspring="0" limits="0 150"/>
@@ -1092,7 +1085,7 @@
 								<vox id_="1786292736" name="furniture" pos="0.55 1.65 -2.3" rot="5.0 0.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_picture_frames.vox" object="small golden frame 2"/>
 								<vox id_="1744281600" name="radiator" pos="2.75 -0.15 -2.65" rot="0.0 0.0 0.0" texture="5 0.35" file="MOD/resources/vox/4_privet_drive/building/radiators.vox" object="radiator small"/>
 							</group>
-							<group id_="1775806336" name="Decoration" pos="-3.0 -1.5 -0.5">
+							<group id_="1775806336" open_="true" name="Decoration" pos="-3.0 -1.5 -0.5">
 								<vox id_="617321280" name="window_curtains" pos="0.0 0.0 0.0" rot="0.0 90.0 0.0" texture="9 0.5" file="MOD/resources/vox/4_privet_drive/building/curtains.vox" object="window curtains v2"/>
 								<vox id_="171059392" name="mirror" pos="0.22 0.8 -0.17" rot="0.0 70.0 0.0" texture="9 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/parents_bedroom/decoration.vox" object="desk mirror">
 									<voxbox id_="933682816" name="mirror" pos="-0.05 0.25 -0.09" size="2 5 1" brush="MOD/resources/vox/4_privet_drive/building/wallpaper_staircase.vox" object="wallpaper" material="glass" color="1 1 1" pbr="1 0.95 0 0"/>
@@ -1114,16 +1107,14 @@
 							</group>
 						</group>
 						<group id_="1435194880" open_="true" name="Dudley's Lair">
-							<script id_="950067840" name="lights" pos="17.2 1.0 -3.0" file="MOD/resources/scripts/common/lightswitch.lua">
-								<vox id_="1902101888" open_="true" name="light" pos="1.2 1.9 0.7" rot="0.0 0.0 0.0" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox" object="ceiling light">
-									<light id_="873189440" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="1.2" size="0.2"/>
-								</vox>
-								<vox id_="902813504" name="desk_lamp" pos="-1.2532 0.0 -0.60656" rot="0.0 103.0 0.0" texture="9 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_dresser.vox" object="dresser lamp"/>
-								<voxbox id_="1942081280" open_="true" name="light switch" pos="-0.2 0.7 3.3" rot="0.0 0.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
-									<voxbox id_="1207181312" tags="lightswitch" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
-								</voxbox>
-							</script>
-							<group id_="489714880" name="Furniture" pos="17.8 -0.1 -1.7">
+							<vox id_="1902101888" open_="true" name="light" pos="18.4 2.9 -2.3" rot="0.0 0.0 0.0" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox" object="ceiling light">
+								<light id_="873189440" tags="light_dudley light=off" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="1.2" size="0.2"/>
+							</vox>
+							<vox id_="902813504" name="desk_lamp" pos="15.9468 1.0 -3.60656" rot="0.0 103.0 0.0" texture="9 0.5" prop="true" file="MOD/resources/vox/4_privet_drive/harrys_room/harry_dresser.vox" object="dresser lamp"/>
+							<voxbox id_="1942081280" open_="true" name="light switch" pos="17.0 1.7 0.3" rot="0.0 0.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
+								<voxbox id_="1207181312" tags="interact onInteract=togglelight(light_dudley);sound(lightswitch,0.25)" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
+							</voxbox>
+							<group id_="489714880" open_="true" name="Furniture" pos="17.8 -0.1 -1.7">
 								<vox id_="9110060" name="closet" pos="-0.4 0.3 0.05" rot="0.0 90.0 0.0" texture="3 0.5" density="7" prop="true" file="MOD/resources/vox/4_privet_drive/dudleys_bedroom/dudley_closet.vox" object="closet body">
 									<vox id_="829474240" name="closet drawer" pos="0.0 0.1 0.15" rot="0.0 0.0 0.0" texture="3 0.5" density="1" prop="true" file="MOD/resources/vox/4_privet_drive/dudleys_bedroom/dudley_closet.vox" object="closet drawer">
 										<joint id_="358831488" name="prismatic" pos="0.0 0.1 -0.3" rot="0.0 -360.0 90.0" type="prismatic" size="0.15" rotstrength="0.001" rotspring="0" limits="0 .4"/>
@@ -1212,7 +1203,7 @@
 							</group>
 						</group>
 					</group>
-					<group id_="540967168" name="Doors" pos="-0.5 -0.3 0.0">
+					<group id_="540967168" open_="true" name="Doors" pos="-0.5 -0.3 0.0">
 						<voxbox id_="2129918976" name="interior door" pos="3.6 0.7 2.7" rot="0.0 -180.0 0.0" size="5 22 11" brush="hole">
 							<vox id_="1462656128" name="door frame" pos="0.3 0.0 0.6" rot="0.0 90.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="white door frame"/>
 							<vox id_="1805430400" name="door" pos="0.2 0.025 0.6" rot="0.0 90.0 0.0" texture="3 0.35" prop="true" file="MOD/resources/vox/4_privet_drive/building/wooden_doors.vox" object="white interior door">
@@ -1519,26 +1510,24 @@
 								<vox id_="795131264" name="furniture" pos="-0.16 0.62 0.08" rot="-15.4 29.1 -0.9" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_armchair_and_sofa.vox" object="pillow green"/>
 							</vox>
 							<vox id_="587893824" name="furniture" pos="2.2 1.0 -2.4" rot="0.0 160.0 0.0" texture="3 0.75" strength="0.1" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_lamps.vox" object="desk lamp"/>
-							<script id_="455568544" open_="true" name="lights" pos="2.4 2.1 0.1" file="MOD/resources/scripts/common/lightswitch.lua">
-								<vox id_="722775104" open_="true" name="wall lamp" pos="-4.8 0.1 -2.2" rot="0.0 0.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/living_room/livingr_lamps.vox" object="wall lamp">
-									<light id_="948757056" name="light" pos="0.15 0.2 0.0" color="1 0.7 0.5" scale="0.4" size="0.3"/>
-								</vox>
-								<vox id_="937156480" open_="true" name="wall lamp" pos="4.9 0.1 -2.2" rot="0.0 -180.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/living_room/livingr_lamps.vox" object="wall lamp">
-									<light id_="1442207744" name="light" pos="0.15 0.2 0.0" color="1 0.7 0.5" scale="0.4" size="0.3"/>
-								</vox>
-								<vox id_="603164608" open_="true" name="wall lamp" pos="-4.8 0.1 2.2" rot="0.0 0.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/living_room/livingr_lamps.vox" object="wall lamp">
-									<light id_="2082271360" name="light" pos="0.15 0.2 0.0" color="1 0.7 0.5" scale="0.4" size="0.3"/>
-								</vox>
-								<vox id_="1083048448" open_="true" name="wall lamp" pos="4.9 0.1 2.2" rot="0.0 180.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/living_room/livingr_lamps.vox" object="wall lamp">
-									<light id_="1084752512" name="light" pos="0.15 0.2 0.0" color="1 0.7 0.5" scale="0.4" size="0.3"/>
-								</vox>
-								<vox id_="1228088576" open_="true" name="tall lamp" pos="-3.0 -2.0 -1.9" rot="0.0 90.0 0.0" texture="3 0.75" strength="0.5" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_lamps.vox" object="floor lamp">
-									<light id_="230307552" name="light" pos="0.0 1.9 0.0" color="1 0.8 0.6" scale="1" size="0.35"/>
-								</vox>
-								<voxbox id_="98441080" open_="true" name="light switch" pos="0.0 -0.5 3.1" rot="0.0 90.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
-									<voxbox id_="771536896" name="Button" tags="lightswitch" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
-								</voxbox>
-							</script>
+							<voxbox id_="98441080" open_="true" name="light switch" pos="2.4 1.6 3.2" rot="0.0 90.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
+								<voxbox id_="771536896" name="Button" tags="interact onInteract=togglelight(light_livingroom);sound(lightswitch,0.25)" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
+							</voxbox>
+							<vox id_="1228088576" open_="true" name="tall lamp" pos="-0.6 0.1 -1.8" rot="0.0 90.0 0.0" texture="3 0.75" strength="0.5" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_lamps.vox" object="floor lamp">
+								<light id_="230307552" name="light" tags="light_livingroom light=off" pos="0.0 1.9 0.0" color="1 0.8 0.6" scale="1" size="0.35"/>
+							</vox>
+							<vox id_="1083048448" open_="true" name="wall lamp" pos="7.3 2.2 2.3" rot="0.0 -180.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/living_room/livingr_lamps.vox" object="wall lamp">
+								<light id_="1084752512" name="light" tags="light_livingroom light=off" pos="0.15 0.2 0.0" color="1 0.7 0.5" scale="0.4" size="0.3"/>
+							</vox>
+							<vox id_="603164608" open_="true" name="wall lamp" pos="-2.4 2.2 2.3" rot="0.0 0.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/living_room/livingr_lamps.vox" object="wall lamp">
+								<light id_="2082271360" name="light" tags="light_livingroom light=off" pos="0.15 0.2 0.0" color="1 0.7 0.5" scale="0.4" size="0.3"/>
+							</vox>
+							<vox id_="937156480" open_="true" name="wall lamp" pos="7.3 2.2 -2.1" rot="0.0 180.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/living_room/livingr_lamps.vox" object="wall lamp">
+								<light id_="1442207744" name="light" tags="light_livingroom light=off" pos="0.15 0.2 0.0" color="1 0.7 0.5" scale="0.4" size="0.3"/>
+							</vox>
+							<vox id_="722775104" open_="true" name="wall lamp" pos="-2.4 2.2 -2.1" rot="0.0 0.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/living_room/livingr_lamps.vox" object="wall lamp">
+								<light id_="948757056" name="light" tags="light_livingroom light=off" pos="0.15 0.2 0.0" color="1 0.7 0.5" scale="0.4" size="0.3"/>
+							</vox>
 							<vox id_="1596750976" name="furniture" pos="-1.9 0.1 2.5" rot="0.0 135.0 0.0" texture="3 0.75" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_mahogany_furniture.vox" object="tv stand"/>
 							<vox id_="903075648" open_="true" name="TV black" tags="harryhousetv" pos="-1.85 0.8 2.45" rot="0.0 132.5 0.0" texture="9 0.4" density="6" strength="5" prop="true" file="MOD/resources/vox/4_privet_drive/living_room/livingr_television.vox" object="television">
 								<screen id_="1373194112" name="TV screen" tags="tv interact" pos="0.05 0.35 0.2" size="0.7 0.5" bulge="0.1" script="MOD/resources/scripts/tv.lua" emissive="0.5" fxraster="0.1" fxca="0.5"/>
@@ -1691,35 +1680,33 @@
 									<vox id_="1899545856" name="door / drawer" pos="-0.05 -0.25 -0.3" rot="90.0 0.0 0.0" texture="10 0.6" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_corner.vox" object="door 01"/>
 								</joint>
 							</vox>
-							<script id_="114039600" open_="true" pos="22.6 1.8 3.7" file="MOD/resources/scripts/common/lightswitch.lua">
-								<voxbox id_="1607368448" name="light switch" pos="1.6 0.1 2.4" rot="0.0 90.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
-									<voxbox id_="78779080" name="Button" tags="lightswitch" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
-								</voxbox>
-								<voxbox id_="74650064" name="light swtich" pos="-2.7 0.1 -2.2" rot="0.0 0.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
-									<voxbox id_="1691849600" name="Button" tags="lightswitch" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
-								</voxbox>
-								<vox id_="155591968" name="ceiling light" pos="-0.3 1.3 -0.3" rot="0.0 0.0 0.0" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox" object="ceiling light">
-									<light id_="1973147264" name="bulb" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="1" size="0.2"/>
-								</vox>
-								<voxbox id_="777369920" name="cupboard light" pos="-2.6 0.1 0.5" rot="0.0 0.0 0.0" size="1 1 13" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
-									<light id_="757118080" pos="0.05 0.0 0.65" rot="60.0 90.0 0.0" type="area" color="1 0.7 0.5" scale="0.7" size="1.3 0.1" reach="1.5" fogscale="0"/>
-								</voxbox>
-								<voxbox id_="1082982912" name="cupboard light" pos="-2.0 0.1 2.3" rot="0.0 90.0 0.0" size="1 1 11" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
-									<light id_="1788521088" pos="0.05 0.0 0.53" rot="60.0 90.0 0.0" type="area" color="1 0.7 0.5" scale="0.7" size="1.2 0.1" reach="1.5" fogscale="0"/>
-								</voxbox>
-								<voxbox id_="25757220" name="cupboard light" pos="2.6 0.1 2.2" rot="0.0 -180.0 0.0" size="1 1 11" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
-									<light id_="1622114944" pos="0.05 0.0 0.55" rot="60.0 90.0 0.0" type="area" color="1 0.7 0.5" scale="0.7" size="1.1 0.1" reach="1.5" fogscale="0"/>
-								</voxbox>
-								<voxbox id_="2082140288" name="cupboard light" pos="2.6 0.1 -1.3" rot="0.0 180.0 0.0" size="1 1 10" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
-									<light id_="1000205952" pos="0.05 0.0 0.5" rot="60.0 90.0 0.0" type="area" color="1 0.7 0.5" scale="0.7" size="1.0 0.1" reach="1.5" fogscale="0"/>
-								</voxbox>
-								<voxbox id_="1442273280" name="cupboard light" pos="-2.6 0.1 -0.6" rot="0.0 0.0 0.0" size="1 1 3" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
-									<light id_="1126763648" pos="0.05 0.0 0.15" rot="60.0 90.0 0.0" type="area" color="1 0.7 0.5" scale="0.3" size="0.3 0.1" reach="1.5" fogscale="0"/>
-								</voxbox>
-								<voxbox id_="2088038912" name="cupboard light" pos="-2.6 0.5 -0.1" rot="0.0 0.0 0.0" size="1 1 4" material="glass" color="1 0.9 0.8" pbr="0 0 0 2">
-									<light id_="2145976192" pos="0.05 0.0 0.2" rot="60.0 90.0 0.0" type="area" color="1 0.85 0.8" scale="0.3" size="0.4 0.1" reach="1.5"/>
-								</voxbox>
-							</script>
+							<voxbox id_="1607368448" name="light switch" pos="24.2 1.9 6.1" rot="0.0 90.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
+								<voxbox id_="78779080" name="Button" tags="interact onInteract=togglelight(light_kitchen);sound(lightswitch,0.25)" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
+							</voxbox>
+							<voxbox id_="74650064" name="light swtich" pos="19.9 1.9 1.5" rot="0.0 0.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
+								<voxbox id_="1691849600" name="Button" tags="interact onInteract=togglelight(light_kitchen);sound(lightswitch,0.25)" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
+							</voxbox>
+							<vox id_="155591968" name="ceiling light" pos="22.3 3.1 3.4" rot="0.0 0.0 0.0" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox" object="ceiling light">
+								<light id_="1973147264" name="bulb" tags="light_kitchen light=off" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="1" size="0.2"/>
+							</vox>
+							<voxbox id_="777369920" name="cupboard light" pos="20.0 1.9 4.2" rot="0.0 0.0 0.0" size="1 1 13" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
+								<light id_="757118080" tags="light_kitchen light=off" pos="0.05 0.0 0.65" rot="60.0 90.0 0.0" type="area" color="1 0.7 0.5" scale="0.7" size="1.3 0.1" reach="1.5" fogscale="0"/>
+							</voxbox>
+							<voxbox id_="1082982912" name="cupboard light" tags="light_kitchen light=off" pos="20.6 1.9 6.0" rot="0.0 90.0 0.0" size="1 1 11" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
+								<light id_="1788521088" tags="light_kitchen light=off" pos="0.05 0.0 0.53" rot="60.0 90.0 0.0" type="area" color="1 0.7 0.5" scale="0.7" size="1.2 0.1" reach="1.5" fogscale="0"/>
+							</voxbox>
+							<voxbox id_="25757220" name="cupboard light" tags="light_kitchen light=off" pos="25.2 1.9 5.9" rot="0.0 180.0 0.0" size="1 1 11" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
+								<light id_="1622114944" tags="light_kitchen light=off" pos="0.05 0.0 0.55" rot="60.0 90.0 0.0" type="area" color="1 0.7 0.5" scale="0.7" size="1.1 0.1" reach="1.5" fogscale="0"/>
+							</voxbox>
+							<voxbox id_="2082140288" name="cupboard light" tags="light_kitchen light=off" pos="25.2 1.9 2.4" rot="0.0 -180.0 0.0" size="1 1 10" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
+								<light id_="1000205952" tags="light_kitchen light=off" pos="0.05 0.0 0.5" rot="60.0 90.0 0.0" type="area" color="1 0.7 0.5" scale="0.7" size="1.0 0.1" reach="1.5" fogscale="0"/>
+							</voxbox>
+							<voxbox id_="1442273280" name="cupboard light" tags="light_kitchen light=off" pos="20.0 1.9 3.1" rot="0.0 0.0 0.0" size="1 1 3" material="glass" color="1 0.8 0.6" pbr="0 0 0 2">
+								<light id_="1126763648" tags="light_kitchen light=off" pos="0.05 0.0 0.15" rot="60.0 90.0 0.0" type="area" color="1 0.7 0.5" scale="0.3" size="0.3 0.1" reach="1.5" fogscale="0"/>
+							</voxbox>
+							<voxbox id_="2088038912" name="cupboard light" tags="light_kitchen light=off" pos="20.0 2.3 3.6" rot="0.0 0.0 0.0" size="1 1 4" material="glass" color="1 0.9 0.8" pbr="0 0 0 2">
+								<light id_="2145976192" tags="light_kitchen light=off" pos="0.05 0.0 0.2" rot="60.0 90.0 0.0" type="area" color="1 0.85 0.8" scale="0.3" size="0.4 0.1" reach="1.5"/>
+							</voxbox>
 							<group id_="185543744" name="Small Props" pos="22.1 1.4 3.0">
 								<vox id_="1492214784" name="prop" pos="2.0 0.0 -1.7" rot="0.0 -100.0 0.0" strength="0.03" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="fruit bowl"/>
 								<vox id_="976283840" name="prop" pos="2.84 0.0 -1.2" rot="0.0 -100.0 0.0" texture="10 0.5" strength="0.05" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="glass pot small (bottom)">
@@ -1798,7 +1785,7 @@
 								<vox id_="1188371328" name="prop" pos="-0.96 -0.69 2.66" rot="-26.3 -26.7 -78.8" texture="5 0.5" strength="0.1" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="dishes medium"/>
 							</group>
 						</group>
-						<group id_="1774298880" name="Dining Area" pos="22.3 1.3 -1.4">
+						<group id_="1774298880" open_="true" name="Dining Area" pos="22.3 1.3 -1.4">
 							<vox id_="63508260" name="table" pos="-0.6 -0.9 -0.4" rot="0.0 90.0 0.0" texture="3 0.75" density="5" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_table_with_chairs.vox" object="dining table">
 								<vox id_="253312096" name="prop" pos="-0.03 0.91 -0.43" rot="0.0 -15.0 0.0" texture="5 0.5" strength="0.1" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="dishes medium"/>
 								<vox id_="2067590400" name="prop" pos="-0.03 0.91 0.47" rot="0.0 10.0 0.0" texture="5 0.5" strength="0.1" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/small_kitchen_props.vox" object="dishes medium"/>
@@ -1811,18 +1798,16 @@
 							</vox>
 							<vox id_="332025632" name="chair" pos="-1.4 -0.9 -0.4" rot="0.0 90.0 0.0" texture="3 0.75" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_table_with_chairs.vox" object="dining chair"/>
 							<vox id_="1813426304" name="dudley altar" pos="-2.26 -0.9 2.17" rot="0.0 180.0 0.0" texture="3 0.75" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_furniture_static.vox" object="dudley altar"/>
-							<script id_="1927596928" pos="-0.6 1.2 -0.4" file="MOD/resources/scripts/common/lightswitch.lua">
-								<vox id_="1349337472" open_="true" name="chandelier" pos="0.05 0.0 0.0" rot="0.0 180.0 0.0" texture="3 0.75" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_furniture_static.vox" object="chandelier">
-									<rope id_="1719179776" pos="0.05 0.7 0.0" rot="0.0 0.0 90.0" color="0.7 0.6 0.3" strength="15" maxstretch="1">
-										<location id_="325471648" pos="0.0 0.0 -0.05" rot="0.0 0.0 0.0"/>
-										<location id_="1466588544" pos="0.2 -0.0 -0.05" rot="0.0 0.0 0.0"/>
-									</rope>
-									<light id_="2035541376" name="light" pos="0.05 0.2 -0.05" color="1 0.8 0.6" scale="1" size="0.2"/>
-								</vox>
-								<voxbox id_="1459117056" open_="true" name="light switch" pos="2.8 -0.6 2.6" rot="0.0 180.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
-									<voxbox id_="1181424000" name="Button" tags="lightswitch" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
-								</voxbox>
-							</script>
+							<vox id_="1349337472" open_="true" name="chandelier" pos="-0.55 1.2 -0.4" rot="0.0 -180.0 0.0" texture="3 0.75" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_furniture_static.vox" object="chandelier">
+								<rope id_="1719179776" pos="0.05 0.7 0.0" rot="0.0 0.0 90.0" color="0.7 0.6 0.3" strength="15" maxstretch="1">
+									<location id_="325471648" pos="0.0 0.0 -0.05" rot="0.0 0.0 0.0"/>
+									<location id_="1466588544" pos="0.2 -0.0 -0.05" rot="0.0 0.0 0.0"/>
+								</rope>
+								<light id_="2035541376" name="light" tags="light_dining light=off" pos="0.05 0.2 -0.05" color="1 0.8 0.6" scale="1" size="0.2"/>
+							</vox>
+							<voxbox id_="1459117056" open_="true" name="light switch" pos="2.2 0.6 2.2" rot="0.0 -180.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
+								<voxbox id_="1181424000" name="Button" tags="interact onInteract=togglelight(light_dining);sound(lightswitch,0.25)" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
+							</voxbox>
 							<vox id_="1149309440" name="chair" pos="-2.15 -0.9 -3.07" rot="0.0 0.0 0.0" texture="3 0.75" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_table_with_chairs.vox" object="dining chair"/>
 							<vox id_="715893440" name="dining_wheel_thing" pos="1.2 -0.9 -2.67" rot="0.0 -60.0 0.0" texture="3 0.75" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_furniture_static.vox" object="dining wheel thing">
 								<vox id_="1430017280" name="dining_wheel_thing" pos="-0.0 0.5 0.4" rot="0" texture="3 0.75" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/dining_area/dining_furniture_static.vox" object="wheel thing flap">
@@ -1904,9 +1889,9 @@
 							<vox id_="1557623680" name="picture" pos="0.05 3.05 1.7" rot="0.0 -180.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/living_room/livingr_picture_frames.vox" object="small silver frame 1"/>
 							<vox id_="2006113920" name="picture" pos="1.65 3.85 1.7" rot="0.0 -180.0 0.0" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/living_room/livingr_picture_frames.vox" object="small wooden frame 2"/>
 						</group>
-						<group id_="34605120" name="Garage">
+						<group id_="34605120" open_="true" name="Garage">
 							<group id_="605261888" open_="true" name="Lights" pos="17.6 2.6 7.7">
-								<voxbox id_="703834048" name="lightbulb" pos="0.8 0.05 1.45" rot="0.0 0.0 0.0" prop="true" size="1 2 1" material="glass" color="1 .8 .6" pbr="0 0 0 1">
+								<voxbox id_="703834048" open_="true" name="lightbulb" pos="0.8 0.05 1.45" rot="0.0 0.0 0.0" prop="true" size="1 2 1" material="glass" color="1 .8 .6" pbr="0 0 0 1">
 									<rope id_="810271040" name="rope" pos="0.05 0.2 0.05" slack="-0.1" strength="1.5" maxstretch="0.3">
 										<location id_="191835584" name="a" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
 										<location id_="988736448" name="b" pos="0.0 0.45 0.0" rot="0.0 0.0 0.0"/>
@@ -1919,7 +1904,7 @@
 										<location id_="1070989120" name="a" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
 										<location id_="25429520" name="b" pos="-0.0 0.8 0.0" rot="0.0 0.0 0.0"/>
 									</rope>
-									<light id_="273891648" tags="light garage" pos="0.05 0.1 0.05" color="1 0.8 0.6" scale="1.5" reach="8"/>
+									<light id_="273891648" tags="light_garage light=off" pos="0.05 0.1 0.05" color="1 0.8 0.6" scale="1.5" reach="8"/>
 								</voxbox>
 							</group>
 							<group id_="1448368512" name="Props">
@@ -2130,7 +2115,7 @@
 							<voxbox id_="396713632" name="wood" pos="23.7 0.2 1.1" rot="0.0 -180.0 0.0" texture="10 0.5" size="11 1 1" material="wood" color="0.55 0.4 0.3"/>
 						</group>
 					</group>
-					<group id_="598511296" name="Stairs / Entrance" pos="-4.4 0.0 6.0">
+					<group id_="598511296" open_="true" name="Stairs / Entrance" pos="-4.4 0.0 6.0">
 						<group id_="497448608" name="Steps" pos="7.3 0.5 -1.3">
 							<voxagon id_="1865333888" name="carpet" pos="-1.7 0.3 -0.9" rot="0.0 0.0 0.0" texture="9 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="green carpet" offset="9" extrude="1">
 								<vertex pos="-0.9 1.2"/>
@@ -2346,20 +2331,18 @@
 							</vox>
 						</group>
 						<group id_="1659865984" open_="true" name="Entrance Props">
-							<script id_="527334848" open_="true" name="lights" pos="7.3 2.6 -3.4" file="MOD/resources/scripts/common/lightswitch.lua">
-								<vox id_="775862528" open_="true" name="light" pos="-1.5 0.7 0.1" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox" object="ceiling light">
-									<light id_="143401520" name="bulb" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="0.7" size="0.2"/>
-								</vox>
-								<vox id_="199438224" open_="true" name="light" pos="1.5 0.7 0.1" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox" object="ceiling light">
-									<light id_="1726192512" name="bulb" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="0.7" size="0.2"/>
-								</vox>
-								<voxbox id_="171124944" open_="true" name="light switch" pos="2.8 -0.5 -0.7" rot="0.0 -180.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
-									<voxbox id_="1909376768" name="Button" tags="lightswitch" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
-								</voxbox>
-							</script>
+							<vox id_="378755648" open_="true" name="light" pos="5.8 3.3 -3.3" rot="0.0 0.0 0.0" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox" object="ceiling light">
+								<light id_="550667072" name="bulb" tags="light_entrance light=off" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="0.7" size="0.2"/>
+							</vox>
+							<vox id_="2057235072" open_="true" name="light" pos="8.8 3.3 -3.3" rot="0.0 0.0 0.0" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox" object="ceiling light">
+								<light id_="2132081792" name="bulb" tags="light_entrance light=off" pos="0.05 -0.4 -0.05" color="1 0.8 0.7" scale="0.7" size="0.2"/>
+							</vox>
+							<voxbox id_="165357424" open_="true" name="light switch" pos="10.1 2.1 -4.1" rot="0.0 180.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
+								<voxbox id_="2012864512" name="Button" tags="interact onInteract=togglelight(light_entrance);sound(lightswitch,0.25)" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
+							</voxbox>
 						</group>
 					</group>
-					<group id_="986049280" name="Entrance (Exterior)" pos="-3.1 0.7 3.9">
+					<group id_="986049280" open_="true" name="Entrance (Exterior)" pos="-3.1 0.7 3.9">
 						<voxbox id_="1556312832" name="garden_hose" pos="2.7 -0.1 0.4" rot="0.0 0.0 0.0" size="5 10 8" brush="hole">
 							<vox id_="1395936512" name="container" pos="0.2 0.0 0.4" rot="0.0 -90.0 0.0" texture="3 0.50" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="garden hose box"/>
 							<vox id_="847563264" name="door" pos="0.0 0.1 0.4" rot="0.0 -90.0 0.0" texture="3 0.50" prop="true" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="garden hose door">
@@ -2382,14 +2365,12 @@
 								<joint id_="673226880" name="hinge" pos="-0.2 0.2 0.0" rot="90.0 90.0 0.0" type="hinge" rotstrength="0.0005" rotspring="0" limits="0 150"/>
 							</vox>
 						</voxbox>
-						<script id_="367613856" open_="true" name="light" pos="2.4 1.4 -0.5" file="MOD/resources/scripts/common/lightswitch.lua">
-							<vox id_="456748256" open_="true" name="lantern" pos="0.2 0.0 0.0" rot="0.0 -90.0 0.0" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="lantern">
-								<light id_="587893824" name="light" pos="0.0 0.3 0.3" color="1 0.8 0.6" scale="1" size="0.25"/>
-							</vox>
-							<voxbox id_="1811918848" open_="true" name="light switch" pos="0.8 0.0 -1.7" rot="0.0 0.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
-								<voxbox id_="1838855808" name="Button" tags="lightswitch" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
-							</voxbox>
-						</script>
+						<voxbox id_="1811918848" open_="true" name="light switch" pos="3.2 1.4 -2.2" rot="0.0 0.0 0.0" texture="10 .65" size="1 2 2" material="metal" color="0.7 0.6 0.3">
+							<voxbox id_="1838855808" name="Button" tags="interact onInteract=togglelight(light_porch);sound(lightswitch,0.25)" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color="0.5 0.4 0.15"/>
+						</voxbox>
+						<vox id_="456748256" open_="true" name="lantern" pos="2.6 1.4 -0.5" rot="0.0 -90.0 0.0" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="lantern">
+							<light id_="587893824" name="light" tags="light_porch light=off" pos="0.0 0.3 0.3" color="1 0.8 0.6" scale="1" size="0.25"/>
+						</vox>
 						<vox id_="24970740" name="house_number" pos="2.7 1.0 -0.5" rot="0.0 -90.0 0.0" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="house number"/>
 						<vox id_="861982080" name="concrete_flower_pot" pos="2.1 -0.3 0.8" rot="0.0 -90.0 0.0" texture="10 0.75" density="7" prop="true" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="concrete flower pot"/>
 						<vox id_="1138167680" name="concrete_flower_pot" pos="2.0 -0.3 -2.4" rot="0.0 -90.0 0.0" texture="10 0.75" density="7" prop="true" file="MOD/resources/vox/4_privet_drive/building/front_yard_objects.vox" object="concrete flower pot 2"/>
@@ -2531,30 +2512,26 @@
 							<voxbox id_="580225600" name="pannel" pos="13.3 4.29 -2.04" rot="-90.0 -180.0 0.0" texture="3 0.20" size="1 1 4" material="plastic" color=".85 .83 .80"/>
 							<voxbox id_="1358316544" name="pannel" pos="12.4 3.2 0.0" rot="0.0 0.0 90.0" texture="3 0.20" size="1 10 1" material="plastic" color=".85 .83 .80"/>
 						</group>
-						<script id_="1717279104" name="lights" pos="12.5 3.1 -2.0" file="MOD/resources/scripts/common/lightswitch.lua">
-							<voxbox id_="887280512" open_="true" name="lightbulb" pos="0.9 0.05 -0.05" rot="0.0 0.0 0.0" prop="true" size="1 2 1" material="glass" color="1 .8 .6" pbr="0 0 0 1">
-								<rope id_="1120668416" name="rope" pos="0.05 0.2 0.05" slack="-0.1" strength="1.5" maxstretch="0.3">
-									<location id_="1661045760" name="a" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-									<location id_="714058304" name="b" pos="0.0 0.85 0.0" rot="0.0 0.0 0.0"/>
-								</rope>
-								<rope id_="240073024" name="rope" pos="0.05 1.0 0.05" rot="0.0 0.0 90.0" slack="0.2" strength="1.5" maxstretch="0.3">
-									<location id_="1856420480" name="a" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-									<location id_="1528851584" name="b" pos="-0.3 1.85 0.0" rot="0.0 0.0 0.0"/>
-								</rope>
-								<light id_="1060699392" pos="0.05 0.1 0.05" color="1 0.8 0.6" scale="0.8"/>
-							</voxbox>
-							<voxbox id_="1310013568" open_="true" name="light switch" pos="-1.0 -1.0 1.3" rot="0.0 0.0 0.0" texture="10 .65" size="1 2 2" material="plastic" color=".7 .7 .7">
-								<voxbox id_="1107953664" name="Button" tags="lightswitch" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="plastic" color=".5 .5 .5"/>
-							</voxbox>
-						</script>
+						<voxbox id_="887280512" open_="true" name="lightbulb" pos="13.4 3.15 -2.05" rot="0.0 0.0 0.0" prop="true" size="1 2 1" material="glass" color="1 .8 .6" pbr="0 0 0 1">
+							<rope id_="1120668416" name="rope" pos="0.05 0.2 0.05" slack="-0.1" strength="1.5" maxstretch="0.3">
+								<location id_="1661045760" name="a" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+								<location id_="714058304" name="b" pos="0.0 0.85 0.0" rot="0.0 0.0 0.0"/>
+							</rope>
+							<rope id_="240073024" name="rope" pos="0.05 1.0 0.05" rot="0.0 0.0 90.0" slack="0.2" strength="1.5" maxstretch="0.3">
+								<location id_="1856420480" name="a" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+								<location id_="1528851584" name="b" pos="-0.3 1.85 0.0" rot="0.0 0.0 0.0"/>
+							</rope>
+							<light id_="1060699392" tags="light_patio light=off" pos="0.05 0.1 0.05" color="1 0.8 0.6" scale="0.8"/>
+						</voxbox>
+						<voxbox id_="1310013568" open_="true" name="light switch" pos="11.5 2.1 -0.7" rot="0.0 0.0 0.0" texture="10 .65" size="1 2 2" material="plastic" color=".7 .7 .7">
+							<voxbox id_="1107953664" name="Button" tags="interact onInteract=togglelight(light_patio);sound(lightswitch,0.25)" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="plastic" color=".5 .5 .5"/>
+						</voxbox>
 					</group>
-					<script id_="1399803264" open_="true" pos="5.4 2.1 4.0" file="MOD/resources/scripts/light_and_switches_GroundFloor.lua">
-						<group id_="2132475008" open_="true" name="Light Switches" pos="-5.4 -1.9 -4.0">
-							<voxbox id_="2119694720" open_="true" name="Garage_Base" pos="7.3 1.9 8.5" rot="0.0 180.0 0.0" texture="10 .65" size="1 2 2" material="metal" color=".8 .8 .8">
-								<voxbox id_="741847232" name="Button" tags="btn_garage" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color=".5 .5 .5"/>
-							</voxbox>
-						</group>
-					</script>
+					<group id_="2132475008" open_="true" name="Light Switches" pos="0.0 0.2 0.0" rot="0.0 0.0 0.0">
+						<voxbox id_="2119694720" open_="true" name="Garage_Base" pos="7.3 1.9 8.5" rot="0.0 180.0 0.0" texture="10 .65" size="1 2 2" material="metal" color=".8 .8 .8">
+							<voxbox id_="741847232" name="Button" tags="interact onInteract=togglelight(light_garage);sound(lightswitch,0.25)" pos="0.025 0.05 0.05" rot="0.0 0.0 0.0" texture="10 .65" size="1 1 1" material="metal" color=".5 .5 .5"/>
+						</voxbox>
+					</group>
 				</group>
 				<group id_="1834071296" open_="true" name="Roof" pos="-20.5 0.7 -2.5">
 					<group id_="433547104" open_="true" name="Tiles" pos="19.1 2.4 2.3">
