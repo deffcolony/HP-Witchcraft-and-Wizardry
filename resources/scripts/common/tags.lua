@@ -90,6 +90,10 @@ function INIT.sound()
 	sounds.lightswitch = LoadSound( "MOD/resources/snd/light_switch0.ogg" )
 end
 
-function COMMAND:sound( sound, volume )
-	PlaySound( sounds[sound], GetShapeWorldTransform( self.caller ).pos, volume or 1 )
+function COMMAND:sound( sound, volume, source )
+	local shape = self.caller
+	if source and source ~= "" then
+		shape = FindShape( source, true )
+	end
+	PlaySound( sounds[sound], GetShapeWorldTransform( shape ).pos, volume or 1 )
 end
