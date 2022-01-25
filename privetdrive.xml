@@ -694,7 +694,7 @@
 							<voxbox id_="148251488" name="power_plug" pos="24.2 0.5 1.0" rot="0.0 -90.0 0.0" texture="6 0.4" size="1 2 1" material="plastic" color="0.9 0.9 0.9"/>
 						</group>
 					</group>
-					<group id_="1691652992" name="Floor / Ceiling" pos="-18.6 0.0 0.2">
+					<group id_="1691652992" open_="true" name="Floor / Ceiling" pos="-18.6 0.0 0.2">
 						<group id_="973793344" name="Concrete" pos="20.1 0.0 0.1">
 							<voxbox id_="935714560" name="Concrete" pos="-0.4 0.1 3.5" rot="0.0 0.0 0.0" texture="5 0.8" size="58 2 27" material="masonry" color="0.5 0.5 0.5"/>
 							<voxbox id_="1107625984" name="Concrete" pos="-6.1 0.1 -4.7" rot="0.0 0.0 0.0" texture="5 0.8" size="107 2 82" material="masonry" color="0.5 0.5 0.5"/>
@@ -702,7 +702,7 @@
 							<voxbox id_="507541760" name="Concrete" pos="-1.6 0.1 -5.3" rot="0.0 0.0 0.0" texture="5 0.8" size="62 2 6" material="masonry" color="0.5 0.5 0.5"/>
 							<voxbox id_="1438340864" name="Concrete" pos="4.6 0.1 1.0" rot="0.0 0.0 0.0" texture="5 0.8" size="8 2 25" material="masonry" color="0.5 0.5 0.5"/>
 						</group>
-						<group id_="1942081280" name="Paint" pos="20.1 0.0 0.1">
+						<group id_="1942081280" open_="true" name="Paint" pos="20.1 0.0 0.1">
 							<voxbox id_="470577216" name="paint" pos="4.6 0.0 1.1" rot="0.0 0.0 0.0" texture="6 0.35" size="8 1 52" material="plaster" color="0.9 0.9 0.85"/>
 							<voxbox id_="1934871936" name="paint" pos="-1.6 0.0 -5.3" rot="0.0 0.0 0.0" texture="6 0.35" size="62 1 6" material="plaster" color="0.9 0.9 0.85"/>
 							<voxbox id_="1189223296" name="paint" pos="-6.1 0.0 -5.3" rot="0.0 0.0 0.0" texture="6 0.35" size="21 1 6" material="plaster" color="0.9 0.9 0.85"/>
@@ -2255,7 +2255,7 @@
 								<vertex pos="0.6 0.4"/>
 							</voxagon>
 						</group>
-						<group id_="1927990144" open_="true" name="Wood" pos="6.8 0.8 -0.6">
+						<group id_="1927990144" name="Wood" pos="6.8 0.8 -0.6">
 							<voxagon id_="1094321408" name="backboard" pos="-2.2 -0.1 -0.9" rot="-90.0 -90.0 0.0" texture="6 0.3" brush="MOD/resources/vox/4_privet_drive/stairs/wooden_parts.vox" object="material" extrude="1">
 								<vertex pos="-1.0 0.2"/>
 								<vertex pos="-1.0 -0.1"/>
@@ -2338,6 +2338,17 @@
 									<location id_="1447319808" pos="0.7 0.0 0.1" rot="0.0 0.0 0.0"/>
 								</rope>
 							</vox>
+							<script id_="1400589824" open_="true" file="MOD/resources/scripts/level/privetdrive/secrets.lua">
+								<trigger id_="1601928704" name="space" tags="stairs_trigger" pos="0.0 0.0 0.0" rot="-90.0 0.0 0.0" type="polygon" size="1.5">
+									<vertex pos="-2.8 -0.7"/>
+									<vertex pos="-2.8 -1.4"/>
+									<vertex pos="0.6 -1.4"/>
+									<vertex pos="0.6 1.1"/>
+									<vertex pos="0.2 1.1"/>
+								</trigger>
+								<location id_="739291200" name="soundpos" tags="sound_pos" pos="-0.6 0.7 -0.7"/>
+								<location id_="1586985600" name="effectpos" tags="effect_pos" pos="-1.0 0.4 -0.7" rot="0.0 -90.0 0.0"/>
+							</script>
 						</group>
 						<group id_="1659865984" open_="true" name="Entrance Props">
 							<vox id_="378755648" open_="true" name="light" pos="5.8 3.3 -3.3" rot="0.0 0.0 0.0" texture="7 0.5" file="MOD/resources/vox/4_privet_drive/stairs/entrance_props.vox" object="ceiling light">
