@@ -1,4 +1,4 @@
-<scene id_="120790224" open_="true" version="0.9.2" shadowVolume="400 50 400">
+<scene id_="120790224" version="0.9.5" shadowVolume="400 50 400">
 	<group id_="1123879936" open_="true" name="Misc." pos="0.0 -0.2 0.0">
 		<environment id_="182659984" template="sunset" pos="0.0 0.2 0.0"/>
 		<spawnpoint id_="1384008192" pos="5.6 1.2 66.90001" rot="0 180 0"/>
