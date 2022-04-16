@@ -1,3 +1,12 @@
+<h1 align="center">Harry Potter TD</h1>
+<p align="center">
+  <i>"You're a wizard Harry."</i>
+   <br/>
+  <img width="120" src="https://i.imgur.com/WgEqqof.png" />
+  <br/>
+href="https://github.com/deffcolony/HP-Witchcraft-and-Wizardry">GitHub</a></b>
+  <br/><br/>
+  
 <img src="https://i.imgur.com/ToKFCKv.png" width="100%">
 
 # HP-Witchcraft-and-Wizardry
