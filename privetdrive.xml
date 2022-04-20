@@ -111,7 +111,11 @@
 					</group>
 					<group id_="740274304" name="Props" pos="3.65 -0.7 -0.2">
 						<vox id_="196423376" name="vase" pos="-4.8 0.3 -2.3" rot="0.0 -130.0 0.0" texture="6 0.75" density="5" prop="true" file="MOD/resources/vox/4_privet_drive/backyard/dursley_backyard_props.vox" object="big_flower_vase"/>
-						<vox id_="997256640" name="football" pos="0.9 0.3 3.55" rot="0.0 -130.0 0.0" texture="6 0.75" density="5" strength="5" prop="true" file="MOD/resources/vox/4_privet_drive/backyard/dursley_backyard_props.vox" object="football"/>
+						<script id_="1107625984" open_="true" pos="0.8 0.2 4.2" file="MOD/resources/scripts/level/privetdrive/football.lua">
+							<body id_="1985730944" open_="true" name="football" tags="football" pos="-0.0 0.0 0.0" dynamic="true">
+								<vox id_="997256640" name="football" tags="football" pos="0.0 0.1 0.05" rot="0.0 -130.0 0.0" texture="6 0.75" density="5" strength="5" prop="false" file="MOD/resources/vox/4_privet_drive/backyard/dursley_backyard_props.vox" object="football"/>
+							</body>
+						</script>
 						<vox id_="1066401344" name="bird_house" pos="3.65 0.2 -1.05" rot="0.0 180.0 0.0" texture="10 0.6" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/backyard/dursley_backyard_props.vox" object="bird_house"/>
 						<vox id_="1047722432" name="bench" pos="-7.1 0.3 1.3" rot="0.0 88.0 0.0" texture="10 0.6" density="5" prop="true" file="MOD/resources/vox/4_privet_drive/backyard/dursley_backyard_props.vox" object="wooden_bench_3seat"/>
 						<vox id_="1822339712" name="bench" pos="-5.9 0.3 0.0" rot="0.0 2.0 0.0" texture="10 0.6" density="5" prop="true" file="MOD/resources/vox/4_privet_drive/backyard/dursley_backyard_props.vox" object="wooden_bench_2seat"/>
