@@ -1,4 +1,4 @@
-<scene version="0.9.6" shadowVolume="400 50 400">
+<scene version="1.0.0" shadowVolume="400 50 400">
 	<group name="Misc." pos="0.0 -0.2 0.0">
 		<environment template="sunset" pos="0.0 0.2 0.0"/>
 		<spawnpoint pos="5.6 1.2 66.90001" rot="0 180 0"/>

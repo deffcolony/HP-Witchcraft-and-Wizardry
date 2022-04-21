@@ -1,4 +1,4 @@
-<scene version="0.9.6">
+<scene version="1.0.0">
 	<group name="Map">
 		<environment name="skybox" skyboxrot="-60" sunBrightness="0.5" sunSpread="0.10"/>
 		<boundary name="playable area">

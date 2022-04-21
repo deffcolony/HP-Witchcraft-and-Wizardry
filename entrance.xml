@@ -1,4 +1,4 @@
-<scene version="0.9.6" shadowVolume="200 145 200">
+<scene version="1.0.0" shadowVolume="200 145 200">
 	<environment template="sunny" skyboxrot="180" fogParams="50 200 0 8" exposure="1 2" brightness="0.7"/>
 	<script file="main.lua"/>
 	<script file="sandbox.lua"/>

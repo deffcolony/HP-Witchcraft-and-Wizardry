@@ -1,4 +1,4 @@
-<scene version="0.9.6">
+<scene version="1.0.0">
 	<environment template="foggy"/>
 	<spawnpoint pos="-1.2 0.0 -7.4"/>
 	<voxbox name="baseplate" pos="-25.0 -0.5 -25.0" rot="0.0 0.0 0.0" texture="3" size="500 5 500"/>

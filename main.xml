@@ -1,4 +1,4 @@
-<scene version="0.9.6" shadowVolume="1 1 1">
+<scene version="1.0.0" shadowVolume="1 1 1">
 	<script file="MOD/resources/scripts/menu/load.lua"/>
 </scene>
 
