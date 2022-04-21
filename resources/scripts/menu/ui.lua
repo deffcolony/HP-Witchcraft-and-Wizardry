@@ -1,7 +1,7 @@
 function init()
 	levels = {
-		{name = "Privet Drive", path = "MOD/privetdrive.xml"}, 
-		--{name = "Bardar's Testing", path = "MOD/script_testing.xml"}, 
+		{name = "Privet Drive", path = "MOD/privetdrive.xml"},
+		--{name = "Bardar's Testing", path = "MOD/script_testing.xml"},
 		--{name = "Some Other Map", path = "MOD/entrance.xml"}
 		}
 end
@@ -57,14 +57,14 @@ function level_select()
 
 	UiTranslate(move * 200 * (#levels - 1), 0)
 	UiWordWrap(175)
-	
+
 	UiFont("regular.ttf", 24)
 	for i,v in ipairs(levels) do
-		UiImageBox("MOD/resources/img/box-outline-fill-6.png", 175, 175, 6, 6)
-		if UiTextButton(v.name) then
+		UiButtonImageBox("MOD/resources/img/box-outline-fill-6.png", 6, 6)
+		if UiTextButton(v.name,  175, 175) then
 			StartLevel("yes", v.path)
 		end
-		
+
 		UiTranslate(200)
 	end
 end
