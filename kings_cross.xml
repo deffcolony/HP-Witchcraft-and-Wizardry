@@ -1,4 +1,4 @@
-<scene version="0.9.6" shadowVolume="400 50 400">
+<scene version="1.0.0" shadowVolume="400 50 400">
 	<group name="Misc." pos="0.0 -0.2 0.0">
 		<environment template="sunset" pos="0.0 0.2 0.0"/>
 		<spawnpoint pos="5.6 1.2 66.90001" rot="0 180 0"/>
@@ -11,7 +11,7 @@
 		<voxbox pos="-200.0 0.0 -200.00002" size="4000 1 4000" color="0.2 0.2 0.2"/>
 	</group>
 	<group name="Stations" pos="9.6 -0.1 2.5" prop0="density=6" prop1="strength=7">
-		<group name="Station 1" pos="-23.0 0.1 0.0" prop0="texture=6 1">
+		<group name="Station 1" pos="105.7 0.1 0.0" prop0="texture=6 1">
 			<group name="Section 1" pos="0.0 0.0 49.9" prop0="texture=6 1">
 				<group name="Walls" pos="-9.2 -5.5 0.1">
 					<vox pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
@@ -251,7 +251,7 @@
 				</group>
 			</group>
 		</group>
-		<group name="Wall Blockers" pos="-32.2 -5.4 50.0" rot="0.0 0.0 0.0" prop0="texture=6 0.6">
+		<group name="Wall Blockers" pos="96.49999 -5.4 50.0" rot="0.0 0.0 0.0" prop0="texture=6 0.6">
 			<vox pos="26.5 13.0 -35.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="blocker"/>
 			<vox pos="26.5 13.0 -25.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="blocker"/>
 			<vox pos="37.9 13.0 -25.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="blocker"/>
@@ -285,7 +285,7 @@
 			<vox pos="72.50001 13.0 -75.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="blocker"/>
 			<vox pos="72.50001 13.0 -65.00002" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="blocker"/>
 		</group>
-		<group name="Station 2" pos="23.0 0.1 0.0">
+		<group name="Station 2" pos="151.69992 0.1 0.0">
 			<group name="Section 1" pos="0.0 0.0 49.9" prop0="texture=6 1">
 				<group name="Walls" pos="-9.2 -5.5 0.1">
 					<vox pos="0.1 13.0 40.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="roof">
@@ -525,7 +525,7 @@
 				</group>
 			</group>
 		</group>
-		<group name="Facades" pos="-0.1 0.0 49.9" prop0="texture=6 1">
+		<group name="Facades" pos="128.60001 0.0 49.9" prop0="texture=6 1">
 			<group name="Rear" pos="0.0 0.0 -155.89999">
 				<group name="Outer Walls" pos="-24.5 0.1 2.8" rot="0.0 0.0 0.0">
 					<vox pos="11.6 0.1 1.2" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/Kings_Cross.vox" object="end_wall4"/>
@@ -635,7 +635,7 @@
 				</group>
 			</group>
 		</group>
-		<group name="Tracks" pos="-23.1 0.2 50.9" prop0="tags=unbreakable nocull" prop1="texture=2 0.5">
+		<group name="Tracks" pos="105.6 0.2 50.9" prop0="tags=unbreakable nocull" prop1="texture=2 0.5">
 			<group name="Row 2" pos="34.7 0.0 -1.3">
 				<vox pos="0.1 0.1 -44.9" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
 				<vox pos="0.1 0.1 -35.1" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
@@ -791,6 +791,744 @@
 				<vox pos="0.1 0.1 33.5" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
 				<vox pos="0.1 0.1 43.29999" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="long"/>
 				<vox pos="0.1 0.1 49.4" file="MOD/resources/vox/kings_cross/Train_Tracks.vox" object="short"/>
+			</group>
+		</group>
+		<group name="Large Station 1" pos="-162.60001 0.1 0.0" rot="0.0 0.0 0.0" prop0="texture=6 1" prop1="density=6" prop2="strength=6">
+			<group name="Left Archs" pos="33.6 0.0 -72.3" prop0="tags=nocull">
+				<group name="wall section" pos="-17.3 14.0 134.99998">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+				<group name="wall section" pos="-17.3 14.0 114.99998">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+				<group name="wall section" pos="-17.3 14.0 74.99998">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+				<group name="wall section" pos="-17.3 14.0 94.99998">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+				<group name="wall section" pos="-17.3 14.0 34.99998">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+				<group name="wall section" pos="-17.3 14.0 54.99998">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+				<group name="wall section" pos="-17.3 14.0 -5.00002">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+				<group name="wall section" pos="-17.3 14.0 14.99998">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+				<group name="wall section" pos="-17.3 14.0 -45.00002">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+				<group name="wall section" pos="-17.3 14.0 -25.00002">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+			</group>
+			<group name="Right Archs" pos="35.2 0.0 17.7" rot="0.0 -180.0 0.0" prop0="tags=nocull">
+				<group name="wall section" pos="-17.3 14.0 134.99998">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+				<group name="wall section" pos="-17.3 14.0 114.99998">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+				<group name="wall section" pos="-17.3 14.0 74.99998">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+				<group name="wall section" pos="-17.3 14.0 94.99998">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+				<group name="wall section" pos="-17.3 14.0 34.99998">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+				<group name="wall section" pos="-17.3 14.0 54.99998">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+				<group name="wall section" pos="-17.3 14.0 -5.00002">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+				<group name="wall section" pos="-17.3 14.0 14.99998">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+				<group name="wall section" pos="-17.3 14.0 -45.00002">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+				<group name="wall section" pos="-17.3 14.0 -25.00002">
+					<group name="metal" pos="2.6 17.0 0.0" prop0="texture=2 0.4">
+						<vox pos="12.4 20.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch8"/>
+						<vox pos="5.9 18.8 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch7"/>
+						<vox pos="-0.4 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch6"/>
+						<vox pos="-4.2 15.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch5"/>
+						<vox pos="-4.6 14.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch4"/>
+						<vox pos="-8.4 10.4 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch3"/>
+						<vox pos="-10.5 9.6 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch2"/>
+						<vox pos="-12.7 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="metal_arch1"/>
+					</group>
+					<group name="glass/metal" pos="0.3 16.0 0.0" prop0="texture=2 0.4">
+						<vox pos="-15.2 0.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass1"/>
+						<vox pos="-11.1 11.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass3"/>
+						<vox pos="-5.8 16.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass5"/>
+						<vox pos="0.7 22.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass7"/>
+						<vox pos="8.2 25.6 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass9"/>
+						<vox pos="14.7 27.4 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass11"/>
+						<vox pos="14.7 27.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass12"/>
+						<vox pos="8.2 25.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass10"/>
+						<vox pos="0.7 22.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass8"/>
+						<vox pos="-5.8 16.6 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass6"/>
+						<vox pos="-11.1 11.4 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass4"/>
+						<vox pos="-15.2 0.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="glass2"/>
+					</group>
+					<group name="brick" pos="-15.6 -14.0 0.0">
+						<vox pos="-0.7 0.0 0.0" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="support_pillar"/>
+						<vox pos="0.1 14.0 -5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch2"/>
+						<vox pos="0.1 14.0 5.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="arch1"/>
+					</group>
+				</group>
+			</group>
+			<group name="arch decor groups" pos="-1.4 0.1 -27.3">
+				<group name="arch decor" pos="-0.0 0.0 -79.99999" rot="0.0 0.0 0.0">
+					<vox pos="0.0 0.0 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_1"/>
+					<vox pos="0.0 13.0 4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_2"/>
+					<vox pos="0.0 13.0 -4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_4"/>
+					<vox pos="0.0 0.0 -6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_3"/>
+				</group>
+				<group name="arch decor" pos="0.0 0.0 -60.0" rot="0.0 0.0 0.0">
+					<vox pos="0.0 0.0 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_1"/>
+					<vox pos="0.0 13.0 4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_2"/>
+					<vox pos="0.0 13.0 -4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_4"/>
+					<vox pos="0.0 0.0 -6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_3"/>
+				</group>
+				<group name="arch decor" pos="0.0 0.0 -40.0" rot="0.0 0.0 0.0">
+					<vox pos="0.0 0.0 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_1"/>
+					<vox pos="0.0 13.0 4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_2"/>
+					<vox pos="0.0 13.0 -4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_4"/>
+					<vox pos="0.0 0.0 -6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_3"/>
+				</group>
+				<group name="arch decor" pos="0.0 0.0 -20.0" rot="0.0 0.0 0.0">
+					<vox pos="0.0 0.0 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_1"/>
+					<vox pos="0.0 13.0 4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_2"/>
+					<vox pos="0.0 13.0 -4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_4"/>
+					<vox pos="0.0 0.0 -6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_3"/>
+				</group>
+				<group name="arch decor" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0">
+					<vox pos="0.0 0.0 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_1"/>
+					<vox pos="0.0 13.0 4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_2"/>
+					<vox pos="0.0 13.0 -4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_4"/>
+					<vox pos="0.0 0.0 -6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_3"/>
+				</group>
+				<group name="arch decor" pos="0.0 0.0 20.0" rot="0.0 0.0 0.0">
+					<vox pos="0.0 0.0 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_1"/>
+					<vox pos="0.0 13.0 4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_2"/>
+					<vox pos="0.0 13.0 -4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_4"/>
+					<vox pos="0.0 0.0 -6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_3"/>
+				</group>
+				<group name="arch decor" pos="0.0 0.0 40.0" rot="0.0 0.0 0.0">
+					<vox pos="0.0 0.0 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_1"/>
+					<vox pos="0.0 13.0 4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_2"/>
+					<vox pos="0.0 13.0 -4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_4"/>
+					<vox pos="0.0 0.0 -6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_3"/>
+				</group>
+				<group name="arch decor" pos="0.0 0.0 60.0" rot="0.0 0.0 0.0">
+					<vox pos="0.0 0.0 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_1"/>
+					<vox pos="0.0 13.0 4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_2"/>
+					<vox pos="0.0 13.0 -4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_4"/>
+					<vox pos="0.0 0.0 -6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_3"/>
+				</group>
+				<group name="arch decor" pos="0.0 0.0 80.0" rot="0.0 0.0 0.0">
+					<vox pos="0.0 0.0 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_1"/>
+					<vox pos="0.0 13.0 4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_2"/>
+					<vox pos="0.0 13.0 -4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_4"/>
+					<vox pos="0.0 0.0 -6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_3"/>
+				</group>
+			</group>
+			<group name="arch decor groups" pos="70.2 0.1 -27.3" rot="0.0 180.0 0.0">
+				<group name="arch decor" pos="-0.0 0.0 -79.99999" rot="0.0 0.0 0.0">
+					<vox pos="0.0 0.0 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_1"/>
+					<vox pos="0.0 13.0 4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_2"/>
+					<vox pos="0.0 13.0 -4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_4"/>
+					<vox pos="0.0 0.0 -6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_3"/>
+				</group>
+				<group name="arch decor" pos="0.0 0.0 -60.0" rot="0.0 0.0 0.0">
+					<vox pos="0.0 0.0 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_1"/>
+					<vox pos="0.0 13.0 4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_2"/>
+					<vox pos="0.0 13.0 -4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_4"/>
+					<vox pos="0.0 0.0 -6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_3"/>
+				</group>
+				<group name="arch decor" pos="0.0 0.0 -40.0" rot="0.0 0.0 0.0">
+					<vox pos="0.0 0.0 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_1"/>
+					<vox pos="0.0 13.0 4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_2"/>
+					<vox pos="0.0 13.0 -4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_4"/>
+					<vox pos="0.0 0.0 -6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_3"/>
+				</group>
+				<group name="arch decor" pos="0.0 0.0 -20.0" rot="0.0 0.0 0.0">
+					<vox pos="0.0 0.0 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_1"/>
+					<vox pos="0.0 13.0 4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_2"/>
+					<vox pos="0.0 13.0 -4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_4"/>
+					<vox pos="0.0 0.0 -6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_3"/>
+				</group>
+				<group name="arch decor" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0">
+					<vox pos="0.0 0.0 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_1"/>
+					<vox pos="0.0 13.0 4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_2"/>
+					<vox pos="0.0 13.0 -4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_4"/>
+					<vox pos="0.0 0.0 -6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_3"/>
+				</group>
+				<group name="arch decor" pos="0.0 0.0 20.0" rot="0.0 0.0 0.0">
+					<vox pos="0.0 0.0 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_1"/>
+					<vox pos="0.0 13.0 4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_2"/>
+					<vox pos="0.0 13.0 -4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_4"/>
+					<vox pos="0.0 0.0 -6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_3"/>
+				</group>
+				<group name="arch decor" pos="0.0 0.0 40.0" rot="0.0 0.0 0.0">
+					<vox pos="0.0 0.0 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_1"/>
+					<vox pos="0.0 13.0 4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_2"/>
+					<vox pos="0.0 13.0 -4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_4"/>
+					<vox pos="0.0 0.0 -6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_3"/>
+				</group>
+				<group name="arch decor" pos="0.0 0.0 60.0" rot="0.0 0.0 0.0">
+					<vox pos="0.0 0.0 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_1"/>
+					<vox pos="0.0 13.0 4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_2"/>
+					<vox pos="0.0 13.0 -4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_4"/>
+					<vox pos="0.0 0.0 -6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_3"/>
+				</group>
+				<group name="arch decor" pos="0.0 0.0 80.0" rot="0.0 0.0 0.0">
+					<vox pos="0.0 0.0 6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_1"/>
+					<vox pos="0.0 13.0 4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_2"/>
+					<vox pos="0.0 13.0 -4.4" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_4"/>
+					<vox pos="0.0 0.0 -6.9" rot="0.0 0.0 0.0" file="MOD/resources/vox/kings_cross/kings_cross_-_glass_archway.vox" object="decor_3"/>
+				</group>
 			</group>
 		</group>
 	</group>
