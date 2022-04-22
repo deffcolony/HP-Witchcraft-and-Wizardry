@@ -1,7 +1,3 @@
-ASD
-FGH
-QWE
-
 Gameplay:
 
   [] the blender in the kitchen should have functional buttons
