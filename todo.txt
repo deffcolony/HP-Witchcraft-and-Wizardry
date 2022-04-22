@@ -1,12 +1,9 @@
 Gameplay:
-asd
 
   [] the blender in the kitchen should have functional buttons
 
   [] fusebox in attic should contain interactable switches to turn off the power in the house
     -> Thomas: I need to work on a good power system to handle stuff like this neatly
-
-
 
 
 
