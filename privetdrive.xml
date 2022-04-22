@@ -977,7 +977,7 @@
 											</rope>
 											<light tags="faucet" pos="-0.0 -0.05 -0.1" rot="-90.0 0.0 0.0" scale="0"/>
 										</vox>
-										<trigger tags="shower_steam" type="box" size="9 3 2.5"/>
+										<trigger tags="shower_steam" pos="2.0 0.0 0.0" type="box" size="4.5 3 2.5"/>
 									</group>
 								</script>
 								<script pos="0.6 0.2 0.9" file="MOD/resources/scripts/common/sink.lua">
