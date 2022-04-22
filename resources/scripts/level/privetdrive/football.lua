@@ -1,3 +1,5 @@
+-- Football
+
 local function VecDist(a, b) return VecLength(VecSub(a, b)) end
 local function GetRandomIndex(tb) return tb[math.random(1, #tb)] end
 
