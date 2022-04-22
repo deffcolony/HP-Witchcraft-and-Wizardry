@@ -764,6 +764,7 @@
 							</voxagon>
 							<voxagon name="tiles" pos="-15.8 0.0 4.5" texture="6 0.5" brush="MOD/resources/vox/4_privet_drive/building/floor.vox" object="bathroom tiles" offset="1 0 0" extrude="1">
 								<vertex pos="-3.1 0.9"/>
+								<vertex pos="-3.1 -0.5"/>
 								<vertex pos="-3.1 -1.7"/>
 								<vertex pos="1.8 -1.7"/>
 								<vertex pos="1.8 0.9"/>
@@ -966,7 +967,19 @@
 							</voxbox>
 							<group name="Main Objects" pos="-0.2 0.2 -0.3">
 								<vox name="radiator" pos="2.55 0.05 -0.55" rot="0.0 -90.0 0.0" texture="5 0.35" file="MOD/resources/vox/4_privet_drive/building/radiators.vox" object="radiator medium"/>
-								<vox name="fixture" pos="-1.7 0.2 0.05" rot="0.0 -90.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/bathroom/bathroom_fixtures.vox" object="bathtub"/>
+								<script pos="-1.9 0.2 0.1" file="MOD/resources/scripts/common/shower.lua">
+									<group name="Shower" pos="0.2 0.0 0.0">
+										<vox name="fixture" tags="interact bathroom_shower" pos="0.0 0.0 -0.05" rot="0.0 -90.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/bathroom/bathroom_fixtures.vox" object="bathtub"/>
+										<vox name="shower_head" pos="-0.2 2.1 -0.05" rot="20.0 -90.0 0.0" texture="3 0.35" prop="true" file="MOD/resources/vox/4_privet_drive/bathroom/bathroom_fixtures.vox" object="shower head">
+											<rope name="cable" pos="-0.05 0.07 0.09" rot="0.0 -165.0 0.0" color="0.6 0.6 0.6" slack="0.3" strength="0.4" maxstretch="1">
+												<location name="top" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+												<location name="bottom" pos="0.04 -0.97 -0.45" rot="0.0 0.0 0.0"/>
+											</rope>
+											<light tags="faucet" pos="-0.0 -0.05 -0.1" rot="-90.0 0.0 0.0" scale="0"/>
+										</vox>
+										<trigger tags="shower_steam" type="box" size="9 3 2.5"/>
+									</group>
+								</script>
 								<script pos="0.6 0.2 0.9" file="MOD/resources/scripts/common/sink.lua">
 									<vox name="fixture" tags="interact bathroom_sink" pos="-0.05 0.0 -0.0" rot="0.0 0.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/bathroom/bathroom_fixtures.vox" object="sink">
 										<light tags="faucet" pos="0.05 1.05 0.05" rot="-90.0 0.0 0.0" scale="0" angle="9" penumbra="0" size="0.1" fogscale="9" fogiter="9"/>
@@ -994,12 +1007,6 @@
 										</vox>
 									</vox>
 								</script>
-								<vox name="shower_head" pos="-1.95 2.3 0.05" rot="20.0 -90.0 0.0" texture="3 0.35" prop="true" file="MOD/resources/vox/4_privet_drive/bathroom/bathroom_fixtures.vox" object="shower head">
-									<rope name="cable" pos="-0.05 0.07 0.09" rot="0.0 -165.0 0.0" color="0.6 0.6 0.6" slack="0.3" strength="0.4" maxstretch="1">
-										<location name="top" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
-										<location name="bottom" pos="0.04 -0.97 -0.45" rot="0.0 0.0 0.0"/>
-									</rope>
-								</vox>
 								<vox name="fixture" pos="-1.1 0.4 0.1" rot="0.0 -90.0 0.0" texture="3 0.35" file="MOD/resources/vox/4_privet_drive/bathroom/bathroom_fixtures.vox" object="shower curtain"/>
 							</group>
 							<group name="Decoration">

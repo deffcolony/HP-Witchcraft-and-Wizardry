@@ -92,7 +92,7 @@ end
 function RunSink(sink)
 
     local pos = GetShapeWorldTransform(sink.shape).pos
-    local vol = Volume / VecDist(GetPlayerTransform().pos, pos) ^ 2 -- Fade volume based on distance.
+    local vol = Volume / VecDist(GetPlayerTransform().pos, pos) ^ 1.5 -- Fade volume based on distance.
     PlayLoop(Loops.sinkRun, pos, vol)
 
     local faucetTr = GetLightTransform(sink.faucet)
@@ -109,10 +109,13 @@ function SpawnSinkWaterParticle(tr)
     ParticleAlpha(1)
     ParticleColor(0.7, 0.75, 1)
 
+	-- ParticleFlags(256)
     ParticleGravity(-1)
 	ParticleRadius(0.02, 0.07)
     ParticleCollide(1)
+    -- ParticleSticky(1)
 
     SpawnParticle(tr.pos, Quat(), 1)
+
 
 end
