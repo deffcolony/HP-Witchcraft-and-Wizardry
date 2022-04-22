@@ -11,7 +11,6 @@
 	<group name="Script">
 		<script name="main" file="main.lua"/>
 		<script name="sandbox" file="sandbox.lua"/>
-		<script name="fireplace" file="MOD/resources/scripts/level/privetdrive/fireplace.lua"/>
 		<script file="MOD/resources/scripts/common/tags.lua"/>
 	</group>
 	<group name="Scene">
@@ -1491,22 +1490,25 @@
 							<voxbox name="concrete" pos="-3.4 0.2 -5.2" rot="0.0 0.0 0.0" texture="10 0.5" size="1 32 6" material="masonry" color="0.55 0.55 0.55"/>
 							<voxbox name="concrete" pos="-1.3 0.2 -5.2" rot="0.0 0.0 0.0" texture="10 0.5" size="1 32 6" material="masonry" color="0.55 0.55 0.55"/>
 							<voxbox name="concrete" pos="-1.3 0.2 -4.7" rot="0.0 -90.0 0.0" texture="10 0.5" size="1 32 20" material="masonry" color="0.55 0.55 0.55"/>
-							<voxbox name="fireplace" pos="-2.8 0.4 -4.9" rot="0.0 0.0 0.0" size="10 11 7" brush="hole">
-								<vox name="prop" tags="fireplace" pos="0.5 0.0 0.5" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/living_room/livingr_fireplace.vox">
-									<trigger name="fireplace" tags="sfx" pos="0.0 -0.1 0.0" type="polygon" size="3">
-										<vertex pos="-3.0 -0.5"/>
-										<vertex pos="7.5 -0.5"/>
-										<vertex pos="7.5 5.7"/>
-										<vertex pos="8.7 5.7"/>
-										<vertex pos="8.7 9.7"/>
-										<vertex pos="2.7 9.7"/>
-										<vertex pos="2.7 5.7"/>
-										<vertex pos="3.2 5.7"/>
-										<vertex pos="3.2 5.4"/>
-										<vertex pos="-3.0 5.4"/>
-									</trigger>
-								</vox>
-							</voxbox>
+							<script pos="0.5 0.3 0.2" file="MOD/resources/scripts/level/privetdrive/fireplace.lua">
+								<voxbox name="fireplace" pos="-3.3 0.1 -5.1" rot="0.0 0.0 0.0" size="10 11 7" brush="hole">
+									<vox name="prop" tags="fireplace" pos="0.5 0.0 0.5" texture="3 0.75" file="MOD/resources/vox/4_privet_drive/living_room/livingr_fireplace.vox">
+										<trigger name="fireplace" tags="sfx" pos="0.0 -0.1 0.0" type="polygon" size="3">
+											<vertex pos="-3.0 -0.5"/>
+											<vertex pos="7.5 -0.5"/>
+											<vertex pos="7.5 5.7"/>
+											<vertex pos="8.7 5.7"/>
+											<vertex pos="8.7 9.7"/>
+											<vertex pos="2.7 9.7"/>
+											<vertex pos="2.7 5.7"/>
+											<vertex pos="3.2 5.7"/>
+											<vertex pos="3.2 5.4"/>
+											<vertex pos="-3.0 5.4"/>
+										</trigger>
+									</vox>
+								</voxbox>
+								<location name="firepos" tags="firepos" pos="-2.8 0.4 -4.8"/>
+							</script>
 						</group>
 						<group name="Kitchen Wall-Tiles" pos="18.5 0.0 0.0">
 							<voxbox name="tile-section" pos="1.5 1.4 6.1" rot="0.0 90.0 0.0" texture="6 0.4" size="1 5 18" brush="MOD/resources/vox/4_privet_drive/kitchen/kitchen_wall_tiles.vox"/>
@@ -1612,22 +1614,20 @@
 								<vox name="stool" pos="0.3 0.0 1.3" rot="0.0 40.0 0.0" texture="10 0.4" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="stool"/>
 								<vox name="stool" pos="1.0 0.0 1.3" rot="0.0 45.0 0.0" texture="10 0.4" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="stool"/>
 								<vox name="stool" pos="-0.4 0.0 1.2" rot="0.0 55.0 0.0" texture="10 0.4" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="stool"/>
-								<script name="kitchen sink" pos="-1.3 0.6 -0.8" file="MOD/resources/scripts/level/privetdrive/knsink.lua">
-									<vox name="sink" tags="hhouseknsink" pos="0.0 0.1 0.1" texture="10 0.6" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="sink">
-										<trigger name="sink sfx" tags="hhouseknsinksfx" pos="2.0 -0.7 0.0" type="polygon" size="3">
-											<vertex pos="-2.5 -2.4"/>
-											<vertex pos="3.2 -2.2"/>
-											<vertex pos="8.9 -1.6"/>
-											<vertex pos="8.8 5.7"/>
-											<vertex pos="8.7 9.7"/>
-											<vertex pos="2.7 9.7"/>
-											<vertex pos="-1.5 9.5"/>
-											<vertex pos="-2.1 6.9"/>
-											<vertex pos="-2.1 5.7"/>
-											<vertex pos="-2.1 3.9"/>
-										</trigger>
-									</vox>
-								</script>
+								<vox name="sink" tags="hhouseknsink" pos="-1.3 0.7 -0.7" rot="0.0 0.0 0.0" texture="10 0.6" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="sink">
+									<trigger name="sink sfx" tags="hhouseknsinksfx" pos="2.0 -0.7 0.0" type="polygon" size="3">
+										<vertex pos="-2.5 -2.4"/>
+										<vertex pos="3.2 -2.2"/>
+										<vertex pos="8.9 -1.6"/>
+										<vertex pos="8.8 5.7"/>
+										<vertex pos="8.7 9.7"/>
+										<vertex pos="2.7 9.7"/>
+										<vertex pos="-1.5 9.5"/>
+										<vertex pos="-2.1 6.9"/>
+										<vertex pos="-2.1 5.7"/>
+										<vertex pos="-2.1 3.9"/>
+									</trigger>
+								</vox>
 								<vox name="pipe" pos="-1.5 0.3 -0.4" texture="10 0.6" density="3" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="pipe"/>
 								<vox name="door / drawer" pos="-1.0 0.1 -2.2" rot="0.0 0.0 0.0" texture="10 0.6" prop="true" file="MOD/resources/vox/4_privet_drive/kitchen/kitchen_counter_wall.vox" object="door 02">
 									<joint name="hinge" pos="0.05 0.25 -0.25" rot="-90.0 90.0 0.0" type="hinge" size="0.15" rotstrength="0.001" rotspring="0" limits="0 140"/>
