@@ -27,11 +27,12 @@ function tick()
     BodyTr = GetBodyTransform(Football)
     PlayerTr = GetPlayerTransform()
 
-    local kickIsReady = (GetTime() - LastKickTime) > KickSoundFrequency
     local playerClose = VecDist(BodyTr.pos, PlayerTr.pos) < kickProximity
+    local kickIsReady = (GetTime() - LastKickTime) > KickSoundFrequency or not playerClose
     local playerMoving = VecLength(GetPlayerVelocity()) > minPlayerVel
+    local notBroken = not IsShapeBroken(GetBodyShapes(Football)[1])
 
-    if kickIsReady and playerClose and playerMoving then
+    if notBroken and kickIsReady and playerClose and playerMoving then
 
         KickFootball()
 
