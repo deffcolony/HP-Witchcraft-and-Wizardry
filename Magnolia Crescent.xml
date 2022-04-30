@@ -62,10 +62,10 @@
 		</vox>
 		<vox pos="22.9 2.1 -0.6" rot="0.0 0.0 0.0" texture="2" collide="true" prop="false" file="MOD/resources/vox/magnolia crescent objects.vox" object="roundabout shaft">
 			<vox tags="round" pos="0.0 0.2 0.0" rot="0.0 0.0 0.0" texture="2" collide="true" prop="true" file="MOD/resources/vox/magnolia crescent objects.vox" object="roundabout"/>
-			<joint tags="round" pos="0.0 1.5 -0.1" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0"/>
+			<joint tags="round" pos="0.0 1.5 -0.1" rot="-90.0 -180.0 0.0" type="hinge" rotstrength="0" autodisable="false"/>
 		</vox>
 		<vox pos="15.7 1.9 -2.7" rot="0.0 -120.0 0.0" texture="2" collide="true" file="MOD/resources/vox/magnolia crescent objects.vox" object="seesaw stump">
-			<joint tags="seesaw" pos="0.045 0.919 0.0" rot="0.0 0.0 15.0" type="hinge" rotstrength="0" rotspring="0" limits="-30 30"/>
+			<joint tags="seesaw" pos="0.045 0.919 0.0" rot="0.0 0.0 15.0" type="hinge" rotstrength="0" rotspring="0" limits="-30 30" autodisable="false"/>
 			<vox tags="seesaw" pos="0.0 0.7 0.0" rot="0.0 0.0 15.0" texture="2" collide="true" prop="true" file="MOD/resources/vox/magnolia crescent objects.vox" object="seesaw"/>
 		</vox>
 		<vox pos="19.1 2.0 -10.8" rot="0.0 78.0 0.0" texture="2" file="MOD/resources/vox/magnolia crescent objects.vox" object="slide frame">
@@ -101,16 +101,16 @@
 			<vox tags="lamp" pos="1.1 7.9 0.0" file="MOD/resources/vox/road props.vox" object="light"/>
 		</vox>
 		<vox pos="7.5 2.1 28.5" rot="0 38 0" texture="2" file="MOD/resources/vox/road props.vox" object="lamppost">
-			<light pos="1.1 7.8 0.0" rot="90 0 0" type="area" color="1.0 0.92 0.73" scale="30" angle="0" size=".6" reach="16" fogscale="1" fogiter="3" glare=".5"/>
-			<vox tags="lamp" pos="1.1 7.9 0.0" file="MOD/resources/vox/road props.vox" object="light"/>
+			<light tags="light3" pos="1.1 7.8 0.0" rot="90 0 0" type="area" color="1.0 0.92 0.73" scale="30" angle="0" size=".6" reach="16" fogscale="1" fogiter="3" glare=".5"/>
+			<vox tags="lamp3" pos="1.1 7.9 0.0" file="MOD/resources/vox/road props.vox" object="light"/>
 		</vox>
 		<vox pos="-9.9 2.1 31.2" rot="0 30 0" texture="2" file="MOD/resources/vox/road props.vox" object="lamppost">
-			<light pos="1.1 7.8 0.0" rot="90 0 0" type="area" color="1.0 0.92 0.73" scale="30" angle="0" size=".6" reach="16" fogscale="1" fogiter="3" glare=".5"/>
-			<vox tags="lamp" pos="1.1 7.9 0.0" file="MOD/resources/vox/road props.vox" object="light"/>
+			<light tags="light4" pos="1.1 7.8 0.0" rot="90 0 0" type="area" color="1.0 0.92 0.73" scale="30" angle="0" size=".6" reach="16" fogscale="1" fogiter="3" glare=".5"/>
+			<vox tags="lamp4" pos="1.1 7.9 0.0" file="MOD/resources/vox/road props.vox" object="light"/>
 		</vox>
 		<vox pos="13.4 2.1 17.6" rot="0.0 -58.0 0.0" texture="2" file="MOD/resources/vox/road props.vox" object="lamppost">
-			<light pos="1.1 7.8 0.0" rot="90 0 0" type="area" color="1.0 0.92 0.73" scale="30" angle="0" size=".6" reach="16" fogscale="1" fogiter="3" glare=".5"/>
-			<vox tags="lamp" pos="1.1 7.9 0.0" file="MOD/resources/vox/road props.vox" object="light"/>
+			<light tags="light2" pos="1.1 7.8 0.0" rot="90 0 0" type="area" color="1.0 0.92 0.73" scale="30" angle="0" size=".6" reach="16" fogscale="1" fogiter="3" glare=".5"/>
+			<vox tags="lamp2" pos="1.1 7.9 0.0" file="MOD/resources/vox/road props.vox" object="light"/>
 		</vox>
 	</group>
 	<group name="road fence">
