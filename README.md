@@ -4,7 +4,7 @@
    <br/>
   <img width="120" src="https://i.imgur.com/WgEqqof.png" />
   <br/>
-  <b><a href="https://discord.gg/ZdX8GuJ2Eg">Discord</a></b> | <b><a href="https://github.com/deffcolony/HP-Witchcraft-and-Wizardry/blob/master/docs/quick-start.md">Getting Started</a></b> | <b><a href="https://github.com/deffcolony/HP-Witchcraft-and-Wizardry">Documentation</a></b> | <b><a href="https://github.com/deffcolony/HP-Witchcraft-and-Wizardry">GitHub</a></b>
+  <b><a href="https://discord.gg/ZdX8GuJ2Eg">Discord</a></b> | <b><a href="https://alexveebee.github.io/HP-TD-devblogs/">News</a></b> | <b><a href="https://github.com/deffcolony/HP-Witchcraft-and-Wizardry">Documentation</a></b> | <b><a href="https://github.com/deffcolony/HP-Witchcraft-and-Wizardry">GitHub</a></b>
   <br/><br/>
   
 
@@ -34,4 +34,4 @@ As this is a live project and something we developing in our free time, certain 
 
 ## License
 
-Copyright (C) 2021 HP-Witchcraft-and-Wizardry Contributors (see [CREDITS.md](CREDITS.md))
+Copyright (C) 2021 HP-Witchcraft-and-Wizardry Contributors see <b><a href="https://github.com/deffcolony/HP-Witchcraft-and-Wizardry/wiki/Credits">Credits</a></b>
