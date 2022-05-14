@@ -3,7 +3,7 @@
 		<vox pos="0.1 0.8 0.0" file="MOD/resources/vox/road props.vox" object="arrow sign"/>
 	</vox>
 	<vox pos="16.2 2.0 48.5" rot="0.0 8.0 0.0" file="MOD/resources/vox/road props.vox" object="direction cone"/>
-	<voxscript pos="-118.8 0.0 -77.2" rot="0.0 0.0 0.0" texture="3" blendtexture="0" file="MOD/resources/scripts/voxscript/ground.lua">
+	<voxscript pos="-218.8 0.0 -177.0" rot="0.0 0.0 0.0" texture="2" blendtexture="0" file="MOD/resources/scripts/voxscript/ground.lua">
 		<parameters file="MOD/resources/img/magnolia crescent heightmap.png"/>
 	</voxscript>
 	<boundary pos="0.0 0.0 0.0" rot="0.0 0.0 0.0">
@@ -98,7 +98,7 @@
 		</vox>
 	</group>
 	<group name="lamposts" pos="26.74116 0.0 17.46705" rot="0.0 -30.0 0.0">
-		<vox pos="27.1 2.1 9.3" rot="0.0 -58.0 0.0" texture="2" file="MOD/resources/vox/road props.vox" object="lamppost">
+		<vox pos="26.8 1.8 9.2" rot="0.0 -58.0 0.0" texture="2" file="MOD/resources/vox/road props.vox" object="lamppost">
 			<light tags="light" pos="1.1 7.8 0.0" rot="90 0 0" type="area" color="1.0 0.92 0.73" scale="30" angle="0" size=".6" reach="16" fogscale="1" fogiter="3" glare=".5"/>
 			<vox tags="lamp" pos="1.1 7.9 0.0" file="MOD/resources/vox/road props.vox" object="light"/>
 		</vox>
@@ -110,20 +110,20 @@
 			<light tags="light4" pos="1.1 7.8 0.0" rot="90 0 0" type="area" color="1.0 0.92 0.73" scale="30" angle="0" size=".6" reach="16" fogscale="1" fogiter="3" glare=".5"/>
 			<vox tags="lamp4" pos="1.1 7.9 0.0" file="MOD/resources/vox/road props.vox" object="light"/>
 		</vox>
-		<vox pos="8.18782 2.1 22.57224" rot="0.0 -58.0 0.0" texture="2" file="MOD/resources/vox/road props.vox" object="lamppost">
+		<vox pos="8.18782 2.0 22.57224" rot="0.0 -58.0 0.0" texture="2" file="MOD/resources/vox/road props.vox" object="lamppost">
 			<light tags="light2" pos="1.1 7.8 0.0" rot="90 0 0" type="area" color="1.0 0.92 0.73" scale="30" angle="0" size=".6" reach="16" fogscale="1" fogiter="3" glare=".5"/>
 			<vox tags="lamp2" pos="1.1 7.9 0.0" file="MOD/resources/vox/road props.vox" object="light"/>
 		</vox>
 	</group>
 	<group name="road fence" pos="26.24116 0.0 21.06705" rot="0.0 -30.0 0.0">
-		<vox pos="23.95 1.95 27.45" rot="0.0 -56.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="road fence"/>
-		<vox pos="25.5 1.95 26.4" rot="0.0 -56.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="road fence"/>
-		<vox pos="22.4 1.95 28.5" rot="0.0 -56.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="road fence"/>
-		<vox pos="20.85 1.95 29.55" rot="0.0 -56.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="road fence"/>
-		<vox pos="19.3 1.95 30.6" rot="0.0 -56.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="road fence"/>
-		<vox pos="18.1 1.95 31.95" rot="0.0 -30.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="road fence"/>
-		<vox pos="27.05 1.95 25.35" rot="0.0 -56.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="road fence"/>
-		<vox pos="28.6 1.95 24.3" rot="0.0 -56.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="road fence"/>
+		<vox pos="23.95 1.85 27.45" rot="0.0 -56.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="road fence"/>
+		<vox pos="25.5 1.85 26.4" rot="0.0 -56.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="road fence"/>
+		<vox pos="22.4 1.85 28.5" rot="0.0 -56.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="road fence"/>
+		<vox pos="20.85 1.85 29.55" rot="0.0 -56.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="road fence"/>
+		<vox pos="19.3 1.85 30.6" rot="0.0 -56.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="road fence"/>
+		<vox pos="18.1 1.85 31.95" rot="0.0 -30.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="road fence"/>
+		<vox pos="27.05 1.85 25.35" rot="0.0 -56.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="road fence"/>
+		<vox pos="28.6 1.85 24.3" rot="0.0 -56.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="road fence"/>
 	</group>
 	<vox pos="43.96121 1.8 56.38564" rot="0.0 94.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="bench"/>
 	<group name="bushes" pos="28.44116 0.0 21.06705" rot="0.0 -30.0 0.0">
@@ -179,5 +179,26 @@
 	<vox pos="-22.07593 4.6 51.94061" rot="0.0 -40.0 0.0" texture="2" file="MOD/resources/vox/nature/trees/ash trees.vox" object="medium branches">
 		<vox pos="-0.1 -1.8 -0.1" rot="0.0 0.0 0.0" texture="2" file="MOD/resources/vox/nature/trees/ash trees.vox" object="medium trunk"/>
 	</vox>
+	<group name="metal fence" pos="64.68201 6.0 32.678" rot="0.0 0.0 0.0">
+		<vox pos="-2.0 -4.1 0.1" rot="0.0 0.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="metal fence"/>
+		<vox pos="-2.0 -4.1 1.5" rot="0.0 0.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="metal fence"/>
+		<vox pos="-1.9 -4.1 -0.7" rot="0.0 0.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="metal fence post">
+			<joint pos="-0.05 1.3 -0.2" rot="90 0 0" type="hinge" rotstrength="0" rotspring=".2" limits="-120 120"/>
+		</vox>
+		<vox pos="-2.0 -4.0 -1.5" rot="0.0 0.0 0.0" texture="2" collide="true" prop="true" file="MOD/resources/vox/fences.vox" object="metal fence gate"/>
+		<vox pos="-1.85 -4.1 -3.1" rot="0.0 175.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="metal fence"/>
+		<vox pos="-1.9 -4.1 -2.3" rot="0.0 0.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="metal fence post"/>
+		<vox pos="-2.0 -4.1 1.5" rot="0.0 0.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="metal fence"/>
+		<vox pos="-2.00001 -4.1 2.9" rot="0.0 0.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="metal fence"/>
+		<vox pos="-2.00001 -4.1 4.3" rot="0.0 0.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="metal fence"/>
+		<vox pos="-1.64999 -4.1 -4.45" rot="0.0 165.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="metal fence"/>
+		<vox pos="-1.27117 -4.1 -5.76557" rot="0.0 165.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="metal fence"/>
+		<vox pos="-0.89235 -4.1 -7.13115" rot="0.0 165.0 0.0" texture="2" file="MOD/resources/vox/fences.vox" object="metal fence"/>
+	</group>
+	<vox pos="61.7 1.8 34.6" rot="0.0 30.0 0.0" texture="2" file="MOD/resources/vox/nature/bushes.vox" object="medium bush"/>
+	<vox pos="61.7 2.2 36.2" rot="0.0 160.0 0.0" texture="2" file="MOD/resources/vox/nature/bushes.vox" object="medium bush"/>
+	<vox pos="58.8458 1.8 28.28458" rot="0.0 180.0 90.0" texture="2" file="MOD/resources/vox/nature/bushes.vox" object="large bush"/>
+	<vox pos="61.65 1.8 33.1" rot="0.0 20.0 0.0" texture="2" file="MOD/resources/vox/nature/bushes.vox" object="medium bush"/>
+	<voxbox pos="85.5 1.8 29.3" rot="0.0 2.0 0.0" size="50 30 80"/>
 </scene>
 
