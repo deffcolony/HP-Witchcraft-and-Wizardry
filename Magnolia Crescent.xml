@@ -6,15 +6,6 @@
 	<voxscript pos="-218.8 0.0 -177.0" rot="0.0 0.0 0.0" texture="2" blendtexture="0" file="MOD/resources/scripts/voxscript/ground.lua">
 		<parameters file="MOD/resources/img/magnolia crescent heightmap.png"/>
 	</voxscript>
-	<boundary pos="0.0 0.0 0.0" rot="0.0 0.0 0.0">
-		<vertex pos="41.4 -25.1"/>
-		<vertex pos="76.8 -25.2"/>
-		<vertex pos="79.4 60.2"/>
-		<vertex pos="24.5 60.9"/>
-		<vertex pos="24.4 68.0"/>
-		<vertex pos="-21.0 68.5"/>
-		<vertex pos="-11.5 -44.0"/>
-	</boundary>
 	<spawnpoint pos="57.8 5.5 40.1" rot="0.0 -60.0 0.0"/>
 	<script file="MOD/resources/scripts/magnolia crescent.lua"/>
 	<environment skyboxtint="0.0 0.0 0.0" skyboxbrightness=".3" constant="0.003 0.003 0.003" ambient=".2" fogColor="0.04 0.04 0.04" exposure=".5" brightness=".5" wetness=".6" puddleamount=".2" puddlesize=".3"/>
@@ -199,6 +190,13 @@
 	<vox pos="61.7 2.2 36.2" rot="0.0 160.0 0.0" texture="2" file="MOD/resources/vox/nature/bushes.vox" object="medium bush"/>
 	<vox pos="58.8458 1.8 28.28458" rot="0.0 180.0 90.0" texture="2" file="MOD/resources/vox/nature/bushes.vox" object="large bush"/>
 	<vox pos="61.65 1.8 33.1" rot="0.0 20.0 0.0" texture="2" file="MOD/resources/vox/nature/bushes.vox" object="medium bush"/>
-	<voxbox pos="85.5 1.8 29.3" rot="0.0 2.0 0.0" size="50 30 80"/>
+	<voxbox pos="85.5 1.8 27.8" rot="0.0 2.0 0.0" size="100 40 80"/>
+	<voxbox pos="77.4 1.8 -4.9" rot="0.0 -40.0 0.0" size="230 120 90"/>
+	<voxbox pos="71.7 1.8 1.9" rot="0.0 -38.0 0.0" size="60 90 80"/>
+	<voxbox pos="104.2 1.8 17.2" rot="0.0 0.0 0.0" size="120 120 150"/>
+	<voxbox pos="144.0 1.8 17.8" rot="0.0 -38.0 0.0" size="120 100 100"/>
+	<voxbox pos="147.0 1.8 23.1" rot="0.0 2.0 0.0" size="150 120 100"/>
+	<voxbox pos="94.3 1.8 1.4" rot="0.0 91.0 0.0" size="240 120 150"/>
+	<voxbox pos="93.8 1.8 -30.5" rot="0.0 91.0 0.0" size="240 120 150"/>
 </scene>
 
