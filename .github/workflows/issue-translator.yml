@@ -1,5 +1,5 @@
 # Will translate any issues opened in foraign language, and add the English translation as a comment 
-- name: Issues Translator
+- name: 🎯 Issue Translator
   # You may pin to the exact commit or the version.
   # uses: usthe/issues-translate-action@ac9866e08b906c9a893aaa747696eb4168801443
   uses: usthe/issues-translate-action@v2.6
