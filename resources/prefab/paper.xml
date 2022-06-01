@@ -1,0 +1,6 @@
+<prefab version="0.9.3">
+	<group id_="570132480" open_="true" name="instance=MOD/paper.xml" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0">
+		<vox pos="0.0 0.0 0.0" file="MOD/resources/vox/book of monsters.vox" object="paper" prop="true" collide="true" tags="paper" texture="3"/>
+	</group>
+</prefab>
+
