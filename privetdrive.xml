@@ -1,6 +1,6 @@
 <scene version="1.0.0">
 	<group name="Map">
-		<environment name="skybox" skyboxrot="-60" sunBrightness="0.5" sunSpread="0.10"/>
+		<environment name="skybox" template="night" skyboxrot="-60" sunBrightness="0.5" sunSpread="0.10"/>
 		<boundary name="playable area">
 			<vertex pos="-100.0 -100.0"/>
 			<vertex pos="100.0 -100.0"/>
@@ -2875,7 +2875,7 @@
 			<group name="Neighbour" pos="52.4 2.5 50.7" rot="0.0 -180.0 0.0"/>
 		</group>
 	</group>
-	<spawnpoint name="da wizard spawnpoint" pos="-4.6 3.1 2.5" rot="0.0 90.0 0.0"/>
+	<spawnpoint name="da wizard spawnpoint" pos="12.5 4.0 2.7" rot="0.0 150.0 0.0"/>
 	<instance pos="-5.6 3.3 -10.4" rot="0.0 180.0 0.0" file="MOD/resources/prefab/knightbus.xml"/>
 	<group name="Main Menu" layer="menu">
 		<script file="MOD/resources/scripts/menu/ui.lua"/>
