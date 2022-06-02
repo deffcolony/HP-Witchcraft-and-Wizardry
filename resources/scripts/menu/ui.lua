@@ -7,6 +7,10 @@ function init()
 end
 
 function draw()
+
+	playMenuMusic()
+
+
 	UiMakeInteractive()
 
 	UiTranslate(350, 0)
@@ -41,6 +45,7 @@ function draw()
 end
 
 function level_select()
+
 	UiMakeInteractive()
 	UiTranslate(UiCenter(), UiMiddle())
 	UiAlign("center middle")
@@ -67,6 +72,10 @@ function level_select()
 
 		UiTranslate(200)
 	end
+end
+
+function playMenuMusic()
+	PlayMusic('MOD/resources/snd/music/MysteriousNightMasterBlend.ogg')
 end
 
 -- Utility Functions:
