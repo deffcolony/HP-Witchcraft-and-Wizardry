@@ -24,17 +24,13 @@ local ScreenWidth, ScreenHeight = 0, 0;
 
 ---_
 MaxWindowPos = {w = 0,h = 0,}
-function file_exists(name)
-    local f, e loadfile(name)
+-- function file_exists(name)
+--     local f, e loadfile(name)
 
-    if not f then
-        return false
-    else
-        return true
-    end
-    -- local f=io. open(name,"r")
-    -- if f~=nil then io. close(f) return true else return false end
-end
+--     if not f then
+--         return false
+--     else return true end
+-- end
 
 ---@param TABLEwindows table What table this window should display on
 function aboutTGUI(TABLEwindows)
@@ -71,6 +67,8 @@ function aboutTGUI(TABLEwindows)
 end
 
 local opacityEnabled = false
+local showSlicing = false
+local windowSlice = { x = 13/2, y = 13/2}
 lastMouse = { x = 0, y = 0 }
 lastClick = { x = 0, y = 0 }
 lastClickWindow = 0
@@ -128,7 +126,7 @@ function initDrawTGUI( TABLEwindows )
         end
     end
 
-    if (#activeWindows > 0) then 
+    if (#TABLEwindows > 0) then 
         if not GetBool('tgui.disableInput') then
             UiMakeInteractive()
         end
@@ -156,6 +154,7 @@ function initDrawTGUI( TABLEwindows )
             return false
         end
         if v.firstFrame then v.focused = false v.prefocused = false v.closeWindow = false v.keepMoving = false v.keepResizing = false v.disableDrag = false
+            v.Dragging = false
             if v.minSize == nil then v.minSize = {w = 160,h = 160,} end
             if v.allowResize == nil then v.allowResize = true end
             v.firstFrame = false
@@ -163,16 +162,11 @@ function initDrawTGUI( TABLEwindows )
             if v.startMiddle then
                 UiPop()
                 local sm_x,sm_y = UiCenter(),UiMiddle()
-    
-                local f_sm_x = sm_x - v.size.w/2
-                local f_sm_y = sm_y - v.size.h/2
-                v.pos.x = f_sm_x
-                v.pos.y = f_sm_y
-    
+                local f_sm_x = sm_x - v.size.w/2; v.pos.x = f_sm_x
+                local f_sm_y = sm_y - v.size.h/2; v.pos.y = f_sm_y
                 v.startMiddle = false
             end
         end
-
         -- UI
         UiPush()
             UiTranslate(v.pos.x,v.pos.y)    
@@ -188,7 +182,6 @@ function initDrawTGUI( TABLEwindows )
                         if UiIsMouseInRect(v.size.w+2000, 1600) and v.disableDrag == false and InputDown('lmb') and last == i then
                             v.keepMoving = true
                             TABLEwindows[i].pos = Vec2DAdd(TABLEwindows[i].pos, deltaMouse)
-                            -- UiRect(v.size.w+2000, 1600)
                         else
                             v.keepMoving = false
                         end
@@ -198,6 +191,7 @@ function initDrawTGUI( TABLEwindows )
                     v.keepMoving = false
                 end
                 UiPush()
+                    UiAlign('top left')
                     UiColorFilter(1,1,1,globalWindowOpacity)
                     if last == i then
                         UiColor(c255(160), c255(160), c255(160),c200(150))
@@ -219,9 +213,23 @@ function initDrawTGUI( TABLEwindows )
                             table.insert(TABLEwindows , swapWindowData)
                         end
                     end
-                    UiImageBox("MOD/ui/TGUI_resources/textures/window.png",v.size.w ,v.size.h,6.5,6.5)
+                    UiImageBox(tgui_ui_assets.."/textures/window.png",v.size.w ,v.size.h,windowSlice.x,windowSlice.y)
+                    if showSlicing then
+                        UiPush()
+                            UiColor(1,0,0,1)
+                            UiPush()
+                                UiTranslate(0,windowSlice.x)
+                                UiRect(UiWidth(),1)
+                            UiPop()
+                            UiColor(0,1,0,1)
+                            UiPush()
+                                UiTranslate(windowSlice.y,0)
+                                UiRect(1,UiHeight())
+                            UiPop()
+                        UiPop()
+                    end
                 UiPop()
-                UiFont("MOD/ui/TGUI_resources/Fonts/TAHOMABD.TTF", 12)
+                UiFont(tgui_ui_assets.."/Fonts/TAHOMABD.TTF", 12)
                 UiTranslate(12,8)
                 UiColor(1,1,1,1)
                 UiText(v.title)
@@ -230,33 +238,24 @@ function initDrawTGUI( TABLEwindows )
                 UiColorFilter(1,1,1,globalWindowOpacity)
                 UiAlign("top right")
                 UiTranslate(UiWidth()-10,10)
-                UiImageBox('MOD/ui/TGUI_resources/textures/close.png',9,9,0,0)
+                UiImageBox(tgui_ui_assets..'/textures/close.png',9,9,0,0)
                 -- UiRect(11,11)
                 if UiIsMouseInRect(11,11) and InputDown('lmb') then
                     -- Nothing
-                elseif UiIsMouseInRect(11,11) then
-                    v.disableDrag = true
-                end
-
-                if v.disableDrag == true then
-                    if InputReleased('lmb') then
-                        v.disableDrag = false
-                    end
-                end
-                if UiBlankButton(11,11) then
-                    v.closeWindow = true
-                end
+                elseif UiIsMouseInRect(11,11) then  v.disableDrag = true end
+                if v.disableDrag == true then if InputReleased('lmb') then v.disableDrag = false end end
+                if UiBlankButton(11,11) then v.closeWindow = true end
             UiPop()
             UiPush()
                 UiTranslate(0,32)
                 UiWindow(v.size.w,v.size.h-32,v.clip)
-                UiFont("MOD/ui/TGUI_resources/Fonts/TAHOMA.TTF", 15)
+                UiFont(tgui_ui_assets.."/Fonts/TAHOMA.TTF", 15)
                 UiTranslate(v.padding,v.padding)
                 UiWindow(v.size.w-v.padding/2*4,v.size.h-32+v.padding/2*-4,v.clip)
                 UiColor(1,1,1,1)
                 UiPush()
                     UiAlign("top left")
-                    if v.focused then
+                    if v.focused or v.doNotHide then
                         if v.pos.x > MaxWindowPos.w then
                             v.pos.x = MaxWindowPos.w
                         end
@@ -265,6 +264,20 @@ function initDrawTGUI( TABLEwindows )
                         end
                         UiColorFilter(1,1,1,1)
                         local success, err = pcall(function(v) 
+                            if v.content == nil then
+                                -- v.content = function()
+                                --     UiWordWrap(UiWidth())
+                                --     uic_text("nil value, Reopen this window and continue what you were doing", -1, 32)
+                                -- end
+                                SetString('TGUI.error',"1. You might have quicksaved while a window was opened\n2. Content in table does not exist")
+                                SetBool('TGUI.error.allowTo.terminateWindow',true)
+                                SetInt('TGUI.error.allowTo.terminateNumber',v)
+                            end
+                            if v.focused == false then
+                                UiDisableInput()
+                            else
+                                UiButtonImageBox('MOD',0,0,0,0,0,0)
+                            end
                             v.content(v)
                         end, v)
 
@@ -280,32 +293,82 @@ function initDrawTGUI( TABLEwindows )
                 UiPop()
             UiPop()
             UiPush()
+                if TGUI_debug_show_windowMinsize then
+                    UiPush()
+                        UiPush()
+                            UiColor(1,0,0,1)
+                            UiTranslate(v.minSize.w, 0)
+                            UiRect(3,v.size.h)
+                        UiPop()
+                        UiPush()
+                            UiColor(0,1,0,1)
+                            UiTranslate(0,v.minSize.h)
+                            UiRect(v.size.w,3)
+                        UiPop()
+                    UiPop()
+                end
                 if v.focused and v.allowResize then
+                    local cursor_x, cursor_y = UiGetMousePos()
+                    -- UiPush()
+                    -- UiColor(1,1,1,0.3)
+                    -- UiRect(cursor_x, cursor_y)
+                    -- UiPop()            
                     UiTranslate(v.size.w,v.size.h)
                     UiAlign('bottom right')
                     UiPush()
                         UiTranslate(-3,-3)
-                        UiImage('MOD/ui/TGUI_resources/textures/resizeicon.png',image)
+                        UiImage(tgui_ui_assets..'/textures/resizeicon.png',image)
                     UiPop()
                     if UiIsMouseInRect(20,20) or v.keepResizing and InputDown('lmb') and last == i then
-                        -- UiRect(v.size.w+0, 32)
                         UiPush()
                             UiTranslate(-10,-10)
                             UiAlign("middle center")
                             if UiIsMouseInRect(1200,1200) and InputDown('lmb') and last == i then
-                                if v.size.w < v.minSize.w-1 then
+                                -- UiRect(25,25)
+                                -- if cursor_x < -cursor_x+v.minSize.w then
+                                --     v.size.w = v.minSize.w
+                                -- end
+                                -- if cursor_y < -cursor_y+v.minSize.h then
+                                --     v.size.h = v.minSize.h
+                                -- end
+
+                                local Vec2DAdd = Vec2DAdd_WH(v.size, deltaMouse)
+                                -- v.size = 
+                                if Vec2DAdd.w > -1 and Vec2DAdd.h > -1 then
+                                    if v.size.w > v.minSize.w then
+                                        v.size.w = Vec2DAdd.w
+                                    end
+                                    if v.size.h > v.minSize.h then
+                                        v.size.h = Vec2DAdd.h
+                                    end
+                                end
+                                if Vec2DAdd.w-8 < cursor_x then
+                                    v.size.w = Vec2DAdd.w
+                                end
+                                if Vec2DAdd.h-8 < cursor_y then
+                                    v.size.h = Vec2DAdd.h
+                                end
+                                -- UiPush()
+                                --     UiTranslate(-cursor_x+v.minSize.w,-cursor_y+v.minSize.h)
+                                --     UiColor(1,0,0,1)
+                                --     UiRect(15,15)
+                                -- UiPop()
+
+                                if v.size.w < v.minSize.w then
                                     v.size.w = v.minSize.w
                                 end
-                                if v.size.h < v.minSize.h-1 then
+                                if v.size.h < v.minSize.h then
                                     v.size.h = v.minSize.h
                                 end
                                 v.disableDrag = true
                                 v.keepResizing = true
-                                v.size = Vec2DAdd_WH(v.size, deltaMouse)
                             else
                                 v.keepResizing = false
                             end
                         UiPop()
+                    else
+                       if v.size.w < v.minSize.w then v.size.w = v.minSize.w end
+                       if v.size.h < v.minSize.h then v.size.h = v.minSize.h end
                     end
                     if InputReleased('lmb') and v.keepResizing then
                         v.disableDrag = false
@@ -314,16 +377,14 @@ function initDrawTGUI( TABLEwindows )
                 end
             UiPop()
         UiPop()
-        if v.closeWindow then
+        if v.closeWindow then if v.onClose == nil then
             table.remove(TABLEwindows, i)
-        end
+        else 
+            v.onClose(v, TABLEwindows , i)
+        end end
         lastMouse = mouse
     end
     end 
-    if success then
-
-    end
-
     if TGUI_has_error then
         -- TGUI_error_message
         UiPush()
@@ -333,11 +394,18 @@ function initDrawTGUI( TABLEwindows )
             UiColor(0,0,0,1)
             UiRect(UiWidth(),UiHeight())
             UiColor(1,1,1,1)
-            UiFont("MOD/ui/TGUI_resources/Fonts/TAHOMABD.TTF", 24)
+            UiFont(tgui_ui_assets.."/Fonts/TAHOMABD.TTF", 24)
             UiTranslate(0,UiMiddle()-100)
             UiText('[TGUI.MANAGER]: Woah, an actual error on screen',18)
-            -- UiText('[TGUI.Main]: invalid argument',18)
             UiText(TGUI_error_message)
+            if HasKey('TGUI.error') then
+                UiTranslate(0,48)
+                UiFont(tgui_ui_assets.."/Fonts/TAHOMABD.TTF", 32)
+                UiText("Probable Cause")
+                UiFont(tgui_ui_assets.."/Fonts/TAHOMABD.TTF", 24)
+                UiTranslate(0,32)
+                UiText(GetString('TGUI.error'))
+            end
             UiTranslate(0,100)
             UiPush()
                 UiAlign('center middle')
@@ -348,12 +416,11 @@ function initDrawTGUI( TABLEwindows )
                     UiTranslate(0,3)
                     UiText("QUIT")
                 UiPop()
-                if UiBlankButton(60,30) then
-
+                if UiBlankButton(90,45) then
+                    
                 end
             UiPop()
         UiPop()
-
     end
     if TABLEwindows == nil then 
         UiPush()
@@ -363,16 +430,11 @@ function initDrawTGUI( TABLEwindows )
             UiColor(0,0,0,1)
             UiRect(UiWidth(),UiHeight())
             UiColor(1,1,1,1)
-            UiFont("MOD/ui/TGUI_resources/Fonts/TAHOMABD.TTF", 24)
+            UiFont(tgui_ui_assets.."/Fonts/TAHOMABD.TTF", 24)
             UiTranslate(0,UiMiddle()-100)
-            UiText('[TGUI.Main]: invalid argument',18)
-            -- UiText(tostring(err))
+            UiText('[TGUI.MANAGER]: invalid argument',18)
         UiPop()
-        -- if file_exists("./info.txt") then DebugPrint('exists') end
     return end
-    -- if not success then
-    --     -- DebugPrint("caught error: "..tostring(err))
-    -- end
 end
 
 function Vec2DAdd(a, b)

@@ -165,6 +165,8 @@ function schreib(text)
   for i=0 , 50 do
     DebugPrint(" ")
   end
-  DebugPrint("Now Playing:  " .. text)
+  if GetBool('savegame.mod.debug.show.nowplaying') then
+  	DebugPrint("Now Playing:  " .. text)
+  end
 end
 
