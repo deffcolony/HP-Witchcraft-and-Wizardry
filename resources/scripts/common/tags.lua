@@ -63,7 +63,7 @@ function INIT.light()
 	for i = 1, #lights do
 		local val = GetTagValue( lights[i], "light" )
 		if val == "off" or val == "false" then
-			SetLightEnabled( lights[i], false )
+			SetLightEnabled( lights[i], true )
 		end
 	end
 end
