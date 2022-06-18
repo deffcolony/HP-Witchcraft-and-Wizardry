@@ -147,6 +147,7 @@ function initDrawTGUI( TABLEwindows )
     local last = #TABLEwindows -0
     if not TGUI_has_error then
     for i, v in pairs(TABLEwindows) do
+        if v.padding == nil then v.padding = 0 end
         -- INIT
         if v.firstFrame == nil then
             DebugPrint('FirstFrame Missing')
@@ -230,7 +231,8 @@ function initDrawTGUI( TABLEwindows )
                     end
                 UiPop()
                 UiFont(tgui_ui_assets.."/Fonts/TAHOMABD.TTF", 12)
-                UiTranslate(12,8)
+                UiTranslate(UiCenter(),32/2)
+                UiAlign('center middle')
                 UiColor(1,1,1,1)
                 UiText(v.title)
             UiPop()

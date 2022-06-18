@@ -1,47 +1,90 @@
+#include "../../../ui/TGUI_ui_library.lua"
+#include "../../../ui/TGUI_manager.lua"
+
 function init()
+	globalWindowOpacity = 1;tgui_ui_assets = "MOD/ui/TGUI_resources"
+	-- uic_debug_buttontextWidth = true;
 	levels = {
 		{name = "Privet Drive", path = "MOD/privetdrive.xml"},
-		--{name = "Bardar's Testing", path = "MOD/script_testing.xml"},
-		--{name = "Some Other Map", path = "MOD/entrance.xml"}
+		-- {name = "Bardar's Testing", path = "MOD/script_testing.xml"},
+		-- {name = "Some Other Map", path = "MOD/entrance.xml"}
 		}
+
+	activeWindows = {};
 end
 
+isNewGame_sandbox_open = false;
+menuButtons = {h = 0}
+
 function draw()
+	
+	-- UiPop()
+
+	UiMute(1)
 
 	playMenuMusic()
 
-
 	UiMakeInteractive()
+	UiPush()
+		UiColor(1,1,1,1)
+		UiTranslate(UiCenter(),UiHeight())
+		UiAlign('center bottom')
+		uic_text("UI is in placeholder phase", 32, 24)
+	UiPop()
+	UiPush()
+		UiTranslate(UiWidth() - 70, UiMiddle())
+		UiAlign("left middle")
 
-	UiTranslate(350, 0)
-	UiAlign("center")
-	UiColor(1, 1, 1, 0.2)
-	UiImageBox("MOD/resources/img/infobox.png", 400, 1080, 6, 6)
+		uic_CreateGameMenu_Buttons_list(menuButtons, 300, {
+			-- {
+			-- 	text = "Campaign",
+			-- },
+			{
+				text = "Sandbox",
+				action = function()
+					-- isNewGame_sandbox_open = true;
+					table.insert(activeWindows, {
+						firstFrame = true,
+						startMiddle  = true,
+						allowResize = false,
+						pos = { x=0, y=0 },
+						size = { w = 370, h = 300 },
+						title = "NEW SANDBOX GAME",
+						content = function( window )
+							for i,v in ipairs(levels) do
+								uic_button_func(0, v.name, UiWidth(), 32, false, false, function()
+									StartLevel("yes", v.path)
+								end)	
+								UiTranslate(0,34)
+							end
+						end
+					})
+					-- DebugPrint('new sandbox game')
+					-- draw = level_select()
+				end
+			},
+			{
+				text = "Quit",
+				action = function()
+					Menu()
+				end
+			},
+			-- {
+			-- 	text = "Button Test",
+			-- },
+			-- {
+			-- 	text = "Button Test",
+			-- },
+			-- {
+			-- 	text = "Button Test",
+			-- },
+			-- {
+			-- 	text = "Button Test",
+			-- },
+		}, false, {textAlgin = "right", buttonHeight = 36, fontSize = 36})
+	UiPop()
+	initDrawTGUI(activeWindows)
 
-	-- Title
-	UiTranslate(0, 200)
-	UiColor(1, 1, 1)
-	UiFont("bold.ttf", 50)
-	UiText("Harry Potter", true)
-	UiColor(0.9, 0.9, 0.9)
-	UiFont("bold.ttf", 30)
-	UiText("Witchcraft and Wizardry.", true)
-
-
-	-- Buttons
-	UiColor(1, 1, 1)
-	UiFont("regular.ttf", 36)
-	UiTranslate(0, 200)
-
-	UiRect()
-	if UiTextButton("Level Select") then
-		draw = level_select
-	end
-
-	UiTranslate(0, 200)
-	if UiTextButton("Exit") then
-		Menu()
-	end
 end
 
 function level_select()

@@ -10,87 +10,15 @@ function init()
 end
 
 function draw()
-    initDrawTGUI(activeWindows)
-
-        -- COMPASS
-        if (GetBool('hpTD.compass')) then
-            UiPush()
-                -- player        
-                local t = GetPlayerCameraTransform().rot
-                local _, t_el_y, _ = GetQuatEuler( t )
-    
-                player_r_y = t_el_y*2
-                UiTranslate(UiCenter(),15)
-                UiAlign('center top')
-                UiPush()
-                    UiTranslate(0,20)
-                    UiAlign('bottom center')
-                    UiPush()
-                        UiTranslate(0,20)
-                        UiImage(compass_ui_assets..'/compass/compass_shading.png')
-                    UiPop()
-                    UiPush()
-                        UiTranslate(0,33)
-                        UiImage(compass_ui_assets..'/compass/compass_line.png')
-                    UiPop()
-                UiPop()
-                UiPush()
-                    function mathZoneArea(x,z)
-                        if x< 0 then return x+100  end
-                        if x> 0 then return -x+100 end
-                    end
-    
-                    -- mathZoneArea(t_el_y,200)
-                    UiTranslate( player_r_y ,0)
-    
-                    UiPush()
-                        UiColor(0,1,1,mathZoneArea(t_el_y,200))
-                        UiTranslate( 0  ,0)
-                        UiRect(5,30)
-                    UiPop()
-                    -- 180
-                    UiPush()
-                        UiColor(1,0,1,mathZoneArea(t_el_y+180,200))
-                        UiTranslate( 180*2  ,0)
-                        UiRect(5,30)
-                    UiPop()
-                    UiPush()
-                        UiColor(1,0,1,mathZoneArea(t_el_y-180,200))
-                        UiTranslate( -180*2  ,0)
-                        UiRect(5,30)
-                    UiPop()
-                    -- 90
-                    UiPush()
-                        UiColor(1,0,0,mathZoneArea(t_el_y+90,200))
-                        UiTranslate( 90*2  ,0)
-                        UiRect(5,30)
-                    UiPop()
-                    UiPush()
-                        UiColor(1,0,0,mathZoneArea(t_el_y-90,200))
-                        UiTranslate( -90*2  ,0)
-                        UiRect(5,30)
-                    UiPop()
-                    -- 90 arround
-                    UiPush()
-                        UiColor(1,0,0,mathZoneArea(t_el_y+260,200))
-                        UiTranslate( 360+180  ,0)
-                        UiRect(5,30)
-                    UiPop()
-                    UiPush()
-                        UiColor(1,0,0,mathZoneArea(t_el_y-260,200))
-                        UiTranslate( -360-180  ,0)
-                        UiRect(5,30)
-                    UiPop()
-                UiPop()
-            UiPop()
+    ---Create a registry explorer window
+    ---@param prePath string Have pre-selected path
+    ---@return table Window The window object
+    function registerRegedit( prePath )
+        if prePath == nil then
+            prePath = "game"
         end
     
-        function regExplorer( prePath )
-            if prePath == nil then
-                prePath = "game"
-            end
-    
-            table.insert(activeWindows ,{
+        local regWindow = {
                 testFirstFrame = true,
                 -- DATA
                     StringViewer={
@@ -177,12 +105,14 @@ function draw()
                         for i, v in ipairs(listKeys) do scrollHeight = scrollHeight + 14 end
                         UiPush()
                             local AllowBack = false
+                            -- DebugWatch("BackHistoryNumber",window.StringViewer.BackHistoryNumber)
                             for i, v in pairs(window.StringViewer.history) do
                                 if window.StringViewer.historyPos == i then
                                     window.StringViewer.historyPos = i
                                 end
                                 if i > 1 then
                                     AllowBack = true
+                                    -- DebugWatch("BackHistoryNumber path",window.StringViewer.history[#window.StringViewer.history].path)
                                     window.StringViewer.BackHistoryNumber = #window.StringViewer.history
                                 else
                                     AllowBack = false
@@ -206,7 +136,7 @@ function draw()
                             if #listKeys == 0 then
                                 SetInt('TGUI.regExplorer.HoveringItem',0)
                             end
-                            uic_scroll_Container(window.ListScrollContainer, UiWidth(), UiHeight(), false, scrollHeight, function()
+                            uic_scroll_Container(window.ListScrollContainer, UiWidth(), UiHeight(), false, scrollHeight, 0, function()
                                 SetBool('TGUI.regExplorer.itemHover',false)
                                 if window.StringViewer.openNewReghWindow then
                                     window.StringViewer.openNewReghWindow = false
@@ -257,12 +187,59 @@ function draw()
                                         })
                                     -- end)
                                 end
+                                function dump_reg()
+                                    table.insert(activeWindows ,{
+                                        firstFrame = true,
+                                        title = "Delete path",
+                                        padding = 0,
+                                        pos = {x = 180, y = 200},
+                                        size = {w = 400, h = 130},
+                                        minSize = {w = 0, h = 0},
+                                        startMiddle = true,
+                                        allowResize = false,
+                                        doNotHide = true,
+                                        clip = false,
+                                        content = function(warningWindow)
+                                            UiTranslate(12,0)
+                                            UiPush()
+                                                uic_text("WATNING: you are about to dump a registry. Are you sure?", 24)
+                                                UiTranslate(0,24)
+                                                uic_checkbox("I am sure to dump this registry", "TGUI.regExplorer.dumpreg" ,500 )
+                                                UiTranslate(0,24)
+                                                UiText('REG: '..GetString("TGUI.regExplorer.dumpPath"))
+                                            UiPop()
+                                            UiAlign('bottom right')
+                                            UiTranslate(0,UiHeight())
+                                            UiTranslate(UiWidth()-24,-12)
+                                            uic_button_func(0, "No", 60, 24, false, "", function()
+                                                warningWindow.closeWindow = true
+                                            end)
+                                            UiTranslate(-75,0)
+                                            uic_button_func(0, "Yes", 60, 24, not GetBool('TGUI.regExplorer.dumpreg'), "", function()
+                                                -- ClearKey(window.StringViewer.directPath)
+                                                SetBool('TGUI.regExplorer.dumpreg',false)
+                                                local keys = ListKeys(GetString("TGUI.regExplorer.dumpPath"))
+                                                for i,v in ipairs(listKeys) do
+                                                    ClearKey(GetString("TGUI.regExplorer.dumpPath").."."..v)
+                                                    DebugPrint('delete: ' .. v)
+                                                end
+                                                warningWindow.closeWindow = true
+                                            end)
+                                        end
+                                    })
+    
+                                end
+                                -- CONTEXT: NOT SELECTING ITEM
                                 if GetInt('TGUI.regExplorer.HoveringItem') == 0 and InputPressed('rmb') then
                                     if window.StringViewer.blockedReg == false then
                                         uic_Register_Contextmenu_at_cursor({
                                             {type = "button", text="Create registry/Key here", action=function()
                                                 SetString('TGUI.regExplorer.newDirPath',window.StringViewer.path)
                                                 window.StringViewer.openNewReghWindow = true
+                                            end},
+                                            {type = "button", text="Dump current registry", action=function()
+                                                SetString('TGUI.regExplorer.dumpPath',window.StringViewer.path)
+                                                dump_reg()
                                             end},
                                         }, window)
                                     else
@@ -271,7 +248,7 @@ function draw()
                                         }, window)
                                     end
                                 end
-    
+                                -- KEYS LISTING
                                 for i, v in ipairs(listKeys) do
                                     scrollHeight = scrollHeight + 14
                                     UiPush()
@@ -400,8 +377,10 @@ function draw()
                 
                                         if UiIsMouseInRect(UiWidth(),14) then
                                             UiPush()
-                                                UiColor(c255(255),c255(156),c255(0),1)
-                                                UiRect(UiWidth(),14)
+                                                if GetBool('TGUI.regExplorer.itemHighlight') == false then
+                                                    UiColor(c255(255),c255(156),c255(0),1)
+                                                    UiRect(UiWidth(),14)
+                                                end
                                             UiPop()
                                             SetInt('TGUI.regExplorer.HoveringItem',i)
                                         else
@@ -437,9 +416,6 @@ function draw()
                                                 regExplorer_doubleclick_timer = 0
                                             end
                                         end
-                                        if regExplorer_doubleclick_timer == 1 then
-                                            SetValue('regExplorer_doubleclick_timer',0,"linear",0.3)
-                                        end
                                         if UiIsMouseInRect(UiWidth(),14) and InputPressed('rmb') then
                                             SetString('TGUI.regExplorer.deletePath',window.StringViewer.path.."."..v)
                                             SetBool('TGUI.regExplorer.itemHighlight', true)
@@ -458,6 +434,10 @@ function draw()
                                                         window.StringViewer.directPath = window.StringViewer.path.."."..v
                                                         window.StringViewer.openDeletePathWindow = true
                                                     end},
+                                                    {type = "button", text="Dump current registry", action=function()
+                                                        SetString('TGUI.regExplorer.dumpPath',window.StringViewer.path.."."..v)
+                                                        dump_reg()
+                                                    end},
                                                     {type="divider"},
                                                     {type = "button", text="Create registry/Key in selected registry", action=function()
                                                         SetString('TGUI.regExplorer.newDirPath',window.StringViewer.path.."."..v)
@@ -472,7 +452,7 @@ function draw()
                                                 uic_Register_Contextmenu_at_cursor({
                                                     {type = "button", text="Open registry in new window", action=function()
                                                         SetString('TGUI.regExplorer.openNew',window.StringViewer.path.."."..v)
-                                                    end},
+                                                    end}
                                                 }, window)
                                             end
                                         end
@@ -498,6 +478,9 @@ function draw()
                                 -- end
                                     UiPop()
                                     UiTranslate(0,14)
+                                end
+                                if regExplorer_doubleclick_timer == 1 then
+                                    SetValue('regExplorer_doubleclick_timer',0,"linear",0.3)
                                 end
     
                             end )
@@ -607,15 +590,6 @@ function draw()
                                             })
                                             openPathWindow.closeWindow = true
                                         end, window)
-                                        UiTranslate(0,30)
-                                        uic_button_func(0, "HPTD", 150 - 24, 24, false, "", function()
-                                            window.StringViewer.path = 'HPTD'
-                                            table.insert(window.StringViewer.history ,{
-                                                path = "TGUI",
-                                                viewing = true,
-                                            })
-                                            openPathWindow.closeWindow = true
-                                        end, window)
                                     UiPop()
                                     UiPush()
                                         UiTranslate(160,0)
@@ -700,6 +674,7 @@ function draw()
                                     UiTranslate(219,0)
                                     UiPush()
                                         UiWindow(UiWidth()-229,UiHeight()-2,true)
+                                        UiImageBox('./ui/TGUI_resources/textures/outline_inner_normal_dropdown.png',UiWidth(), UiHeight(),1,1)
                                             UiWordWrap(UiWidth())
                                             local titleText = uic_text(Helpindow.helpSections[Helpindow.helpSectionsView].title, 24, 20)
                                         
@@ -712,11 +687,86 @@ function draw()
     
                     UiPop()
                 end
-            })
+        }
+    
+        return regWindow
+    end
+        -- COMPASS
+        if (GetBool('hpTD.compass')) then
+            UiPush()
+                -- player        
+                local t = GetPlayerCameraTransform().rot
+                local _, t_el_y, _ = GetQuatEuler( t )
+    
+                player_r_y = t_el_y*2
+                UiTranslate(UiCenter(),15)
+                UiAlign('center top')
+                UiPush()
+                    UiTranslate(0,20)
+                    UiAlign('bottom center')
+                    UiPush()
+                        UiTranslate(0,20)
+                        UiImage(compass_ui_assets..'/compass/compass_shading.png')
+                    UiPop()
+                    UiPush()
+                        UiTranslate(0,33)
+                        UiImage(compass_ui_assets..'/compass/compass_line.png')
+                    UiPop()
+                UiPop()
+                UiPush()
+                    function mathZoneArea(x,z)
+                        if x< 0 then return x+100  end
+                        if x> 0 then return -x+100 end
+                    end
+    
+                    -- mathZoneArea(t_el_y,200)
+                    UiTranslate( player_r_y ,0)
+    
+                    UiPush()
+                        UiColor(0,1,1,mathZoneArea(t_el_y,200))
+                        UiTranslate( 0  ,0)
+                        UiRect(5,30)
+                    UiPop()
+                    -- 180
+                    UiPush()
+                        UiColor(1,0,1,mathZoneArea(t_el_y+180,200))
+                        UiTranslate( 180*2  ,0)
+                        UiRect(5,30)
+                    UiPop()
+                    UiPush()
+                        UiColor(1,0,1,mathZoneArea(t_el_y-180,200))
+                        UiTranslate( -180*2  ,0)
+                        UiRect(5,30)
+                    UiPop()
+                    -- 90
+                    UiPush()
+                        UiColor(1,0,0,mathZoneArea(t_el_y+90,200))
+                        UiTranslate( 90*2  ,0)
+                        UiRect(5,30)
+                    UiPop()
+                    UiPush()
+                        UiColor(1,0,0,mathZoneArea(t_el_y-90,200))
+                        UiTranslate( -90*2  ,0)
+                        UiRect(5,30)
+                    UiPop()
+                    -- 90 arround
+                    UiPush()
+                        UiColor(1,0,0,mathZoneArea(t_el_y+260,200))
+                        UiTranslate( 360+180  ,0)
+                        UiRect(5,30)
+                    UiPop()
+                    UiPush()
+                        UiColor(1,0,0,mathZoneArea(t_el_y-260,200))
+                        UiTranslate( -360-180  ,0)
+                        UiRect(5,30)
+                    UiPop()
+                UiPop()
+            UiPop()
         end
+    
         -- End of registry explorer code
         if HasKey('TGUI.regExplorer.openNew') then
-            regExplorer(GetString('TGUI.regExplorer.openNew'))
+            registerRegedit(GetString('TGUI.regExplorer.openNew'))
             ClearKey('TGUI.regExplorer.openNew')
         end
         if NewWindowPopup then
@@ -781,7 +831,7 @@ function draw()
                     UiTranslate(0,28);
                     if uic_button(0,"Double tab container",UiWidth(),24) then
                         NewWindowPopup = false
-                        table.insert(activeWindows ,{
+                        table.insert(ALL_WINDOWS_OPEN ,{
                             testFirstFrame = true,
                             -- DATA
                                 tab1 = {tabFirstFrame = true, },
@@ -898,7 +948,7 @@ function draw()
                                                 end}    
                                             }},
                                             {type="button", text = "Registry Explorer", action=function ()
-                                                regExplorer()
+                                                table.insert(ALL_WINDOWS_OPEN ,registerRegedit())
                                             end},
                                             {type = "divider"},
                                             {type="button", text = "Exit", action=function ()
@@ -926,6 +976,10 @@ function draw()
                                                 UiPush()
                                                     if UiIsMouseInRect(UiWidth(),UiHeight()-100) and InputPressed('rmb') then
                                                         uic_Register_Contextmenu_at_cursor({
+                                                            {type = "button", text="Button", action=function()
+                                                            end},
+                                                            {type = "button", disabled=true, text="Disabled Button", action=function()
+                                                            end},
                                                             {type = "toggle", key = "TGUI.context.toggleTest",text="Toggle", action=function()
                                                             end},
                                                             {type = "toggle", disabled=true ,key = "TGUI.context.toggleTest",text="Disabled Toggle", action=function()
@@ -980,14 +1034,12 @@ function draw()
                                                                 {type = "toggle", key = "TGUI.test.ContextMenu.ItemDisabled",text="Disable submenu", action=function()
                                                                 end},
                                                             }},
-                                                            {type="divider"},
-                                                            {type = "button", text="Button", action=function()
-                                                            end},
-                                                            {type = "button", disabled=true, text="Disabled Button", action=function()
-                                                            end},
+                                                            {type = "submenu",disabled=true, text="Disabled Submenu", items={}},
+    
                                                             {type="divider"},
                                                             {type = "button", disabled=true, text="Disabled Button", action=function()end},
                                                             {type = "button", disabled=true, text="Disabled Button", action=function()end},
+                                                            {type="divider"},
                                                             {type = "button", disabled=true, text="Disabled Button", action=function()end},
                                                             {type = "button", disabled=true, text="Disabled Button", action=function()end},
                                                             -- {type = "button", disabled=true, text="Disabled Button", action=function()end},
@@ -1057,8 +1109,8 @@ function draw()
                                         title = "UI component: Table container",
                                         ["Content"] = function(MainWindow)
                                             UiTranslate(10,10)
-                                            uic_table_container(MainWindow.tableContainer, 300, UiHeight()-20, false, true, true, MainWindow.tableContainer.tableColumnNames,MainWindow.tableContainer.table)
-                                            UiTranslate(320,0)
+                                            uic_tableview_container(MainWindow.tableContainer, UiWidth()-140, UiHeight()-20, false, true, true, MainWindow.tableContainer.tableColumnNames,MainWindow.tableContainer.table)
+                                            UiTranslate(UiWidth()-120,0)
                                             uic_button_func(0, "Empty Table", 100, 24, false, "", function ()
                                                 MainWindow.tableContainer.table = {}
                                                 MainWindow.tableContainer.tableColumnNames = {}
@@ -1074,7 +1126,9 @@ function draw()
                                                 MainWindow.tableContainer.table = {
                                                     {
                                                         24,
-                                                        "test"
+                                                        "test",
+                                                        onClick = function() DebugPrint("On Click") end,
+                                                        onRightClick = function() DebugPrint("On Right Click") end,
                                                     }
                                                 }
                                             end)
@@ -1155,6 +1209,86 @@ function draw()
                                                         24,
                                                         {},
                                                         "eee",
+                                                    },{
+                                                        "EEEEEEEEEEE",
+                                                        24,
+                                                        {},
+                                                        "eee",
+                                                    },{
+                                                        "EEEEEEEEEEE",
+                                                        24,
+                                                        {},
+                                                        "eee",
+                                                    },{
+                                                        "EEEEEEEEEEE",
+                                                        24,
+                                                        {},
+                                                        "eee",
+                                                    },{
+                                                        "EEEEEEEEEEE",
+                                                        24,
+                                                        {},
+                                                        "eee",
+                                                    },{
+                                                        "EEEEEEEEEEE",
+                                                        24,
+                                                        {},
+                                                        "eee",
+                                                    },{
+                                                        "EEEEEEEEEEE",
+                                                        24,
+                                                        {},
+                                                        "eee",
+                                                    },{
+                                                        "EEEEEEEEEEE",
+                                                        24,
+                                                        {},
+                                                        "eee",
+                                                    },{
+                                                        "EEEEEEEEEEE",
+                                                        24,
+                                                        {},
+                                                        "eee",
+                                                    },{
+                                                        "EEEEEEEEEEE",
+                                                        24,
+                                                        {},
+                                                        "eee",
+                                                    },{
+                                                        "EEEEEEEEEEE",
+                                                        24,
+                                                        {},
+                                                        "eee",
+                                                    },{
+                                                        "EEEEEEEEEEE",
+                                                        24,
+                                                        {},
+                                                        "eee",
+                                                    },{
+                                                        "EEEEEEEEEEE",
+                                                        24,
+                                                        {},
+                                                        "eee",
+                                                    },{
+                                                        "EEEEEEEEEEE",
+                                                        24,
+                                                        {},
+                                                        "eee",
+                                                    },{
+                                                        "EEEEEEEEEEE",
+                                                        24,
+                                                        {},
+                                                        "eee",
+                                                    },{
+                                                        "EEEEEEEEEEE",
+                                                        24,
+                                                        {},
+                                                        "eee",
+                                                    },{
+                                                        "EEEEEEEEEEE",
+                                                        24,
+                                                        {},
+                                                        "eee",
                                                     },
                                                 }
                                                 -- for i, v in ipairs(MainWindow.tableContainer) do
@@ -1164,7 +1298,7 @@ function draw()
                                         end
                                     },
                                     {
-                                        title = "Dropdown, menubar",
+                                        title = "All",
                                         ["Content"] = function(MainWindow)
                                             UiPush()
                                                 UiTranslate(12,12)
@@ -1241,6 +1375,26 @@ function draw()
                                                 UiTranslate(0,18)
                                                 uic_radio_button("TGUI.test.radio.t1", "WTF", "WTF", 130)
                                             UiPop()
+                                            UiPush()
+                                                UiTranslate(382,12)
+                                                uic_text("Textboxes", 24)
+                                                UiTranslate(0,24)                
+                                                local textbox_text = uic_textbox("TGUI.textbox.test", 300, window.textBox_test)
+                                                UiPush()
+                                                    UiTranslate(0,25)
+                                                    _ = uic_textbox("TGUI.textbox.test2", 300, window.textBox_test2)
+                                                    UiTranslate(0,25)
+                                                    uic_dropdown( 100, "TGUI.dropdown.lol", {
+                                                        {
+                                                            text = "1"
+                                                        }
+                                                    }, false, "")
+                                                UiPop()
+                                                UiTranslate(310,0)
+                                                uic_button_func(0, "Print", 100, 24, false, "", function()
+                                                    DebugPrint(textbox_text)
+                                                end, textbox_text)
+                                            UiPop()
                                             UiTranslate(0,92)
                                             UiPush()
                                                 UiTranslate(12,0)
@@ -1294,38 +1448,17 @@ function draw()
                                             })
                                         end
                                     },
-                                    {
-                                        title = "TextBox",
-                                        ["Content"] = function(window)
-                                            UiTranslate(20,20)
-                                            local textbox_text = uic_textbox("TGUI.textbox.test", 300, window.textBox_test)
-                                            UiPush()
-                                                UiTranslate(0,25)
-                                                _ = uic_textbox("TGUI.textbox.test2", 300, window.textBox_test2)
-                                                UiTranslate(0,25)
-                                                uic_dropdown( 100, "TGUI.dropdown.lol", {
-                                                    {
-                                                        text = "1"
-                                                    }
-                                                }, false, "")
-                                            UiPop()
-                                            UiTranslate(310,0)
-                                            uic_button_func(0, "Print", 100, 24, false, "", function()
-                                                DebugPrint(textbox_text)
-                                            end, textbox_text)
-                                        end
-                                    },
                                 }, window)
                                 UiPop()
                                 UiPush()
-                                UiTranslate(UiWidth()-290,0)
-                                uic_tab_container(window.tab2,260, UiHeight()-(12+32), false, true, {
+                                UiTranslate(UiWidth()-310,0)
+                                uic_tab_container(window.tab2,280, UiHeight()-(12+32), false, true, {
                                     ["open_default"] = 1,
                                     {
                                         ["title"] = "Scroll container test",
                                         ["Content"] = function()
                                             UiTranslate(12,12)
-                                            uic_scroll_Container(window.scrollArea,UiWidth()-24,window.scrollConHeight, true, window.scrollHeight ,function(extraContent)
+                                            uic_scroll_Container(window.scrollArea,UiWidth()-24,window.scrollConHeight, true, window.scrollHeight, 300 ,function(extraContent)
                                                 UiTranslate(12,0)
                                                 UiText('i am at the top')
                                                 UiPush()
@@ -1388,10 +1521,11 @@ function draw()
                             end
                         })
                     end
+    
                     UiTranslate(0,28);
                     if uic_button(0,"Registry Explorer",UiWidth(),24) then
                         NewWindowPopup = false
-                        regExplorer()
+                        table.insert(activeWindows ,registerRegedit())
                     end
                     UiTranslate(0,28);
                     -- uic_button_func(0,"function button",UiWidth(),24, false, "", function(contents)
@@ -1422,7 +1556,8 @@ function draw()
                 end)
             UiPop()
         end
-        
+
+        initDrawTGUI(activeWindows)
         uic_drawContextMenu()
         uic_tooltip()
     
