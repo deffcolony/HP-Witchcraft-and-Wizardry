@@ -4,7 +4,7 @@
    <br/>
   <img width="120" src="https://i.imgur.com/WgEqqof.png" />
   <br/>
-  <b><a href="https://discord.gg/ZdX8GuJ2Eg">Discord</a></b> | <b><a href="https://alexveebee.github.io/HP-TD-devblogs/">News</a></b> | <b><a href="https://github.com/deffcolony/HP-Witchcraft-and-Wizardry">Documentation</a></b> | <b><a href="https://github.com/deffcolony/HP-Witchcraft-and-Wizardry">GitHub</a></b>
+  <b><a href="https://discord.gg/ZdX8GuJ2Eg">Discord</a></b> | <b><a href="https://alexveebee.github.io/HP-TD-devblogs/">News</a></b> | <b><a href="https://github.com/deffcolony/HP-Witchcraft-and-Wizardry/wiki">Documentation</a></b> | <b><a href="https://github.com/deffcolony/HP-Witchcraft-and-Wizardry">GitHub</a></b>
   <br/><br/>
   
 
