@@ -229,6 +229,7 @@ function draw()
                                     })
     
                                 end
+                                function openNewWindow( path ) registerRegedit(path) end
                                 -- CONTEXT: NOT SELECTING ITEM
                                 if GetInt('TGUI.regExplorer.HoveringItem') == 0 and InputPressed('rmb') then
                                     if window.StringViewer.blockedReg == false then
@@ -423,7 +424,7 @@ function draw()
                                                 uic_Register_Contextmenu_at_cursor({
                                                     -- {type = "", text="PATH:"..GetString('TGUI.regExplorer.deletePath')},
                                                     {type = "button", text="Open registry in new window", action=function()
-                                                        SetString('TGUI.regExplorer.openNew',window.StringViewer.path.."."..v)
+                                                        openNewWindow( window.StringViewer.path.."."..v)
                                                     end},
                                                     {type = "button", text="Edit", action=function()
                                                         window.StringViewer.directPath = window.StringViewer.path.."."..v
@@ -451,7 +452,7 @@ function draw()
                                             else
                                                 uic_Register_Contextmenu_at_cursor({
                                                     {type = "button", text="Open registry in new window", action=function()
-                                                        SetString('TGUI.regExplorer.openNew',window.StringViewer.path.."."..v)
+                                                        openNewWindow( window.StringViewer.path.."."..v )
                                                     end}
                                                 }, window)
                                             end
@@ -765,10 +766,6 @@ function draw()
         end
     
         -- End of registry explorer code
-        if HasKey('TGUI.regExplorer.openNew') then
-            registerRegedit(GetString('TGUI.regExplorer.openNew'))
-            ClearKey('TGUI.regExplorer.openNew')
-        end
         if NewWindowPopup then
             UiPush()
             UiMakeInteractive()

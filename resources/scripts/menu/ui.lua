@@ -1,5 +1,5 @@
 #include "../../../ui/TGUI_ui_library.lua"
-#include "../../../ui/TGUI_manager.lua"
+#include "../../../ui/HPTDui_manager.lua"
 
 function init()
 	globalWindowOpacity = 1;tgui_ui_assets = "MOD/ui/TGUI_resources"
@@ -48,14 +48,18 @@ function draw()
 						startMiddle  = true,
 						allowResize = false,
 						pos = { x=0, y=0 },
-						size = { w = 370, h = 300 },
+						-- size = { w = 370, h = 300 },
 						title = "NEW SANDBOX GAME",
 						content = function( window )
+							UiAlign('center top')
+							UiTranslate(UiCenter(), 0)
 							for i,v in ipairs(levels) do
-								uic_button_func(0, v.name, UiWidth(), 32, false, false, function()
+								uic_button_func(0, v.name, 750, 48, false, false, function()
 									StartLevel("yes", v.path)
-								end)	
-								UiTranslate(0,34)
+								end, 0, {
+									fontSize = 28,
+								})	
+								UiTranslate(0,46)
 							end
 						end
 					})
@@ -83,7 +87,7 @@ function draw()
 			-- },
 		}, false, {textAlgin = "right", buttonHeight = 36, fontSize = 36})
 	UiPop()
-	initDrawTGUI(activeWindows)
+	initDrawHPRD_UI(activeWindows)
 
 end
 

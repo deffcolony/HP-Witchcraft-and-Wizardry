@@ -99,7 +99,7 @@ local pos = {}
 ---@important title - Title of the window
 ---@important pos = `{x = (int), y = (int)}` - Position of the window
 ---@important size = `{w = (int), h = (int)}` - Size of the window
----@not_in_use opacity
+---@not_in_use opacity | use globalWindowOpacity
 ---@param TABLEwindows table Where all the windows are stored
 function initDrawTGUI( TABLEwindows )
     -- if TABLEwindows == nil then 

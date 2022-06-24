@@ -550,7 +550,7 @@ end
 ---@param clip boolean Clip content outside window. Default is false
 ---@param border boolean Adds the border to the container
 ---@param content function function: UI
----@param ectraContent any Additional content to be called to the container
+---@param ectraContent? any Additional content to be called to the container
 function uic_container(width,height,clip,border,makeinner,content, ectraContent)
     UiPush()
         if(not border) then UiWindow(width,height,clip) end
@@ -1256,7 +1256,7 @@ end
 ---@param Text string Simple, display the text
 ---@param height integer Height for the the `UiTextButton`
 ---@param fontSize integer Size of the text
----@param customization table you can only change the font path
+---@param customization table table you can only change the font path
 ---@return table fontPathAndSize Get the font path and the size that is used
 function uic_text( Text, height, fontSize, customization )
     if customization == nil then
@@ -1288,7 +1288,7 @@ end
 
 ---Create a checkbox
 ---@param text string Display text
----@param key string Key for the checkbox
+---@param key string|table Key for the checkbox
 ---@param hitWidth integer Changes width of the hitbox for the checkbox
 ---@param beDisabled boolean Make it disabled and unchecable
 function uic_checkbox(text, key, hitWidth, beDisabled, toolTipText)
@@ -1459,11 +1459,26 @@ end
 ---@param disabled integer Disable the button
 ---@param onClick function Do something when on the button on click
 ---@param extraContent any Additional content to be called to the button
-function uic_button_func(buttinid, text, width, height, disabled, toolTipText, onClick, extraContent)
+---@param Customization table? Customize the button
+function uic_button_func(buttinid, text, width, height, disabled, toolTipText, onClick, extraContent, Customization)
+    if Customization == nil then
+        Customization = {
+            fontPath = tgui_ui_assets.."/Fonts/TAHOMA.TTF",
+            fontSize = 14
+        }
+    else
+        if Customization.fontPath == nil then
+            Customization.fontPath = tgui_ui_assets.."/Fonts/TAHOMA.TTF"
+        end
+        if Customization.fontSize == nil then
+            Customization.fontSize = 14
+        end
+
+    end
     UiPush()
         UiWindow(width, height, false)
         UiAlign("left top")
-        UiFont(tgui_ui_assets.."/Fonts/TAHOMA.TTF", 14)
+        UiFont(Customization.fontPath, Customization.fontSize)
         if disabled then
             UiDisableInput()
         end
@@ -1545,7 +1560,6 @@ end
 
 ---Create a dropdown menu | id is now window
 ---@note A registry will be added to the key: `.dropdwon.val`
----@param window table The root window
 ---@param width integer Width of the dropdown menu and window
 ---@param key string Key for each dropdown menu (if all keys are the same for all dropdown menus, every one of them will show the same selected item)
 ---@param items table List of items to display
