@@ -14,6 +14,11 @@ Aurthor: AlexVeeBee
 ]]
 
 ---
+
+
+
+
+
 local TGUI_has_error = False;
 
 function initDrawHPRD_UI( TABLEwindows )
@@ -114,7 +119,7 @@ function initDrawHPRD_UI( TABLEwindows )
                     UiText("QUIT")
                 UiPop()
                 if UiBlankButton(90,45) then
-                    
+                    Menu()
                 end
             UiPop()
         UiPop()

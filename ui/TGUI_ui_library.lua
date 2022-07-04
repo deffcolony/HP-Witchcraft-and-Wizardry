@@ -570,13 +570,20 @@ function uic_container(width,height,clip,border,makeinner,content, ectraContent)
     UiTranslate(0,height)
 end
 
----comment
+---@alias menubarCustom # Table customization
+---| "showBorder" # Default: true
+---| "AllBorders" # Default: false
+---| "borderTop" # Default: true
+---| "borderBottom" # Default: true
+---| "textPadding" # Default: 4
+-- (Default = true), AllBorders (Default = false), textPadding (Default = 4)
+
+---Create a menubar
 ---@param w integer width of the menubar
 ---@param items table What should show in the menubar `{title = "Text", contents = {TGUI.contextmenu format}}`
 ---@contextmenu format: `{type = "(empty is just text)"|"divider"|"button"|"toggle"|"submenu"`(to insert items do ,`items = {--[[TGUI.contextmenu format]]}`)`}`
 ---@param extraContent any Additional content to be called to the menubar
----@param customization table customize the menubar
----@options showBorder (Default = true), AllBorders (Default = false), textPadding (Default = 4)
+---@param customization menubarCustom `table` customize the menubar
 function uic_menubar(w, items ,extraContent , customization)
     if customization == nil then
         customization = {
