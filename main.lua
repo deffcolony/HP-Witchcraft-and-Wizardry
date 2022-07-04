@@ -6,8 +6,12 @@ function init()
     globalWindowOpacity = 1
     tgui_ui_assets = "MOD/ui/TGUI_resources"
 
+    devMenuEnabled = false;
+
     activeWindows = {}
 end
+
+disabledMenuTimer = 1
 
 function draw()
     ---Create a registry explorer window
@@ -766,7 +770,7 @@ function draw()
         end
     
         -- End of registry explorer code
-        if NewWindowPopup then
+        if NewWindowPopup and devMenuEnabled == true then
             UiPush()
             UiMakeInteractive()
             UiAlign('top left')
@@ -828,7 +832,7 @@ function draw()
                     UiTranslate(0,28);
                     if uic_button(0,"Double tab container",UiWidth(),24) then
                         NewWindowPopup = false
-                        table.insert(ALL_WINDOWS_OPEN ,{
+                        table.insert(activeWindows ,{
                             testFirstFrame = true,
                             -- DATA
                                 tab1 = {tabFirstFrame = true, },
@@ -1534,6 +1538,22 @@ function draw()
             end)
             UiPop()
         end
+        -- if NewWindowPopup and devMenuEnabled == false then
+        --     UiPush()
+        --         UiAlign('top left')
+        --         UiTranslate(UiCenter()-160/2,UiMiddle()-150)
+        --         UiCreateWindow(160,80,false,"HPTD New Window",8,function()
+        --             uic_text("Menu Disabled",20, 16);
+        --         end)
+        --     UiPop()
+        --     if disabledMenuTimer == 1 then
+        --         SetValue('disabledMenuTimer',0,"linear",3)
+        --     end
+        --     if disabledMenuTimer == 0 then
+        --         NewWindowPopup = false
+        --         disabledMenuTimer = 1
+        --     end
+        -- end
         if InputPressed('f1') then
             if GetBool('tgui.disableInput') then
                 SetBool('tgui.disableInput',false)
