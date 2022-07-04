@@ -34,8 +34,9 @@ function draw()
 		h = UiHeight()
         unit = w / 144
 		UiColor(0, 0, 0, 1)
-		UiTranslate(UiCenter(), UiMiddle())
-        UiTranslate(-7 * unit, 0)
+		UiTranslate(UiCenter(), UiMiddle()+100)
+        UiAlign('center middle')
+        -- UiTranslate(-7 * unit, 0)
 		UiFont("regular.ttf", 40)
 		UiText("Press SHIFT to tell Ern to 'hit it'")
     end
