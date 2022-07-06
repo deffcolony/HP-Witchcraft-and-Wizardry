@@ -1,6 +1,6 @@
 <scene version="1.0.0">
 	<group name="Map">
-		<environment name="skybox" template="night" skyboxrot="-60" sunBrightness="0.5" sunSpread="0.10"/>
+		<environment skyboxtint="0.0 0.0 0.0" skyboxbrightness="0.1" ambient="0.2" ambientexponent="1.6" fogColor="0.0 0.0 0.0" exposure="1.0" brightness="0.2" puddleamount="1" nightlight="false" fogscale="0"/>
 		<boundary name="playable area">
 			<vertex pos="-100.0 -100.0"/>
 			<vertex pos="100.0 -100.0"/>
