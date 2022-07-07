@@ -5,8 +5,8 @@ function init()
 	globalWindowOpacity = 1;tgui_ui_assets = "MOD/ui/TGUI_resources"
 	-- uic_debug_buttontextWidth = true;
 	levels = {
-		{name = "Privet Drive", path = "MOD/privetdrive.xml"},
-		-- {name = "Bardar's Testing", path = "MOD/script_testing.xml"},
+		{name = "Privet Drive", path = "MOD/privetdrive.xml", locked = false},
+		-- {name = "Bardar's Testing", path = "MOD/script_testing.xml", locked = true},
 		-- {name = "Some Other Map", path = "MOD/entrance.xml"}
 		}
 
@@ -39,6 +39,9 @@ function draw()
 			-- {
 			-- 	text = "Campaign",
 			-- },
+			-- {
+			-- 	text = "More Actions test",
+			-- },
 			{
 				text = "Sandbox",
 				action = function()
@@ -54,8 +57,21 @@ function draw()
 							UiAlign('center top')
 							UiTranslate(UiCenter(), 0)
 							for i,v in ipairs(levels) do
+								if v.locked then
+									UiPush()
+										UiAlign('right top');
+										UiTranslate(-UiCenter()+750*1.5-12)
+										uic_text("( locked icon )", 48, 24);
+									UiPop()
+
+									UiColor(0.3,0.3,0.3,1)
+								else
+									UiColor(1,1,1,1)
+								end
 								uic_button_func(0, v.name, 750, 48, false, false, function()
-									StartLevel("yes", v.path)
+									if not v.locked then
+										StartLevel("yes", v.path)
+									end
 								end, 0, {
 									fontSize = 28,
 								})	
@@ -65,6 +81,133 @@ function draw()
 					})
 					-- DebugPrint('new sandbox game')
 					-- draw = level_select()
+				end
+			},
+			-- {
+			-- 	text = "Credits",
+			-- 	action = function()
+			-- 		table.insert(activeWindows, {
+			-- 			firstFrame = true,
+			-- 			startMiddle  = true,
+			-- 			allowResize = false,
+			-- 			pos = { x=0, y=0 },
+			-- 			-- size = { w = 370, h = 300 },
+			-- 			title = "Credits",
+			-- 			content = function()
+
+			-- 			end
+			-- 		});
+			-- 	end
+			-- },
+			{
+				text = "News",
+				action = function()
+					table.insert(activeWindows, {
+						firstFrame = true,
+						startMiddle  = true,
+						allowResize = false,
+						pos = { x=0, y=0 },
+						-- size = { w = 370, h = 300 },
+						title = "News",
+						content = function()
+							function updateHeaderNmae(name) 
+								UiAlign('left top')
+								UiTranslate(0, 0)
+								uic_text(name, 50, 42);
+								UiTranslate(0,50);
+							end
+							function updateItem(type ,value) 
+								if type == "text" then
+									UiAlign('left top')
+									UiTranslate(0,0)
+									uic_text(value, 24, 24)
+								elseif type == "image" then
+									UiAlign('left top')
+									UiTranslate(0,0)
+									UiImage(value)
+									-- uic_image(text, 24, 24)
+								end
+							end
+							function imageIcon(icon) 
+								if icon == "wand" then UiImageBox('./icons/magic-wand.png', 24, 24) elseif icon == "wizard" then UiImageBox('./icons/man-mage.png', 24, 24) end
+							end
+							function UINewslistingManager(listOfNews)
+								for i,v in ipairs(listOfNews) do
+									UiPush()
+										if v.icon == nil then else
+											imageIcon(v.icon) UiTranslate(26,0);
+										end
+										updateItem(v.type, v.value)
+									UiPop()	
+									UiTranslate(0,24)
+								end
+							end
+
+							updateHeaderNmae("Update 0.1.0 - map")
+							uic_text("MAP UPDATE", 24, 24, {font=tgui_ui_assets.."/Fonts/TAHOMABD.TTF"})
+							UiTranslate(0,24)
+							UINewslistingManager({
+								{icon = "wizard",type = "text",value = "ADDED - Shower head water stream."},
+								{icon = "wizard",type = "text",value = "ADDED - Shower on/off."},
+								{icon = "wizard",type = "text",value = "ADDED - Bathroom steam when shower is on."},
+								{icon = "wizard",type = "text",value = "ADDED - The sink can now turn on and off."},
+								{icon = "wizard",type = "text",value = "ADDED - The sink emits water particles."},
+								{icon = "wizard",type = "text",value = "ADDED - The sink's volume fades based on distance."},
+								{icon = "wizard",type = "text",value = "ADDED - Toilet can be flushed."},
+								{icon = "wizard",type = "text",value = "CHANCED - Map is now darker."},
+							})
+							UiTranslate(0,24)
+							uic_text("BUG FIXES", 24, 24, {font=tgui_ui_assets.."/Fonts/TAHOMABD.TTF"})
+							UiTranslate(0,24)
+							UINewslistingManager({
+								{icon = "wand",type = "text",value = "FIXED - UI Button."},
+								{icon = "wand",type = "text",value = "FIXED - Smoke from the fireplace coming inside the house"},
+								{icon = "wand",type = "text",value = "FIXED - the tvs in harry's house. They now display the correct image and the tv upstairs won't play automatically anymore"},
+								{icon = "wand",type = "text",value = "FIXED - Bathroom shower steam dimensions."},
+							})
+							UiTranslate(0,24)
+
+							-- UiPush()
+							-- 	imageIcon("wizard") UiTranslate(26,0);
+							-- 	updateItem("text", "ADDED - Shower head water stream.")
+							-- UiPop()	
+							-- UiTranslate(0,24)
+							-- UiPush()
+							-- 	imageIcon("wizard") UiTranslate(26,0);
+							-- 	updateItem("text", "ADDED - Shower on/off.")
+							-- UiPop()	
+							-- UiTranslate(0,24)
+							-- UiPush()
+							-- 	imageIcon("wizard") UiTranslate(26,0);
+							-- 	updateItem("text", "ADDED - Bathroom steam when shower is on.")
+							-- UiPop()	
+
+							--[[
+								MAP UPDATE
+								🧙‍♂️ ADDED – Shower head water stream
+								🧙‍♂️ ADDED – Shower on/off.
+								🧙‍♂️ ADDED – Bathroom steam when shower is on.
+								🧙‍♂️ ADDED – The sink can now turn on and off.
+								🧙‍♂️ ADDED – The sink emits water particles.
+								🧙‍♂️ ADDED – The sink's volume fades based on distance.
+								🧙‍♂️ ADDED – Toilet can be flushed
+
+								BUG FIXES
+								🪄 FIXED – UI Button
+								🪄 FIXED – Smoke from the fireplace coming inside the house
+								🪄 FIXED – the tvs in harry's house. They now display the correct image and the tv upstairs won't play automatically anymore.
+								🪄 FIXED – Bathroom shower steam dimensions. 
+							]]
+
+							-- UiTranslate(0,24)
+							-- UiPush()
+							-- 	imageIcon("wand") UiTranslate(26,0);
+							-- 	updateItem("text", "REMOVED - nothing")
+							-- UiPop()	
+							-- UiTranslate(0,24)
+							-- uic_text("No news available", 24, 22)
+						end
+					});
 				end
 			},
 			{

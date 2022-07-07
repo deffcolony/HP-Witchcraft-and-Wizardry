@@ -44,6 +44,13 @@ function initDrawHPRD_UI( TABLEwindows )
                     UiColor(1,1,1,1)
                     UiAlign('center middle')
                     UiTranslate(v.size.w/2,64/2)
+                    UiPush()
+                        UiTranslate(0,29);
+                        UiAlign('Center middle');
+                        UiColor(1,1,1,1)
+                        UiRect(243,4)
+                    UiPop()
+
                     UiFont(tgui_ui_assets.."/Fonts/TAHOMABD.TTF", 36)
                     UiText(v.title,move)
                 UiPop()
@@ -68,11 +75,11 @@ function initDrawHPRD_UI( TABLEwindows )
                 UiPop()
 
                 if v.title == nil then
-                    UiTranslate(0,32)
-                    UiWindow(v.size.w,v.size.h-32, true)
+                    UiTranslate(0,32+12)
+                    UiWindow(v.size.w,v.size.h-32-12, true)
                 else
-                    UiTranslate(0,64)
-                    UiWindow(v.size.w,v.size.h-64, true)
+                    UiTranslate(0,64+12)
+                    UiWindow(v.size.w,v.size.h-64-12, true)
                 end
                 if v.content == nil then
                 else

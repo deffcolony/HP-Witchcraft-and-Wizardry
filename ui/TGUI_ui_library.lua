@@ -1262,8 +1262,8 @@ end
 ---Display text
 ---@param Text string Simple, display the text
 ---@param height integer Height for the the `UiTextButton`
----@param fontSize integer Size of the text
----@param customization table table you can only change the font path
+---@param fontSize integer? Size of the text
+---@param customization table? table you can only change the font path
 ---@return table fontPathAndSize Get the font path and the size that is used
 function uic_text( Text, height, fontSize, customization )
     if customization == nil then
