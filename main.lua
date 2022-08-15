@@ -6,7 +6,7 @@ function init()
     globalWindowOpacity = 1
     tgui_ui_assets = "MOD/ui/TGUI_resources"
 
-    devMenuEnabled = false;
+    devMenuEnabled = GetBool("savegame.mod.HPTD.settings.enableDeveloperTools");
 
     activeWindows = {}
 end

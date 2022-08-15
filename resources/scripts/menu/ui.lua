@@ -107,10 +107,12 @@ function draw()
 						startMiddle  = true,
 						allowResize = false,
 						pos = { x=0, y=0 },
+						newsSCrollingContainer = {
+						},
 						-- size = { w = 370, h = 300 },
 						title = "News",
-						content = function()
-							function updateHeaderNmae(name) 
+						content = function(window)
+							function updateHeaderName(name) 
 								UiAlign('left top')
 								UiTranslate(0, 0)
 								uic_text(name, 50, 42);
@@ -143,29 +145,31 @@ function draw()
 								end
 							end
 
-							updateHeaderNmae("Update 0.1.0 - map")
-							uic_text("MAP UPDATE", 24, 24, {font=tgui_ui_assets.."/Fonts/TAHOMABD.TTF"})
-							UiTranslate(0,24)
-							UINewslistingManager({
-								{icon = "wizard",type = "text",value = "ADDED - Shower head water stream."},
-								{icon = "wizard",type = "text",value = "ADDED - Shower on/off."},
-								{icon = "wizard",type = "text",value = "ADDED - Bathroom steam when shower is on."},
-								{icon = "wizard",type = "text",value = "ADDED - The sink can now turn on and off."},
-								{icon = "wizard",type = "text",value = "ADDED - The sink emits water particles."},
-								{icon = "wizard",type = "text",value = "ADDED - The sink's volume fades based on distance."},
-								{icon = "wizard",type = "text",value = "ADDED - Toilet can be flushed."},
-								{icon = "wizard",type = "text",value = "CHANCED - Map is now darker."},
-							})
-							UiTranslate(0,24)
-							uic_text("BUG FIXES", 24, 24, {font=tgui_ui_assets.."/Fonts/TAHOMABD.TTF"})
-							UiTranslate(0,24)
-							UINewslistingManager({
-								{icon = "wand",type = "text",value = "FIXED - UI Button."},
-								{icon = "wand",type = "text",value = "FIXED - Smoke from the fireplace coming inside the house"},
-								{icon = "wand",type = "text",value = "FIXED - the tvs in harry's house. They now display the correct image and the tv upstairs won't play automatically anymore"},
-								{icon = "wand",type = "text",value = "FIXED - Bathroom shower steam dimensions."},
-							})
-							UiTranslate(0,24)
+							uic_scroll_Container(window.newsSCrollingContainer, UiWidth(), UiHeight(), true, 1000, 0, function()
+								updateHeaderName("Update 0.1.0 - map")
+								uic_text("MAP UPDATE", 24, 24, {font=tgui_ui_assets.."/Fonts/TAHOMABD.TTF"})
+								UiTranslate(0,24)
+								UINewslistingManager({
+									{icon = "wizard",type = "text",value = "ADDED - Shower head water stream."},
+									{icon = "wizard",type = "text",value = "ADDED - Shower on/off."},
+									{icon = "wizard",type = "text",value = "ADDED - Bathroom steam when shower is on."},
+									{icon = "wizard",type = "text",value = "ADDED - The sink can now turn on and off."},
+									{icon = "wizard",type = "text",value = "ADDED - The sink emits water particles."},
+									{icon = "wizard",type = "text",value = "ADDED - The sink's volume fades based on distance."},
+									{icon = "wizard",type = "text",value = "ADDED - Toilet can be flushed."},
+									{icon = "wizard",type = "text",value = "CHANCED - Map is now darker."},
+								})
+								UiTranslate(0,24)
+								uic_text("BUG FIXES", 24, 24, {font=tgui_ui_assets.."/Fonts/TAHOMABD.TTF"})
+								UiTranslate(0,24)
+								UINewslistingManager({
+									{icon = "wand",type = "text",value = "FIXED - UI Button."},
+									{icon = "wand",type = "text",value = "FIXED - Smoke from the fireplace coming inside the house"},
+									{icon = "wand",type = "text",value = "FIXED - the tvs in harry's house. They now display the correct image and the tv upstairs won't play automatically anymore"},
+									{icon = "wand",type = "text",value = "FIXED - Bathroom shower steam dimensions."},
+								})
+								UiTranslate(0,24)
+							end)
 
 							-- UiPush()
 							-- 	imageIcon("wizard") UiTranslate(26,0);
@@ -211,23 +215,40 @@ function draw()
 				end
 			},
 			{
+				text = "Options",
+				action = function()
+					table.insert(activeWindows, {
+						firstFrame = true,
+						startMiddle  = true,
+						allowResize = false,
+						pos = { x=0, y=0 },
+						newsSCrollingContainer = {
+						},
+						-- size = { w = 370, h = 300 },
+						title = "Settings",
+						content = function(window)
+							local checkboxPadding = 24;
+							UiPush()
+								UiPush()
+									uic_checkbox("Enable Music", "savegame.mod.HPTD.settings.enableSound", 200);
+									UiTranslate(0, checkboxPadding);
+									uic_checkbox("Enable Sound Effects", "savegame.mod.HPTD.settings.enableSoundEffects", 200);
+									UiTranslate(0, checkboxPadding);
+									uic_checkbox("Enable Voice", "savegame.mod.HPTD.settings.enableVoice", 200);
+									UiTranslate(0, checkboxPadding);
+									uic_checkbox("Enable Developer Tools", "savegame.mod.HPTD.settings.enableDeveloperTools", 200);
+								UiPop()
+							UiPop()
+						end
+					})
+				end
+			},
+			{
 				text = "Quit",
 				action = function()
 					Menu()
 				end
 			},
-			-- {
-			-- 	text = "Button Test",
-			-- },
-			-- {
-			-- 	text = "Button Test",
-			-- },
-			-- {
-			-- 	text = "Button Test",
-			-- },
-			-- {
-			-- 	text = "Button Test",
-			-- },
 		}, false, {textAlgin = "right", buttonHeight = 36, fontSize = 36})
 	UiPop()
 	initDrawHPRD_UI(activeWindows)

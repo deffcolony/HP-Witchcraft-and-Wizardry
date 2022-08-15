@@ -1297,7 +1297,7 @@ end
 ---@param text string Display text
 ---@param key string|table Key for the checkbox
 ---@param hitWidth integer Changes width of the hitbox for the checkbox
----@param beDisabled boolean Make it disabled and unchecable
+---@param beDisabled boolean? Make it disabled and unchecable
 function uic_checkbox(text, key, hitWidth, beDisabled, toolTipText)
     UiPush()
         UiWindow(0,12,false	)
