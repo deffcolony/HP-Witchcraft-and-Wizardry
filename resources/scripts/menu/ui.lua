@@ -10,7 +10,7 @@ function init()
 		-- {name = "Some Other Map", path = "MOD/entrance.xml"}
 		}
 
-	activeWindows = {};
+	ALL_WINDOWS_OPEN = {};
 end
 
 isNewGame_sandbox_open = false;
@@ -46,7 +46,7 @@ function draw()
 				text = "Sandbox",
 				action = function()
 					-- isNewGame_sandbox_open = true;
-					table.insert(activeWindows, {
+					table.insert(ALL_WINDOWS_OPEN, {
 						firstFrame = true,
 						startMiddle  = true,
 						allowResize = false,
@@ -102,7 +102,7 @@ function draw()
 			{
 				text = "News",
 				action = function()
-					table.insert(activeWindows, {
+					table.insert(ALL_WINDOWS_OPEN, {
 						firstFrame = true,
 						startMiddle  = true,
 						allowResize = false,
@@ -215,9 +215,9 @@ function draw()
 				end
 			},
 			{
-				text = "Options",
+				text = "Settings",
 				action = function()
-					table.insert(activeWindows, {
+					table.insert(ALL_WINDOWS_OPEN, {
 						firstFrame = true,
 						startMiddle  = true,
 						allowResize = false,
@@ -244,14 +244,39 @@ function draw()
 				end
 			},
 			{
+				text = "Credits",
+				action = function()
+					table.insert(ALL_WINDOWS_OPEN, {
+						firstFrame = true,
+						startMiddle  = true,
+						allowResize = false,
+						pos = { x=0, y=0 },
+						newsSCrollingContainer = {
+						},
+						-- size = { w = 370, h = 300 },
+						title = "Credits",
+						content = function(window)
+							UiPush()
+								UiPush()
+									local t = uic_text("Created by", 32, 32);
+									UiTranslate(0, t.height);
+									uic_text("Deffcolony", 28, 28);
+
+								UiPop()
+							UiPop()
+						end
+					})
+				end
+			},
+			{
 				text = "Quit",
 				action = function()
 					Menu()
 				end
 			},
-		}, false, {textAlgin = "right", buttonHeight = 36, fontSize = 36})
+		}, false, {textAlgin = "right", buttonHeight = 36, fontSize = 36, centerButtons = true})
 	UiPop()
-	initDrawHPRD_UI(activeWindows)
+	initDrawHPRD_UI(ALL_WINDOWS_OPEN)
 
 end
 
