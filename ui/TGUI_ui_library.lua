@@ -3105,7 +3105,9 @@ function uic_CreateGameMenu_Buttons_list(t, width ,contents, extraContent, style
             if style.textAlgin == "center" then UiAlign('top center')  end
             if style.textAlgin == "right"  then UiAlign('top right')   end
             if UiBlankButton(width,style.buttonHeight) then 
-                if v.action == nil then  --[[NO ACTION]] else v.action(extraContent) end
+                UiPush()
+                    if v.action == nil then  --[[NO ACTION]] else v.action(extraContent) end
+                UiPop()
             end
             if uic_debug_show_hitboxes_gameMenu then
                 UiPush()

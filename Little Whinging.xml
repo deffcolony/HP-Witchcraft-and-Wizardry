@@ -5823,7 +5823,7 @@
 		<script name="sandbox" file="sandbox.lua"/>
 	</group>
 	<group name="Map">
-		<environment skyboxtint="0.0 0.0 0.0" skyboxbrightness=".3" constant="0.003 0.003 0.003" ambient=".2" fogColor="0.04 0.04 0.04" exposure=".5" brightness=".5" wetness=".6" puddleamount=".2" puddlesize=".3"/>
+		<environment skyboxtint="0.0 0.0 0.0" skyboxbrightness=".3" constant="0.003 0.003 0.003" ambient=".2" fogColor="0.04 0.04 0.04" exposure="0 10" brightness=".5" wetness=".6" puddleamount=".2" puddlesize=".3"/>
 	</group>
 	<spawnpoint name="de wizard be here" pos="335.5 5.6 -235.20001" rot="0.0 -80.0 0.0"/>
 </scene>

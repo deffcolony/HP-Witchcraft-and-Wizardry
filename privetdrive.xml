@@ -1,6 +1,6 @@
-<scene version="1.0.0">
+<scene version="1.5.5">
 	<group name="Map">
-		<environment skyboxtint="0.0 0.0 0.0" skyboxbrightness="0.1" ambient="0.2" ambientexponent="1.6" fogColor="0.0 0.0 0.0" exposure="1.0" brightness="0.2" puddleamount="1" nightlight="false" fogscale="0"/>
+		<environment skyboxtint="0.0 0.0 0.0" skyboxbrightness="0.1" ambient="0.2" ambientexponent="1.6" fogColor="0.0 0.0 0.0" brightness="0.2" puddleamount="1" nightlight="false" fogscale="0"/>
 		<boundary name="playable area">
 			<vertex pos="-100.0 -100.0"/>
 			<vertex pos="100.0 -100.0"/>
@@ -16,7 +16,7 @@
 	<group name="Scene">
 		<group name="Ground" pos="0.0 0.0 0.0">
 			<voxscript pos="50.2 -2.5 -50.1" rot="0.0 -90.0 0.0" texture="10 .6" file="MOD/resources/scripts/voxscript/ground.lua">
-				<parameters file="MOD/resources/img/privetdrive_ground.png" scale="255"/>
+				<parameters scale="255" file="MOD/resources/img/privetdrive_ground.png"/>
 			</voxscript>
 		</group>
 		<group name="Buildings" pos="16.3 2.1 -0.9">

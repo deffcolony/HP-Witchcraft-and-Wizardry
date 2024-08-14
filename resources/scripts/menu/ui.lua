@@ -7,8 +7,10 @@ function init()
 	levels = {
 		{name = "Privet Drive", path = "MOD/privetdrive.xml", locked = false},
 		-- {name = "Bardar's Testing", path = "MOD/script_testing.xml", locked = true},
-		-- {name = "Some Other Map", path = "MOD/entrance.xml"}
-		}
+		{name = "Entrance gate Hogwarts", path = "MOD/entrance.xml"},
+		{name = "Kings Cross Station", path = "MOD/kings_cross.xml"},
+		{name = "Little Whinging", path = "MOD/Little Whinging.xml"},
+	}
 
 	ALL_WINDOWS_OPEN = {};
 end
@@ -16,7 +18,7 @@ end
 isNewGame_sandbox_open = false;
 menuButtons = {h = 0}
 
-function draw()
+function draw(dt)
 	
 	-- UiPop()
 
@@ -68,7 +70,7 @@ function draw()
 								else
 									UiColor(1,1,1,1)
 								end
-								uic_button_func(0, v.name, 750, 48, false, false, function()
+								uic_button_func({}, dt, v.name, 750, 48, false, "", function()
 									if not v.locked then
 										StartLevel("yes", v.path)
 									end
@@ -146,6 +148,16 @@ function draw()
 							end
 
 							uic_scroll_Container(window.newsSCrollingContainer, UiWidth(), UiHeight(), true, 1000, 0, function()
+								updateHeaderName("Update 0.1.1 - Unfinished maps")
+								uic_text("LAST UPDATE", 24, 24, {font=tgui_ui_assets.."/Fonts/TAHOMABD.TTF"})
+								UiTranslate(0,24)
+								UINewslistingManager({
+									{icon = "wand",type = "text",value = "FIXED - Buttons are now visible in the sandbox menu."},
+									{icon = "wand",type = "text",value = "FIXED - Map exposure is now correct."},
+									{icon = "wizard",type = "text",value = "ADDED - Unfinished maps are now listed."},
+									{icon = "wizard",type = "text",value = "ADDED - Trains are now in the Kings Cross station."},
+								})
+								UiTranslate(0,24)
 								updateHeaderName("Update 0.1.0 - map")
 								uic_text("MAP UPDATE", 24, 24, {font=tgui_ui_assets.."/Fonts/TAHOMABD.TTF"})
 								UiTranslate(0,24)
