@@ -149,7 +149,7 @@ function draw(dt)
 
 							uic_scroll_Container(window.newsSCrollingContainer, UiWidth(), UiHeight(), true, 1000, 0, function()
 								updateHeaderName("Update 0.1.1 - Unfinished maps")
-								uic_text("LAST UPDATE", 24, 24, {font=tgui_ui_assets.."/Fonts/TAHOMABD.TTF"})
+								uic_text("UPDATE", 24, 24, {font=tgui_ui_assets.."/Fonts/TAHOMABD.TTF"})
 								UiTranslate(0,24)
 								UINewslistingManager({
 									{icon = "wand",type = "text",value = "FIXED - Buttons are now visible in the sandbox menu."},
